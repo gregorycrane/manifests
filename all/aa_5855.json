@@ -1,0 +1,258 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5855",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London E 695"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "2856"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ceramic_phase"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boeotian IIIG"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-410"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-400"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5855"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "London E 695"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "other_bibliography"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Schafer 1997, pl. 55</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "High Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>FR, pl. 78.3</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Squat lekythos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-420"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/32767",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. Mnchen: Bruckmann, 1906. pl. 78",
+          "Squat lekythos depicting Dionysos (?) and his retinue, in Oriental costume: Overview drawing of the vase, with the figural scene rolled out"
+        ]
+      },
+      "height": 386,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/32769",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/32768",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0424/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 386,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0424",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/32767"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

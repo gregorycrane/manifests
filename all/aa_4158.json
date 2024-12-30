@@ -1,0 +1,362 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4158",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre CA 2192"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "213371"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-450"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4158"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Louvre CA 2192"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Early Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "35. Early Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "3.2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>ARV2, 983.14</bibl>; <bibl>Beazley Addenda 2,\n      311</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Skyphos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "Owl skyphos shape 8C, according to Beazley."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-475"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "An owl, wearing a crest, and carrying a spear and shield, advances to the right, toward\n      an olive frond that springs from the ground"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1339",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Center: an armed owl advances to the right",
+          "Photograph by Maria Daniels, courtesy of the Muse du Louvre"
+        ]
+      },
+      "height": 414,
+      "width": 413,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1341",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1340",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.06.1034/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 414,
+                "width": 413,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.06.1034",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1339"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/1342",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Left side: an olive frond springs from the ground",
+          "Photograph by Maria Daniels, courtesy of the Muse du Louvre"
+        ]
+      },
+      "height": 416,
+      "width": 461,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1344",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1343",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.06.1035/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 416,
+                "width": 461,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.06.1035",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1342"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/1345",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Muse du Louvre",
+          "Right side: an armed owl approaches an olive frond that springs from the ground"
+        ]
+      },
+      "height": 421,
+      "width": 477,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1347",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1346",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.06.1036/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 421,
+                "width": 477,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.06.1036",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1345"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_146",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/3307",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Gymnasium",
+          "copyright C. H. Smith 1989, based on Jannoray 1953, redrawn in Papachadzi 1981"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/3309",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3308",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0154b/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0154b",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/3307"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/3310",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Palaestra and pool from N, Delphi, Gymnasium",
+          "Photograph by Michael Bennett"
+        ]
+      },
+      "height": 274,
+      "width": 428,
+      "items": [
+        {
+          "id": "http://example.org/iiif/3312",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3311",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0081/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 274,
+                "width": 428,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0081",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/3310"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/3313",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Palaestra and pool from N, Delphi, Gymnasium",
+          "Photograph by Michael Bennett"
+        ]
+      },
+      "height": 274,
+      "width": 429,
+      "items": [
+        {
+          "id": "http://example.org/iiif/3315",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3314",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0082/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 274,
+                "width": 429,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0082",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/3313"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

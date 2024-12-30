@@ -1,0 +1,322 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_774",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 2669"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "actual_weight"
+        ]
+      },
+      "value": {
+        "en": [
+          "12.53"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Tyre"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-480"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "denomination"
+        ]
+      },
+      "value": {
+        "en": [
+          "Stater"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "die_axis"
+        ]
+      },
+      "value": {
+        "en": [
+          "135 degrees"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Arthur Houghton"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_774"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Silver"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dewing 2669"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "obverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dolphin swimming, profile to the right; below, waves represented by zigzag lines and murex shell"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Early Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "35. Early Clas."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Phoenicia"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "reverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Owl, head facing, standing, profile to the right; behind, Egyptian scepter and flail; edges of figures incised."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coin"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-480"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/34705",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Dolphin swimming, profile to the right; below, waves represented by zigzag lines and murex shell",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 407,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34707",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34706",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0642/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 407,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0642",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34705"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/34708",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation",
+          "Reverse: Owl, head facing, standing, profile to the right; behind, Egyptian scepter and flail; edges of figures incised."
+        ]
+      },
+      "height": 400,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34710",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34709",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0643/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0643",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34708"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

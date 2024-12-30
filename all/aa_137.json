@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_137",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/2674",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Treasury 3",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Coulton (artist), based on P. Bruneau and J. Ducat, Guide de Dlos, cole franaise d' Athnes, Paris 1965, in J.J. Coulton 1976 230-234 fig. 60, and also based on Buglass (artist), after Exploration archologique de Dlos, in R.A. Tomlinson 1976 overleaf fig. 12 Agora of the Italians, based on N.M. Kontoleontos  1950 77 fig. 35 Hypostyle Hall, based on N.M. Kontoleontos 1950 81 fig. 38 Neorium, based on P. Bruneau and J. Ducat, Guide de Dlos fig. 2, cole franaise d'Athnes, Paris 1965, in A.W. Lawrence 1983 345 fig. 335 Temple of Athenian Apollo, based on N.M. Kontoleontos 1950 42 fig. 15 Temple of Delian Apollo, based on N.M. Kontoleontos 1950 40 fig. 13 Thesmophorium, based on BCH 53 1929 pl. 9, in A.W. Lawrence 1983 171 fig. 137"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2676",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2675",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0124l/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0124l",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/2674"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

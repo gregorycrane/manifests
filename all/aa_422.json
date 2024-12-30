@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_422",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1735",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Facade of the Church of San Giovanni, with its the bell tower of the Cathedral in the distance (right), Lucca.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 423,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1737",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1736",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.11.0682/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 423,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.11.0682",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1735"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/1738",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cathedral Museum (left) and the North face of the Cathedral: view to the East from Piazza Antelminelli, Lucca.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 896,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1740",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1739",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.11.0697/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 896,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.11.0697",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1738"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/1741",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Amy C. Smith",
+          "View of the Piazza Antelminelli, with the Church of San Giovanni in the distance, from the Cathedral Museum, Lucca."
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1743",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1742",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.11.0699/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.11.0699",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1741"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

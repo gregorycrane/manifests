@@ -1,0 +1,202 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3244",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 2989"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_3244"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens, NM 2989"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "5.5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sources_used"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Svoronos 1903-12, pl. 198</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Relief to Kybele"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25330",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "All: Relief to Kybele",
+          "From Svoronos 1903-12, pl. 198"
+        ]
+      },
+      "height": 422,
+      "width": 568,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25332",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25331",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1998.01.0198/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 422,
+                "width": 568,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1998.01.0198",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25330"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/25333",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Svoronos 1903-12, pl. 200",
+          "Image from Svoronos"
+        ]
+      },
+      "height": 419,
+      "width": 568,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25335",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25334",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1998.01.0200/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 568,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1998.01.0200",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25333"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_106",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/610",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun",
+          "Walls of house with view toward columns of the Posidoniastes, Delos, House on the Hill"
+        ]
+      },
+      "height": 2478,
+      "width": 3673,
+      "items": [
+        {
+          "id": "http://example.org/iiif/612",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/611",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.5108/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2478,
+                "width": 3673,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.5108",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/610"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/613",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun",
+          "Room with painted stucco, Delos, House on the Hill"
+        ]
+      },
+      "height": 2448,
+      "width": 3649,
+      "items": [
+        {
+          "id": "http://example.org/iiif/615",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/614",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.5109/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2448,
+                "width": 3649,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.5109",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/613"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/616",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, House on the Hill",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on N.M. Kontoleontos 1950 70 fig. 30"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/618",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/617",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0127a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0127a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/616"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_6",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/33004",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Aigosthena, North Wall Tower and Gate",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on E.F. Benson 1895 322 plan 3"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33006",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33005",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0013a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0013a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/33007",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior of north wall tower and gate, looking SE, Aigosthena",
+          "Photograph by Maria Daniels"
+        ]
+      },
+      "height": 344,
+      "width": 524,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33009",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33008",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1994.01.0097/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 524,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1994.01.0097",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33007"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

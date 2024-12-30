@@ -1,0 +1,294 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5123",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Malibu 86.AE.287"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "attributed_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "H.A. Cahn"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-480"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>H. 10-10.3 cm., d. 23.5 cm., w. with handles 31.4 cm., d. of foot 10-10.2\n      cm.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Deirdre Beyer-Hona"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5123"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "inscriptions"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>On the interior of the tondo, to the right of the figure is written\n      <foreign\n      lang=\"Greek\">*L*E*U*K*O*L*O*Q*I*D*E*H?</foreign>.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Malibu 86.AE.287"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Brygos Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attributed to the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "28. Late Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attica"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Cup, type B"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-480"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/17002",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Collection of The J. Paul Getty Museum, Malibu, California",
+          "Tondo: Youth in the palaestra with a pick and javelins"
+        ]
+      },
+      "height": 2544,
+      "width": 3804,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17004",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17003",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.05.0302/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2544,
+                "width": 3804,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.05.0302",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/17002"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

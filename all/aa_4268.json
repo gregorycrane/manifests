@@ -1,0 +1,242 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4268",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, Agora P27629"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4268"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens, Agora P27629"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attica"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Belly-handled amphora"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Geometric"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/2131",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph courtesy of the American School of Classical Studies, Athens",
+          "Plan and section of Grave 16:6, Athens, Agora P27629"
+        ]
+      },
+      "height": 3317,
+      "width": 2484,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2133",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2132",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0223/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3317,
+                "width": 2484,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0223",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/2131"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/2134",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Metope with circles and meanders, Athens, Agora P27629\n      ",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 2504,
+      "width": 3697,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2136",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2135",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0243/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2504,
+                "width": 3697,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0243",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/2134"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/2137",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora, Athens, Agora P27629",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 3205,
+      "width": 2068,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2139",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2138",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0296/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3205,
+                "width": 2068,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0296",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/2137"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

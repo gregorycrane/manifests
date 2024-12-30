@@ -1,0 +1,562 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5625",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Vienna 3725"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "201917"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Caere"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "From"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5625"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vienna 3725"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Berlin Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attributed to the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late Archaic/Early Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "28. Late Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "2.5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>ARV2, 204, 109</bibl>; <bibl>FR, pl.\n      72</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Etruria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Pelike"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-480"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/29110",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A: Orestes, Aigisthos, Chrysothemis (large)",
+          "copyright D. Neel Smith 1989 drawn by M. W. Cutler, based on Reichhold (artist) 1906 in FR plate 72"
+        ]
+      },
+      "height": 1063,
+      "width": 1251,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29112",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29111",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0526.lg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1063,
+                "width": 1251,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0526.lg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29110"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29113",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Copyright D. Neel Smith 1989 drawn by M. W. Cutler, based on Reichhold (artist) in FR 1906 plate 72",
+          "Drawing of Side A: Orestes, Aigisthos, Chrysothemis (small)"
+        ]
+      },
+      "height": 412,
+      "width": 484,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29115",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29114",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0526.sm/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 412,
+                "width": 484,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0526.sm",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29113"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29116",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side B: Clytemnestra and Talthybios (large)",
+          "copyright D. Neel Smith 1989 drawn by M. W. Cutler, based on Reichhold (artist) 1906 in FR plate 72"
+        ]
+      },
+      "height": 1048,
+      "width": 920,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29118",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29117",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0527.lg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1048,
+                "width": 920,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0527.lg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29116"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29119",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Copyright D. Neel Smith 1989 drawn by M. W. Cutler, based on Reichhold (artist) in FR 1906 plate 72",
+          "Drawing of Side B: Clytemnestra and Talthybios (small)"
+        ]
+      },
+      "height": 484,
+      "width": 460,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29121",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29120",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0527.sm/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 484,
+                "width": 460,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0527.sm",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29119"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29122",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. Mnchen: Bruckmann, 1906. pl. 72",
+          "Pelike attributed to the Berlin Painter: Drawing of side B, showing Clytemnestra and Talthybios "
+        ]
+      },
+      "height": 728,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29124",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29123",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0396/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 728,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0396",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29122"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29125",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. Mnchen: Bruckmann, 1906. pl. 72",
+          "Pelike attributed to the Berlin Painter: Overview drawing (with \"ghost\" drawing) of the vase, side B, showing Clytemnestra"
+        ]
+      },
+      "height": 900,
+      "width": 595,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29127",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29126",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0397/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 595,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0397",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29125"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29128",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. Mnchen: Bruckmann, 1906. pl. 72",
+          "Pelike attributed to the Berlin Painter: Detail drawing of the \"Ghost\" image on side B"
+        ]
+      },
+      "height": 849,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29130",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29129",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0398/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 849,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0398",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29128"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29131",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. Mnchen: Bruckmann, 1906. pl. 72",
+          "Pelike attributed to the Berlin Painter: Drawing of side A, showing Chrysothemis, Orestes, and Aigisthos "
+        ]
+      },
+      "height": 430,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29133",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29132",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0399/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 430,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0399",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29131"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_614",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1865"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "actual_weight"
+        ]
+      },
+      "value": {
+        "en": [
+          "2.69"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "commentary"
+        ]
+      },
+      "value": {
+        "en": [
+          "See SNG-Berry 825."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Elis"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-446"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "denomination"
+        ]
+      },
+      "value": {
+        "en": [
+          "Hemidrachm"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "die_axis"
+        ]
+      },
+      "value": {
+        "en": [
+          "90 degrees"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-422"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sylvia Hurter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_614"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Silver"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dewing 1865"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "obverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Eagle flying to the right, tearing a hare"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "40. Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Elis"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "reverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Thunderbolt"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-471"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coin"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/33100",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Eagle flying to the right, tearing a hare",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 374,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33102",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33101",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0369/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 374,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0369",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/33103",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation",
+          "Reverse: Thunderbolt"
+        ]
+      },
+      "height": 372,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33105",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33104",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0370/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 372,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0370",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33103"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

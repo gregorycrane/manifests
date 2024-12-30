@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_287",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/24307",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Philippeion",
+          "copyright C. H. Smith 1988 based on H. Schleif, Neue Ausgrabungen in Olympia und ihre bisherigen Ergebnisse fr die antike Bauforschung, Europische  Studienmappen, Berlin 1943 fig. 4, in A. Mallwitz 1972 129 fig. 96"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24309",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24308",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0253a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0253a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/24307"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/24310",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Michael Bennett",
+          "Walls, from NW, Olympia, Philippeion"
+        ]
+      },
+      "height": 280,
+      "width": 425,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24312",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24311",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0025/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 280,
+                "width": 425,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0025",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/24310"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

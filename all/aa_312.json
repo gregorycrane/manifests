@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_312",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25186",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Perachora, Circular Building",
+          "copyright Perseus Project 1989, drawn by M. W. Cutler based on R.A. Tomlinson (artist) and N. Zimbler (artist) in R.A. Tomlinson and K. Demakopoulou 1985 265 fig. 3"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25188",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25187",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0289a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0289a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25186"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/25189",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Section (waterproof plaster colored grey), Perachora, Circular Building",
+          "copyright Perseus Project 1989, drawn by M. W. Cutler based on R.A. Tomlinson (artist) and N. Zimbler (artist) in R.A. Tomlinson and K. Demakopoulou 1985 270 fig.6"
+        ]
+      },
+      "height": 387,
+      "width": 407,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25191",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25190",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0290a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 387,
+                "width": 407,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0290a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25189"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

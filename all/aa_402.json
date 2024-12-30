@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_402",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/50395",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Olynthus, vol. 8 pl. 91",
+          "Plan, Olynthus, House A 11"
+        ]
+      },
+      "height": 399,
+      "width": 460,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50397",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50396",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0801a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 460,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0801a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/50395"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/50398",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "House A 11 and North Hill, looking NE, Olynthus",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 344,
+      "width": 526,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50400",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50399",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0024/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 526,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0024",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/50398"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

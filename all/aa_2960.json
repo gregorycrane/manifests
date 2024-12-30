@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_2960",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, EM 6588a"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_2960"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens, EM 6588a"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens and Argos (with casts of Akrop. frags?)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/24700",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Svoronos 1903-12, pl. 207",
+          "Top left: Fragment of a treaty between Athens and Argos, Athens, EM 6588a; Top right: Fragment of a stele honoring Sotimos of Herakleia, Athens, EM 6609; Bottom left:;  Bottom right: Fragment of a stele honoring Apollonophanes of Kolphon,  Athens, EM 6615"
+        ]
+      },
+      "height": 455,
+      "width": 536,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24702",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24701",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1998.01.0207/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 455,
+                "width": 536,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1998.01.0207",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/24700"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

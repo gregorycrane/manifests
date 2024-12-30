@@ -1,0 +1,178 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3492",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre MA 886"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_3492"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Louvre MA 886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/34456",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Herm of Hermes Propylaios Type, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Muse du Louvre, Paris"
+        ]
+      },
+      "height": 432,
+      "width": 282,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34458",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34457",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.04.0267/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 432,
+                "width": 282,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.04.0267",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34456"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/34459",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Herm of Hermes Propylaios Type, from left",
+          "Photograph by Maria Daniels, courtesy of the Muse du Louvre, Paris"
+        ]
+      },
+      "height": 428,
+      "width": 284,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34461",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34460",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.04.0268/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 428,
+                "width": 284,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.04.0268",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34459"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

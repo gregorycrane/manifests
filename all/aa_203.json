@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_203",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/11137",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view of site, from N, Epidauros, Abaton (Dormitory), Anakeion, Fountainhouse, Gymnasium, Katagogeion, Northeast Stoa, Propylon, Temple of Aphrodite (Temple L), Temple of Apollo, Temple of Artemis, Theater, Tholos",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
+      "height": 351,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11139",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11138",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.30.0029/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.30.0029",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/11140",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Epidauros, Anakeion",
+          "copyright D. Neel Smith 1989  drawn by M. W. Cutler and C. H. Smith based on Buglass (artist) based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in R.A. Tomlinson 1976 fig. 16"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11142",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11141",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0195a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0195a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11140"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

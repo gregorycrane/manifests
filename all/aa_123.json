@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_123",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1744",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun",
+          "Reconstructed section of the entablature, Delos, Stoa of Antigonos"
+        ]
+      },
+      "height": 2059,
+      "width": 3267,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1746",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1745",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.5202/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2059,
+                "width": 3267,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.5202",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1744"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/1747",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Stoa of Antigonos",
+          "copyright C. H. Smith 1989, based on Coulton (artist), based on P. Bruneau and J. Ducat, Guide de Dlos, cole franaise d' Athnes, Paris 1965, in J.J. Coulton 1976 230-234 fig. 60, and also based on Buglass (artist), after Exploration archologique de Dlos, in R.A. Tomlinson 1976 overleaf fig. 12"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1749",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1748",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0142a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0142a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1747"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

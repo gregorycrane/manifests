@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_72",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/34069",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Gregory Crane",
+          "South Stoa and Stoa of Attalos in distance, from W, Athens, South Stoa II"
+        ]
+      },
+      "height": 282,
+      "width": 427,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34071",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34070",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.20.0415/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 282,
+                "width": 427,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.20.0415",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34069"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/34072",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of remains from E, Athens, South Stoa II",
+          "Photograph by Gregory Crane"
+        ]
+      },
+      "height": 284,
+      "width": 428,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34074",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34073",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.20.0440/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 284,
+                "width": 428,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.20.0440",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34072"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/34075",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, South Stoa II",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Travlos 1967 (artist) in Travlos 236 fig. 303"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34077",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34076",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0089c/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0089c",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34075"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
