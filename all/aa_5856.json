@@ -1,0 +1,310 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5856",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Munich 2687"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "accession_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "Munich J 341"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "7982"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vulci"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perhaps from"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-450"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5856"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Munich 2687"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "other_bibliography"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Wehgartner 1983, pls. 28, 29.1-2</bibl>;\n      <bibl>Pfisterer-Haas 1989, 174, fig. 21</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Early Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>FR, pl. 114.3-4</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Cup, type B"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-450"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure, White Ground"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/32770",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup: Drawing of the tondo, restored, showing Demophon (warrior) and Aithra (woman)",
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 111-120. Mnchen: Bruckmann, 1909. pl. 114"
+        ]
+      },
+      "height": 522,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/32772",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/32771",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0550/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 522,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0550",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/32770"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/32773",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup: Overview of the vase, from below, showing (exterior) women and draped men with staffs",
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 111-120. Mnchen: Bruckmann, 1909. pl. 114"
+        ]
+      },
+      "height": 900,
+      "width": 547,
+      "items": [
+        {
+          "id": "http://example.org/iiif/32775",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/32774",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0551/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 547,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0551",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/32773"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

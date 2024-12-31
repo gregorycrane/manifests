@@ -1,0 +1,358 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_621",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1923"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "actual_weight"
+        ]
+      },
+      "value": {
+        "en": [
+          "3.15"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "collection_history"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>Robinson Collection</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Argos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-444"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "denomination"
+        ]
+      },
+      "value": {
+        "en": [
+          "Hemidrachm"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "die_axis"
+        ]
+      },
+      "value": {
+        "en": [
+          "-"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-421"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sylvia Hurter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_621"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Silver"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dewing 1923"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "obverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Forepart of wolf, profile to the left"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "40. Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Argolid"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "reverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "<Foreign lang=Greek>*A</Foreign> within quadripartite incuse square"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-468"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coin"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/33301",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Forepart of wolf, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 379,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33303",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33302",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0379/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 379,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0379",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33301"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/33304",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation",
+          "Reverse: <Foreign lang=Greek>*A</Foreign> within quadripartite incuse square"
+        ]
+      },
+      "height": 367,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33306",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33305",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0380/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 367,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0380",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33304"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

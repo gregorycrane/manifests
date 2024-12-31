@@ -1,0 +1,306 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4936",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 80.574"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "ceramic_phase"
+        ]
+      },
+      "value": {
+        "en": [
+          "Middle Corinthian"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "collection_history"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>Gift of H.P. Kidder, 1880.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "condit"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>Repaired with some restoration.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-575"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>H. 0.074 m., L. 0.22 m.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-570"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Anne Leinster"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4936"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>The clay is a dull warm buff, containing many particles of\n      mica.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 80.574"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "25. Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1.5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Aryballos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-580"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Plastically modelled aryballos in the form of a dead hare."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Corinthian"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/11239",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: dead hare",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 228,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11241",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11240",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.24.0312/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 228,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.24.0312",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11239"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

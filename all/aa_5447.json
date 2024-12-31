@@ -1,0 +1,258 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5447",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 13.81"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "attributed_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "J.D. Beazley"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "203875"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-500"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "essay_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "C & B No. 13"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5447"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 13.81"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Group of the Triptolemos Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attributed to the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "25. Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kylix"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-500"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25312",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Caskey & Beazley, plate III. With permission of the Museum of Fine Arts, Boston.",
+          "Tondo: running youth"
+        ]
+      },
+      "height": 354,
+      "width": 351,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25314",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25313",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0013/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 354,
+                "width": 351,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0013",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25312"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3867",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 1982.323"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "accession_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "1982.323"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "category"
+        ]
+      },
+      "value": {
+        "en": [
+          "Single monument"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_3867"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bronze"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 1982.323"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "original_or_copy"
+        ]
+      },
+      "value": {
+        "en": [
+          "Original"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "7"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "scale"
+        ]
+      },
+      "value": {
+        "en": [
+          "Miniature"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Free-standing statue"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gladiator in Armor"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/36730",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Gladiator in Armor: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 900,
+      "width": 598,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36732",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36731",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.03.4910/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 598,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.03.4910",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/36733",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Gladiator in Armor: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 900,
+      "width": 598,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36735",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36734",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.03.4911/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 598,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.03.4911",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36733"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

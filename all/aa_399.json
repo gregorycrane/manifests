@@ -1,0 +1,173 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_399",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/50353",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Olynthus, vol. 8 pl. 95",
+          "Plan,Olynthus, House A v 9"
+        ]
+      },
+      "height": 530,
+      "width": 454,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50355",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50354",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0803a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 530,
+                "width": 454,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0803a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/50353"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/50356",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Houses A v 9, A v 10 looking S from St. vi, Olynthus",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 349,
+      "width": 519,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50358",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50357",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0017/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 349,
+                "width": 519,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0017",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/50356"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/50359",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Houses A v 9, A v 10 looking NW, Olynthus",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 333,
+      "width": 522,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50361",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50360",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0019/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 333,
+                "width": 522,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0019",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/50359"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/50362",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Houses A v 9, A v 10, looking NNW, Olynthus",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 343,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50364",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50363",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0021/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 343,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.02.0021",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/50362"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

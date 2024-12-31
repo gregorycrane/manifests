@@ -1,0 +1,274 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_1866",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 27.783"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "culture"
+        ]
+      },
+      "value": {
+        "en": [
+          "Greco-Roman"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "L. 0.013 m., W. 0.009 m."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "donor"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gift of E.P. Warren"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "300"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Alan E. Kaiser/Josh Kallen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_1866"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Plasma"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 27.783"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Intaglio Ring"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sources_used"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Lewes 1920</bibl>, no. 124"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "200"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Woman dancing and playing the flutes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gem"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/6718",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a woman dancing and playing the flutes",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 900,
+      "width": 598,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6720",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6719",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0167/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 598,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0167",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6718"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/6721",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston",
+          "Woman dancing and playing the flutes"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6723",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6722",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0196/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0196",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6721"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

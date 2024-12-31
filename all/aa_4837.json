@@ -1,0 +1,306 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4837",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London A 342"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Melos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "From"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-1775"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>H. 0.398 m.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-1700"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Anne Leinster"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4837"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>yellowish-white, non-gritty.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "London A 342"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Middle Bronze Age"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "05. MBA"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1.5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Beaked jug"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>Distinctly local Melian style and\n      shape.</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-1850"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "\"Nipple\" jug with curvilinear pattern."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Cycladic"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/10417",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle right",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3666,
+      "width": 2410,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10419",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10418",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0066/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3666,
+                "width": 2410,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0066",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/10417"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

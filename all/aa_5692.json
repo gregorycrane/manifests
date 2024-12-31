@@ -1,0 +1,202 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5692",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "St. Petersburg St. 1777"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5692"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "St. Petersburg St. 1777"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>FR, pl. 110</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bell krater"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Apulian Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/30187",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. Mnchen: Bruckmann, 1902. pl. 110",
+          "Paestan bell krater: Overview drawing of side B, showing a draped woman with a box and a nude youth with a fillet and an ivy wreath (?)"
+        ]
+      },
+      "height": 417,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30189",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30188",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0536/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 417,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0536",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30187"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/30190",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. Mnchen: Bruckmann, 1902. pl. 110",
+          "Paestan bell krater: Drawing of side A, showing three Phlyax actors"
+        ]
+      },
+      "height": 445,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30192",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30191",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0540/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 445,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0540",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30190"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

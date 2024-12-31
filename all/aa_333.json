@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_333",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25987",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Piraeus, Shipsheds",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Drpfeld (artist) for excavations of the Greek Archaeological Society 1885, in N.D. Papachadzi 1974 106 fig. 33"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25989",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25988",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0309a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0309a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25987"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/25990",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstructed side elevation of slip at the harbor of Zea, Piraeus, Shipsheds",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Drpfeld (artist) for excavations of the Greek Archaeological Society 1885, in N.D. Papachadzi 1974 106 fig. 33 Trireme elevation based on J.F. Coates 1985"
+        ]
+      },
+      "height": 121,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25992",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25991",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0310a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 121,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0310a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25990"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/25993",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstructed section of slips at the harbor of Zea, Piraeus, Shipsheds",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Drpfeld (artist) for excavations of the Greek Archaeological Society 1885, in N.D. Papachadzi 1974 106 fig. 33 Trireme section based on J.F. Coates 1985"
+        ]
+      },
+      "height": 180,
+      "width": 438,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25995",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25994",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0311a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 180,
+                "width": 438,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0311a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25993"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

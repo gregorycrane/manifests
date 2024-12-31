@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_297",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/24712",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Treasury of the Cyrenians",
+          "copyright C. H. Smith 1988 based on N. Yalouris 1979 100-101 fig. 40, and based on A. Mallwitz, AA 1971 153 ff fig. 3, in A. Mallwitz 1972 173 fig. 240"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24714",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24713",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0272a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0272a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/24712"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/24715",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Michael Bennett",
+          "Remains of the Treasury of Kyrene, Olympia, Cyrenians"
+        ]
+      },
+      "height": 276,
+      "width": 426,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24717",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24716",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0066/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 276,
+                "width": 426,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0066",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/24715"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

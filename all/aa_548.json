@@ -1,0 +1,358 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_548",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1545"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "actual_weight"
+        ]
+      },
+      "value": {
+        "en": [
+          "1.33"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "collection_history"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>Glendining, 10 Oct. 1951</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Eretria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-500"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "denomination"
+        ]
+      },
+      "value": {
+        "en": [
+          "Diobol"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "die_axis"
+        ]
+      },
+      "value": {
+        "en": [
+          "315 degrees"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-490"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Alan S. Walker"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_548"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Silver"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dewing 1545"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "obverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Cow scratching itself, profile to the left"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "25. Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Euboea"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "reverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Octopus in incuse square"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-510"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coin"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25543",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Cow scratching itself, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 364,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25545",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25544",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0263/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 364,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0263",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25543"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/25546",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation",
+          "Reverse: Octopus in incuse square"
+        ]
+      },
+      "height": 366,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25548",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25547",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0264/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 366,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0264",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25546"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

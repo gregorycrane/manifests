@@ -1,0 +1,294 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3734",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 99.453"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "category"
+        ]
+      },
+      "value": {
+        "en": [
+          "Single monument"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "H 0.055 m"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-1"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Pamela J. Russell"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "form_style_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bottle of \"onyx\" glass made of translucent yellowish-brown glass with ribbons of opaque white."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_3734"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Glass"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 99.453"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late Hellenistic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "52. Late Hell."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vessel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-100"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bottle"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bottle"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/36253",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 743,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36255",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36254",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.03.1726/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 743,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.03.1726",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36253"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

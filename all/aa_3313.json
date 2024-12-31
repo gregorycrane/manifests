@@ -1,0 +1,306 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3313",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Vatican 2272"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "category"
+        ]
+      },
+      "value": {
+        "en": [
+          "Original/copies"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "collection_history"
+        ]
+      },
+      "value": {
+        "en": [
+          "Formerly in the Verospi Palace"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_3313"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Marble"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vatican 2272"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "object_function"
+        ]
+      },
+      "value": {
+        "en": [
+          "Unknown"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "original_or_copy"
+        ]
+      },
+      "value": {
+        "en": [
+          "Copy"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Roman"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "55. Roman"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "scale"
+        ]
+      },
+      "value": {
+        "en": [
+          "Over life-size"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Free-standing statue"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "style"
+        ]
+      },
+      "value": {
+        "en": [
+          "High Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vatican copy of Sosikles' Amazon type"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "technique"
+        ]
+      },
+      "value": {
+        "en": [
+          "In-the-round"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sosikles' Amazon type"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Roman copy"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25585",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Amy C. Smith",
+          "Wounded Amazon from the Verospi Palace: view slightly from left"
+        ]
+      },
+      "height": 450,
+      "width": 236,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25587",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25586",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.99.0061/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 450,
+                "width": 236,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1997.99.0061",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25585"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

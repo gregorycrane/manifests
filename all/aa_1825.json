@@ -1,0 +1,286 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_1825",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 27.711"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "culture"
+        ]
+      },
+      "value": {
+        "en": [
+          "Greek"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "L. 0.033 m., W. 0.026 m., Th. 0.009 m."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "donor"
+        ]
+      },
+      "value": {
+        "en": [
+          "Francis Bartlett Donation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-250"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Alan E. Kaiser/Josh Kallen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_1825"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Chalcedony"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 27.711"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Intaglio"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sources_used"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Lewes 1920</bibl>, no. 95"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-300"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "style"
+        ]
+      },
+      "value": {
+        "en": [
+          "Hellenistic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Portrait of a Ptolemaic queen as Isis"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gem"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/6421",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston",
+          "Portrait of a Ptolemaic queen as Isis"
+        ]
+      },
+      "height": 900,
+      "width": 598,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6423",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6422",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0069/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 598,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0069",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6421"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/6424",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a portrait of a Ptolemaic queen as Isis",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 900,
+      "width": 598,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6426",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6425",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0137/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 598,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0137",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6424"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

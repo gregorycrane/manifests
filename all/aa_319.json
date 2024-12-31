@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_319",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25228",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Perachora, Temple of Hera Akraia",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Piet de Jong (artist), in H. Payne 1940"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25230",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25229",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0300a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0300a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25228"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

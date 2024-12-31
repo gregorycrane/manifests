@@ -1,0 +1,294 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5478",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 10.200"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "attributed_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "J.D. Beazley"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "203941"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-485"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-480"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "essay_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "C & B No. 23"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5478"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 10.200"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Brygos Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attributed to the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "28. Late Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>ARV2, 373, no. 43</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kylix"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-490"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25534",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Caskey & Beazley, plate IX. With permission of the Museum of Fine Arts, Boston.",
+          "Interior: komast vomiting"
+        ]
+      },
+      "height": 406,
+      "width": 287,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25536",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25535",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0047/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 406,
+                "width": 287,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0047",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25534"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

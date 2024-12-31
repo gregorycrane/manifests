@@ -1,0 +1,358 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_746",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 2483"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "actual_weight"
+        ]
+      },
+      "value": {
+        "en": [
+          "10.55"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kelenderis"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-412"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "denomination"
+        ]
+      },
+      "value": {
+        "en": [
+          "Stater"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "die_axis"
+        ]
+      },
+      "value": {
+        "en": [
+          "135 degrees"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-400"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Hyla A. Troxell"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_746"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Silver"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dewing 2483"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "obverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Dismounting horseman, profile to the right"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "40. Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "1"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Cilicia"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "reverse_legend"
+        ]
+      },
+      "value": {
+        "en": [
+          "<foreign lang = \"Greek\">*K*E*L</foreign>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "reverse_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Goat kneeling, profile to the right, head reverted"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-425"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coin"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/34354",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Dismounting horseman, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 387,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34356",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34355",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0592/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 387,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0592",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34354"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/34357",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation",
+          "Reverse: Goat kneeling, profile to the right, head reverted"
+        ]
+      },
+      "height": 374,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/34359",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34358",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0593/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 374,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.26.0593",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/34357"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

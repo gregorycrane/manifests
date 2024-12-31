@@ -1,0 +1,258 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5693",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Ruvo, Jatta 901"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Ruvo"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "From"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amy C. Smith"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5693"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Ruvo, Jatta 901"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Reckoning Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attributed to the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "High Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>RVAp, 4/46, pls. 24.3-4</bibl>; <bibl>FR, pl.\n      110</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bell krater"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-400"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Apulian Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/30193",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Apulian bell krater: Drawing of side A, showing three Phlyax actors, two with knives, on a stage",
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. Mnchen: Bruckmann, 1902. pl. 110"
+        ]
+      },
+      "height": 453,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30195",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30194",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0539/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 453,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0539",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30193"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

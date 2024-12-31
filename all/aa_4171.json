@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4171",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London multiple, 1871.7-22.3"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4171"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "London multiple, 1871.7-22.3"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gnathian"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1678",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exteriors",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 1868,
+      "width": 3660,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1680",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1679",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0328/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1868,
+                "width": 3660,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0328",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1678"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

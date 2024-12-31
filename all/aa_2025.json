@@ -1,0 +1,318 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_2025",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Berlin 1833"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "category"
+        ]
+      },
+      "value": {
+        "en": [
+          "Original/copies"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_2025"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Berlin 1833"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "original"
+        ]
+      },
+      "value": {
+        "en": [
+          "Polykleitos' Diskobolos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "original_or_copy"
+        ]
+      },
+      "value": {
+        "en": [
+          "Copy"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "7"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Free-standing statue"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "subject_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "<P>No photo yet</P>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Head of Diskobolos with wings"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sculpture"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/10999",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Diskobolos with Wings, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu Berlin, Preuischer Kulturbesitz: Antikensammlung"
+        ]
+      },
+      "height": 443,
+      "width": 306,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11001",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11000",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0535/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 443,
+                "width": 306,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0535",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/10999"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/11002",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Diskobolos with Wings, from right",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu Berlin, Preuischer Kulturbesitz: Antikensammlung"
+        ]
+      },
+      "height": 430,
+      "width": 320,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11004",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11003",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0536/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 430,
+                "width": 320,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0536",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/11005",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Diskobolos with Wings, from left",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu Berlin, Preuischer Kulturbesitz: Antikensammlung"
+        ]
+      },
+      "height": 461,
+      "width": 317,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11007",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11006",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0537/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 461,
+                "width": 317,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0537",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/11008",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Diskobolos with Wings, right profile",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu Berlin, Preuischer Kulturbesitz: Antikensammlung"
+        ]
+      },
+      "height": 442,
+      "width": 324,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11010",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11009",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0538/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 442,
+                "width": 324,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.05.0538",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11008"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5417",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 93.104"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "attributed_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "J.D. Beazley"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "214102"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Eretria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "From"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "-430"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "essay_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "C & B No. 56"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5417"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 93.104"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Achilles Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "In the manner of the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "High Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "40. Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>ARV2, 1007, no. 1</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Etruria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Lekythos"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Youth and woman at stele"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-430"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/25012",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Caskey & Beazley, plate XXVI. With permission of the Museum of Fine Arts, Boston.",
+          "Main panel: woman"
+        ]
+      },
+      "height": 417,
+      "width": 249,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25014",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25013",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0116/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 417,
+                "width": 249,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0116",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/25015",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Caskey & Beazley, plate XXVI. With permission of the Museum of Fine Arts, Boston.",
+          "Main panel: youth"
+        ]
+      },
+      "height": 413,
+      "width": 247,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25017",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25016",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0117/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 413,
+                "width": 247,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1992.11.0117",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/25015"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

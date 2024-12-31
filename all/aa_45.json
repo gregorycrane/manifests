@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_45",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/13729",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, Eschara",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Travlos 1952 (artist) in H.A. Thompson 1953 fig. 2"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/13731",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13730",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0075a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0075a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/13729"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

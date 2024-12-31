@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4174",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London 1950.1-27.2"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kathleen Krattenmaker"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4174"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "London 1950.1-27.2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Early Protocorinthian"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1690",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle right",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2032,
+      "width": 1824,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1692",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1691",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0286/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2032,
+                "width": 1824,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0286",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1690"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

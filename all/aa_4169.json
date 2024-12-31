@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4169",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London multiple, D73"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4169"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "London multiple, D73"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure, White Ground"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1672",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exteriors",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2238,
+      "width": 2888,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1674",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1673",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0340/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2238,
+                "width": 2888,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0340",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1672"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_1",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view of sanctuary of Aphaia, Aegina, Altar of Aphaia, Amphipoleion, Sanctuary Walls, Temple",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
+      "height": 352,
+      "width": 532,
+      "items": [
+        {
+          "id": "http://example.org/iiif/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.30.0001/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 352,
+                "width": 532,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.30.0001",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Aegina, Altar of Aphaia",
+          "copyright C. H. Smith 1989, based on Weber (artist), in D. Ohly 1978 29 fig. 15"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0011a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0011a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

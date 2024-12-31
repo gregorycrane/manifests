@@ -1,0 +1,286 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_1816",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 27.700"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "culture"
+        ]
+      },
+      "value": {
+        "en": [
+          "Greek"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "L. 0.022 m., W. 0.019 m., Th. 0.01 m."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "donor"
+        ]
+      },
+      "value": {
+        "en": [
+          "Francis Bartlett Donation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-380"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Alan E. Kaiser/Josh Kallen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_1816"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Amethystine chalcedony"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 27.700"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Scaraboid"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sources_used"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Lewes 1920</bibl>, no. 56"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-420"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "style"
+        ]
+      },
+      "value": {
+        "en": [
+          "Free Style"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "An Eros seated on the ground playing with a goose, which lifts its wings"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gem"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/6364",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing an Eros seated on the ground playing with a goose, which lifts its wings",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6366",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6365",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0148/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0148",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6364"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/6367",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "An Eros seated on the ground playing with a goose, which lifts its wings",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6369",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6368",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0172/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0172",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6367"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

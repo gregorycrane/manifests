@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_148",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/3436",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Later Kastalian Fountainhouse",
+          "copyright C. H. Smith 1989, based on Amandry 1978, in Papachadzi 1981"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/3438",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3437",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0155a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0155a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/3436"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/3439",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Later Kastalian Fountainhouse, Delphi",
+          "Photograph by Michael Bennett"
+        ]
+      },
+      "height": 280,
+      "width": 429,
+      "items": [
+        {
+          "id": "http://example.org/iiif/3441",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3440",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0080/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 280,
+                "width": 429,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1991.04.0080",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/3439"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

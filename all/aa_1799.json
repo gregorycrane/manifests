@@ -1,0 +1,286 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_1799",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 27.674"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "culture"
+        ]
+      },
+      "value": {
+        "en": [
+          "Greek"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "L. 0.016 m., W. 0.013 m."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "donor"
+        ]
+      },
+      "value": {
+        "en": [
+          "Francis Bartlett Donation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "end_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-500"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Alan E. Kaiser/Josh Kallen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_1799"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sard"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 27.674"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Intaglio"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sources_used"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Lewes 1920</bibl>, no. 22"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "start_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-525"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "style"
+        ]
+      },
+      "value": {
+        "en": [
+          "Archaic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Herakles and the Nemean lion"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gem"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/6196",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Herakles and the Nemean lion",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6198",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6197",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0037/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0037",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6196"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/6199",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing Herakles and the Nemean lion",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6201",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/6200",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0115/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0115",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6199"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

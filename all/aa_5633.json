@@ -1,0 +1,310 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5633",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "St. Petersburg St. 1793"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "beazley_number"
+        ]
+      },
+      "value": {
+        "en": [
+          "230432"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kerch"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "context_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "From"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5633"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "St. Petersburg St. 1793"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter"
+        ]
+      },
+      "value": {
+        "en": [
+          "Eleusinian Painter"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "painter_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attributed to the"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "period_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "45. Late Classical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "2.5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "primary_citation"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>ARV2, 1476, 2</bibl>; <bibl>FR, pl.\n      69</bibl>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Pelike"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_date"
+        ]
+      },
+      "value": {
+        "en": [
+          "-350"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "unitary_mod"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Red Figure"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/29218",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. Mnchen: Bruckmann, 1905. pl. 69",
+          "Kerch pelike: Drawing of side A, showing Zeus and Themis, attended by Hermes, Athena, and others"
+        ]
+      },
+      "height": 370,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29220",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29219",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0387/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 370,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0387",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29218"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/29221",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From Furtwngler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. Mnchen: Bruckmann, 1905. pl. 69",
+          "Kerch pelike: Overview drawing of the vase, side B, showing Zeus and Themis, attended by Hermes, Athena, and others"
+        ]
+      },
+      "height": 685,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/29223",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/29222",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0388/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 685,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1993.01.0388",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/29221"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

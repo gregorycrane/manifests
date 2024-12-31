@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_230",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/19090",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Epidauros, Water Reservoir",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Pharaklas (artist), based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in N.D. Papachadzi 1976 202-203; also based on Buglass (artist) based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in R.A. Tomlinson 1976 fig. 16; also based on Coulton (artist), based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in J.J. Coulton 1976 239 fig. 65 Guesthouse, based on Buglass (artist) based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in R.A. Tomlinson 1976 fig. 16 Gymnasium, based on Prakt, Ancient Greek Cities, 1901 plate B, in N.D. Papachadzi 1976 212 fig. 241 Odeion, based on based on Prakt, Ancient Greek Cities 12, 1901 plate B fig. 54, in N.D. Papachadzi 1976 212 fig. 242 Palaestra, based on Buglass (artist) based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in R.A. Tomlinson 1976 fig. 16; also based on Coulton (artist), based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961, in J.J. Coulton 1976 239 fig. 65 Propylon, based on  G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961 plate 73, in N.D. Papachadzi 1976 208 fig. 230 Sanctuary of Apollo Maleates, based on Inscriptiones Graecae IV 1 plate 3, in N.D. Papachadzi 1976 214 fig. 243 Temple of Aphrodite, based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961 239 plates 65, 66 fig .58, and based on Kavadhias, Prakt 1906 111, in N.D. Papachadzi 1976 210 fig. 238 Temple of Artemis, based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961 plate 54, in N.D. Papachadzi 1976 208 fig. 231 Temple of Asclepius, based on G. Roux, L'architecture de l'Argolide, Bibliothque des coles franaises d'Athnes et de Rome, Paris 1961 plate 28, in N.D. Papachadzi 1976 204 fig. 224 Theater, based on  A. v. Gerkan and W. Mller, Das Theater von Epidauros, Stuttgart 1961, in N.D. Papachadzi 1976 209 fig. 234 Tholos, based on Kavvadias, Fouilles d'pidaure I, 1893 plate 4, in A.W. Lawrence 1983 243 fig.216"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/19092",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19091",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0196a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0196a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/19090"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

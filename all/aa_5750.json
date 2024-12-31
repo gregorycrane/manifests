@@ -1,0 +1,126 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_5750",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Bowdoin 1913.27"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_5750"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bowdoin 1913.27"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/30670",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of profile",
+          "copyright C. H. Smith 1988"
+        ]
+      },
+      "height": 173,
+      "width": 131,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30672",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30671",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0494/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 173,
+                "width": 131,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0494",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30670"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_4269",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, Agora P19228"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "date_for_sort"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_4269"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens, Agora P19228"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "region"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attica"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "shape"
+        ]
+      },
+      "value": {
+        "en": [
+          "Shoulder-handled amphora"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Vase"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "ware"
+        ]
+      },
+      "value": {
+        "en": [
+          "Attic Geometric"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/2140",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora with battlement and dogtooth, Athens, Agora P19228",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 2797,
+      "width": 2088,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2142",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2141",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0276/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2797,
+                "width": 2088,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1989.04.0276",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/2140"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

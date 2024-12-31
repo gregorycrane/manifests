@@ -1,0 +1,274 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_1752",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 21.1214"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "culture"
+        ]
+      },
+      "value": {
+        "en": [
+          "Greek"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "L. 0.016 m., W. 0.012 m."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "donor"
+        ]
+      },
+      "value": {
+        "en": [
+          "Francis Bartlett Donation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "entered_by"
+        ]
+      },
+      "value": {
+        "en": [
+          "Alan E. Kaiser/Josh Kallen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "id"
+        ]
+      },
+      "value": {
+        "en": [
+          "aa_1752"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Chalcedony"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "material_description"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bluish flecked with white"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Boston 21.1214"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "perseus_version"
+        ]
+      },
+      "value": {
+        "en": [
+          "4.6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sculpture_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Intaglio"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "sources_used"
+        ]
+      },
+      "value": {
+        "en": [
+          "<bibl>Lewes 1920</bibl>, no. 103"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "style"
+        ]
+      },
+      "value": {
+        "en": [
+          "Hellenistic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "summary"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sea-pantheress attacking a polypus"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gem"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/5845",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston",
+          "Sea-pantheress attacking a polypus"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5847",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5846",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0042/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0042",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5845"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/5848",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a sea-pantheress attacking a polypus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5850",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5849",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0110/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/2000.02.0110",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5848"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_90",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/36223",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Brauron, Parastas",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Coulton (artist), based on Bouras  (artist)in C. Bouras, The Restoration of the Stoa at Brauron, 1967 figs. 1,4, in J.J. Coulton 1976 227 fig. 57 and also based on Bouras (artist), in P.G. Themelis 1973 8"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36225",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36224",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0111a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0111a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36223"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

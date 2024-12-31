@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_384",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/36610",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Functioning ancient fountain with spouts, Thermon, Fountainhouse",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
+      "height": 2460,
+      "width": 3655,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36612",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36611",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.4214/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2460,
+                "width": 3655,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.4214",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36610"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/36613",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun",
+          "Zig-zag water channel behind fountain, Thermon, Fountainhouse"
+        ]
+      },
+      "height": 2424,
+      "width": 3637,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36615",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36614",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.4215/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2424,
+                "width": 3637,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1987.08.4215",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36613"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/36616",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Thermon, Fountainhouse",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Coulton (artist) based on Greek Land Expropriation Survey, in J.J. Coulton 1976 293 fig. 119 Temple of Apollo area, based on Dinsmoor 1975 42 fig. 14 Temple of Apollo, based on W.B. Dinsmoor, The Architecture of Ancient Greece, London and New York, 1950, in A.W. Lawrence 1983 124 fig. 86"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/36618",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/36617",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0367b/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0367b",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/36616"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

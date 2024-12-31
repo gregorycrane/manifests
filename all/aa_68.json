@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_68",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "no label"
+    ]
+  },
+  "metadata": [],
+  "items": [
+    {
+      "id": "http://example.org/iiif/33733",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, Sanctuary of Eponymous Hero (Pandion)",
+          "copyright C. H. Smith 1989, based on G.P. Stevens (artist) in G.P. Stevens 1946 25 fig. 23"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33735",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33734",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0049a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0049a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33733"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/33736",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Elevation of West side, portico entrance, Athens, Sanctuary of Eponymous Hero (Pandion)",
+          "copyright C. H. Smith 1989, based on G.P. Stevens (artist) in G.P. Stevens 1946 15 fig. 23"
+        ]
+      },
+      "height": 171,
+      "width": 328,
+      "items": [
+        {
+          "id": "http://example.org/iiif/33738",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/33737",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0050a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 171,
+                "width": 328,
+                "service": [
+                  {
+                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.33.0050a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/33736"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
