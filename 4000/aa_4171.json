@@ -11,124 +11,52 @@
     {
       "label": {
         "en": [
-          "date_for_sort"
+          "thumbnail"
         ]
       },
       "value": {
         "en": [
-          "0"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "id"
-        ]
-      },
-      "value": {
-        "en": [
-          "aa_4171"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "location"
-        ]
-      },
-      "value": {
-        "en": [
-          "Perseus"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "name"
-        ]
-      },
-      "value": {
-        "en": [
-          "London multiple, 1871.7-22.3"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "perseus_version"
-        ]
-      },
-      "value": {
-        "en": [
-          "0"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "type"
-        ]
-      },
-      "value": {
-        "en": [
-          "Vase"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "ware"
-        ]
-      },
-      "value": {
-        "en": [
-          "Gnathian"
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0328/full/100,/0/default.png"
         ]
       }
     }
   ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0328",
+      "type": "Image"
+    }
+  ],
   "items": [
     {
-      "id": "http://example.org/iiif/54511",
+      "id": "http://example.org/iiif/4984",
       "type": "Canvas",
-      "label": {
-        "en": [
-          "Overview: exteriors",
-          "Photograph courtesy of the Trustees of the British Museum, London"
-        ]
-      },
       "height": 1868,
       "width": 3660,
       "items": [
         {
-          "id": "http://example.org/iiif/54513",
+          "id": "http://example.org/iiif/4986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/54512",
+              "id": "http://example.org/iiif/4985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0328/full/max/0/default.jpg",
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0328/full/max/0/default.jpg",
                 "type": "Image",
                 "height": 1868,
                 "width": 3660,
                 "service": [
                   {
-                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0328",
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0328",
                     "type": "ImageService3",
                     "profile": "level2"
                   }
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/54511"
+              "target": "http://example.org/iiif/4984"
             }
           ]
         }

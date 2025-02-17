@@ -11,219 +11,90 @@
     {
       "label": {
         "en": [
-          "date_for_sort"
+          "thumbnail"
         ]
       },
       "value": {
         "en": [
-          "-510"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "end_date"
-        ]
-      },
-      "value": {
-        "en": [
-          "-500"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "end_mod"
-        ]
-      },
-      "value": {
-        "en": [
-          "ca."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "essay_number"
-        ]
-      },
-      "value": {
-        "en": [
-          "Buitron No. 34"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "id"
-        ]
-      },
-      "value": {
-        "en": [
-          "aa_4916"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "location"
-        ]
-      },
-      "value": {
-        "en": [
-          "Perseus"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "name"
-        ]
-      },
-      "value": {
-        "en": [
-          "Bowdoin 1913.2"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "painter"
-        ]
-      },
-      "value": {
-        "en": [
-          "Bowdoin-Eye Painter"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "painter_mod"
-        ]
-      },
-      "value": {
-        "en": [
-          "Attributed to the"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "period"
-        ]
-      },
-      "value": {
-        "en": [
-          "Archaic"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "period_for_sort"
-        ]
-      },
-      "value": {
-        "en": [
-          "25. Archaic"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "perseus_version"
-        ]
-      },
-      "value": {
-        "en": [
-          "1.5"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "primary_citation"
-        ]
-      },
-      "value": {
-        "en": [
-          "<bibl>ARV2, 167, no.5</bibl>"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "shape"
-        ]
-      },
-      "value": {
-        "en": [
-          "Eye cup"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "start_date"
-        ]
-      },
-      "value": {
-        "en": [
-          "-520"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "start_mod"
-        ]
-      },
-      "value": {
-        "en": [
-          "ca."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "type"
-        ]
-      },
-      "value": {
-        "en": [
-          "Vase"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "ware"
-        ]
-      },
-      "value": {
-        "en": [
-          "Attic Red Figure"
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0487/full/100,/0/default.png"
         ]
       }
     }
   ],
-  "items": []
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0487",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/31374",
+      "type": "Canvas",
+      "height": 312,
+      "width": 250,
+      "items": [
+        {
+          "id": "http://example.org/iiif/31376",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/31375",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0487/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 250,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0487",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/31374"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/31377",
+      "type": "Canvas",
+      "height": 173,
+      "width": 131,
+      "items": [
+        {
+          "id": "http://example.org/iiif/31379",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/31378",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0494/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 173,
+                "width": 131,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0494",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/31377"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

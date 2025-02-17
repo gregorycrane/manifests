@@ -11,112 +11,52 @@
     {
       "label": {
         "en": [
-          "id"
+          "thumbnail"
         ]
       },
       "value": {
         "en": [
-          "aa_3967"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "location"
-        ]
-      },
-      "value": {
-        "en": [
-          "Perseus"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "name"
-        ]
-      },
-      "value": {
-        "en": [
-          "London A 284"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "perseus_version"
-        ]
-      },
-      "value": {
-        "en": [
-          "-1"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "type"
-        ]
-      },
-      "value": {
-        "en": [
-          "Vase"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "ware"
-        ]
-      },
-      "value": {
-        "en": [
-          "Gray Minyan"
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0310/full/100,/0/default.png"
         ]
       }
     }
   ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0310",
+      "type": "Image"
+    }
+  ],
   "items": [
     {
-      "id": "http://example.org/iiif/50026",
+      "id": "http://example.org/iiif/46",
       "type": "Canvas",
-      "label": {
-        "en": [
-          "Overview: exterior",
-          "Photograph courtesy of the Trustees of the British Museum, London"
-        ]
-      },
       "height": 2032,
       "width": 2526,
       "items": [
         {
-          "id": "http://example.org/iiif/50028",
+          "id": "http://example.org/iiif/48",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50027",
+              "id": "http://example.org/iiif/47",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0310/full/max/0/default.jpg",
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0310/full/max/0/default.jpg",
                 "type": "Image",
                 "height": 2032,
                 "width": 2526,
                 "service": [
                   {
-                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.14.0310",
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0310",
                     "type": "ImageService3",
                     "profile": "level2"
                   }
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50026"
+              "target": "http://example.org/iiif/46"
             }
           ]
         }

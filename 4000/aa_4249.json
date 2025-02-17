@@ -11,135 +11,124 @@
     {
       "label": {
         "en": [
-          "beazley_number"
+          "thumbnail"
         ]
       },
       "value": {
         "en": [
-          "4090"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "date_for_sort"
-        ]
-      },
-      "value": {
-        "en": [
-          "0"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "entered_by"
-        ]
-      },
-      "value": {
-        "en": [
-          "Anne Leinster"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "id"
-        ]
-      },
-      "value": {
-        "en": [
-          "aa_4249"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "location"
-        ]
-      },
-      "value": {
-        "en": [
-          "Perseus"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "name"
-        ]
-      },
-      "value": {
-        "en": [
-          "Boston 20.18"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "perseus_version"
-        ]
-      },
-      "value": {
-        "en": [
-          "0"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "primary_citation"
-        ]
-      },
-      "value": {
-        "en": [
-          "not in Beazley"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "shape"
-        ]
-      },
-      "value": {
-        "en": [
-          "Skyphos"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "type"
-        ]
-      },
-      "value": {
-        "en": [
-          "Vase"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "ware"
-        ]
-      },
-      "value": {
-        "en": [
-          "Attic Black Figure"
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0332/full/100,/0/default.png"
         ]
       }
     }
   ],
-  "items": []
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0332",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/5011",
+      "type": "Canvas",
+      "height": 419,
+      "width": 379,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5013",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5012",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0375/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 379,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0375",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/5014",
+      "type": "Canvas",
+      "height": 420,
+      "width": 296,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5016",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5015",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0376/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 296,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0376",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/5017",
+      "type": "Canvas",
+      "height": 420,
+      "width": 296,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5019",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5018",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0377/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 296,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0377",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5017"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

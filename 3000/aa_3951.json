@@ -11,172 +11,52 @@
     {
       "label": {
         "en": [
-          "date_for_sort"
+          "thumbnail"
         ]
       },
       "value": {
         "en": [
-          "-1250"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "id"
-        ]
-      },
-      "value": {
-        "en": [
-          "aa_3951"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "location"
-        ]
-      },
-      "value": {
-        "en": [
-          "Perseus"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "name"
-        ]
-      },
-      "value": {
-        "en": [
-          "Malibu 86.AE.34"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "perseus_version"
-        ]
-      },
-      "value": {
-        "en": [
-          "-1"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "shape"
-        ]
-      },
-      "value": {
-        "en": [
-          "Miniature stirrup jar"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "summary"
-        ]
-      },
-      "value": {
-        "en": [
-          "Floral patterns, dark on light."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "type"
-        ]
-      },
-      "value": {
-        "en": [
-          "Vase"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "unitary_date"
-        ]
-      },
-      "value": {
-        "en": [
-          "-1250"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "unitary_mod"
-        ]
-      },
-      "value": {
-        "en": [
-          "ca."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "ware"
-        ]
-      },
-      "value": {
-        "en": [
-          "Mycenaean"
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0140/full/100,/0/default.png"
         ]
       }
     }
   ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0140",
+      "type": "Image"
+    }
+  ],
   "items": [
     {
-      "id": "http://example.org/iiif/49978",
+      "id": "http://example.org/iiif/1",
       "type": "Canvas",
-      "label": {
-        "en": [
-          "Collection of The J. Paul Getty Museum, Malibu, California",
-          "Mycenaean miniature stirrup jar; 3/4 right view"
-        ]
-      },
       "height": 2796,
       "width": 2190,
       "items": [
         {
-          "id": "http://example.org/iiif/49980",
+          "id": "http://example.org/iiif/3",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49979",
+              "id": "http://example.org/iiif/2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.05.0140/full/max/0/default.jpg",
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0140/full/max/0/default.jpg",
                 "type": "Image",
                 "height": 2796,
                 "width": 2190,
                 "service": [
                   {
-                    "id": "https://iiif-dev.perseus.tufts.edu/iiif/3/1990.05.0140",
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0140",
                     "type": "ImageService3",
                     "profile": "level2"
                   }
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49978"
+              "target": "http://example.org/iiif/1"
             }
           ]
         }
