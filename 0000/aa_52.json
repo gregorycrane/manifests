@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_52",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, Law Courts"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0080a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0080a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/66409",
+      "type": "Canvas",
+      "height": 400,
+      "width": 351,
+      "items": [
+        {
+          "id": "http://example.org/iiif/66411",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/66410",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0080a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 351,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0080a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/66409"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/66412",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/66414",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/66413",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0090b/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0090b",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/66412"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

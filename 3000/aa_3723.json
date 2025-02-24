@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3723",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 35.1428"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1693/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1693",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/30316",
+      "type": "Canvas",
+      "height": 732,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30318",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30317",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1693/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 732,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1693",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30316"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/30319",
+      "type": "Canvas",
+      "height": 732,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30321",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30320",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1694/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 732,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1694",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/30322",
+      "type": "Canvas",
+      "height": 735,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/30324",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/30323",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1695/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 735,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1695",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/30322"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

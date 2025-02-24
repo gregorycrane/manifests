@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_102",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delos, House of the Diadoumenos"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5112/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5112",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/58567",
+      "type": "Canvas",
+      "height": 2466,
+      "width": 3637,
+      "items": [
+        {
+          "id": "http://example.org/iiif/58569",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/58568",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5112/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2466,
+                "width": 3637,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5112",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/58567"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/58570",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/58572",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/58571",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0126a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0126a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/58570"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

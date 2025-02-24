@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_334",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Piraeus, Theater of Zea"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0312a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0312a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/63178",
+      "type": "Canvas",
+      "height": 385,
+      "width": 451,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63180",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63179",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0312a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 385,
+                "width": 451,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0312a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63178"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/63181",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63183",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63182",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0313a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0313a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63181"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

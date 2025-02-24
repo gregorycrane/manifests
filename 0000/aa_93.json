@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_93",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Brauron, Temple of Artemis"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2145/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2145",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/68200",
+      "type": "Canvas",
+      "height": 704,
+      "width": 1082,
+      "items": [
+        {
+          "id": "http://example.org/iiif/68202",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/68201",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2145/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 704,
+                "width": 1082,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2145",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/68200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/68203",
+      "type": "Canvas",
+      "height": 692,
+      "width": 1060,
+      "items": [
+        {
+          "id": "http://example.org/iiif/68205",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/68204",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2146/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 692,
+                "width": 1060,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2146",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/68203"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/68206",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/68208",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/68207",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0113a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0113a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/68206"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

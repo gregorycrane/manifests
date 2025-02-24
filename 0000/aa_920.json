@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_920",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "BCMA 1919.58.8b"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0075/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0075",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/76489",
+      "type": "Canvas",
+      "height": 1987,
+      "width": 2604,
+      "items": [
+        {
+          "id": "http://example.org/iiif/76491",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/76490",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0075/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1987,
+                "width": 2604,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0075",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/76489"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/76492",
+      "type": "Canvas",
+      "height": 2155,
+      "width": 2552,
+      "items": [
+        {
+          "id": "http://example.org/iiif/76494",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/76493",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0076/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2155,
+                "width": 2552,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0076",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/76492"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

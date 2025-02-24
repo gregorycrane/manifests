@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_358",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Samos, Second Hekatompedon Temple"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0328a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0328a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/64156",
+      "type": "Canvas",
+      "height": 219,
+      "width": 403,
+      "items": [
+        {
+          "id": "http://example.org/iiif/64158",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/64157",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0328a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 219,
+                "width": 403,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0328a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/64156"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/64159",
+      "type": "Canvas",
+      "height": 895,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/64161",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/64160",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0578/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 895,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0578",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/64159"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

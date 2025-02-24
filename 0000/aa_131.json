@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_131",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delos, Temple of the 12 Gods"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5138/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5138",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/58819",
+      "type": "Canvas",
+      "height": 2412,
+      "width": 3643,
+      "items": [
+        {
+          "id": "http://example.org/iiif/58821",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/58820",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5138/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2412,
+                "width": 3643,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5138",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/58819"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/58822",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/58824",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/58823",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0124i/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0124i",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/58822"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

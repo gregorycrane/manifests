@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_296",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Olympia, Treasury of the Byzantines (4)"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0271a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0271a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/62119",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/62121",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/62120",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0271a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0271a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/62119"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/62122",
+      "type": "Canvas",
+      "height": 278,
+      "width": 429,
+      "items": [
+        {
+          "id": "http://example.org/iiif/62124",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/62123",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0068/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 278,
+                "width": 429,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0068",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/62122"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

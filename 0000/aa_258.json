@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_258",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Miletus, South Market"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0654/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0654",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/61375",
+      "type": "Canvas",
+      "height": 330,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/61377",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/61376",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0654/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 330,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0654",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/61375"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/61378",
+      "type": "Canvas",
+      "height": 337,
+      "width": 527,
+      "items": [
+        {
+          "id": "http://example.org/iiif/61380",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/61379",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0677/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 337,
+                "width": 527,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0677",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/61378"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

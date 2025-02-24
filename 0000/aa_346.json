@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_346",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Priene, Stadium"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1008a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1008a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/63676",
+      "type": "Canvas",
+      "height": 218,
+      "width": 588,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63678",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63677",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1008a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 218,
+                "width": 588,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1008a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63676"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/63679",
+      "type": "Canvas",
+      "height": 346,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63681",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63680",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0800/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 346,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0800",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63679"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

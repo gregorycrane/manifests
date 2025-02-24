@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_401",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Olynthus, House A iv 9"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0802a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0802a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/65323",
+      "type": "Canvas",
+      "height": 461,
+      "width": 447,
+      "items": [
+        {
+          "id": "http://example.org/iiif/65325",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/65324",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0802a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 461,
+                "width": 447,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0802a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/65323"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/65326",
+      "type": "Canvas",
+      "height": 350,
+      "width": 526,
+      "items": [
+        {
+          "id": "http://example.org/iiif/65328",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/65327",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.02.0011/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 350,
+                "width": 526,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.02.0011",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/65326"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/65329",
+      "type": "Canvas",
+      "height": 342,
+      "width": 525,
+      "items": [
+        {
+          "id": "http://example.org/iiif/65331",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/65330",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.02.0012/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 342,
+                "width": 525,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.02.0012",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/65329"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

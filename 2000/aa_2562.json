@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_2562",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Antikythera Philosopher"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0003/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0003",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/18223",
+      "type": "Canvas",
+      "height": 371,
+      "width": 549,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18225",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18224",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0003/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 371,
+                "width": 549,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0003",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/18223"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/18226",
+      "type": "Canvas",
+      "height": 527,
+      "width": 252,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18228",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18227",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0004/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 527,
+                "width": 252,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0004",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/18226"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

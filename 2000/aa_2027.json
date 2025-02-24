@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_2027",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Berlin 1972.15"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0785/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0785",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/5422",
+      "type": "Canvas",
+      "height": 477,
+      "width": 323,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5424",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5423",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0785/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 477,
+                "width": 323,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0785",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5422"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/5425",
+      "type": "Canvas",
+      "height": 479,
+      "width": 305,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5427",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5426",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0786/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 479,
+                "width": 305,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0786",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5425"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/5428",
+      "type": "Canvas",
+      "height": 478,
+      "width": 316,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5430",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5429",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0787/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 478,
+                "width": 316,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0787",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5428"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

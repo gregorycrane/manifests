@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_352",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Samos, Great Hera Temple"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0576/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0576",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/64123",
+      "type": "Canvas",
+      "height": 255,
+      "width": 416,
+      "items": [
+        {
+          "id": "http://example.org/iiif/64125",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/64124",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0576/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 255,
+                "width": 416,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0576",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/64123"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/64126",
+      "type": "Canvas",
+      "height": 411,
+      "width": 279,
+      "items": [
+        {
+          "id": "http://example.org/iiif/64128",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/64127",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0577/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 411,
+                "width": 279,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0577",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/64126"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/64129",
+      "type": "Canvas",
+      "height": 322,
+      "width": 528,
+      "items": [
+        {
+          "id": "http://example.org/iiif/64131",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/64130",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0335a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 322,
+                "width": 528,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0335a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/64129"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_3478",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre CA 634"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1572/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1572",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/28822",
+      "type": "Canvas",
+      "height": 448,
+      "width": 332,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28824",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28823",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1572/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 448,
+                "width": 332,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1572",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/28822"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/28825",
+      "type": "Canvas",
+      "height": 401,
+      "width": 416,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28827",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28826",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1573/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 416,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1573",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/28825"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_340",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Priene, Lower Gymnasium"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1007a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1007a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/63466",
+      "type": "Canvas",
+      "height": 373,
+      "width": 339,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63468",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63467",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1007a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 373,
+                "width": 339,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.1007a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63466"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/63469",
+      "type": "Canvas",
+      "height": 345,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63471",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63470",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0796/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 345,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0796",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63469"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/63472",
+      "type": "Canvas",
+      "height": 346,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/63474",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/63473",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0800/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 346,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0800",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/63472"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

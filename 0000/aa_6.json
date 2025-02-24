@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_6",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Aigosthena, North Wall Tower and Gate"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/66682",
+      "type": "Canvas",
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/66684",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/66683",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/66682"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/66685",
+      "type": "Canvas",
+      "height": 344,
+      "width": 524,
+      "items": [
+        {
+          "id": "http://example.org/iiif/66687",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/66686",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1994.01.0097/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 524,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1994.01.0097",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/66685"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

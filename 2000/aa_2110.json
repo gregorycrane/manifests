@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.perseus.tufts.edu/api/aa_2110",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delphi, Caryatid Capital from Siphnian Treasury"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0039/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0039",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/8539",
+      "type": "Canvas",
+      "height": 2278,
+      "width": 3647,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8541",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8540",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0039/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2278,
+                "width": 3647,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0039",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/8539"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/8542",
+      "type": "Canvas",
+      "height": 2348,
+      "width": 3424,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8544",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8543",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0040/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2348,
+                "width": 3424,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0040",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/8542"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
