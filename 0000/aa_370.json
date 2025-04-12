@@ -1,26 +1,79 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://www.perseus.tufts.edu/api/aa_370",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_370",
   "type": "Manifest",
   "label": {
     "en": [
       "Sounion, Propylon to the Sanctuary of Poseidon"
     ]
   },
-  "metadata": [],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2160/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2160",
+      "type": "Image"
+    }
+  ],
   "items": [
     {
-      "id": "http://example.org/iiif/64225",
+      "id": "http://example.org/iiif/64399",
+      "type": "Canvas",
+      "height": 324,
+      "width": 550,
+      "items": [
+        {
+          "id": "http://example.org/iiif/64401",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/64400",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2160/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 324,
+                "width": 550,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2160",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/64399"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/64402",
       "type": "Canvas",
       "height": 320,
       "width": 529,
       "items": [
         {
-          "id": "http://example.org/iiif/64227",
+          "id": "http://example.org/iiif/64404",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64226",
+              "id": "http://example.org/iiif/64403",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -37,24 +90,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64225"
+              "target": "http://example.org/iiif/64402"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64228",
+      "id": "http://example.org/iiif/64405",
       "type": "Canvas",
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/64230",
+          "id": "http://example.org/iiif/64407",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64229",
+              "id": "http://example.org/iiif/64406",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -71,7 +124,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64228"
+              "target": "http://example.org/iiif/64405"
             }
           ]
         }

@@ -1,26 +1,181 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://www.perseus.tufts.edu/api/aa_3918",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3918",
   "type": "Manifest",
   "label": {
     "en": [
       "Thasos"
     ]
   },
-  "metadata": [],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0542/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0542",
+      "type": "Image"
+    }
+  ],
   "items": [
     {
-      "id": "http://example.org/iiif/49600",
+      "id": "http://example.org/iiif/49438",
+      "type": "Canvas",
+      "height": 349,
+      "width": 569,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49440",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49439",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0542/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 349,
+                "width": 569,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0542",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49438"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49441",
+      "type": "Canvas",
+      "height": 392,
+      "width": 574,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49443",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49442",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0543/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 392,
+                "width": 574,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0543",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49441"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49444",
+      "type": "Canvas",
+      "height": 375,
+      "width": 571,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49446",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49445",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0544/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 375,
+                "width": 571,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0544",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49444"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49447",
+      "type": "Canvas",
+      "height": 375,
+      "width": 557,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49449",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49448",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0545/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 375,
+                "width": 557,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0545",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49447"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49450",
       "type": "Canvas",
       "height": 365,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/49602",
+          "id": "http://example.org/iiif/49452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49601",
+              "id": "http://example.org/iiif/49451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -37,24 +192,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49600"
+              "target": "http://example.org/iiif/49450"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49603",
+      "id": "http://example.org/iiif/49453",
       "type": "Canvas",
       "height": 419,
       "width": 337,
       "items": [
         {
-          "id": "http://example.org/iiif/49605",
+          "id": "http://example.org/iiif/49455",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49604",
+              "id": "http://example.org/iiif/49454",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -71,24 +226,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49603"
+              "target": "http://example.org/iiif/49453"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49606",
+      "id": "http://example.org/iiif/49456",
       "type": "Canvas",
       "height": 415,
       "width": 299,
       "items": [
         {
-          "id": "http://example.org/iiif/49608",
+          "id": "http://example.org/iiif/49458",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49607",
+              "id": "http://example.org/iiif/49457",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -105,24 +260,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49606"
+              "target": "http://example.org/iiif/49456"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49609",
+      "id": "http://example.org/iiif/49459",
       "type": "Canvas",
       "height": 416,
       "width": 302,
       "items": [
         {
-          "id": "http://example.org/iiif/49611",
+          "id": "http://example.org/iiif/49461",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49610",
+              "id": "http://example.org/iiif/49460",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -139,24 +294,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49609"
+              "target": "http://example.org/iiif/49459"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49612",
+      "id": "http://example.org/iiif/49462",
       "type": "Canvas",
       "height": 367,
       "width": 548,
       "items": [
         {
-          "id": "http://example.org/iiif/49614",
+          "id": "http://example.org/iiif/49464",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49613",
+              "id": "http://example.org/iiif/49463",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -173,24 +328,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49612"
+              "target": "http://example.org/iiif/49462"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49615",
+      "id": "http://example.org/iiif/49465",
       "type": "Canvas",
       "height": 411,
       "width": 301,
       "items": [
         {
-          "id": "http://example.org/iiif/49617",
+          "id": "http://example.org/iiif/49467",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49616",
+              "id": "http://example.org/iiif/49466",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -207,24 +362,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49615"
+              "target": "http://example.org/iiif/49465"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49618",
+      "id": "http://example.org/iiif/49468",
       "type": "Canvas",
       "height": 416,
       "width": 215,
       "items": [
         {
-          "id": "http://example.org/iiif/49620",
+          "id": "http://example.org/iiif/49470",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49619",
+              "id": "http://example.org/iiif/49469",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -241,24 +396,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49618"
+              "target": "http://example.org/iiif/49468"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49621",
+      "id": "http://example.org/iiif/49471",
       "type": "Canvas",
       "height": 416,
       "width": 306,
       "items": [
         {
-          "id": "http://example.org/iiif/49623",
+          "id": "http://example.org/iiif/49473",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49622",
+              "id": "http://example.org/iiif/49472",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -275,24 +430,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49621"
+              "target": "http://example.org/iiif/49471"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49624",
+      "id": "http://example.org/iiif/49474",
       "type": "Canvas",
       "height": 415,
       "width": 244,
       "items": [
         {
-          "id": "http://example.org/iiif/49626",
+          "id": "http://example.org/iiif/49476",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49625",
+              "id": "http://example.org/iiif/49475",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -309,24 +464,92 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49624"
+              "target": "http://example.org/iiif/49474"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49627",
+      "id": "http://example.org/iiif/49477",
+      "type": "Canvas",
+      "height": 383,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49479",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49478",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0555/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 383,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0555",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49477"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49480",
+      "type": "Canvas",
+      "height": 273,
+      "width": 429,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49482",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49481",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0729/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 273,
+                "width": 429,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0729",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49480"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49483",
       "type": "Canvas",
       "height": 1605,
       "width": 3667,
       "items": [
         {
-          "id": "http://example.org/iiif/49629",
+          "id": "http://example.org/iiif/49485",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49628",
+              "id": "http://example.org/iiif/49484",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -343,24 +566,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49627"
+              "target": "http://example.org/iiif/49483"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49630",
+      "id": "http://example.org/iiif/49486",
       "type": "Canvas",
       "height": 2501,
       "width": 3695,
       "items": [
         {
-          "id": "http://example.org/iiif/49632",
+          "id": "http://example.org/iiif/49488",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49631",
+              "id": "http://example.org/iiif/49487",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -377,24 +600,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49630"
+              "target": "http://example.org/iiif/49486"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49633",
+      "id": "http://example.org/iiif/49489",
       "type": "Canvas",
       "height": 2229,
       "width": 3696,
       "items": [
         {
-          "id": "http://example.org/iiif/49635",
+          "id": "http://example.org/iiif/49491",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49634",
+              "id": "http://example.org/iiif/49490",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -411,24 +634,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49633"
+              "target": "http://example.org/iiif/49489"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49636",
+      "id": "http://example.org/iiif/49492",
       "type": "Canvas",
       "height": 2489,
       "width": 3701,
       "items": [
         {
-          "id": "http://example.org/iiif/49638",
+          "id": "http://example.org/iiif/49494",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49637",
+              "id": "http://example.org/iiif/49493",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -445,24 +668,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49636"
+              "target": "http://example.org/iiif/49492"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49639",
+      "id": "http://example.org/iiif/49495",
       "type": "Canvas",
       "height": 2465,
       "width": 3701,
       "items": [
         {
-          "id": "http://example.org/iiif/49641",
+          "id": "http://example.org/iiif/49497",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49640",
+              "id": "http://example.org/iiif/49496",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -479,24 +702,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49639"
+              "target": "http://example.org/iiif/49495"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49642",
+      "id": "http://example.org/iiif/49498",
       "type": "Canvas",
       "height": 2459,
       "width": 3677,
       "items": [
         {
-          "id": "http://example.org/iiif/49644",
+          "id": "http://example.org/iiif/49500",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49643",
+              "id": "http://example.org/iiif/49499",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -513,24 +736,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49642"
+              "target": "http://example.org/iiif/49498"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49645",
+      "id": "http://example.org/iiif/49501",
       "type": "Canvas",
       "height": 2453,
       "width": 3701,
       "items": [
         {
-          "id": "http://example.org/iiif/49647",
+          "id": "http://example.org/iiif/49503",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49646",
+              "id": "http://example.org/iiif/49502",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -547,24 +770,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49645"
+              "target": "http://example.org/iiif/49501"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49648",
+      "id": "http://example.org/iiif/49504",
       "type": "Canvas",
       "height": 2163,
       "width": 3695,
       "items": [
         {
-          "id": "http://example.org/iiif/49650",
+          "id": "http://example.org/iiif/49506",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49649",
+              "id": "http://example.org/iiif/49505",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -581,24 +804,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49648"
+              "target": "http://example.org/iiif/49504"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49651",
+      "id": "http://example.org/iiif/49507",
       "type": "Canvas",
       "height": 2483,
       "width": 3701,
       "items": [
         {
-          "id": "http://example.org/iiif/49653",
+          "id": "http://example.org/iiif/49509",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49652",
+              "id": "http://example.org/iiif/49508",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -615,24 +838,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49651"
+              "target": "http://example.org/iiif/49507"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49654",
+      "id": "http://example.org/iiif/49510",
       "type": "Canvas",
       "height": 2318,
       "width": 3285,
       "items": [
         {
-          "id": "http://example.org/iiif/49656",
+          "id": "http://example.org/iiif/49512",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49655",
+              "id": "http://example.org/iiif/49511",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -649,24 +872,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49654"
+              "target": "http://example.org/iiif/49510"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49657",
+      "id": "http://example.org/iiif/49513",
       "type": "Canvas",
       "height": 2459,
       "width": 3701,
       "items": [
         {
-          "id": "http://example.org/iiif/49659",
+          "id": "http://example.org/iiif/49515",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49658",
+              "id": "http://example.org/iiif/49514",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -683,24 +906,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49657"
+              "target": "http://example.org/iiif/49513"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49660",
+      "id": "http://example.org/iiif/49516",
       "type": "Canvas",
       "height": 1607,
       "width": 3707,
       "items": [
         {
-          "id": "http://example.org/iiif/49662",
+          "id": "http://example.org/iiif/49518",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49661",
+              "id": "http://example.org/iiif/49517",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -717,24 +940,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49660"
+              "target": "http://example.org/iiif/49516"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49663",
+      "id": "http://example.org/iiif/49519",
       "type": "Canvas",
       "height": 2453,
       "width": 3665,
       "items": [
         {
-          "id": "http://example.org/iiif/49665",
+          "id": "http://example.org/iiif/49521",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49664",
+              "id": "http://example.org/iiif/49520",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -751,24 +974,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49663"
+              "target": "http://example.org/iiif/49519"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49666",
+      "id": "http://example.org/iiif/49522",
       "type": "Canvas",
       "height": 2423,
       "width": 3689,
       "items": [
         {
-          "id": "http://example.org/iiif/49668",
+          "id": "http://example.org/iiif/49524",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49667",
+              "id": "http://example.org/iiif/49523",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -785,24 +1008,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49666"
+              "target": "http://example.org/iiif/49522"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49669",
+      "id": "http://example.org/iiif/49525",
       "type": "Canvas",
       "height": 2474,
       "width": 3366,
       "items": [
         {
-          "id": "http://example.org/iiif/49671",
+          "id": "http://example.org/iiif/49527",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49670",
+              "id": "http://example.org/iiif/49526",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -819,24 +1042,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49669"
+              "target": "http://example.org/iiif/49525"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49672",
+      "id": "http://example.org/iiif/49528",
       "type": "Canvas",
       "height": 353,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49674",
+          "id": "http://example.org/iiif/49530",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49673",
+              "id": "http://example.org/iiif/49529",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -853,24 +1076,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49672"
+              "target": "http://example.org/iiif/49528"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49675",
+      "id": "http://example.org/iiif/49531",
       "type": "Canvas",
       "height": 353,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49677",
+          "id": "http://example.org/iiif/49533",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49676",
+              "id": "http://example.org/iiif/49532",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -887,24 +1110,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49675"
+              "target": "http://example.org/iiif/49531"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49678",
+      "id": "http://example.org/iiif/49534",
       "type": "Canvas",
       "height": 353,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49680",
+          "id": "http://example.org/iiif/49536",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49679",
+              "id": "http://example.org/iiif/49535",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -921,24 +1144,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49678"
+              "target": "http://example.org/iiif/49534"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49681",
+      "id": "http://example.org/iiif/49537",
       "type": "Canvas",
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49683",
+          "id": "http://example.org/iiif/49539",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49682",
+              "id": "http://example.org/iiif/49538",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -955,24 +1178,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49681"
+              "target": "http://example.org/iiif/49537"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49684",
+      "id": "http://example.org/iiif/49540",
       "type": "Canvas",
       "height": 344,
       "width": 516,
       "items": [
         {
-          "id": "http://example.org/iiif/49686",
+          "id": "http://example.org/iiif/49542",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49685",
+              "id": "http://example.org/iiif/49541",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -989,24 +1212,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49684"
+              "target": "http://example.org/iiif/49540"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49687",
+      "id": "http://example.org/iiif/49543",
       "type": "Canvas",
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49689",
+          "id": "http://example.org/iiif/49545",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49688",
+              "id": "http://example.org/iiif/49544",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1023,24 +1246,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49687"
+              "target": "http://example.org/iiif/49543"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49690",
+      "id": "http://example.org/iiif/49546",
       "type": "Canvas",
       "height": 350,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49692",
+          "id": "http://example.org/iiif/49548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49691",
+              "id": "http://example.org/iiif/49547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1057,24 +1280,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49690"
+              "target": "http://example.org/iiif/49546"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49693",
+      "id": "http://example.org/iiif/49549",
       "type": "Canvas",
       "height": 347,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49695",
+          "id": "http://example.org/iiif/49551",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49694",
+              "id": "http://example.org/iiif/49550",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1091,24 +1314,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49693"
+              "target": "http://example.org/iiif/49549"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49696",
+      "id": "http://example.org/iiif/49552",
       "type": "Canvas",
       "height": 349,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49698",
+          "id": "http://example.org/iiif/49554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49697",
+              "id": "http://example.org/iiif/49553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1125,24 +1348,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49696"
+              "target": "http://example.org/iiif/49552"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49699",
+      "id": "http://example.org/iiif/49555",
       "type": "Canvas",
       "height": 348,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49701",
+          "id": "http://example.org/iiif/49557",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49700",
+              "id": "http://example.org/iiif/49556",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1159,24 +1382,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49699"
+              "target": "http://example.org/iiif/49555"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49702",
+      "id": "http://example.org/iiif/49558",
       "type": "Canvas",
       "height": 350,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49704",
+          "id": "http://example.org/iiif/49560",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49703",
+              "id": "http://example.org/iiif/49559",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1193,24 +1416,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49702"
+              "target": "http://example.org/iiif/49558"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49705",
+      "id": "http://example.org/iiif/49561",
       "type": "Canvas",
       "height": 351,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49707",
+          "id": "http://example.org/iiif/49563",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49706",
+              "id": "http://example.org/iiif/49562",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1227,24 +1450,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49705"
+              "target": "http://example.org/iiif/49561"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49708",
+      "id": "http://example.org/iiif/49564",
       "type": "Canvas",
       "height": 353,
       "width": 524,
       "items": [
         {
-          "id": "http://example.org/iiif/49710",
+          "id": "http://example.org/iiif/49566",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49709",
+              "id": "http://example.org/iiif/49565",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1261,24 +1484,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49708"
+              "target": "http://example.org/iiif/49564"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49711",
+      "id": "http://example.org/iiif/49567",
       "type": "Canvas",
       "height": 354,
       "width": 526,
       "items": [
         {
-          "id": "http://example.org/iiif/49713",
+          "id": "http://example.org/iiif/49569",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49712",
+              "id": "http://example.org/iiif/49568",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1295,24 +1518,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49711"
+              "target": "http://example.org/iiif/49567"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49714",
+      "id": "http://example.org/iiif/49570",
       "type": "Canvas",
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49716",
+          "id": "http://example.org/iiif/49572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49715",
+              "id": "http://example.org/iiif/49571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1329,24 +1552,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49714"
+              "target": "http://example.org/iiif/49570"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49717",
+      "id": "http://example.org/iiif/49573",
       "type": "Canvas",
       "height": 351,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49719",
+          "id": "http://example.org/iiif/49575",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49718",
+              "id": "http://example.org/iiif/49574",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1363,24 +1586,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49717"
+              "target": "http://example.org/iiif/49573"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49720",
+      "id": "http://example.org/iiif/49576",
       "type": "Canvas",
       "height": 348,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49722",
+          "id": "http://example.org/iiif/49578",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49721",
+              "id": "http://example.org/iiif/49577",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1397,24 +1620,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49720"
+              "target": "http://example.org/iiif/49576"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49723",
+      "id": "http://example.org/iiif/49579",
       "type": "Canvas",
       "height": 353,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49725",
+          "id": "http://example.org/iiif/49581",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49724",
+              "id": "http://example.org/iiif/49580",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1431,24 +1654,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49723"
+              "target": "http://example.org/iiif/49579"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49726",
+      "id": "http://example.org/iiif/49582",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49728",
+          "id": "http://example.org/iiif/49584",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49727",
+              "id": "http://example.org/iiif/49583",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1465,24 +1688,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49726"
+              "target": "http://example.org/iiif/49582"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49729",
+      "id": "http://example.org/iiif/49585",
       "type": "Canvas",
       "height": 352,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49731",
+          "id": "http://example.org/iiif/49587",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49730",
+              "id": "http://example.org/iiif/49586",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1499,24 +1722,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49729"
+              "target": "http://example.org/iiif/49585"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49732",
+      "id": "http://example.org/iiif/49588",
       "type": "Canvas",
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49734",
+          "id": "http://example.org/iiif/49590",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49733",
+              "id": "http://example.org/iiif/49589",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1533,24 +1756,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49732"
+              "target": "http://example.org/iiif/49588"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49735",
+      "id": "http://example.org/iiif/49591",
       "type": "Canvas",
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49737",
+          "id": "http://example.org/iiif/49593",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49736",
+              "id": "http://example.org/iiif/49592",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1567,24 +1790,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49735"
+              "target": "http://example.org/iiif/49591"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49738",
+      "id": "http://example.org/iiif/49594",
       "type": "Canvas",
       "height": 348,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49740",
+          "id": "http://example.org/iiif/49596",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49739",
+              "id": "http://example.org/iiif/49595",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1601,24 +1824,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49738"
+              "target": "http://example.org/iiif/49594"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49741",
+      "id": "http://example.org/iiif/49597",
       "type": "Canvas",
       "height": 347,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49743",
+          "id": "http://example.org/iiif/49599",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49742",
+              "id": "http://example.org/iiif/49598",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1635,24 +1858,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49741"
+              "target": "http://example.org/iiif/49597"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49744",
+      "id": "http://example.org/iiif/49600",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49746",
+          "id": "http://example.org/iiif/49602",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49745",
+              "id": "http://example.org/iiif/49601",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1669,24 +1892,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49744"
+              "target": "http://example.org/iiif/49600"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49747",
+      "id": "http://example.org/iiif/49603",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49749",
+          "id": "http://example.org/iiif/49605",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49748",
+              "id": "http://example.org/iiif/49604",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1703,24 +1926,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49747"
+              "target": "http://example.org/iiif/49603"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49750",
+      "id": "http://example.org/iiif/49606",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49752",
+          "id": "http://example.org/iiif/49608",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49751",
+              "id": "http://example.org/iiif/49607",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1737,24 +1960,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49750"
+              "target": "http://example.org/iiif/49606"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49753",
+      "id": "http://example.org/iiif/49609",
       "type": "Canvas",
       "height": 347,
       "width": 528,
       "items": [
         {
-          "id": "http://example.org/iiif/49755",
+          "id": "http://example.org/iiif/49611",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49754",
+              "id": "http://example.org/iiif/49610",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1771,24 +1994,92 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49753"
+              "target": "http://example.org/iiif/49609"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49756",
+      "id": "http://example.org/iiif/49612",
+      "type": "Canvas",
+      "height": 347,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49614",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49613",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0335/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0335",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49615",
+      "type": "Canvas",
+      "height": 347,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49617",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49616",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0336/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0336",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49615"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49618",
       "type": "Canvas",
       "height": 338,
       "width": 528,
       "items": [
         {
-          "id": "http://example.org/iiif/49758",
+          "id": "http://example.org/iiif/49620",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49757",
+              "id": "http://example.org/iiif/49619",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1805,24 +2096,704 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49756"
+              "target": "http://example.org/iiif/49618"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49759",
+      "id": "http://example.org/iiif/49621",
+      "type": "Canvas",
+      "height": 345,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49623",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49622",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0338/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 345,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0338",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49621"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49624",
+      "type": "Canvas",
+      "height": 346,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49626",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49625",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0339/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 346,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0339",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49624"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49627",
+      "type": "Canvas",
+      "height": 347,
+      "width": 527,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49629",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49628",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0340/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 527,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0340",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49627"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49630",
+      "type": "Canvas",
+      "height": 347,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49632",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49631",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0341/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0341",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49630"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49633",
+      "type": "Canvas",
+      "height": 348,
+      "width": 528,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49635",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49634",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0342/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 348,
+                "width": 528,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0342",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49633"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49636",
+      "type": "Canvas",
+      "height": 351,
+      "width": 526,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49638",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49637",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0343/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 526,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0343",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49639",
+      "type": "Canvas",
+      "height": 355,
+      "width": 514,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49641",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49640",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0344/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 355,
+                "width": 514,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0344",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49639"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49642",
+      "type": "Canvas",
+      "height": 351,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49644",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49643",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0345/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0345",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49642"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49645",
+      "type": "Canvas",
+      "height": 355,
+      "width": 535,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49647",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49646",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0346/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 355,
+                "width": 535,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0346",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49645"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49648",
+      "type": "Canvas",
+      "height": 352,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49650",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49649",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0347/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 352,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0347",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49648"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49651",
+      "type": "Canvas",
+      "height": 355,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49653",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49652",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0348/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 355,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0348",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49651"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49654",
+      "type": "Canvas",
+      "height": 351,
+      "width": 527,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49656",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49655",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0349/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 527,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0349",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49654"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49657",
+      "type": "Canvas",
+      "height": 353,
+      "width": 527,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49659",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49658",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0350/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 353,
+                "width": 527,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0350",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49657"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49660",
+      "type": "Canvas",
+      "height": 354,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49662",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49661",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0351/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 354,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0351",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49660"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49663",
+      "type": "Canvas",
+      "height": 354,
+      "width": 510,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49665",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49664",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0352/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 354,
+                "width": 510,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0352",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49663"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49666",
+      "type": "Canvas",
+      "height": 351,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49668",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49667",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0353/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0353",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49666"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49669",
+      "type": "Canvas",
+      "height": 354,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49671",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49670",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0354/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 354,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0354",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49669"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49672",
+      "type": "Canvas",
+      "height": 347,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49674",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49673",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0355/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0355",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49672"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49675",
+      "type": "Canvas",
+      "height": 347,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49677",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49676",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0356/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0356",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49675"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49678",
+      "type": "Canvas",
+      "height": 346,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49680",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49679",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0357/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 346,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0357",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49678"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49681",
       "type": "Canvas",
       "height": 354,
       "width": 528,
       "items": [
         {
-          "id": "http://example.org/iiif/49761",
+          "id": "http://example.org/iiif/49683",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49760",
+              "id": "http://example.org/iiif/49682",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1839,24 +2810,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49759"
+              "target": "http://example.org/iiif/49681"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49762",
+      "id": "http://example.org/iiif/49684",
       "type": "Canvas",
       "height": 349,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/49764",
+          "id": "http://example.org/iiif/49686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49763",
+              "id": "http://example.org/iiif/49685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1873,24 +2844,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49762"
+              "target": "http://example.org/iiif/49684"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49765",
+      "id": "http://example.org/iiif/49687",
       "type": "Canvas",
       "height": 346,
       "width": 528,
       "items": [
         {
-          "id": "http://example.org/iiif/49767",
+          "id": "http://example.org/iiif/49689",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49766",
+              "id": "http://example.org/iiif/49688",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1907,24 +2878,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49765"
+              "target": "http://example.org/iiif/49687"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49768",
+      "id": "http://example.org/iiif/49690",
       "type": "Canvas",
       "height": 352,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49770",
+          "id": "http://example.org/iiif/49692",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49769",
+              "id": "http://example.org/iiif/49691",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1941,24 +2912,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49768"
+              "target": "http://example.org/iiif/49690"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49771",
+      "id": "http://example.org/iiif/49693",
       "type": "Canvas",
       "height": 351,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49773",
+          "id": "http://example.org/iiif/49695",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49772",
+              "id": "http://example.org/iiif/49694",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1975,24 +2946,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49771"
+              "target": "http://example.org/iiif/49693"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49774",
+      "id": "http://example.org/iiif/49696",
       "type": "Canvas",
       "height": 351,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49776",
+          "id": "http://example.org/iiif/49698",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49775",
+              "id": "http://example.org/iiif/49697",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2009,24 +2980,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49774"
+              "target": "http://example.org/iiif/49696"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49777",
+      "id": "http://example.org/iiif/49699",
       "type": "Canvas",
       "height": 351,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49779",
+          "id": "http://example.org/iiif/49701",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49778",
+              "id": "http://example.org/iiif/49700",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2043,24 +3014,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49777"
+              "target": "http://example.org/iiif/49699"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49780",
+      "id": "http://example.org/iiif/49702",
       "type": "Canvas",
       "height": 343,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49782",
+          "id": "http://example.org/iiif/49704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49781",
+              "id": "http://example.org/iiif/49703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2077,24 +3048,58 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49780"
+              "target": "http://example.org/iiif/49702"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49783",
+      "id": "http://example.org/iiif/49705",
+      "type": "Canvas",
+      "height": 348,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49707",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49706",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0366/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 348,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0366",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49705"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49708",
       "type": "Canvas",
       "height": 351,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49785",
+          "id": "http://example.org/iiif/49710",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49784",
+              "id": "http://example.org/iiif/49709",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2111,24 +3116,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49783"
+              "target": "http://example.org/iiif/49708"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49786",
+      "id": "http://example.org/iiif/49711",
       "type": "Canvas",
       "height": 351,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49788",
+          "id": "http://example.org/iiif/49713",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49787",
+              "id": "http://example.org/iiif/49712",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2145,24 +3150,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49786"
+              "target": "http://example.org/iiif/49711"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49789",
+      "id": "http://example.org/iiif/49714",
       "type": "Canvas",
       "height": 353,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49791",
+          "id": "http://example.org/iiif/49716",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49790",
+              "id": "http://example.org/iiif/49715",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2179,24 +3184,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49789"
+              "target": "http://example.org/iiif/49714"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49792",
+      "id": "http://example.org/iiif/49717",
       "type": "Canvas",
       "height": 357,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49794",
+          "id": "http://example.org/iiif/49719",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49793",
+              "id": "http://example.org/iiif/49718",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2213,24 +3218,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49792"
+              "target": "http://example.org/iiif/49717"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49795",
+      "id": "http://example.org/iiif/49720",
       "type": "Canvas",
       "height": 296,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49797",
+          "id": "http://example.org/iiif/49722",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49796",
+              "id": "http://example.org/iiif/49721",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2247,24 +3252,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49795"
+              "target": "http://example.org/iiif/49720"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49798",
+      "id": "http://example.org/iiif/49723",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49800",
+          "id": "http://example.org/iiif/49725",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49799",
+              "id": "http://example.org/iiif/49724",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2281,24 +3286,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49798"
+              "target": "http://example.org/iiif/49723"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49801",
+      "id": "http://example.org/iiif/49726",
       "type": "Canvas",
       "height": 352,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/49803",
+          "id": "http://example.org/iiif/49728",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49802",
+              "id": "http://example.org/iiif/49727",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2315,24 +3320,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49801"
+              "target": "http://example.org/iiif/49726"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49804",
+      "id": "http://example.org/iiif/49729",
       "type": "Canvas",
       "height": 353,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49806",
+          "id": "http://example.org/iiif/49731",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49805",
+              "id": "http://example.org/iiif/49730",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2349,24 +3354,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49804"
+              "target": "http://example.org/iiif/49729"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49807",
+      "id": "http://example.org/iiif/49732",
       "type": "Canvas",
       "height": 352,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49809",
+          "id": "http://example.org/iiif/49734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49808",
+              "id": "http://example.org/iiif/49733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2383,24 +3388,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49807"
+              "target": "http://example.org/iiif/49732"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49810",
+      "id": "http://example.org/iiif/49735",
       "type": "Canvas",
       "height": 352,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49812",
+          "id": "http://example.org/iiif/49737",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49811",
+              "id": "http://example.org/iiif/49736",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2417,24 +3422,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49810"
+              "target": "http://example.org/iiif/49735"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49813",
+      "id": "http://example.org/iiif/49738",
       "type": "Canvas",
       "height": 352,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49815",
+          "id": "http://example.org/iiif/49740",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49814",
+              "id": "http://example.org/iiif/49739",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2451,24 +3456,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49813"
+              "target": "http://example.org/iiif/49738"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49816",
+      "id": "http://example.org/iiif/49741",
       "type": "Canvas",
       "height": 351,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49818",
+          "id": "http://example.org/iiif/49743",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49817",
+              "id": "http://example.org/iiif/49742",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2485,24 +3490,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49816"
+              "target": "http://example.org/iiif/49741"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49819",
+      "id": "http://example.org/iiif/49744",
       "type": "Canvas",
       "height": 346,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49821",
+          "id": "http://example.org/iiif/49746",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49820",
+              "id": "http://example.org/iiif/49745",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2519,24 +3524,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49819"
+              "target": "http://example.org/iiif/49744"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49822",
+      "id": "http://example.org/iiif/49747",
       "type": "Canvas",
       "height": 352,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49824",
+          "id": "http://example.org/iiif/49749",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49823",
+              "id": "http://example.org/iiif/49748",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2553,24 +3558,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49822"
+              "target": "http://example.org/iiif/49747"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49825",
+      "id": "http://example.org/iiif/49750",
       "type": "Canvas",
       "height": 352,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49827",
+          "id": "http://example.org/iiif/49752",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49826",
+              "id": "http://example.org/iiif/49751",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2587,24 +3592,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49825"
+              "target": "http://example.org/iiif/49750"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49828",
+      "id": "http://example.org/iiif/49753",
       "type": "Canvas",
       "height": 351,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49830",
+          "id": "http://example.org/iiif/49755",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49829",
+              "id": "http://example.org/iiif/49754",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2621,24 +3626,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49828"
+              "target": "http://example.org/iiif/49753"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49831",
+      "id": "http://example.org/iiif/49756",
       "type": "Canvas",
       "height": 350,
       "width": 529,
       "items": [
         {
-          "id": "http://example.org/iiif/49833",
+          "id": "http://example.org/iiif/49758",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49832",
+              "id": "http://example.org/iiif/49757",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2655,24 +3660,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49831"
+              "target": "http://example.org/iiif/49756"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49834",
+      "id": "http://example.org/iiif/49759",
       "type": "Canvas",
       "height": 349,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49836",
+          "id": "http://example.org/iiif/49761",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49835",
+              "id": "http://example.org/iiif/49760",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2689,24 +3694,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49834"
+              "target": "http://example.org/iiif/49759"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49837",
+      "id": "http://example.org/iiif/49762",
       "type": "Canvas",
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49839",
+          "id": "http://example.org/iiif/49764",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49838",
+              "id": "http://example.org/iiif/49763",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2723,24 +3728,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49837"
+              "target": "http://example.org/iiif/49762"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49840",
+      "id": "http://example.org/iiif/49765",
       "type": "Canvas",
       "height": 352,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49842",
+          "id": "http://example.org/iiif/49767",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49841",
+              "id": "http://example.org/iiif/49766",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2757,24 +3762,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49840"
+              "target": "http://example.org/iiif/49765"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49843",
+      "id": "http://example.org/iiif/49768",
       "type": "Canvas",
       "height": 345,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49845",
+          "id": "http://example.org/iiif/49770",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49844",
+              "id": "http://example.org/iiif/49769",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2791,24 +3796,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49843"
+              "target": "http://example.org/iiif/49768"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49846",
+      "id": "http://example.org/iiif/49771",
       "type": "Canvas",
       "height": 351,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/49848",
+          "id": "http://example.org/iiif/49773",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49847",
+              "id": "http://example.org/iiif/49772",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2825,24 +3830,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49846"
+              "target": "http://example.org/iiif/49771"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49849",
+      "id": "http://example.org/iiif/49774",
       "type": "Canvas",
       "height": 349,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49851",
+          "id": "http://example.org/iiif/49776",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49850",
+              "id": "http://example.org/iiif/49775",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2859,24 +3864,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49849"
+              "target": "http://example.org/iiif/49774"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49852",
+      "id": "http://example.org/iiif/49777",
       "type": "Canvas",
       "height": 349,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49854",
+          "id": "http://example.org/iiif/49779",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49853",
+              "id": "http://example.org/iiif/49778",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2893,24 +3898,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49852"
+              "target": "http://example.org/iiif/49777"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49855",
+      "id": "http://example.org/iiif/49780",
       "type": "Canvas",
       "height": 348,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49857",
+          "id": "http://example.org/iiif/49782",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49856",
+              "id": "http://example.org/iiif/49781",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2927,24 +3932,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49855"
+              "target": "http://example.org/iiif/49780"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49858",
+      "id": "http://example.org/iiif/49783",
       "type": "Canvas",
       "height": 349,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49860",
+          "id": "http://example.org/iiif/49785",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49859",
+              "id": "http://example.org/iiif/49784",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2961,24 +3966,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49858"
+              "target": "http://example.org/iiif/49783"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49861",
+      "id": "http://example.org/iiif/49786",
       "type": "Canvas",
       "height": 349,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49863",
+          "id": "http://example.org/iiif/49788",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49862",
+              "id": "http://example.org/iiif/49787",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2995,24 +4000,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49861"
+              "target": "http://example.org/iiif/49786"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49864",
+      "id": "http://example.org/iiif/49789",
       "type": "Canvas",
       "height": 349,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49866",
+          "id": "http://example.org/iiif/49791",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49865",
+              "id": "http://example.org/iiif/49790",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3029,24 +4034,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49864"
+              "target": "http://example.org/iiif/49789"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49867",
+      "id": "http://example.org/iiif/49792",
       "type": "Canvas",
       "height": 347,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49869",
+          "id": "http://example.org/iiif/49794",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49868",
+              "id": "http://example.org/iiif/49793",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3063,24 +4068,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49867"
+              "target": "http://example.org/iiif/49792"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49870",
+      "id": "http://example.org/iiif/49795",
       "type": "Canvas",
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49872",
+          "id": "http://example.org/iiif/49797",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49871",
+              "id": "http://example.org/iiif/49796",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3097,24 +4102,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49870"
+              "target": "http://example.org/iiif/49795"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49873",
+      "id": "http://example.org/iiif/49798",
       "type": "Canvas",
       "height": 348,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49875",
+          "id": "http://example.org/iiif/49800",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49874",
+              "id": "http://example.org/iiif/49799",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3131,24 +4136,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49873"
+              "target": "http://example.org/iiif/49798"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49876",
+      "id": "http://example.org/iiif/49801",
       "type": "Canvas",
       "height": 349,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49878",
+          "id": "http://example.org/iiif/49803",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49877",
+              "id": "http://example.org/iiif/49802",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3165,24 +4170,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49876"
+              "target": "http://example.org/iiif/49801"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49879",
+      "id": "http://example.org/iiif/49804",
       "type": "Canvas",
       "height": 346,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49881",
+          "id": "http://example.org/iiif/49806",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49880",
+              "id": "http://example.org/iiif/49805",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3199,24 +4204,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49879"
+              "target": "http://example.org/iiif/49804"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49882",
+      "id": "http://example.org/iiif/49807",
       "type": "Canvas",
       "height": 347,
       "width": 528,
       "items": [
         {
-          "id": "http://example.org/iiif/49884",
+          "id": "http://example.org/iiif/49809",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49883",
+              "id": "http://example.org/iiif/49808",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3233,24 +4238,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49882"
+              "target": "http://example.org/iiif/49807"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49885",
+      "id": "http://example.org/iiif/49810",
       "type": "Canvas",
       "height": 350,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/49887",
+          "id": "http://example.org/iiif/49812",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49886",
+              "id": "http://example.org/iiif/49811",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3267,24 +4272,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49885"
+              "target": "http://example.org/iiif/49810"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49888",
+      "id": "http://example.org/iiif/49813",
       "type": "Canvas",
       "height": 347,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49890",
+          "id": "http://example.org/iiif/49815",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49889",
+              "id": "http://example.org/iiif/49814",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3301,24 +4306,58 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49888"
+              "target": "http://example.org/iiif/49813"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49891",
+      "id": "http://example.org/iiif/49816",
+      "type": "Canvas",
+      "height": 350,
+      "width": 536,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49818",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49817",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0403/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 350,
+                "width": 536,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0403",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49816"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49819",
       "type": "Canvas",
       "height": 348,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49893",
+          "id": "http://example.org/iiif/49821",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49892",
+              "id": "http://example.org/iiif/49820",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3335,24 +4374,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49891"
+              "target": "http://example.org/iiif/49819"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49894",
+      "id": "http://example.org/iiif/49822",
       "type": "Canvas",
       "height": 349,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49896",
+          "id": "http://example.org/iiif/49824",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49895",
+              "id": "http://example.org/iiif/49823",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3369,24 +4408,92 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49894"
+              "target": "http://example.org/iiif/49822"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49897",
+      "id": "http://example.org/iiif/49825",
+      "type": "Canvas",
+      "height": 350,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49827",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49826",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0406/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 350,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0406",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49825"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49828",
+      "type": "Canvas",
+      "height": 350,
+      "width": 532,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49830",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49829",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0407/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 350,
+                "width": 532,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0407",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49828"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49831",
       "type": "Canvas",
       "height": 244,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/49899",
+          "id": "http://example.org/iiif/49833",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49898",
+              "id": "http://example.org/iiif/49832",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3403,24 +4510,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49897"
+              "target": "http://example.org/iiif/49831"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49900",
+      "id": "http://example.org/iiif/49834",
       "type": "Canvas",
       "height": 353,
       "width": 232,
       "items": [
         {
-          "id": "http://example.org/iiif/49902",
+          "id": "http://example.org/iiif/49836",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49901",
+              "id": "http://example.org/iiif/49835",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3437,24 +4544,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49900"
+              "target": "http://example.org/iiif/49834"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49903",
+      "id": "http://example.org/iiif/49837",
       "type": "Canvas",
       "height": 348,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49905",
+          "id": "http://example.org/iiif/49839",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49904",
+              "id": "http://example.org/iiif/49838",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3471,24 +4578,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49903"
+              "target": "http://example.org/iiif/49837"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49906",
+      "id": "http://example.org/iiif/49840",
       "type": "Canvas",
       "height": 348,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49908",
+          "id": "http://example.org/iiif/49842",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49907",
+              "id": "http://example.org/iiif/49841",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3505,24 +4612,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49906"
+              "target": "http://example.org/iiif/49840"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49909",
+      "id": "http://example.org/iiif/49843",
       "type": "Canvas",
       "height": 349,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49911",
+          "id": "http://example.org/iiif/49845",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49910",
+              "id": "http://example.org/iiif/49844",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3539,24 +4646,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49909"
+              "target": "http://example.org/iiif/49843"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49912",
+      "id": "http://example.org/iiif/49846",
       "type": "Canvas",
       "height": 349,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49914",
+          "id": "http://example.org/iiif/49848",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49913",
+              "id": "http://example.org/iiif/49847",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3573,24 +4680,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49912"
+              "target": "http://example.org/iiif/49846"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49915",
+      "id": "http://example.org/iiif/49849",
       "type": "Canvas",
       "height": 346,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49917",
+          "id": "http://example.org/iiif/49851",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49916",
+              "id": "http://example.org/iiif/49850",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3607,24 +4714,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49915"
+              "target": "http://example.org/iiif/49849"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49918",
+      "id": "http://example.org/iiif/49852",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49920",
+          "id": "http://example.org/iiif/49854",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49919",
+              "id": "http://example.org/iiif/49853",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3641,24 +4748,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49918"
+              "target": "http://example.org/iiif/49852"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49921",
+      "id": "http://example.org/iiif/49855",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49923",
+          "id": "http://example.org/iiif/49857",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49922",
+              "id": "http://example.org/iiif/49856",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3675,24 +4782,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49921"
+              "target": "http://example.org/iiif/49855"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49924",
+      "id": "http://example.org/iiif/49858",
       "type": "Canvas",
       "height": 347,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49926",
+          "id": "http://example.org/iiif/49860",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49925",
+              "id": "http://example.org/iiif/49859",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3709,24 +4816,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49924"
+              "target": "http://example.org/iiif/49858"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49927",
+      "id": "http://example.org/iiif/49861",
       "type": "Canvas",
       "height": 347,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/49929",
+          "id": "http://example.org/iiif/49863",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49928",
+              "id": "http://example.org/iiif/49862",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3743,24 +4850,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49927"
+              "target": "http://example.org/iiif/49861"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49930",
+      "id": "http://example.org/iiif/49864",
       "type": "Canvas",
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49932",
+          "id": "http://example.org/iiif/49866",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49931",
+              "id": "http://example.org/iiif/49865",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3777,24 +4884,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49930"
+              "target": "http://example.org/iiif/49864"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49933",
+      "id": "http://example.org/iiif/49867",
       "type": "Canvas",
       "height": 348,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/49935",
+          "id": "http://example.org/iiif/49869",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49934",
+              "id": "http://example.org/iiif/49868",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3811,24 +4918,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49933"
+              "target": "http://example.org/iiif/49867"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49936",
+      "id": "http://example.org/iiif/49870",
       "type": "Canvas",
       "height": 348,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49938",
+          "id": "http://example.org/iiif/49872",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49937",
+              "id": "http://example.org/iiif/49871",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3845,24 +4952,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49936"
+              "target": "http://example.org/iiif/49870"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49939",
+      "id": "http://example.org/iiif/49873",
       "type": "Canvas",
       "height": 347,
       "width": 516,
       "items": [
         {
-          "id": "http://example.org/iiif/49941",
+          "id": "http://example.org/iiif/49875",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49940",
+              "id": "http://example.org/iiif/49874",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3879,24 +4986,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49939"
+              "target": "http://example.org/iiif/49873"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49942",
+      "id": "http://example.org/iiif/49876",
       "type": "Canvas",
       "height": 343,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49944",
+          "id": "http://example.org/iiif/49878",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49943",
+              "id": "http://example.org/iiif/49877",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3913,24 +5020,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49942"
+              "target": "http://example.org/iiif/49876"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49945",
+      "id": "http://example.org/iiif/49879",
       "type": "Canvas",
       "height": 351,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49947",
+          "id": "http://example.org/iiif/49881",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49946",
+              "id": "http://example.org/iiif/49880",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3947,24 +5054,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49945"
+              "target": "http://example.org/iiif/49879"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49948",
+      "id": "http://example.org/iiif/49882",
       "type": "Canvas",
       "height": 355,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/49950",
+          "id": "http://example.org/iiif/49884",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49949",
+              "id": "http://example.org/iiif/49883",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -3981,24 +5088,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49948"
+              "target": "http://example.org/iiif/49882"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49951",
+      "id": "http://example.org/iiif/49885",
       "type": "Canvas",
       "height": 347,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/49953",
+          "id": "http://example.org/iiif/49887",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49952",
+              "id": "http://example.org/iiif/49886",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4015,24 +5122,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49951"
+              "target": "http://example.org/iiif/49885"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49954",
+      "id": "http://example.org/iiif/49888",
       "type": "Canvas",
       "height": 347,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/49956",
+          "id": "http://example.org/iiif/49890",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49955",
+              "id": "http://example.org/iiif/49889",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4049,24 +5156,92 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49954"
+              "target": "http://example.org/iiif/49888"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49957",
+      "id": "http://example.org/iiif/49891",
+      "type": "Canvas",
+      "height": 355,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49893",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49892",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0120/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 355,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0120",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49891"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49894",
+      "type": "Canvas",
+      "height": 356,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49896",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49895",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0121/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 356,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0121",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49894"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49897",
       "type": "Canvas",
       "height": 352,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/49959",
+          "id": "http://example.org/iiif/49899",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/49958",
+              "id": "http://example.org/iiif/49898",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4077,6 +5252,686 @@
                 "service": [
                   {
                     "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0174",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49897"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49900",
+      "type": "Canvas",
+      "height": 817,
+      "width": 523,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49902",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49901",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1384/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 817,
+                "width": 523,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1384",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49900"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49903",
+      "type": "Canvas",
+      "height": 524,
+      "width": 818,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49905",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49904",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1385/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 524,
+                "width": 818,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1385",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49903"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49906",
+      "type": "Canvas",
+      "height": 815,
+      "width": 523,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49908",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49907",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1386/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 815,
+                "width": 523,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1386",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49906"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49909",
+      "type": "Canvas",
+      "height": 523,
+      "width": 817,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49911",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49910",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1387/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 523,
+                "width": 817,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1387",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49909"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49912",
+      "type": "Canvas",
+      "height": 530,
+      "width": 818,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49914",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49913",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1398/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 530,
+                "width": 818,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1398",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49912"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49915",
+      "type": "Canvas",
+      "height": 522,
+      "width": 817,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49917",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49916",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1399/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 522,
+                "width": 817,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1399",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49915"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49918",
+      "type": "Canvas",
+      "height": 525,
+      "width": 819,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49920",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49919",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1400/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 525,
+                "width": 819,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1400",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49918"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49921",
+      "type": "Canvas",
+      "height": 818,
+      "width": 522,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49923",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49922",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1401/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 818,
+                "width": 522,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1401",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49921"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49924",
+      "type": "Canvas",
+      "height": 523,
+      "width": 818,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49926",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49925",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1402/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 523,
+                "width": 818,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1402",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49924"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49927",
+      "type": "Canvas",
+      "height": 819,
+      "width": 523,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49929",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49928",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1403/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 819,
+                "width": 523,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1403",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49927"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49930",
+      "type": "Canvas",
+      "height": 523,
+      "width": 817,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49932",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49931",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1404/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 523,
+                "width": 817,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1404",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49930"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49933",
+      "type": "Canvas",
+      "height": 525,
+      "width": 820,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49935",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49934",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1405/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 525,
+                "width": 820,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1405",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49933"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49936",
+      "type": "Canvas",
+      "height": 524,
+      "width": 815,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49938",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49937",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1406/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 524,
+                "width": 815,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1406",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49936"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49939",
+      "type": "Canvas",
+      "height": 525,
+      "width": 816,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49941",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49940",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1407/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 525,
+                "width": 816,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1407",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49939"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49942",
+      "type": "Canvas",
+      "height": 524,
+      "width": 820,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49944",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49943",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1408/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 524,
+                "width": 820,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1408",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49942"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49945",
+      "type": "Canvas",
+      "height": 525,
+      "width": 818,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49947",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49946",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1409/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 525,
+                "width": 818,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1409",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49945"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49948",
+      "type": "Canvas",
+      "height": 523,
+      "width": 820,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49950",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49949",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1410/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 523,
+                "width": 820,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1410",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49948"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49951",
+      "type": "Canvas",
+      "height": 524,
+      "width": 820,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49953",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49952",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1411/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 524,
+                "width": 820,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1411",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49951"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49954",
+      "type": "Canvas",
+      "height": 819,
+      "width": 523,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49956",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49955",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1412/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 819,
+                "width": 523,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1412",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/49954"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/49957",
+      "type": "Canvas",
+      "height": 815,
+      "width": 518,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49959",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49958",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1413/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 815,
+                "width": 518,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1413",
                     "type": "ImageService3",
                     "profile": "level2"
                   }
@@ -4104,13 +5959,13 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1384/full/max/0/default.jpg",
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1414/full/max/0/default.jpg",
                 "type": "Image",
                 "height": 817,
                 "width": 523,
                 "service": [
                   {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1384",
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1414",
                     "type": "ImageService3",
                     "profile": "level2"
                   }
@@ -4126,7 +5981,7 @@
     {
       "id": "http://example.org/iiif/49963",
       "type": "Canvas",
-      "height": 524,
+      "height": 521,
       "width": 818,
       "items": [
         {
@@ -4135,686 +5990,6 @@
           "items": [
             {
               "id": "http://example.org/iiif/49964",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1385/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 524,
-                "width": 818,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1385",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49963"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49966",
-      "type": "Canvas",
-      "height": 815,
-      "width": 523,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49968",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49967",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1386/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 815,
-                "width": 523,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1386",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49966"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49969",
-      "type": "Canvas",
-      "height": 523,
-      "width": 817,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49971",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49970",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1387/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 523,
-                "width": 817,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1387",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49969"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49972",
-      "type": "Canvas",
-      "height": 530,
-      "width": 818,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49974",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49973",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1398/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 530,
-                "width": 818,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1398",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49972"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49975",
-      "type": "Canvas",
-      "height": 522,
-      "width": 817,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49977",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49976",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1399/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 522,
-                "width": 817,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1399",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49975"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49978",
-      "type": "Canvas",
-      "height": 525,
-      "width": 819,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49980",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49979",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1400/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 525,
-                "width": 819,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1400",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49978"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49981",
-      "type": "Canvas",
-      "height": 818,
-      "width": 522,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49983",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49982",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1401/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 818,
-                "width": 522,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1401",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49981"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49984",
-      "type": "Canvas",
-      "height": 523,
-      "width": 818,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49986",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49985",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1402/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 523,
-                "width": 818,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1402",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49984"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49987",
-      "type": "Canvas",
-      "height": 819,
-      "width": 523,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49989",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49988",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1403/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 819,
-                "width": 523,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1403",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49987"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49990",
-      "type": "Canvas",
-      "height": 523,
-      "width": 817,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49992",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49991",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1404/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 523,
-                "width": 817,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1404",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49990"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49993",
-      "type": "Canvas",
-      "height": 525,
-      "width": 820,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49995",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49994",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1405/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 525,
-                "width": 820,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1405",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49993"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49996",
-      "type": "Canvas",
-      "height": 524,
-      "width": 815,
-      "items": [
-        {
-          "id": "http://example.org/iiif/49998",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/49997",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1406/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 524,
-                "width": 815,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1406",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49996"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/49999",
-      "type": "Canvas",
-      "height": 525,
-      "width": 816,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50001",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50000",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1407/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 525,
-                "width": 816,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1407",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/49999"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50002",
-      "type": "Canvas",
-      "height": 524,
-      "width": 820,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50004",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50003",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1408/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 524,
-                "width": 820,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1408",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50005",
-      "type": "Canvas",
-      "height": 525,
-      "width": 818,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50007",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50006",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1409/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 525,
-                "width": 818,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1409",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50005"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50008",
-      "type": "Canvas",
-      "height": 523,
-      "width": 820,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50010",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50009",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1410/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 523,
-                "width": 820,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1410",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50008"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50011",
-      "type": "Canvas",
-      "height": 524,
-      "width": 820,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50013",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50012",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1411/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 524,
-                "width": 820,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1411",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50011"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50014",
-      "type": "Canvas",
-      "height": 819,
-      "width": 523,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50016",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50015",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1412/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 819,
-                "width": 523,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1412",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50014"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50017",
-      "type": "Canvas",
-      "height": 815,
-      "width": 518,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50019",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50018",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1413/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 815,
-                "width": 518,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1413",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50017"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50020",
-      "type": "Canvas",
-      "height": 817,
-      "width": 523,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50022",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50021",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1414/full/max/0/default.jpg",
-                "type": "Image",
-                "height": 817,
-                "width": 523,
-                "service": [
-                  {
-                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.04.1414",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "format": "image/jpeg"
-              },
-              "target": "http://example.org/iiif/50020"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://example.org/iiif/50023",
-      "type": "Canvas",
-      "height": 521,
-      "width": 818,
-      "items": [
-        {
-          "id": "http://example.org/iiif/50025",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "http://example.org/iiif/50024",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4831,24 +6006,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50023"
+              "target": "http://example.org/iiif/49963"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50026",
+      "id": "http://example.org/iiif/49966",
       "type": "Canvas",
       "height": 524,
       "width": 817,
       "items": [
         {
-          "id": "http://example.org/iiif/50028",
+          "id": "http://example.org/iiif/49968",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50027",
+              "id": "http://example.org/iiif/49967",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4865,24 +6040,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50026"
+              "target": "http://example.org/iiif/49966"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50029",
+      "id": "http://example.org/iiif/49969",
       "type": "Canvas",
       "height": 818,
       "width": 523,
       "items": [
         {
-          "id": "http://example.org/iiif/50031",
+          "id": "http://example.org/iiif/49971",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50030",
+              "id": "http://example.org/iiif/49970",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4899,24 +6074,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50029"
+              "target": "http://example.org/iiif/49969"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50032",
+      "id": "http://example.org/iiif/49972",
       "type": "Canvas",
       "height": 817,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/50034",
+          "id": "http://example.org/iiif/49974",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50033",
+              "id": "http://example.org/iiif/49973",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4933,24 +6108,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50032"
+              "target": "http://example.org/iiif/49972"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50035",
+      "id": "http://example.org/iiif/49975",
       "type": "Canvas",
       "height": 818,
       "width": 519,
       "items": [
         {
-          "id": "http://example.org/iiif/50037",
+          "id": "http://example.org/iiif/49977",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50036",
+              "id": "http://example.org/iiif/49976",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -4967,24 +6142,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50035"
+              "target": "http://example.org/iiif/49975"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50038",
+      "id": "http://example.org/iiif/49978",
       "type": "Canvas",
       "height": 522,
       "width": 815,
       "items": [
         {
-          "id": "http://example.org/iiif/50040",
+          "id": "http://example.org/iiif/49980",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50039",
+              "id": "http://example.org/iiif/49979",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -5001,24 +6176,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50038"
+              "target": "http://example.org/iiif/49978"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50041",
+      "id": "http://example.org/iiif/49981",
       "type": "Canvas",
       "height": 519,
       "width": 812,
       "items": [
         {
-          "id": "http://example.org/iiif/50043",
+          "id": "http://example.org/iiif/49983",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50042",
+              "id": "http://example.org/iiif/49982",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -5035,24 +6210,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50041"
+              "target": "http://example.org/iiif/49981"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50044",
+      "id": "http://example.org/iiif/49984",
       "type": "Canvas",
       "height": 520,
       "width": 817,
       "items": [
         {
-          "id": "http://example.org/iiif/50046",
+          "id": "http://example.org/iiif/49986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50045",
+              "id": "http://example.org/iiif/49985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -5069,24 +6244,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50044"
+              "target": "http://example.org/iiif/49984"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50047",
+      "id": "http://example.org/iiif/49987",
       "type": "Canvas",
       "height": 523,
       "width": 819,
       "items": [
         {
-          "id": "http://example.org/iiif/50049",
+          "id": "http://example.org/iiif/49989",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50048",
+              "id": "http://example.org/iiif/49988",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -5103,24 +6278,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50047"
+              "target": "http://example.org/iiif/49987"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/50050",
+      "id": "http://example.org/iiif/49990",
       "type": "Canvas",
       "height": 819,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/50052",
+          "id": "http://example.org/iiif/49992",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50051",
+              "id": "http://example.org/iiif/49991",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -5137,7 +6312,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/50050"
+              "target": "http://example.org/iiif/49990"
             }
           ]
         }

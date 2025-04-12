@@ -1,26 +1,79 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://www.perseus.tufts.edu/api/aa_185",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_185",
   "type": "Manifest",
   "label": {
     "en": [
       "Eleusis, Hiera Oikia"
     ]
   },
-  "metadata": [],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0228/full/100,/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0228",
+      "type": "Image"
+    }
+  ],
   "items": [
     {
-      "id": "http://example.org/iiif/60172",
+      "id": "http://example.org/iiif/60340",
+      "type": "Canvas",
+      "height": 710,
+      "width": 1058,
+      "items": [
+        {
+          "id": "http://example.org/iiif/60342",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/60341",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0228/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 710,
+                "width": 1058,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0228",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/60340"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/60343",
       "type": "Canvas",
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/60174",
+          "id": "http://example.org/iiif/60345",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60173",
+              "id": "http://example.org/iiif/60344",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -37,24 +90,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60172"
+              "target": "http://example.org/iiif/60343"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60175",
+      "id": "http://example.org/iiif/60346",
       "type": "Canvas",
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/60177",
+          "id": "http://example.org/iiif/60348",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60176",
+              "id": "http://example.org/iiif/60347",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -71,7 +124,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60175"
+              "target": "http://example.org/iiif/60346"
             }
           ]
         }

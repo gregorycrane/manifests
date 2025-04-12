@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://www.perseus.tufts.edu/api/aa_1343",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1343",
   "type": "Manifest",
   "label": {
     "en": [
@@ -29,17 +29,17 @@
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70795",
+      "id": "http://example.org/iiif/70948",
       "type": "Canvas",
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70797",
+          "id": "http://example.org/iiif/70950",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70796",
+              "id": "http://example.org/iiif/70949",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +56,58 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70795"
+              "target": "http://example.org/iiif/70948"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70798",
+      "id": "http://example.org/iiif/70951",
       "type": "Canvas",
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70800",
+          "id": "http://example.org/iiif/70953",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70799",
+              "id": "http://example.org/iiif/70952",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1050/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1050",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/70951"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/70954",
+      "type": "Canvas",
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/70956",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/70955",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +124,24 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70798"
+              "target": "http://example.org/iiif/70954"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70801",
+      "id": "http://example.org/iiif/70957",
       "type": "Canvas",
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70803",
+          "id": "http://example.org/iiif/70959",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70802",
+              "id": "http://example.org/iiif/70958",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +158,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70801"
+              "target": "http://example.org/iiif/70957"
             }
           ]
         }
