@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_491",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_491/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0097",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0097/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73933",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_491/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of young Dionysos, wearing an ivy wreath, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 381,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73935",
+          "id": "http://example.org/iiif/29748",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73934",
+              "id": "http://example.org/iiif/29747",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73933"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_491/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73936",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_491/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Within linear square, Herakles kneeling on right knee profile to the right, drawing bow",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73938",
+          "id": "http://example.org/iiif/29750",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73937",
+              "id": "http://example.org/iiif/29749",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73936"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_491/p2"
             }
           ]
         }

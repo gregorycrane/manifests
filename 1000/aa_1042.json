@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1042",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1042/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0185",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0185/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68740",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1042/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Sibyl",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68742",
+          "id": "http://example.org/iiif/26286",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68741",
+              "id": "http://example.org/iiif/26285",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68740"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1042/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68743",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1042/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Winged sphinx",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68745",
+          "id": "http://example.org/iiif/26288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68744",
+              "id": "http://example.org/iiif/26287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68743"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1042/p2"
             }
           ]
         }

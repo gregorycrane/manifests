@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1560",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1560/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1483",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1483/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72343",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1560/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Marcus Aurelius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72345",
+          "id": "http://example.org/iiif/28688",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72344",
+              "id": "http://example.org/iiif/28687",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72343"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1560/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72346",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1560/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Nude Hercules, with club and spear, standing within a tetrastyle temple",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72348",
+          "id": "http://example.org/iiif/28690",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72347",
+              "id": "http://example.org/iiif/28689",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72346"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1560/p2"
             }
           ]
         }

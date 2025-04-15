@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5665",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5665/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0336",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0336/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30040",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5665/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "A pyxis depicting marriage preparations: drawing of the vase with the figural scene rolled out",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 57"
+        ]
+      },
       "height": 386,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30042",
+          "id": "http://example.org/iiif/1236",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30041",
+              "id": "http://example.org/iiif/1235",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30040"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5665/p1"
             }
           ]
         }

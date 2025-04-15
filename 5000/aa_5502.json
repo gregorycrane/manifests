@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0408",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0408/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25789",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior overview: handles at sides",
+          "From Caskey & Beazley, plate CVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 172,
       "width": 471,
       "items": [
         {
-          "id": "http://example.org/iiif/25791",
+          "id": "http://example.org/iiif/4886",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25790",
+              "id": "http://example.org/iiif/4885",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25789"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25792",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Eros on horseback",
+          "From Caskey & Beazley, plate CVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 376,
       "width": 497,
       "items": [
         {
-          "id": "http://example.org/iiif/25794",
+          "id": "http://example.org/iiif/4888",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25793",
+              "id": "http://example.org/iiif/4887",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25792"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p2"
             }
           ]
         }

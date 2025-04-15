@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5172",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5172/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0517",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0517/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/16360",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3480,
       "width": 2208,
       "items": [
         {
-          "id": "http://example.org/iiif/16362",
+          "id": "http://example.org/iiif/5224",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16361",
+              "id": "http://example.org/iiif/5223",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16360"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16363",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3534,
       "width": 2214,
       "items": [
         {
-          "id": "http://example.org/iiif/16365",
+          "id": "http://example.org/iiif/5226",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16364",
+              "id": "http://example.org/iiif/5225",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16363"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16366",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: striding Athena",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2568,
       "width": 3552,
       "items": [
         {
-          "id": "http://example.org/iiif/16368",
+          "id": "http://example.org/iiif/5228",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16367",
+              "id": "http://example.org/iiif/5227",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16366"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16369",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: charioteer",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2568,
       "width": 3594,
       "items": [
         {
-          "id": "http://example.org/iiif/16371",
+          "id": "http://example.org/iiif/5230",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16370",
+              "id": "http://example.org/iiif/5229",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16369"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5172/p4"
             }
           ]
         }

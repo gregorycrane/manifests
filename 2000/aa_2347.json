@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2347",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2347/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0034",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0034/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/15274",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nike of Paionios, frontal view, Olympia",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 420,
       "width": 209,
       "items": [
         {
-          "id": "http://example.org/iiif/15276",
+          "id": "http://example.org/iiif/10184",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15275",
+              "id": "http://example.org/iiif/10183",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15274"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15277",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nike of Paionios, from left, Olympia",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 416,
       "width": 232,
       "items": [
         {
-          "id": "http://example.org/iiif/15279",
+          "id": "http://example.org/iiif/10186",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15278",
+              "id": "http://example.org/iiif/10185",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15277"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15280",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nike of Paionios, right profile, Olympia",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 418,
       "width": 247,
       "items": [
         {
-          "id": "http://example.org/iiif/15282",
+          "id": "http://example.org/iiif/10188",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15281",
+              "id": "http://example.org/iiif/10187",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15280"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15283",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nike of Paionios, Olympia",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 419,
       "width": 263,
       "items": [
         {
-          "id": "http://example.org/iiif/15285",
+          "id": "http://example.org/iiif/10190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15284",
+              "id": "http://example.org/iiif/10189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15283"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2347/p4"
             }
           ]
         }

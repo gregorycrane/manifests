@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1500",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1500/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1363",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1363/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71926",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1500/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Julius Caesar",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71928",
+          "id": "http://example.org/iiif/28410",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71927",
+              "id": "http://example.org/iiif/28409",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71926"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1500/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71929",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1500/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Venus standing, with caduceus and scepter",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71931",
+          "id": "http://example.org/iiif/28412",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71930",
+              "id": "http://example.org/iiif/28411",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71929"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1500/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1553",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1553/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1169",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1169/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72295",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Radiate bust of Gallienus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72297",
+          "id": "http://example.org/iiif/28656",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72296",
+              "id": "http://example.org/iiif/28655",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72295"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72298",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Inscription within a laurel wreath",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72300",
+          "id": "http://example.org/iiif/28658",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72299",
+              "id": "http://example.org/iiif/28657",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72298"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72301",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Severus Alexander",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72303",
+          "id": "http://example.org/iiif/28660",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72302",
+              "id": "http://example.org/iiif/28659",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72301"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72304",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Three nude athletes drawing lots; prize crown above",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72306",
+          "id": "http://example.org/iiif/28662",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72305",
+              "id": "http://example.org/iiif/28661",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72304"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1553/p4"
             }
           ]
         }

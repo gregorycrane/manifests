@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2186",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2186/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0086",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0086/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10840",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2186/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Relief from Malesina, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 356,
       "width": 321,
       "items": [
         {
-          "id": "http://example.org/iiif/10842",
+          "id": "http://example.org/iiif/7228",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10841",
+              "id": "http://example.org/iiif/7227",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10840"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2186/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10843",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2186/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Relief from Malesina, detail of head",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 353,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/10845",
+          "id": "http://example.org/iiif/7230",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10844",
+              "id": "http://example.org/iiif/7229",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10843"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2186/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10846",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2186/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Relief from Malesina, from right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 358,
       "width": 410,
       "items": [
         {
-          "id": "http://example.org/iiif/10848",
+          "id": "http://example.org/iiif/7232",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10847",
+              "id": "http://example.org/iiif/7231",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10846"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2186/p3"
             }
           ]
         }

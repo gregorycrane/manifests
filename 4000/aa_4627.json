@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.1173",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.1173/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4648",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 153,
       "width": 385,
       "items": [
         {
-          "id": "http://example.org/iiif/4650",
+          "id": "http://example.org/iiif/6650",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4649",
+              "id": "http://example.org/iiif/6649",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4648"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4651",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 160,
       "width": 398,
       "items": [
         {
-          "id": "http://example.org/iiif/4653",
+          "id": "http://example.org/iiif/6652",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4652",
+              "id": "http://example.org/iiif/6651",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4651"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4654",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 160,
       "width": 495,
       "items": [
         {
-          "id": "http://example.org/iiif/4656",
+          "id": "http://example.org/iiif/6654",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4655",
+              "id": "http://example.org/iiif/6653",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4654"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4657",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior from below: side B at top",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 335,
       "width": 435,
       "items": [
         {
-          "id": "http://example.org/iiif/4659",
+          "id": "http://example.org/iiif/6656",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4658",
+              "id": "http://example.org/iiif/6655",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4657"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4660",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Nike between a boy and a man",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 353,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/4662",
+          "id": "http://example.org/iiif/6658",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4661",
+              "id": "http://example.org/iiif/6657",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4660"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4663",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: boy on left",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 406,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/4665",
+          "id": "http://example.org/iiif/6660",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4664",
+              "id": "http://example.org/iiif/6659",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4663"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4666",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: boy on left, upper half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 345,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/4668",
+          "id": "http://example.org/iiif/6662",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4667",
+              "id": "http://example.org/iiif/6661",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4666"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4669",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Nike",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 345,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/4671",
+          "id": "http://example.org/iiif/6664",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4670",
+              "id": "http://example.org/iiif/6663",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4669"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4672",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Nike, upper half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 295,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/4674",
+          "id": "http://example.org/iiif/6666",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4673",
+              "id": "http://example.org/iiif/6665",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4672"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4675",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Nike, lower half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 353,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/4677",
+          "id": "http://example.org/iiif/6668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4676",
+              "id": "http://example.org/iiif/6667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4675"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4678",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: man on right",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 388,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/4680",
+          "id": "http://example.org/iiif/6670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4679",
+              "id": "http://example.org/iiif/6669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4678"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4681",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: man on right, upper half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 313,
       "width": 529,
       "items": [
         {
-          "id": "http://example.org/iiif/4683",
+          "id": "http://example.org/iiif/6672",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4682",
+              "id": "http://example.org/iiif/6671",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4681"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4684",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike between two youths",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 353,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4686",
+          "id": "http://example.org/iiif/6674",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4685",
+              "id": "http://example.org/iiif/6673",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4684"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4687",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boy on left",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 370,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/4689",
+          "id": "http://example.org/iiif/6676",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4688",
+              "id": "http://example.org/iiif/6675",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4687"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4690",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boy on left, upper half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 350,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4692",
+          "id": "http://example.org/iiif/6678",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4691",
+              "id": "http://example.org/iiif/6677",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4690"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4693",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 350,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4695",
+          "id": "http://example.org/iiif/6680",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4694",
+              "id": "http://example.org/iiif/6679",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4693"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4696",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, upper half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 350,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/4698",
+          "id": "http://example.org/iiif/6682",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4697",
+              "id": "http://example.org/iiif/6681",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4696"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4699",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Floral design under handle",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 353,
       "width": 545,
       "items": [
         {
-          "id": "http://example.org/iiif/4701",
+          "id": "http://example.org/iiif/6684",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4700",
+              "id": "http://example.org/iiif/6683",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4699"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4702",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: interior",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 348,
       "width": 452,
       "items": [
         {
-          "id": "http://example.org/iiif/4704",
+          "id": "http://example.org/iiif/6686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4703",
+              "id": "http://example.org/iiif/6685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4702"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4705",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: pair of athletes",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 350,
       "width": 455,
       "items": [
         {
-          "id": "http://example.org/iiif/4707",
+          "id": "http://example.org/iiif/6688",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4706",
+              "id": "http://example.org/iiif/6687",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4705"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4708",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: athletes, upper half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 355,
       "width": 548,
       "items": [
         {
-          "id": "http://example.org/iiif/4710",
+          "id": "http://example.org/iiif/6690",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4709",
+              "id": "http://example.org/iiif/6689",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4708"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4711",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: athletes, lower half",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 358,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/4713",
+          "id": "http://example.org/iiif/6692",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4712",
+              "id": "http://example.org/iiif/6691",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,7 +902,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4711"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4627/p22"
             }
           ]
         }

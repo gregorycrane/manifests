@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_740",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_740/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0173",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0173/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75454",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_740/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of the dynast, in 3/4-view to the left, wearing chlamys fastened at the neck; in right field, a dolphin",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75456",
+          "id": "http://example.org/iiif/30762",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75455",
+              "id": "http://example.org/iiif/30761",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75454"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_740/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75457",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_740/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Nude warrior with helmet, sword, and shield advancing to the right; in right field, triskeles; all in incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 369,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75459",
+          "id": "http://example.org/iiif/30764",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75458",
+              "id": "http://example.org/iiif/30763",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75457"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_740/p2"
             }
           ]
         }

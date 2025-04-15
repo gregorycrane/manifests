@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1606",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1606/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.2769",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.2769/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72727",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1606/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Volusianus",
+          "Photograph by Russell McClellan, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72729",
+          "id": "http://example.org/iiif/28944",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72728",
+              "id": "http://example.org/iiif/28943",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72727"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1606/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72730",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1606/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Three Monetae, with scales, cornucopiae, and piles of metal",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72732",
+          "id": "http://example.org/iiif/28946",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72731",
+              "id": "http://example.org/iiif/28945",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72730"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1606/p2"
             }
           ]
         }

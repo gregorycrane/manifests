@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5136",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5136/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0445",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0445/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/15991",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5136/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handles to sides",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2812,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/15993",
+          "id": "http://example.org/iiif/4978",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15992",
+              "id": "http://example.org/iiif/4977",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15991"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5136/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15994",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5136/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handles front and rear",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2480,
       "width": 2160,
       "items": [
         {
-          "id": "http://example.org/iiif/15996",
+          "id": "http://example.org/iiif/4980",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15995",
+              "id": "http://example.org/iiif/4979",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15994"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5136/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15997",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5136/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Phineus defending himself from the Harpies",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2568,
       "width": 3792,
       "items": [
         {
-          "id": "http://example.org/iiif/15999",
+          "id": "http://example.org/iiif/4982",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15998",
+              "id": "http://example.org/iiif/4981",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15997"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5136/p3"
             }
           ]
         }

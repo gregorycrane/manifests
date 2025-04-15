@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1758",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1758/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0197",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0197/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30949",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1758/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Young satyr seated on rock",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30951",
+          "id": "http://example.org/iiif/1092",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30950",
+              "id": "http://example.org/iiif/1091",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30949"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1758/p1"
             }
           ]
         }

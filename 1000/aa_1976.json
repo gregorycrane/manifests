@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.10.0150",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.10.0150/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3661",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, frontal view",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3348,
       "width": 2375,
       "items": [
         {
-          "id": "http://example.org/iiif/3663",
+          "id": "http://example.org/iiif/2442",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3662",
+              "id": "http://example.org/iiif/2441",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3661"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3664",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, from left",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3568,
       "width": 2235,
       "items": [
         {
-          "id": "http://example.org/iiif/3666",
+          "id": "http://example.org/iiif/2444",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3665",
+              "id": "http://example.org/iiif/2443",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3664"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3667",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, right profile",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3640,
       "width": 1787,
       "items": [
         {
-          "id": "http://example.org/iiif/3669",
+          "id": "http://example.org/iiif/2446",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3668",
+              "id": "http://example.org/iiif/2445",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3667"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3670",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, back view",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3336,
       "width": 2383,
       "items": [
         {
-          "id": "http://example.org/iiif/3672",
+          "id": "http://example.org/iiif/2448",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3671",
+              "id": "http://example.org/iiif/2447",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3670"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3673",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, from back right",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3576,
       "width": 2494,
       "items": [
         {
-          "id": "http://example.org/iiif/3675",
+          "id": "http://example.org/iiif/2450",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3674",
+              "id": "http://example.org/iiif/2449",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3673"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3676",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of upper torso, frontal view",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2427,
       "width": 3700,
       "items": [
         {
-          "id": "http://example.org/iiif/3678",
+          "id": "http://example.org/iiif/2452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3677",
+              "id": "http://example.org/iiif/2451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3676"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3679",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of left arm and torso with drapery",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3704,
       "width": 2499,
       "items": [
         {
-          "id": "http://example.org/iiif/3681",
+          "id": "http://example.org/iiif/2454",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3680",
+              "id": "http://example.org/iiif/2453",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3679"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3682",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of right arm with drapery",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3692,
       "width": 2255,
       "items": [
         {
-          "id": "http://example.org/iiif/3684",
+          "id": "http://example.org/iiif/2456",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3683",
+              "id": "http://example.org/iiif/2455",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3682"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3685",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of lower torso, frontal view",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2435,
       "width": 3700,
       "items": [
         {
-          "id": "http://example.org/iiif/3687",
+          "id": "http://example.org/iiif/2458",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3686",
+              "id": "http://example.org/iiif/2457",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3685"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3688",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of center of torso",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3708,
       "width": 2487,
       "items": [
         {
-          "id": "http://example.org/iiif/3690",
+          "id": "http://example.org/iiif/2460",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3689",
+              "id": "http://example.org/iiif/2459",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3688"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3691",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, right profile, arm and torso",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3705,
       "width": 2385,
       "items": [
         {
-          "id": "http://example.org/iiif/3693",
+          "id": "http://example.org/iiif/2462",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3692",
+              "id": "http://example.org/iiif/2461",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3691"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3694",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, right profile, hips",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2499,
       "width": 2352,
       "items": [
         {
-          "id": "http://example.org/iiif/3696",
+          "id": "http://example.org/iiif/2464",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3695",
+              "id": "http://example.org/iiif/2463",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3694"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3697",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of upper back",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2459,
       "width": 3716,
       "items": [
         {
-          "id": "http://example.org/iiif/3699",
+          "id": "http://example.org/iiif/2466",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3698",
+              "id": "http://example.org/iiif/2465",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3697"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3700",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of back drapery on left",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2471,
       "width": 3440,
       "items": [
         {
-          "id": "http://example.org/iiif/3702",
+          "id": "http://example.org/iiif/2468",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3701",
+              "id": "http://example.org/iiif/2467",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3700"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3703",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of drapery over buttocks",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2487,
       "width": 3708,
       "items": [
         {
-          "id": "http://example.org/iiif/3705",
+          "id": "http://example.org/iiif/2470",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3704",
+              "id": "http://example.org/iiif/2469",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3703"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3706",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ilissos Kouros, detail of back drapery on right",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3404,
       "width": 2495,
       "items": [
         {
-          "id": "http://example.org/iiif/3708",
+          "id": "http://example.org/iiif/2472",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3707",
+              "id": "http://example.org/iiif/2471",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,7 +662,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3706"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1976/p16"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5834",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5834/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -10,17 +10,23 @@
   "metadata": [],
   "items": [
     {
-      "id": "http://example.org/iiif/31234",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5834/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: two komasts",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 363,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/31236",
+          "id": "http://example.org/iiif/2032",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31235",
+              "id": "http://example.org/iiif/2031",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -37,24 +43,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31234"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5834/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31237",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5834/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos with maenads and satyrs",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 363,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/31239",
+          "id": "http://example.org/iiif/2034",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31238",
+              "id": "http://example.org/iiif/2033",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -71,7 +83,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31237"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5834/p8"
             }
           ]
         }

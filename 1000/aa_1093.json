@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1093",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1093/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0319",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0319/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69166",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1093/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Pietas seated",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69168",
+          "id": "http://example.org/iiif/26570",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69167",
+              "id": "http://example.org/iiif/26569",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69166"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1093/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69169",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1093/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Caligula, with two attendants, sacrificing before the Temple of Divus Augustus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69171",
+          "id": "http://example.org/iiif/26572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69170",
+              "id": "http://example.org/iiif/26571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69169"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1093/p2"
             }
           ]
         }

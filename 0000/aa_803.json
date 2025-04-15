@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_803",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_803/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0701",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0701/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75832",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_803/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Leukippos, profile to the right, wearing a Corinthian helmet; in left field, a hound, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 404,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75834",
+          "id": "http://example.org/iiif/31014",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75833",
+              "id": "http://example.org/iiif/31013",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75832"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_803/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75835",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_803/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Ear of barley",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 411,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75837",
+          "id": "http://example.org/iiif/31016",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75836",
+              "id": "http://example.org/iiif/31015",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75835"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_803/p2"
             }
           ]
         }

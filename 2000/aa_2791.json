@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2791",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2791/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0184",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0184/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19192",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2791/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Banquet relief; Top center: Relief with a bearded god; Top right: Fragment of a relief; Center left: Relief with Sarapis?; Center: Banquet relief; Center right: Banquet relief; Bottom left: Fragment of a relief; Bottom center: Banquet relief; Bottom right: Relief with worshippers",
+          "From Svoronos 1903-12, pl. 184"
+        ]
+      },
       "height": 550,
       "width": 464,
       "items": [
         {
-          "id": "http://example.org/iiif/19194",
+          "id": "http://example.org/iiif/12796",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19193",
+              "id": "http://example.org/iiif/12795",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19192"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2791/p1"
             }
           ]
         }

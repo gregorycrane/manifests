@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_289",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_289/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0533",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0533/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62035",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_289/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Colonnade from E, Olympia, South Stoa",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 374,
       "width": 573,
       "items": [
         {
-          "id": "http://example.org/iiif/62037",
+          "id": "http://example.org/iiif/21816",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62036",
+              "id": "http://example.org/iiif/21815",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62035"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_289/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62038",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_289/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, South Stoa",
+          "copyright C. H. Smith 1988 based on E. Mallwitz (artist), in A. Mallwitz 1972 112 fig. 87"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/62040",
+          "id": "http://example.org/iiif/21818",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62039",
+              "id": "http://example.org/iiif/21817",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62038"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_289/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62041",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_289/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Doric frieze of entablature reconstructed at stylobate level, Olympia, South Stoa",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 282,
       "width": 426,
       "items": [
         {
-          "id": "http://example.org/iiif/62043",
+          "id": "http://example.org/iiif/21820",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62042",
+              "id": "http://example.org/iiif/21819",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62041"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_289/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62044",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_289/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of Corinthian capital, Olympia, South Stoa",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 281,
       "width": 422,
       "items": [
         {
-          "id": "http://example.org/iiif/62046",
+          "id": "http://example.org/iiif/21822",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62045",
+              "id": "http://example.org/iiif/21821",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62044"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_289/p4"
             }
           ]
         }

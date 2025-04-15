@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5220",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5220/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0222",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0222/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19939",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5220/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Satyr and Pan",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3642,
       "width": 2464,
       "items": [
         {
-          "id": "http://example.org/iiif/19941",
+          "id": "http://example.org/iiif/986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19940",
+              "id": "http://example.org/iiif/985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19939"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5220/p1"
             }
           ]
         }

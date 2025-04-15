@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4841",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4841/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0380",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0380/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11587",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4841/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Strap handle: floral decoration",
+          "Photograph courtesy of the Nelson-Atkins Museum of Art, Kansas City, Missouri."
+        ]
+      },
       "height": 327,
       "width": 173,
       "items": [
         {
-          "id": "http://example.org/iiif/11589",
+          "id": "http://example.org/iiif/2042",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11588",
+              "id": "http://example.org/iiif/2041",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11587"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4841/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11590",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4841/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: maenads and satyrs",
+          "Photograph courtesy of the Nelson-Atkins Museum of Art, Kansas City, Missouri."
+        ]
+      },
       "height": 402,
       "width": 228,
       "items": [
         {
-          "id": "http://example.org/iiif/11592",
+          "id": "http://example.org/iiif/2044",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11591",
+              "id": "http://example.org/iiif/2043",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11590"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4841/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11593",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4841/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck: winged figure",
+          "Photograph courtesy of the Nelson-Atkins Museum of Art, Kansas City, Missouri."
+        ]
+      },
       "height": 360,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/11595",
+          "id": "http://example.org/iiif/2046",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11594",
+              "id": "http://example.org/iiif/2045",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11593"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4841/p3"
             }
           ]
         }

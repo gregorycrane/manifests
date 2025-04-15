@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0335",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0335/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20254",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Theseus and the Amazons",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2404,
       "width": 3522,
       "items": [
         {
-          "id": "http://example.org/iiif/20256",
+          "id": "http://example.org/iiif/1196",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20255",
+              "id": "http://example.org/iiif/1195",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20254"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20257",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main panel",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2414,
       "width": 3048,
       "items": [
         {
-          "id": "http://example.org/iiif/20259",
+          "id": "http://example.org/iiif/1198",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20258",
+              "id": "http://example.org/iiif/1197",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20257"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20260",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dinos depicting an amazonomachy: drawing of side B",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 58"
+        ]
+      },
       "height": 230,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/20262",
+          "id": "http://example.org/iiif/1200",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20261",
+              "id": "http://example.org/iiif/1199",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20260"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20263",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dinos depicting an amazonomachy: drawing of side B (left), showing two amazons and a Greek",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 58"
+        ]
+      },
       "height": 370,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/20265",
+          "id": "http://example.org/iiif/1202",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20264",
+              "id": "http://example.org/iiif/1201",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20263"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20266",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dinos depicting an amazonomachy: drawing of side B (right), showing two Greeks, an Amazon spearing a Greek, and another Greek",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 58"
+        ]
+      },
       "height": 354,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/20268",
+          "id": "http://example.org/iiif/1204",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20267",
+              "id": "http://example.org/iiif/1203",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20266"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20269",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dinos depicting an amazonomachy: drawing of side A, showing Theseus, Peirithoos, and Andromache ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 58"
+        ]
+      },
       "height": 335,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/20271",
+          "id": "http://example.org/iiif/1206",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20270",
+              "id": "http://example.org/iiif/1205",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20269"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20272",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dinos depicting an amazonomachy: drawing of side A (right), showing Theseus, Andromache, and three mounted Amazons",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 58"
+        ]
+      },
       "height": 407,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/20274",
+          "id": "http://example.org/iiif/1208",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20273",
+              "id": "http://example.org/iiif/1207",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20272"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20275",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dinos depicting an amazonomachy: drawing of side A (left), depicting a Greek warrior, Peirithoos, Theseus, and Andromache",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 58"
+        ]
+      },
       "height": 390,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/20277",
+          "id": "http://example.org/iiif/1210",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20276",
+              "id": "http://example.org/iiif/1209",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,7 +342,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20275"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5280/p8"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5849",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5849/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.06.0008",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.06.0008/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31945",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5849/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph by Mark Wise, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 1488,
       "width": 3583,
       "items": [
         {
-          "id": "http://example.org/iiif/31947",
+          "id": "http://example.org/iiif/2506",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31946",
+              "id": "http://example.org/iiif/2505",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31945"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5849/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31948",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5849/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Base: oblique from below",
+          "Photograph by Mark Wise, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2274,
       "width": 3385,
       "items": [
         {
-          "id": "http://example.org/iiif/31950",
+          "id": "http://example.org/iiif/2508",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31949",
+              "id": "http://example.org/iiif/2507",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31948"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5849/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31951",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5849/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: erotic scene",
+          "Photograph by Mark Wise, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2424,
       "width": 3583,
       "items": [
         {
-          "id": "http://example.org/iiif/31953",
+          "id": "http://example.org/iiif/2510",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31952",
+              "id": "http://example.org/iiif/2509",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31951"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5849/p3"
             }
           ]
         }

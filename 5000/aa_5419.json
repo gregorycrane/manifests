@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5419",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5419/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0096",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0096/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25093",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5419/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silens and maenads",
+          "From Caskey & Beazley, plate XXI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 301,
       "width": 544,
       "items": [
         {
-          "id": "http://example.org/iiif/25095",
+          "id": "http://example.org/iiif/4422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25094",
+              "id": "http://example.org/iiif/4421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25093"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5419/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25096",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5419/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen and maenad",
+          "From Caskey & Beazley, plate XXI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 415,
       "width": 419,
       "items": [
         {
-          "id": "http://example.org/iiif/25098",
+          "id": "http://example.org/iiif/4424",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25097",
+              "id": "http://example.org/iiif/4423",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25096"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5419/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25099",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5419/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silens and maenads",
+          "From Caskey & Beazley, plate XXI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 269,
       "width": 539,
       "items": [
         {
-          "id": "http://example.org/iiif/25101",
+          "id": "http://example.org/iiif/4426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25100",
+              "id": "http://example.org/iiif/4425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25099"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5419/p3"
             }
           ]
         }

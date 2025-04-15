@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5029",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5029/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0025",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0025/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12883",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, handle right (b/w print)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the North Carolina Museum of Art Foundation (Gift of Mr. and Mrs. Gordon Hanes)"
+        ]
+      },
       "height": 421,
       "width": 263,
       "items": [
         {
-          "id": "http://example.org/iiif/12885",
+          "id": "http://example.org/iiif/2906",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12884",
+              "id": "http://example.org/iiif/2905",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12883"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12886",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, handle left (b/w print)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the North Carolina Museum of Art Foundation (Gift of Mr. and Mrs. Gordon Hanes)"
+        ]
+      },
       "height": 419,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/12888",
+          "id": "http://example.org/iiif/2908",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12887",
+              "id": "http://example.org/iiif/2907",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12886"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12889",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, handle right",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the North Carolina Museum of Art Foundation (Gift of Mr. and Mrs. Gordon Hanes)"
+        ]
+      },
       "height": 316,
       "width": 202,
       "items": [
         {
-          "id": "http://example.org/iiif/12891",
+          "id": "http://example.org/iiif/2910",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12890",
+              "id": "http://example.org/iiif/2909",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12889"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12892",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, handle left",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the North Carolina Museum of Art Foundation (Gift of Mr. and Mrs. Gordon Hanes)"
+        ]
+      },
       "height": 319,
       "width": 221,
       "items": [
         {
-          "id": "http://example.org/iiif/12894",
+          "id": "http://example.org/iiif/2912",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12893",
+              "id": "http://example.org/iiif/2911",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12892"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5029/p4"
             }
           ]
         }

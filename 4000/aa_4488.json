@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4488",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4488/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0185",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0185/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/7243",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4488/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of fragment",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 175,
       "width": 470,
       "items": [
         {
-          "id": "http://example.org/iiif/7245",
+          "id": "http://example.org/iiif/2080",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/7244",
+              "id": "http://example.org/iiif/2079",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7243"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4488/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/7246",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4488/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hand of man and head of old man at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 255,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/7248",
+          "id": "http://example.org/iiif/2082",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/7247",
+              "id": "http://example.org/iiif/2081",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7246"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4488/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/7249",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4488/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of woman at right",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 293,
       "width": 445,
       "items": [
         {
-          "id": "http://example.org/iiif/7251",
+          "id": "http://example.org/iiif/2084",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/7250",
+              "id": "http://example.org/iiif/2083",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7249"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4488/p3"
             }
           ]
         }

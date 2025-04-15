@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.10.0496",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.10.0496/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4726",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 398,
       "items": [
         {
-          "id": "http://example.org/iiif/4728",
+          "id": "http://example.org/iiif/402",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4727",
+              "id": "http://example.org/iiif/401",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4726"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4729",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 380,
       "items": [
         {
-          "id": "http://example.org/iiif/4731",
+          "id": "http://example.org/iiif/404",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4730",
+              "id": "http://example.org/iiif/403",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4729"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4732",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 342,
       "width": 379,
       "items": [
         {
-          "id": "http://example.org/iiif/4734",
+          "id": "http://example.org/iiif/406",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4733",
+              "id": "http://example.org/iiif/405",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4732"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4735",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 344,
       "width": 377,
       "items": [
         {
-          "id": "http://example.org/iiif/4737",
+          "id": "http://example.org/iiif/408",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4736",
+              "id": "http://example.org/iiif/407",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4735"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4738",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 398,
       "items": [
         {
-          "id": "http://example.org/iiif/4740",
+          "id": "http://example.org/iiif/410",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4739",
+              "id": "http://example.org/iiif/409",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4738"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4741",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 382,
       "items": [
         {
-          "id": "http://example.org/iiif/4743",
+          "id": "http://example.org/iiif/412",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4742",
+              "id": "http://example.org/iiif/411",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4741"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4744",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 340,
       "width": 381,
       "items": [
         {
-          "id": "http://example.org/iiif/4746",
+          "id": "http://example.org/iiif/414",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4745",
+              "id": "http://example.org/iiif/413",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4744"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4747",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 345,
       "width": 379,
       "items": [
         {
-          "id": "http://example.org/iiif/4749",
+          "id": "http://example.org/iiif/416",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4748",
+              "id": "http://example.org/iiif/415",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4747"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4750",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Menelaos and Helen",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 351,
       "width": 529,
       "items": [
         {
-          "id": "http://example.org/iiif/4752",
+          "id": "http://example.org/iiif/418",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4751",
+              "id": "http://example.org/iiif/417",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4750"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4753",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Menelaos",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/4755",
+          "id": "http://example.org/iiif/420",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4754",
+              "id": "http://example.org/iiif/419",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4753"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4756",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of Menelaos",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/4758",
+          "id": "http://example.org/iiif/422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4757",
+              "id": "http://example.org/iiif/421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4756"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4759",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Menelaos, midsection",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/4761",
+          "id": "http://example.org/iiif/424",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4760",
+              "id": "http://example.org/iiif/423",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4759"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4762",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: right leg and sword of Menelaos",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 335,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4764",
+          "id": "http://example.org/iiif/426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4763",
+              "id": "http://example.org/iiif/425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4762"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4765",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Helen",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 412,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/4767",
+          "id": "http://example.org/iiif/428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4766",
+              "id": "http://example.org/iiif/427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4765"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4768",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Helen, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 335,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/4770",
+          "id": "http://example.org/iiif/430",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4769",
+              "id": "http://example.org/iiif/429",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4768"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4771",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: altar and tree",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 285,
       "items": [
         {
-          "id": "http://example.org/iiif/4773",
+          "id": "http://example.org/iiif/432",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4772",
+              "id": "http://example.org/iiif/431",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4771"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4774",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: tree",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 355,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/4776",
+          "id": "http://example.org/iiif/434",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4775",
+              "id": "http://example.org/iiif/433",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4774"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4777",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: altar",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/4779",
+          "id": "http://example.org/iiif/436",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4778",
+              "id": "http://example.org/iiif/435",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4777"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4780",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth departing",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/4782",
+          "id": "http://example.org/iiif/438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4781",
+              "id": "http://example.org/iiif/437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4780"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4783",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: woman with oinochoe and phiale",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/4785",
+          "id": "http://example.org/iiif/440",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4784",
+              "id": "http://example.org/iiif/439",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4783"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4786",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: woman, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 543,
       "items": [
         {
-          "id": "http://example.org/iiif/4788",
+          "id": "http://example.org/iiif/442",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4787",
+              "id": "http://example.org/iiif/441",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4786"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4789",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: phiale and oinochoe",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 418,
       "width": 288,
       "items": [
         {
-          "id": "http://example.org/iiif/4791",
+          "id": "http://example.org/iiif/444",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4790",
+              "id": "http://example.org/iiif/443",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4789"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4792",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/4794",
+          "id": "http://example.org/iiif/446",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4793",
+              "id": "http://example.org/iiif/445",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4792"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4795",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/4797",
+          "id": "http://example.org/iiif/448",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4796",
+              "id": "http://example.org/iiif/447",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,7 +982,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4795"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4443/p24"
             }
           ]
         }

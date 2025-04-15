@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_991",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_991/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0083",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0083/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/77068",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_991/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Male head facing right, wearing oak wreath; star below chin",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/77070",
+          "id": "http://example.org/iiif/31838",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77069",
+              "id": "http://example.org/iiif/31837",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/77068"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_991/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/77071",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_991/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: The nude Dioscuri hold spears and the bridles of their horses. Each stands in 3/4-view away from the other, but toward his horse.",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/77073",
+          "id": "http://example.org/iiif/31840",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77072",
+              "id": "http://example.org/iiif/31839",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/77071"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_991/p2"
             }
           ]
         }

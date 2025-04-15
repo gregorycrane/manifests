@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3486",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3486/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1593",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1593/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/28885",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3486/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of three woman playing a game, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 356,
       "width": 442,
       "items": [
         {
-          "id": "http://example.org/iiif/28887",
+          "id": "http://example.org/iiif/6008",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28886",
+              "id": "http://example.org/iiif/6007",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28885"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3486/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28888",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3486/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of three woman playing a game, oblique top view, from the front",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 390,
       "width": 439,
       "items": [
         {
-          "id": "http://example.org/iiif/28890",
+          "id": "http://example.org/iiif/6010",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28889",
+              "id": "http://example.org/iiif/6009",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28888"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3486/p2"
             }
           ]
         }

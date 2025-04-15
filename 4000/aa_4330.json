@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4330",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4330/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0109",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0109/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5572",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4330/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: women at a fountain-house",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2470,
       "width": 3654,
       "items": [
         {
-          "id": "http://example.org/iiif/5574",
+          "id": "http://example.org/iiif/36986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5573",
+              "id": "http://example.org/iiif/36985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5572"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4330/p1"
             }
           ]
         }

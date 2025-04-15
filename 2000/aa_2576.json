@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2576",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2576/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0022",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0022/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18529",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2576/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Left: hero relief from Arcadia; Right: Relief of Herakles with the Erymanthian Boar",
+          "From Svoronos 1903-12, pl. 22"
+        ]
+      },
       "height": 377,
       "width": 572,
       "items": [
         {
-          "id": "http://example.org/iiif/18531",
+          "id": "http://example.org/iiif/12354",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18530",
+              "id": "http://example.org/iiif/12353",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18529"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2576/p1"
             }
           ]
         }

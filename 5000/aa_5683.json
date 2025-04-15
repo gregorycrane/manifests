@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0662",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0662/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30244",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Codrus Painter: Drawing of side A, showing the Calydonian boar hunt",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 140"
+        ]
+      },
       "height": 349,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30246",
+          "id": "http://example.org/iiif/1372",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30245",
+              "id": "http://example.org/iiif/1371",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30244"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30247",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Codrus Painter: Drawing of side B, showing Peleus hunting the stag",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 140"
+        ]
+      },
       "height": 376,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30249",
+          "id": "http://example.org/iiif/1374",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30248",
+              "id": "http://example.org/iiif/1373",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30247"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30250",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Codrus Painter: Drawing of the tondo, showing Themis (on the Delphic tripod) and Aigeus",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 140"
+        ]
+      },
       "height": 427,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30252",
+          "id": "http://example.org/iiif/1376",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30251",
+              "id": "http://example.org/iiif/1375",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30250"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p3"
             }
           ]
         }

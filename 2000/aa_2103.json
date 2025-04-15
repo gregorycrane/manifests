@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.03.0232",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.03.0232/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/8107",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 469,
       "width": 188,
       "items": [
         {
-          "id": "http://example.org/iiif/8109",
+          "id": "http://example.org/iiif/5406",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8108",
+              "id": "http://example.org/iiif/5405",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8107"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8110",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 474,
       "width": 199,
       "items": [
         {
-          "id": "http://example.org/iiif/8112",
+          "id": "http://example.org/iiif/5408",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8111",
+              "id": "http://example.org/iiif/5407",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8110"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8113",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, left profile",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 466,
       "width": 181,
       "items": [
         {
-          "id": "http://example.org/iiif/8115",
+          "id": "http://example.org/iiif/5410",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8114",
+              "id": "http://example.org/iiif/5409",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8113"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8116",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, from back left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 469,
       "width": 201,
       "items": [
         {
-          "id": "http://example.org/iiif/8118",
+          "id": "http://example.org/iiif/5412",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8117",
+              "id": "http://example.org/iiif/5411",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8116"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8119",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 481,
       "width": 207,
       "items": [
         {
-          "id": "http://example.org/iiif/8121",
+          "id": "http://example.org/iiif/5414",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8120",
+              "id": "http://example.org/iiif/5413",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8119"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8122",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, from back right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 482,
       "width": 208,
       "items": [
         {
-          "id": "http://example.org/iiif/8124",
+          "id": "http://example.org/iiif/5416",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8123",
+              "id": "http://example.org/iiif/5415",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8122"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8125",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, right profile",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 451,
       "width": 176,
       "items": [
         {
-          "id": "http://example.org/iiif/8127",
+          "id": "http://example.org/iiif/5418",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8126",
+              "id": "http://example.org/iiif/5417",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8125"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8128",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 484,
       "width": 199,
       "items": [
         {
-          "id": "http://example.org/iiif/8130",
+          "id": "http://example.org/iiif/5420",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8129",
+              "id": "http://example.org/iiif/5419",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8128"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8131",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of head and shoulders: frontal",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 425,
       "width": 496,
       "items": [
         {
-          "id": "http://example.org/iiif/8133",
+          "id": "http://example.org/iiif/5422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8132",
+              "id": "http://example.org/iiif/5421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8131"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8134",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of head and shoulders: left profile",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 424,
       "width": 431,
       "items": [
         {
-          "id": "http://example.org/iiif/8136",
+          "id": "http://example.org/iiif/5424",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8135",
+              "id": "http://example.org/iiif/5423",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8134"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8137",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of head and shoulders: back",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 419,
       "width": 487,
       "items": [
         {
-          "id": "http://example.org/iiif/8139",
+          "id": "http://example.org/iiif/5426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8138",
+              "id": "http://example.org/iiif/5425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8137"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8140",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of head and shoulders: right profile",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 427,
       "width": 411,
       "items": [
         {
-          "id": "http://example.org/iiif/8142",
+          "id": "http://example.org/iiif/5428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8141",
+              "id": "http://example.org/iiif/5427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8140"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8143",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of head of lamb",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 424,
       "width": 488,
       "items": [
         {
-          "id": "http://example.org/iiif/8145",
+          "id": "http://example.org/iiif/5430",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8144",
+              "id": "http://example.org/iiif/5429",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8143"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8146",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of lamb and torso of Hermes",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 421,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/8148",
+          "id": "http://example.org/iiif/5432",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8147",
+              "id": "http://example.org/iiif/5431",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8146"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8149",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of lamb and torso of Hermes from back",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 422,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/8151",
+          "id": "http://example.org/iiif/5434",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8150",
+              "id": "http://example.org/iiif/5433",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8149"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8152",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of legs and feet of Hermes",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 421,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/8154",
+          "id": "http://example.org/iiif/5436",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8153",
+              "id": "http://example.org/iiif/5435",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8152"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8155",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hermes Kriophoros, detail of legs and feet of Hermes",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 421,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/8157",
+          "id": "http://example.org/iiif/5438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8156",
+              "id": "http://example.org/iiif/5437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,7 +702,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8155"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2103/p17"
             }
           ]
         }

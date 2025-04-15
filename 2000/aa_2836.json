@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2836",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2836/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0095",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0095/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19321",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2836/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Relief with the Apolline Triad (Apollo Kitharoidos, Leto, Artemis) and a worshipper; Bottom left: Votive relief with three worshippers; Bottom right: Relief with four worshippers",
+          "From Svoronos 1903-12, pl. 95"
+        ]
+      },
       "height": 581,
       "width": 387,
       "items": [
         {
-          "id": "http://example.org/iiif/19323",
+          "id": "http://example.org/iiif/12882",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19322",
+              "id": "http://example.org/iiif/12881",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19321"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2836/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/19324",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2836/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Fragment of frieze from the Ilissos Temple; Top center: Votive relief, perhaps to Zeus Meilichios; Top right: Fragment of a votive relief; Center left: Fragment of a relief with hands; Center right: Small votive relief;  Bottom left: Fragment of an ephebe relief (?); Bottom, second from the left: Fragment of a banquet relief; Bottom center: Fragment of a votive relief; Bottom right: votive relief with three worshippers",
+          "From Svoronos 1903-12, pl. 130"
+        ]
+      },
       "height": 398,
       "width": 517,
       "items": [
         {
-          "id": "http://example.org/iiif/19326",
+          "id": "http://example.org/iiif/12884",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19325",
+              "id": "http://example.org/iiif/12883",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19324"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2836/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0029",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0029/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/9313",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 293,
       "width": 510,
       "items": [
         {
-          "id": "http://example.org/iiif/9315",
+          "id": "http://example.org/iiif/526",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9314",
+              "id": "http://example.org/iiif/525",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9313"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9316",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: satyr playing flute",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 388,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/9318",
+          "id": "http://example.org/iiif/528",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9317",
+              "id": "http://example.org/iiif/527",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9316"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9319",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: gorgoneion",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 368,
       "width": 548,
       "items": [
         {
-          "id": "http://example.org/iiif/9321",
+          "id": "http://example.org/iiif/530",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9320",
+              "id": "http://example.org/iiif/529",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9319"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p3"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_127",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_127/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5402",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5402/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/58930",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_127/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Foundations of earlier oikos inside and below cella of later temple, Delos, Temple of Hera",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2448,
       "width": 3685,
       "items": [
         {
-          "id": "http://example.org/iiif/58932",
+          "id": "http://example.org/iiif/19746",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58931",
+              "id": "http://example.org/iiif/19745",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58930"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_127/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58933",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_127/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of temple from front, Delos, Temple of Hera",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2072,
       "width": 3572,
       "items": [
         {
-          "id": "http://example.org/iiif/58935",
+          "id": "http://example.org/iiif/19748",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58934",
+              "id": "http://example.org/iiif/19747",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58933"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_127/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58936",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_127/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view from below retaining wall, Delos, Temple of Hera",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2200,
       "width": 3658,
       "items": [
         {
-          "id": "http://example.org/iiif/58938",
+          "id": "http://example.org/iiif/19750",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58937",
+              "id": "http://example.org/iiif/19749",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58936"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_127/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58939",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_127/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Temple of Hera",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler, based on N.M. Kontoleontos 1950 120 fig. 63"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/58941",
+          "id": "http://example.org/iiif/19752",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58940",
+              "id": "http://example.org/iiif/19751",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58939"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_127/p4"
             }
           ]
         }

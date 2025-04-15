@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.10.0252",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.10.0252/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4147",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 415,
       "width": 277,
       "items": [
         {
-          "id": "http://example.org/iiif/4149",
+          "id": "http://example.org/iiif/16",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4148",
+              "id": "http://example.org/iiif/15",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4147"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4150",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 415,
       "width": 277,
       "items": [
         {
-          "id": "http://example.org/iiif/4152",
+          "id": "http://example.org/iiif/18",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4151",
+              "id": "http://example.org/iiif/17",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4150"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4153",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 415,
       "width": 277,
       "items": [
         {
-          "id": "http://example.org/iiif/4155",
+          "id": "http://example.org/iiif/20",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4154",
+              "id": "http://example.org/iiif/19",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4153"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4156",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 380,
       "width": 254,
       "items": [
         {
-          "id": "http://example.org/iiif/4158",
+          "id": "http://example.org/iiif/22",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4157",
+              "id": "http://example.org/iiif/21",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4156"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4159",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 375,
       "width": 247,
       "items": [
         {
-          "id": "http://example.org/iiif/4161",
+          "id": "http://example.org/iiif/24",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4160",
+              "id": "http://example.org/iiif/23",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4159"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4162",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 366,
       "width": 241,
       "items": [
         {
-          "id": "http://example.org/iiif/4164",
+          "id": "http://example.org/iiif/26",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4163",
+              "id": "http://example.org/iiif/25",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4162"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4165",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 370,
       "width": 247,
       "items": [
         {
-          "id": "http://example.org/iiif/4167",
+          "id": "http://example.org/iiif/28",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4166",
+              "id": "http://example.org/iiif/27",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4165"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4168",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 369,
       "width": 243,
       "items": [
         {
-          "id": "http://example.org/iiif/4170",
+          "id": "http://example.org/iiif/30",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4169",
+              "id": "http://example.org/iiif/29",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4168"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4171",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: two lions",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 472,
       "items": [
         {
-          "id": "http://example.org/iiif/4173",
+          "id": "http://example.org/iiif/32",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4172",
+              "id": "http://example.org/iiif/31",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4171"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4174",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck: male head",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 313,
       "width": 528,
       "items": [
         {
-          "id": "http://example.org/iiif/4176",
+          "id": "http://example.org/iiif/34",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4175",
+              "id": "http://example.org/iiif/33",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4174"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4177",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: lion on left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/4179",
+          "id": "http://example.org/iiif/36",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4178",
+              "id": "http://example.org/iiif/35",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4177"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4180",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of lion on left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 346,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/4182",
+          "id": "http://example.org/iiif/38",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4181",
+              "id": "http://example.org/iiif/37",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4180"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4183",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: lion on right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 341,
       "width": 517,
       "items": [
         {
-          "id": "http://example.org/iiif/4185",
+          "id": "http://example.org/iiif/40",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4184",
+              "id": "http://example.org/iiif/39",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4183"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4186",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of lion on right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 524,
       "items": [
         {
-          "id": "http://example.org/iiif/4188",
+          "id": "http://example.org/iiif/42",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4187",
+              "id": "http://example.org/iiif/41",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4186"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4189",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: two cocks",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 501,
       "items": [
         {
-          "id": "http://example.org/iiif/4191",
+          "id": "http://example.org/iiif/44",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4190",
+              "id": "http://example.org/iiif/43",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4189"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4192",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: cock on left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 502,
       "items": [
         {
-          "id": "http://example.org/iiif/4194",
+          "id": "http://example.org/iiif/46",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4193",
+              "id": "http://example.org/iiif/45",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4192"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4195",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: heads of both cocks",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/4197",
+          "id": "http://example.org/iiif/48",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4196",
+              "id": "http://example.org/iiif/47",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4195"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4198",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: cock on right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 345,
       "width": 477,
       "items": [
         {
-          "id": "http://example.org/iiif/4200",
+          "id": "http://example.org/iiif/50",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4199",
+              "id": "http://example.org/iiif/49",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,7 +742,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4198"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4435/p18"
             }
           ]
         }

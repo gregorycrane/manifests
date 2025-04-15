@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2757",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2757/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0073",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0073/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19087",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2757/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Relief from Megara showing Hermes leading three Nymphs in dance behind a cylindrical altar; Top right: Votive relief showing Pan leading three Nymphs; Lower left: Votive relief showing Hermes leading three nymphs behind a low altar; Bottom right: Fragment of a Votive to Pan, Hermes, and the Nymphs showing seated Pan and standing Hermes in a cave",
+          "From Svoronos 1903-12, pl. 73"
+        ]
+      },
       "height": 450,
       "width": 506,
       "items": [
         {
-          "id": "http://example.org/iiif/19089",
+          "id": "http://example.org/iiif/12726",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19088",
+              "id": "http://example.org/iiif/12725",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19087"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2757/p1"
             }
           ]
         }

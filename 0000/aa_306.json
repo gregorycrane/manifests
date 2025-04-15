@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_306",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_306/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0270a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0270a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62380",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_306/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Unnamed Treasury",
+          "copyright C. H. Smith 1988 based on N. Yalouris 1979 100-101 fig. 40, and based on A. Mallwitz, AA 1971 153 ff fig. 3, in A. Mallwitz 1972 163-179 fig. 240"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/62382",
+          "id": "http://example.org/iiif/22046",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62381",
+              "id": "http://example.org/iiif/22045",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62380"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_306/p1"
             }
           ]
         }

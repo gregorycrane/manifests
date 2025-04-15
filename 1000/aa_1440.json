@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1440",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1440/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1243",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1243/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71533",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1440/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Maxentius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71535",
+          "id": "http://example.org/iiif/28148",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71534",
+              "id": "http://example.org/iiif/28147",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71533"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1440/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71536",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1440/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Helmeted Roma seated, with shield, scepter, and Victoria with wreath",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71538",
+          "id": "http://example.org/iiif/28150",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71537",
+              "id": "http://example.org/iiif/28149",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71536"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1440/p2"
             }
           ]
         }

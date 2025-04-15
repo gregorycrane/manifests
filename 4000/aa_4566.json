@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4566",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4566/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0298",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0298/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/853",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4566/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main frieze",
+          "Photograph courtesy of The Saint Louis Art Museum"
+        ]
+      },
       "height": 420,
       "width": 452,
       "items": [
         {
-          "id": "http://example.org/iiif/855",
+          "id": "http://example.org/iiif/4120",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/854",
+              "id": "http://example.org/iiif/4119",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/853"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4566/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/856",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4566/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Elevated view: main frieze and lid",
+          "Photograph courtesy of The Saint Louis Art Museum"
+        ]
+      },
       "height": 392,
       "width": 407,
       "items": [
         {
-          "id": "http://example.org/iiif/858",
+          "id": "http://example.org/iiif/4122",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/857",
+              "id": "http://example.org/iiif/4121",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/856"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4566/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/859",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4566/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View from above: lid",
+          "Photograph courtesy of The Saint Louis Art Museum"
+        ]
+      },
       "height": 395,
       "width": 409,
       "items": [
         {
-          "id": "http://example.org/iiif/861",
+          "id": "http://example.org/iiif/4124",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/860",
+              "id": "http://example.org/iiif/4123",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/859"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4566/p3"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3671",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3671/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.4919",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.4919/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29563",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3671/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Crescent Earrings: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29565",
+          "id": "http://example.org/iiif/168",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29564",
+              "id": "http://example.org/iiif/167",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29563"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3671/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29566",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3671/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Crescent Earrings: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29568",
+          "id": "http://example.org/iiif/170",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29567",
+              "id": "http://example.org/iiif/169",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29566"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3671/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0796",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0796/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/202",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 164,
       "items": [
         {
-          "id": "http://example.org/iiif/204",
+          "id": "http://example.org/iiif/3686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/203",
+              "id": "http://example.org/iiif/3685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/202"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/205",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side view",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 164,
       "items": [
         {
-          "id": "http://example.org/iiif/207",
+          "id": "http://example.org/iiif/3688",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/206",
+              "id": "http://example.org/iiif/3687",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/205"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/208",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dionysos, satyr and maenad in wine-making scene",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/210",
+          "id": "http://example.org/iiif/3690",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/209",
+              "id": "http://example.org/iiif/3689",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/208"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/211",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Satyr in basket on table",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/213",
+          "id": "http://example.org/iiif/3692",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/212",
+              "id": "http://example.org/iiif/3691",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/211"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/214",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grape juice flowing into kylix",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/216",
+          "id": "http://example.org/iiif/3694",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/215",
+              "id": "http://example.org/iiif/3693",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/214"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/217",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Maenad",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/219",
+          "id": "http://example.org/iiif/3696",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/218",
+              "id": "http://example.org/iiif/3695",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/217"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/220",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Maenad  with satyr on head",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 354,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/222",
+          "id": "http://example.org/iiif/3698",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/221",
+              "id": "http://example.org/iiif/3697",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/220"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/223",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Dionysos",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/225",
+          "id": "http://example.org/iiif/3700",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/224",
+              "id": "http://example.org/iiif/3699",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,7 +342,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/223"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4543/p8"
             }
           ]
         }

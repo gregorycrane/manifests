@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_455",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_455/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0089",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0089/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73669",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_455/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Griffin, profile to the left; below, kylix",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 396,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73671",
+          "id": "http://example.org/iiif/29572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73670",
+              "id": "http://example.org/iiif/29571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73669"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_455/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73672",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_455/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Quadripartite incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73674",
+          "id": "http://example.org/iiif/29574",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73673",
+              "id": "http://example.org/iiif/29573",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73672"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_455/p2"
             }
           ]
         }

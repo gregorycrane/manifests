@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5669",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5669/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0292",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0292/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30079",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5669/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Brygos Painter: drawing of the interior, side A, showing Hera attacked by satyrs, being protected by Hermes and Herakles",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 47"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30081",
+          "id": "http://example.org/iiif/1262",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30080",
+              "id": "http://example.org/iiif/1261",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30079"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5669/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30082",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5669/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Brygos Painter: drawing of the interior, side B, showing Iris attacked by satyrs, in the presence of Dionysos ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 47"
+        ]
+      },
       "height": 333,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30084",
+          "id": "http://example.org/iiif/1264",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30083",
+              "id": "http://example.org/iiif/1263",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30082"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5669/p2"
             }
           ]
         }

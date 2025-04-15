@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1992",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1992/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0077",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0077/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4303",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1992/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave shrine of Aristonautes",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3653,
       "width": 2482,
       "items": [
         {
-          "id": "http://example.org/iiif/4305",
+          "id": "http://example.org/iiif/2870",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4304",
+              "id": "http://example.org/iiif/2869",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4303"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1992/p1"
             }
           ]
         }

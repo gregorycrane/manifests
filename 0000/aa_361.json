@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_361",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_361/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0330a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0330a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/64366",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_361/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Samos, Temple B",
+          "copyright Perseus Project 1989, drawn by M.W. Cutler based on Kyrieleis 1981 107 fig. 81"
+        ]
+      },
       "height": 253,
       "width": 219,
       "items": [
         {
-          "id": "http://example.org/iiif/64368",
+          "id": "http://example.org/iiif/23370",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64367",
+              "id": "http://example.org/iiif/23369",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64366"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_361/p1"
             }
           ]
         }

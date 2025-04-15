@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5775",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5775/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1750",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1750/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30949",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5775/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Trefoil oinochoe",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30951",
+          "id": "http://example.org/iiif/1842",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30950",
+              "id": "http://example.org/iiif/1841",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30949"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5775/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30952",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5775/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Trefoil oinochoe, detail of relief of nude male",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30954",
+          "id": "http://example.org/iiif/1844",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30953",
+              "id": "http://example.org/iiif/1843",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30952"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5775/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30955",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5775/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Trefoil oinochoe, detail of handle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30957",
+          "id": "http://example.org/iiif/1846",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30956",
+              "id": "http://example.org/iiif/1845",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30955"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5775/p3"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2680",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2680/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0037",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0037/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18853",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2680/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Epione, Asklepios, Hierodoulos, and two families of worshippers; Top center: Relief showing four men; Top right: Four standing men; Bottom left: Relief of Asklepios, Epione (?), and Machaon; Bottom center: Relief of Asklepios and Athena with at least one worshipper; Bottom right: Votive relief to Asklepios depicting a family (?) of eight with a temple slave and a sacrificial cow",
+          "From Svoronos 1903-12, pl. 37"
+        ]
+      },
       "height": 450,
       "width": 575,
       "items": [
         {
-          "id": "http://example.org/iiif/18855",
+          "id": "http://example.org/iiif/12570",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18854",
+              "id": "http://example.org/iiif/12569",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18853"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2680/p1"
             }
           ]
         }

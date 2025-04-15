@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_793",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_793/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0685",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0685/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75772",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_793/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Athena, in 3/4-view to the right, wearing an Attic helmet adorned with Scylla; in left field, a monogram",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 419,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75774",
+          "id": "http://example.org/iiif/30974",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75773",
+              "id": "http://example.org/iiif/30973",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75772"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_793/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75775",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_793/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Owl holding olive branch to the right; at left, a club",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 402,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75777",
+          "id": "http://example.org/iiif/30976",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75776",
+              "id": "http://example.org/iiif/30975",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75775"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_793/p2"
             }
           ]
         }

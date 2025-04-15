@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1060",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1060/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0253",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0253/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68848",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1060/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bare head of A. Postumius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68850",
+          "id": "http://example.org/iiif/26358",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68849",
+              "id": "http://example.org/iiif/26357",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68848"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1060/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68851",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1060/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Inscription within wreath of grain ears",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68853",
+          "id": "http://example.org/iiif/26360",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68852",
+              "id": "http://example.org/iiif/26359",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68851"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1060/p2"
             }
           ]
         }

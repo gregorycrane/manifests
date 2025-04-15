@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2637",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2637/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0203",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0203/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18730",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2637/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble statue of Nemesis of Rhamnous (Roman copy after an original by Agorakritos, ca. 430 B.C.): 3/4-view from the right",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 420,
       "width": 248,
       "items": [
         {
-          "id": "http://example.org/iiif/18732",
+          "id": "http://example.org/iiif/12488",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18731",
+              "id": "http://example.org/iiif/12487",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18730"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2637/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18733",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2637/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Feet of a marble statue of Nemesis of Rhamnous (Roman copy after an original by Agorakritos, ca. 430 B.C.)",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 355,
       "width": 544,
       "items": [
         {
-          "id": "http://example.org/iiif/18735",
+          "id": "http://example.org/iiif/12490",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18734",
+              "id": "http://example.org/iiif/12489",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18733"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2637/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18736",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2637/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Upper torso of a marble statue of Nemesis of Rhamnous (Roman copy after an original by Agorakritos, ca. 430 B.C.): 3/4-view from the right",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 350,
       "width": 456,
       "items": [
         {
-          "id": "http://example.org/iiif/18738",
+          "id": "http://example.org/iiif/12492",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18737",
+              "id": "http://example.org/iiif/12491",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18736"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2637/p3"
             }
           ]
         }

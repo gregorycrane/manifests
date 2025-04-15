@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_27",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_27/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0016a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0016a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61720",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_27/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Assos, North Stoa (lower story)",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Coulton (artist), based on J. Clarke and F. Bacon, Investigations at Assos, Archeological Institute of America, Boston 1902-1921 27-51, in J.J. Coulton 1976 198 fig. 25"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61722",
+          "id": "http://example.org/iiif/21606",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61721",
+              "id": "http://example.org/iiif/21605",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61720"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_27/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61723",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_27/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Southeast corner of building (gap along E wall to reduce dampness and holes in rear wall to support upper floor), from SE, Assos, North Stoa (Lower Story)",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 344,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/61725",
+          "id": "http://example.org/iiif/21608",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61724",
+              "id": "http://example.org/iiif/21607",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61723"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_27/p2"
             }
           ]
         }

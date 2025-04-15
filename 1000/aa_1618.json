@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1618",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1618/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0505",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0505/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72799",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1618/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Domitian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72801",
+          "id": "http://example.org/iiif/28992",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72800",
+              "id": "http://example.org/iiif/28991",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72799"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1618/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72802",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1618/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Nursing she-wolf",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72804",
+          "id": "http://example.org/iiif/28994",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72803",
+              "id": "http://example.org/iiif/28993",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72802"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1618/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1813",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1813/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0058",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0058/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31312",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1813/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Two Amazons",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31314",
+          "id": "http://example.org/iiif/1334",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31313",
+              "id": "http://example.org/iiif/1333",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31312"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1813/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31315",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1813/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing two Amazons",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31317",
+          "id": "http://example.org/iiif/1336",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31316",
+              "id": "http://example.org/iiif/1335",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31315"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1813/p2"
             }
           ]
         }

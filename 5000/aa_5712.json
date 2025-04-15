@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5712",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5712/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0683",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0683/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30505",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "entire plate ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 149"
+        ]
+      },
       "height": 453,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30507",
+          "id": "http://example.org/iiif/1546",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30506",
+              "id": "http://example.org/iiif/1545",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30505"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30508",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "lower scene ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 149"
+        ]
+      },
       "height": 397,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30510",
+          "id": "http://example.org/iiif/1548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30509",
+              "id": "http://example.org/iiif/1547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30508"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30511",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "upper scene ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 149"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30513",
+          "id": "http://example.org/iiif/1550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30512",
+              "id": "http://example.org/iiif/1549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30511"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30514",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "medallion ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 149"
+        ]
+      },
       "height": 396,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30516",
+          "id": "http://example.org/iiif/1552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30515",
+              "id": "http://example.org/iiif/1551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30514"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5712/p4"
             }
           ]
         }

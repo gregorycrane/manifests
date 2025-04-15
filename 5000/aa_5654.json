@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0517.lg",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0517.lg/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29767",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (large)",
+          "Copyright C. H. Smith 1988, based on Reichhold (artist) 1906 in FR plate 83"
+        ]
+      },
       "height": 910,
       "width": 816,
       "items": [
         {
-          "id": "http://example.org/iiif/29769",
+          "id": "http://example.org/iiif/1054",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29768",
+              "id": "http://example.org/iiif/1053",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29767"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29770",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (small)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1906 in FR plate 83"
+        ]
+      },
       "height": 351,
       "width": 315,
       "items": [
         {
-          "id": "http://example.org/iiif/29772",
+          "id": "http://example.org/iiif/1056",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29771",
+              "id": "http://example.org/iiif/1055",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29770"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29773",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to Oltos: Drawing of the exterior, showing the ransom of Hektor",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 83"
+        ]
+      },
       "height": 485,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29775",
+          "id": "http://example.org/iiif/1058",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29774",
+              "id": "http://example.org/iiif/1057",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29773"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29776",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to Oltos: Drawing of the exterior, side B, showing the Trojans bringing ransom ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 83"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29778",
+          "id": "http://example.org/iiif/1060",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29777",
+              "id": "http://example.org/iiif/1059",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29776"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29779",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to Oltos: Drawing of the exterior, side A, showing Herodoros, Hermes, King Priam, Achilles (reclining on a kline over the body of Hektor), a female attendant, and a hoplite",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 83"
+        ]
+      },
       "height": 383,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29781",
+          "id": "http://example.org/iiif/1062",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29780",
+              "id": "http://example.org/iiif/1061",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29779"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29782",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2618, tondo.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 83"
+        ]
+      },
       "height": 462,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29784",
+          "id": "http://example.org/iiif/1064",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29783",
+              "id": "http://example.org/iiif/1063",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,7 +262,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29782"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5654/p6"
             }
           ]
         }

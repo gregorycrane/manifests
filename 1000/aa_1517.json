@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1517",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1517/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1397",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1397/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72058",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1517/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Radiate bust of Elagabalus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72060",
+          "id": "http://example.org/iiif/28498",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72059",
+              "id": "http://example.org/iiif/28497",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72058"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1517/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72061",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1517/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Radiate Sol walking with a whip and his right hand raised",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72063",
+          "id": "http://example.org/iiif/28500",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72062",
+              "id": "http://example.org/iiif/28499",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72061"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1517/p2"
             }
           ]
         }

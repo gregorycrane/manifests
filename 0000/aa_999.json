@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_999",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_999/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0099",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0099/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/77116",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_999/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Pietas",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/77118",
+          "id": "http://example.org/iiif/31870",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77117",
+              "id": "http://example.org/iiif/31869",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/77116"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_999/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/77119",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_999/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Nude Aeneas running to the right, with his father, Anchises, on his shoulders",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/77121",
+          "id": "http://example.org/iiif/31872",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77120",
+              "id": "http://example.org/iiif/31871",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/77119"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_999/p2"
             }
           ]
         }

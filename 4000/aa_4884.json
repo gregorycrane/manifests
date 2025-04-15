@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0141",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0141/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12103",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview",
+          "Photograph courtesy the Cleveland Museum of Art"
+        ]
+      },
       "height": 374,
       "width": 137,
       "items": [
         {
-          "id": "http://example.org/iiif/12105",
+          "id": "http://example.org/iiif/2386",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12104",
+              "id": "http://example.org/iiif/2385",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12103"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12106",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at center",
+          "Photograph courtesy the Cleveland Museum of Art"
+        ]
+      },
       "height": 352,
       "width": 179,
       "items": [
         {
-          "id": "http://example.org/iiif/12108",
+          "id": "http://example.org/iiif/2388",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12107",
+              "id": "http://example.org/iiif/2387",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12106"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12109",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at center: seated youth",
+          "Photograph courtesy the Cleveland Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 235,
       "items": [
         {
-          "id": "http://example.org/iiif/12111",
+          "id": "http://example.org/iiif/2390",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12110",
+              "id": "http://example.org/iiif/2389",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12109"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12112",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at right",
+          "Photograph courtesy the Cleveland Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 228,
       "items": [
         {
-          "id": "http://example.org/iiif/12114",
+          "id": "http://example.org/iiif/2392",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12113",
+              "id": "http://example.org/iiif/2391",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12112"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12115",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at left",
+          "Photograph courtesy the Cleveland Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 234,
       "items": [
         {
-          "id": "http://example.org/iiif/12117",
+          "id": "http://example.org/iiif/2394",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12116",
+              "id": "http://example.org/iiif/2393",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12115"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4884/p5"
             }
           ]
         }

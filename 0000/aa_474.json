@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_474",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_474/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0855",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0855/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73807",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_474/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Crested Corinthian helmet facing",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 404,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73809",
+          "id": "http://example.org/iiif/29664",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73808",
+              "id": "http://example.org/iiif/29663",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73807"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_474/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73810",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_474/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Legend between spokes of four-spoked radiate wheel",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 419,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73812",
+          "id": "http://example.org/iiif/29666",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73811",
+              "id": "http://example.org/iiif/29665",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73810"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_474/p2"
             }
           ]
         }

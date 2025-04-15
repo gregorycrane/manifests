@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3694",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3694/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1646",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1646/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30175",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3694/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Unguentarium",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30177",
+          "id": "http://example.org/iiif/576",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30176",
+              "id": "http://example.org/iiif/575",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30175"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3694/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30178",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3694/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Unguentarium",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30180",
+          "id": "http://example.org/iiif/578",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30179",
+              "id": "http://example.org/iiif/577",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30178"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3694/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30181",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3694/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Unguentarium",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30183",
+          "id": "http://example.org/iiif/580",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30182",
+              "id": "http://example.org/iiif/579",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30181"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3694/p3"
             }
           ]
         }

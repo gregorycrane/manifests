@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_421",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0575",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0575/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/65887",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of the exterior of the seating area, from the West, Theater, Luna.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 401,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/65889",
+          "id": "http://example.org/iiif/24384",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65888",
+              "id": "http://example.org/iiif/24383",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/65887"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_421/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/65890",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of remains of the theater, from the Southwest, Luna.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 401,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/65892",
+          "id": "http://example.org/iiif/24386",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65891",
+              "id": "http://example.org/iiif/24385",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/65890"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_421/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/65893",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of remains of the theater, from the Southwest, Luna.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 401,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/65895",
+          "id": "http://example.org/iiif/24388",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65894",
+              "id": "http://example.org/iiif/24387",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/65893"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_421/p3"
             }
           ]
         }

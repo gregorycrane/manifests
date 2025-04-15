@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1617",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1617/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0503",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0503/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72793",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1617/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Domitian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72795",
+          "id": "http://example.org/iiif/28988",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72794",
+              "id": "http://example.org/iiif/28987",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72793"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1617/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72796",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1617/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Draped figure of Spes, standing",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72798",
+          "id": "http://example.org/iiif/28990",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72797",
+              "id": "http://example.org/iiif/28989",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72796"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1617/p2"
             }
           ]
         }

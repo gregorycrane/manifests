@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4972",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4972/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0320",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0320/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12553",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4972/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior",
+          "Photograph courtesy of the Kelsey Museum of Archaeology, University of Michigan"
+        ]
+      },
       "height": 319,
       "width": 396,
       "items": [
         {
-          "id": "http://example.org/iiif/12555",
+          "id": "http://example.org/iiif/2686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12554",
+              "id": "http://example.org/iiif/2685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12553"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4972/p1"
             }
           ]
         }

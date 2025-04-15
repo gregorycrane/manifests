@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2388",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2388/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0739",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0739/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/17770",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2388/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "North Frieze Slab 21: Four horses from chariot scene",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2338,
       "width": 3318,
       "items": [
         {
-          "id": "http://example.org/iiif/17772",
+          "id": "http://example.org/iiif/11848",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17771",
+              "id": "http://example.org/iiif/11847",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17770"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2388/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1056",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1056/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0245",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0245/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68824",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1056/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Octavian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68826",
+          "id": "http://example.org/iiif/26342",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68825",
+              "id": "http://example.org/iiif/26341",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68824"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1056/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68827",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1056/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Seated Mercury with petasus and lyre",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68829",
+          "id": "http://example.org/iiif/26344",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68828",
+              "id": "http://example.org/iiif/26343",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68827"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1056/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5430",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5430/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0471",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0471/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25204",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles, Apollo, and the Delphic tripod",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 412,
       "width": 275,
       "items": [
         {
-          "id": "http://example.org/iiif/25206",
+          "id": "http://example.org/iiif/4496",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25205",
+              "id": "http://example.org/iiif/4495",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25204"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25207",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles carrying the Delphic tripod, from the waist up",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/25209",
+          "id": "http://example.org/iiif/4498",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25208",
+              "id": "http://example.org/iiif/4497",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25207"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25210",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad and satyrs",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 408,
       "width": 279,
       "items": [
         {
-          "id": "http://example.org/iiif/25212",
+          "id": "http://example.org/iiif/4500",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25211",
+              "id": "http://example.org/iiif/4499",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25210"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25213",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: satyr and maenad, from the waist up",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 357,
       "width": 523,
       "items": [
         {
-          "id": "http://example.org/iiif/25215",
+          "id": "http://example.org/iiif/4502",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25214",
+              "id": "http://example.org/iiif/4501",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25213"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5430/p4"
             }
           ]
         }

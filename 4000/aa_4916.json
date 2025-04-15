@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4916",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4916/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0487",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0487/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12241",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4916/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of sherd",
+          "copyright C. H. Smith 1988"
+        ]
+      },
       "height": 312,
       "width": 250,
       "items": [
         {
-          "id": "http://example.org/iiif/12243",
+          "id": "http://example.org/iiif/2478",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12242",
+              "id": "http://example.org/iiif/2477",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12241"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4916/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12244",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4916/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of profile",
+          "copyright C. H. Smith 1988"
+        ]
+      },
       "height": 173,
       "width": 131,
       "items": [
         {
-          "id": "http://example.org/iiif/12246",
+          "id": "http://example.org/iiif/2480",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12245",
+              "id": "http://example.org/iiif/2479",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12244"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4916/p3"
             }
           ]
         }

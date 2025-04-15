@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0667",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0667/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/778",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 173,
       "width": 542,
       "items": [
         {
-          "id": "http://example.org/iiif/780",
+          "id": "http://example.org/iiif/33790",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/779",
+              "id": "http://example.org/iiif/33789",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/778"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/781",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 183,
       "width": 455,
       "items": [
         {
-          "id": "http://example.org/iiif/783",
+          "id": "http://example.org/iiif/33792",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/782",
+              "id": "http://example.org/iiif/33791",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/781"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/784",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side: note the enclosed palmettes, one on either side of the handle, and the two symetrically arranged palmettes, divided by volutes, underneath the handle",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 231,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/786",
+          "id": "http://example.org/iiif/33794",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/785",
+              "id": "http://example.org/iiif/33793",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/784"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/787",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top view: the tondo depicts Linos and Mousaios",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 403,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/789",
+          "id": "http://example.org/iiif/33796",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/788",
+              "id": "http://example.org/iiif/33795",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/787"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/790",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up view of the tondo: Mousaios, a nude youth wearing a white taenia, stands profile to the right, with his right hand on his hip, and holds a tablet in his upraised left hand; behind him is a footed box; in front of him, on a klismos, sits Linos, a bearded man wearing a himation around his lower body and a wreath; he unrolls a book scroll on which letters are barely distinguishable (note the dipinti labelling both figures)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 419,
       "width": 644,
       "items": [
         {
-          "id": "http://example.org/iiif/792",
+          "id": "http://example.org/iiif/33798",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/791",
+              "id": "http://example.org/iiif/33797",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/790"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/793",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of the tondo, top: Mousaios, a nude youth wearing a white taenia, stands profile to the right, with his right hand on his hip, and holds a tablet in his upraised left hand; in front of him, on a klismos, sits Linos, a bearded man wearing a himation around his lower body and a wreath; he unrolls a book scroll on which letters are barely distinguishable (note the dipinti labelling both figures)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/795",
+          "id": "http://example.org/iiif/33800",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/794",
+              "id": "http://example.org/iiif/33799",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/793"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/796",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottom view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 418,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/798",
+          "id": "http://example.org/iiif/33802",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/797",
+              "id": "http://example.org/iiif/33801",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/796"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/799",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from below: two athletes between a man and a woman",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 383,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/801",
+          "id": "http://example.org/iiif/33804",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/800",
+              "id": "http://example.org/iiif/33803",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/799"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/802",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left: a bearded man (a trainer?), standing in a frontal pose, with his head turned profile to the left, wears a himation draped over his left shoulder and a white wreath; he holds a forked stick upright in his left hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 420,
       "width": 639,
       "items": [
         {
-          "id": "http://example.org/iiif/804",
+          "id": "http://example.org/iiif/33806",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/803",
+              "id": "http://example.org/iiif/33805",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/802"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/805",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left of center: a nude athlete, wearing a white wreath, stands profile to the right; he holds halteres (jumping weights) ahead of his body, in both hands, and leans back",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 632,
       "items": [
         {
-          "id": "http://example.org/iiif/807",
+          "id": "http://example.org/iiif/33808",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/806",
+              "id": "http://example.org/iiif/33807",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/805"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/808",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, right: a nude athlete stands in a relaxed pose, profile to the right, seemingly talking with the woman opposite him, who stands 3/4-view to the left, and wears a himation over an undergarment, as well as a narrow taenia; (note the leaded clamp that repaired the break between them in antiquity)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 423,
       "width": 638,
       "items": [
         {
-          "id": "http://example.org/iiif/810",
+          "id": "http://example.org/iiif/33810",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/809",
+              "id": "http://example.org/iiif/33809",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/808"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/811",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from below: four nude athletes",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 386,
       "width": 635,
       "items": [
         {
-          "id": "http://example.org/iiif/813",
+          "id": "http://example.org/iiif/33812",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/812",
+              "id": "http://example.org/iiif/33811",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/811"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/814",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: an athlete, standing in a frontal pose, with his head profile to the right, holds a strigil in his lowered right hand and a pick (shown upside down) in his left hand; next to him stands another nude athlete, in a frontal pose, with his left hand on his hip and his right hand held up to his head",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 643,
       "items": [
         {
-          "id": "http://example.org/iiif/816",
+          "id": "http://example.org/iiif/33814",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/815",
+              "id": "http://example.org/iiif/33813",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/814"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/817",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, right: an athlete, standing in a frontal pose, with his head profile to the right, holds his right arm directly to the left, and rests his left hand on his hip; next to him stands another nude athlete, shown in a 3/4 back view, who scrapes his arm with a strigil; between them hangs an animal skin that seems to act as a shower, emitting water",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 638,
       "items": [
         {
-          "id": "http://example.org/iiif/819",
+          "id": "http://example.org/iiif/33816",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/818",
+              "id": "http://example.org/iiif/33815",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,7 +582,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/817"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4125/p14"
             }
           ]
         }

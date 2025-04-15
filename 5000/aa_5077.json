@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.32.0004",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.32.0004/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/14521",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main panel",
+          "Photograph courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 419,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/14523",
+          "id": "http://example.org/iiif/3998",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14522",
+              "id": "http://example.org/iiif/3997",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14521"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14524",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2852,
       "width": 2135,
       "items": [
         {
-          "id": "http://example.org/iiif/14526",
+          "id": "http://example.org/iiif/4000",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14525",
+              "id": "http://example.org/iiif/3999",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14524"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14527",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2831,
       "width": 2261,
       "items": [
         {
-          "id": "http://example.org/iiif/14529",
+          "id": "http://example.org/iiif/4002",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14528",
+              "id": "http://example.org/iiif/4001",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14527"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14530",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2826,
       "width": 2256,
       "items": [
         {
-          "id": "http://example.org/iiif/14532",
+          "id": "http://example.org/iiif/4004",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14531",
+              "id": "http://example.org/iiif/4003",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14530"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14533",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2816,
       "width": 2068,
       "items": [
         {
-          "id": "http://example.org/iiif/14535",
+          "id": "http://example.org/iiif/4006",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14534",
+              "id": "http://example.org/iiif/4005",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14533"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14536",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2744,
       "width": 2056,
       "items": [
         {
-          "id": "http://example.org/iiif/14538",
+          "id": "http://example.org/iiif/4008",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14537",
+              "id": "http://example.org/iiif/4007",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14536"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14539",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2828,
       "width": 2004,
       "items": [
         {
-          "id": "http://example.org/iiif/14541",
+          "id": "http://example.org/iiif/4010",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14540",
+              "id": "http://example.org/iiif/4009",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14539"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14542",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2778,
       "width": 2100,
       "items": [
         {
-          "id": "http://example.org/iiif/14544",
+          "id": "http://example.org/iiif/4012",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14543",
+              "id": "http://example.org/iiif/4011",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14542"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14545",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2742,
       "width": 2118,
       "items": [
         {
-          "id": "http://example.org/iiif/14547",
+          "id": "http://example.org/iiif/4014",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14546",
+              "id": "http://example.org/iiif/4013",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14545"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14548",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: youth dancing",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 3702,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/14550",
+          "id": "http://example.org/iiif/4016",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14549",
+              "id": "http://example.org/iiif/4015",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14548"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14551",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: man dancing",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 3738,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/14553",
+          "id": "http://example.org/iiif/4018",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14552",
+              "id": "http://example.org/iiif/4017",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14551"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14554",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth dancing",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 3702,
       "width": 2496,
       "items": [
         {
-          "id": "http://example.org/iiif/14556",
+          "id": "http://example.org/iiif/4020",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14555",
+              "id": "http://example.org/iiif/4019",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14554"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14557",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: man dancing",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 3690,
       "width": 2466,
       "items": [
         {
-          "id": "http://example.org/iiif/14559",
+          "id": "http://example.org/iiif/4022",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14558",
+              "id": "http://example.org/iiif/4021",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14557"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14560",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: boy in tree, youth and man dancing",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2496,
       "width": 2826,
       "items": [
         {
-          "id": "http://example.org/iiif/14562",
+          "id": "http://example.org/iiif/4024",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14561",
+              "id": "http://example.org/iiif/4023",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14560"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14563",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: boy in tree",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2496,
       "width": 3720,
       "items": [
         {
-          "id": "http://example.org/iiif/14565",
+          "id": "http://example.org/iiif/4026",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14564",
+              "id": "http://example.org/iiif/4025",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14563"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14566",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boy in tree, youth and man dancing",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2532,
       "width": 2832,
       "items": [
         {
-          "id": "http://example.org/iiif/14568",
+          "id": "http://example.org/iiif/4028",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14567",
+              "id": "http://example.org/iiif/4027",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14566"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14569",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boy in tree",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2502,
       "width": 3696,
       "items": [
         {
-          "id": "http://example.org/iiif/14571",
+          "id": "http://example.org/iiif/4030",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14570",
+              "id": "http://example.org/iiif/4029",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14569"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14572",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: overview",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2232,
       "width": 2400,
       "items": [
         {
-          "id": "http://example.org/iiif/14574",
+          "id": "http://example.org/iiif/4032",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14573",
+              "id": "http://example.org/iiif/4031",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14572"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14575",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottom: overview",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2208,
       "width": 2700,
       "items": [
         {
-          "id": "http://example.org/iiif/14577",
+          "id": "http://example.org/iiif/4034",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14576",
+              "id": "http://example.org/iiif/4033",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,7 +782,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14575"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5077/p19"
             }
           ]
         }

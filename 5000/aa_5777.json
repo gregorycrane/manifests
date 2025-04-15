@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5777",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5777/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1744",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1744/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30982",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5777/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stemmed bowl",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30984",
+          "id": "http://example.org/iiif/1864",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30983",
+              "id": "http://example.org/iiif/1863",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30982"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5777/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30985",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5777/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stemmed bowl",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30987",
+          "id": "http://example.org/iiif/1866",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30986",
+              "id": "http://example.org/iiif/1865",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30985"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5777/p2"
             }
           ]
         }

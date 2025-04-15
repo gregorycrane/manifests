@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1817",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1817/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0154",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0154/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31339",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1817/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a poor old donkey",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31341",
+          "id": "http://example.org/iiif/1352",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31340",
+              "id": "http://example.org/iiif/1351",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31339"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1817/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31342",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1817/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Poor old donkey",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31344",
+          "id": "http://example.org/iiif/1354",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31343",
+              "id": "http://example.org/iiif/1353",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31342"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1817/p2"
             }
           ]
         }

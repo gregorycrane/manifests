@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_568",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_568/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0289",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0289/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74413",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_568/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Helmeted head of Athena, profile to the right; her helmet is adorned with an olive wreath. Athena's frontal eye is developing some profile characteristics",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 391,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74415",
+          "id": "http://example.org/iiif/30068",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74414",
+              "id": "http://example.org/iiif/30067",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74413"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_568/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74416",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_568/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Owl standing profile to the right; in left field, olive sprig and crescent",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 391,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74418",
+          "id": "http://example.org/iiif/30070",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74417",
+              "id": "http://example.org/iiif/30069",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74416"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_568/p2"
             }
           ]
         }

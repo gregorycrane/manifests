@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_593",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_593/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0331",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0331/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74557",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_593/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Pegasus with pointed wing flying to the left; below, koppa (letter)",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 363,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74559",
+          "id": "http://example.org/iiif/30164",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74558",
+              "id": "http://example.org/iiif/30163",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74557"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_593/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74560",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_593/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Head of Aphrodite, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 356,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74562",
+          "id": "http://example.org/iiif/30166",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74561",
+              "id": "http://example.org/iiif/30165",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74560"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_593/p2"
             }
           ]
         }

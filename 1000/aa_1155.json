@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1155",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1155/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0443",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0443/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69616",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1155/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Titus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69618",
+          "id": "http://example.org/iiif/26870",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69617",
+              "id": "http://example.org/iiif/26869",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69616"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1155/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69619",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1155/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Dolphin entwined around an anchor",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69621",
+          "id": "http://example.org/iiif/26872",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69620",
+              "id": "http://example.org/iiif/26871",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69619"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1155/p2"
             }
           ]
         }

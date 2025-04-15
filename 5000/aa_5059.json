@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0105",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0105/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13432",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 364,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/13434",
+          "id": "http://example.org/iiif/3272",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13433",
+              "id": "http://example.org/iiif/3271",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13432"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13435",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 380,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/13437",
+          "id": "http://example.org/iiif/3274",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13436",
+              "id": "http://example.org/iiif/3273",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13435"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13438",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 374,
       "width": 268,
       "items": [
         {
-          "id": "http://example.org/iiif/13440",
+          "id": "http://example.org/iiif/3276",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13439",
+              "id": "http://example.org/iiif/3275",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13438"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13441",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 366,
       "width": 268,
       "items": [
         {
-          "id": "http://example.org/iiif/13443",
+          "id": "http://example.org/iiif/3278",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13442",
+              "id": "http://example.org/iiif/3277",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13441"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13444",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 380,
       "width": 268,
       "items": [
         {
-          "id": "http://example.org/iiif/13446",
+          "id": "http://example.org/iiif/3280",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13445",
+              "id": "http://example.org/iiif/3279",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13444"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13447",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A, main panel: horseman",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/13449",
+          "id": "http://example.org/iiif/3282",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13448",
+              "id": "http://example.org/iiif/3281",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13447"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13450",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B, main panel: horseman",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/13452",
+          "id": "http://example.org/iiif/3284",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13451",
+              "id": "http://example.org/iiif/3283",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13450"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13453",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A, neck: men and youth",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/13455",
+          "id": "http://example.org/iiif/3286",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13454",
+              "id": "http://example.org/iiif/3285",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13453"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13456",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A, neck: men and youth",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/13458",
+          "id": "http://example.org/iiif/3288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13457",
+              "id": "http://example.org/iiif/3287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13456"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13459",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B, neck: Zeus and Hermes",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/13461",
+          "id": "http://example.org/iiif/3290",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13460",
+              "id": "http://example.org/iiif/3289",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13459"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13462",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B, neck: Zeus and Hermes",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/13464",
+          "id": "http://example.org/iiif/3292",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13463",
+              "id": "http://example.org/iiif/3291",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,7 +462,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13462"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5059/p11"
             }
           ]
         }

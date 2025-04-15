@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4288",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4288/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0084",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0084/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4681",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4288/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 392,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/4683",
+          "id": "http://example.org/iiif/36392",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4682",
+              "id": "http://example.org/iiif/36391",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4681"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4288/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4684",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4288/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos and attendants",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 355,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4686",
+          "id": "http://example.org/iiif/36394",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4685",
+              "id": "http://example.org/iiif/36393",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4684"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4288/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4687",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4288/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Horsemen",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 370,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/4689",
+          "id": "http://example.org/iiif/36396",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4688",
+              "id": "http://example.org/iiif/36395",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4687"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4288/p3"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1049",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1049/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0231",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0231/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68782",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1049/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bare head of Antony",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68784",
+          "id": "http://example.org/iiif/26314",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68783",
+              "id": "http://example.org/iiif/26313",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68782"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1049/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68785",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1049/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Bare head of Octavian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68787",
+          "id": "http://example.org/iiif/26316",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68786",
+              "id": "http://example.org/iiif/26315",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68785"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1049/p2"
             }
           ]
         }

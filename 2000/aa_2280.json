@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.01.0288",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.01.0288/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13483",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief of Seated Woman MMA 07.286.109, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 420,
       "width": 298,
       "items": [
         {
-          "id": "http://example.org/iiif/13485",
+          "id": "http://example.org/iiif/8990",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13484",
+              "id": "http://example.org/iiif/8989",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13483"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13486",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief of Seated Woman MMA 07.286.109, detail upper figure",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 338,
       "width": 389,
       "items": [
         {
-          "id": "http://example.org/iiif/13488",
+          "id": "http://example.org/iiif/8992",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13487",
+              "id": "http://example.org/iiif/8991",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13486"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13489",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief of Seated Woman MMA 07.286.109, detail lower figure",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 338,
       "width": 470,
       "items": [
         {
-          "id": "http://example.org/iiif/13491",
+          "id": "http://example.org/iiif/8994",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13490",
+              "id": "http://example.org/iiif/8993",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13489"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13492",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief of Seated Woman MMA 07.286.109, from right",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 456,
       "width": 293,
       "items": [
         {
-          "id": "http://example.org/iiif/13494",
+          "id": "http://example.org/iiif/8996",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13493",
+              "id": "http://example.org/iiif/8995",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13492"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13495",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief of Seated Woman MMA 07.286.109, from left",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 439,
       "width": 293,
       "items": [
         {
-          "id": "http://example.org/iiif/13497",
+          "id": "http://example.org/iiif/8998",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13496",
+              "id": "http://example.org/iiif/8997",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13495"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2280/p5"
             }
           ]
         }

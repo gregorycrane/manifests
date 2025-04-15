@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_284",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_284/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.v1.0109",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.v1.0109/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61981",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_284/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "East tholos from W, Olympia, Nymphaeum",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/61983",
+          "id": "http://example.org/iiif/21780",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61982",
+              "id": "http://example.org/iiif/21779",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61981"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_284/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61984",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_284/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "East tholos (Exedra of Herodes Atticus) from E, Olympia, Nymphaeum",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 284,
       "width": 420,
       "items": [
         {
-          "id": "http://example.org/iiif/61986",
+          "id": "http://example.org/iiif/21782",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61985",
+              "id": "http://example.org/iiif/21781",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61984"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_284/p2"
             }
           ]
         }

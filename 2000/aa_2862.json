@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2862",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2862/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0201",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0201/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20002",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2862/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Image from Svoronos",
+          "From Svoronos 1903-12, pl. 201"
+        ]
+      },
       "height": 609,
       "width": 413,
       "items": [
         {
-          "id": "http://example.org/iiif/20004",
+          "id": "http://example.org/iiif/86",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20003",
+              "id": "http://example.org/iiif/85",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20002"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2862/p1"
             }
           ]
         }

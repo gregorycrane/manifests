@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1854",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1854/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0239",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0239/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31573",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1854/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing Bes, clad in a lionskin, running with a wild goat in either hand",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31575",
+          "id": "http://example.org/iiif/1508",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31574",
+              "id": "http://example.org/iiif/1507",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31573"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1854/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31576",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1854/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the convex, a beetle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31578",
+          "id": "http://example.org/iiif/1510",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31577",
+              "id": "http://example.org/iiif/1509",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31576"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1854/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31579",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1854/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the flat, Bes, clad in a lionskin, running with a wild goat in either hand",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31581",
+          "id": "http://example.org/iiif/1512",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31580",
+              "id": "http://example.org/iiif/1511",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31579"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1854/p3"
             }
           ]
         }

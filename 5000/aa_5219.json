@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5219",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5219/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0223",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0223/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19930",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5219/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: carpenter",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2476,
       "width": 3630,
       "items": [
         {
-          "id": "http://example.org/iiif/19932",
+          "id": "http://example.org/iiif/980",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19931",
+              "id": "http://example.org/iiif/979",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19930"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5219/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/19933",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5219/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Greeks and Orientals",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2470,
       "width": 3486,
       "items": [
         {
-          "id": "http://example.org/iiif/19935",
+          "id": "http://example.org/iiif/982",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19934",
+              "id": "http://example.org/iiif/981",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19933"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5219/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/19936",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5219/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3078,
       "width": 2170,
       "items": [
         {
-          "id": "http://example.org/iiif/19938",
+          "id": "http://example.org/iiif/984",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19937",
+              "id": "http://example.org/iiif/983",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19936"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5219/p3"
             }
           ]
         }

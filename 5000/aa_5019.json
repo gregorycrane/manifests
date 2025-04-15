@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0054",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0054/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12865",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: goddess and warrior in a wheeling chariot",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
       "height": 372,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/12867",
+          "id": "http://example.org/iiif/2894",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12866",
+              "id": "http://example.org/iiif/2893",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12865"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12868",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: two warriors leaving home",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
       "height": 364,
       "width": 234,
       "items": [
         {
-          "id": "http://example.org/iiif/12870",
+          "id": "http://example.org/iiif/2896",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12869",
+              "id": "http://example.org/iiif/2895",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12868"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p2"
             }
           ]
         }

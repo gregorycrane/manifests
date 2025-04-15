@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_667",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_667/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0145",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0145/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75013",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_667/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Kekrops, profile to the left, with olive branch; below, a tuna fish",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 363,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75015",
+          "id": "http://example.org/iiif/30468",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75014",
+              "id": "http://example.org/iiif/30467",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75013"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_667/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75016",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_667/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Quadripartite incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 360,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75018",
+          "id": "http://example.org/iiif/30470",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75017",
+              "id": "http://example.org/iiif/30469",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75016"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_667/p2"
             }
           ]
         }

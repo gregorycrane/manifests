@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1963",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1963/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0081",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0081/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3418",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1963/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Musical contest of Apollo with Marsyas",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 2518,
       "width": 3593,
       "items": [
         {
-          "id": "http://example.org/iiif/3420",
+          "id": "http://example.org/iiif/2280",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3419",
+              "id": "http://example.org/iiif/2279",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3418"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1963/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3421",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1963/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Musical contest of Apollo with Marsyas; Bottom left: Square relief depicting a seated, bearded, male figure, perhaps Zeus; Bottom right: Square relief depicting a seated, bearded, male figure, perhaps Asklepios",
+          "From Svoronos 1903-12, pl. 31.1"
+        ]
+      },
       "height": 531,
       "width": 408,
       "items": [
         {
-          "id": "http://example.org/iiif/3423",
+          "id": "http://example.org/iiif/2282",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3422",
+              "id": "http://example.org/iiif/2281",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3421"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1963/p2"
             }
           ]
         }

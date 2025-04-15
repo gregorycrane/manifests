@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4559",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4559/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0323",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0323/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/844",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4559/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Photograph courtesy of the Washington University Gallery of Art"
+        ]
+      },
       "height": 324,
       "width": 209,
       "items": [
         {
-          "id": "http://example.org/iiif/846",
+          "id": "http://example.org/iiif/4114",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/845",
+              "id": "http://example.org/iiif/4113",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/844"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4559/p1"
             }
           ]
         }

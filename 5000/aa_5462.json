@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5462",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5462/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0189",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0189/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25504",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5462/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Hephaistos and Thetis",
+          "From Caskey & Beazley, plate XLIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 418,
       "width": 388,
       "items": [
         {
-          "id": "http://example.org/iiif/25506",
+          "id": "http://example.org/iiif/4696",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25505",
+              "id": "http://example.org/iiif/4695",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25504"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5462/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25507",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5462/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Nike",
+          "From Caskey & Beazley, plate XLIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 418,
       "width": 347,
       "items": [
         {
-          "id": "http://example.org/iiif/25509",
+          "id": "http://example.org/iiif/4698",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25508",
+              "id": "http://example.org/iiif/4697",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25507"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5462/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2799",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2799/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0185",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0185/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19213",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2799/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Relief with three worshippers; Top center: Relief with a goddess; Top right: Fragment of a votive relief?; Center left: Votive relief; Center: Fragmentary stele with a running youth; Center right: Kybele relief; Bottom left: Fragmentary relief with warrior; Bottom right: Fragment of a Relief Stele",
+          "From Svoronos 1903-12, pl. 185"
+        ]
+      },
       "height": 574,
       "width": 466,
       "items": [
         {
-          "id": "http://example.org/iiif/19215",
+          "id": "http://example.org/iiif/12810",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19214",
+              "id": "http://example.org/iiif/12809",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19213"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2799/p1"
             }
           ]
         }

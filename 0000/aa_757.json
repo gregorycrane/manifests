@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_757",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_757/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0610",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0610/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75556",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_757/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Baaltars seated to the left, holding bunch of grapes, ear of grain, and scepter; below throne, an ankh",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 432,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75558",
+          "id": "http://example.org/iiif/30830",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75557",
+              "id": "http://example.org/iiif/30829",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75556"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_757/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75559",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_757/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Lion, profile to the left, attacking stag",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 428,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75561",
+          "id": "http://example.org/iiif/30832",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75560",
+              "id": "http://example.org/iiif/30831",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75559"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_757/p2"
             }
           ]
         }

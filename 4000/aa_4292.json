@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0518.lg",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0518.lg/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4849",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (large)",
+          "copyright C.H. Smith 1988, based on Reichhold (artist) 1904 in FR pl. 22"
+        ]
+      },
       "height": 1012,
       "width": 842,
       "items": [
         {
-          "id": "http://example.org/iiif/4851",
+          "id": "http://example.org/iiif/36504",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4850",
+              "id": "http://example.org/iiif/36503",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4849"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4852",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (small)",
+          "copyright C.H. Smith 1988, based on Reichhold (artist) 1904 in FR pl. 22"
+        ]
+      },
       "height": 480,
       "width": 399,
       "items": [
         {
-          "id": "http://example.org/iiif/4854",
+          "id": "http://example.org/iiif/36506",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4853",
+              "id": "http://example.org/iiif/36505",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4852"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4855",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of profile",
+          "copyright C.H. Smith 1988, based on Reichhold (artist) 1904 in FR pl. 22"
+        ]
+      },
       "height": 274,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/4857",
+          "id": "http://example.org/iiif/36508",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4856",
+              "id": "http://example.org/iiif/36507",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4855"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4858",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (large, restored)",
+          "copyright C.H. Smith 1988, based on Reichhold (artist) 1904 in FR pl. 22"
+        ]
+      },
       "height": 1012,
       "width": 843,
       "items": [
         {
-          "id": "http://example.org/iiif/4860",
+          "id": "http://example.org/iiif/36510",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4859",
+              "id": "http://example.org/iiif/36509",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4858"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4861",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (small, restored)",
+          "copyright C.H. Smith 1988, based on Reichhold (artist) 1904 in FR pl. 22"
+        ]
+      },
       "height": 480,
       "width": 400,
       "items": [
         {
-          "id": "http://example.org/iiif/4863",
+          "id": "http://example.org/iiif/36512",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4862",
+              "id": "http://example.org/iiif/36511",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4861"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4864",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of foot with inscription",
+          "copyright C.H. Smith 1988, based on Reichhold (artist) 1904 in FR pl. 22"
+        ]
+      },
       "height": 91,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/4866",
+          "id": "http://example.org/iiif/36514",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4865",
+              "id": "http://example.org/iiif/36513",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4864"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4867",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview:  interior",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 347,
       "items": [
         {
-          "id": "http://example.org/iiif/4869",
+          "id": "http://example.org/iiif/36516",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4868",
+              "id": "http://example.org/iiif/36515",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4867"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4870",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: horseman",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 539,
       "items": [
         {
-          "id": "http://example.org/iiif/4872",
+          "id": "http://example.org/iiif/36518",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4871",
+              "id": "http://example.org/iiif/36517",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4870"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4873",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Profile: side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 197,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4875",
+          "id": "http://example.org/iiif/36520",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4874",
+              "id": "http://example.org/iiif/36519",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4873"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4876",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 310,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/4878",
+          "id": "http://example.org/iiif/36522",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4877",
+              "id": "http://example.org/iiif/36521",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4876"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4879",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 334,
       "width": 519,
       "items": [
         {
-          "id": "http://example.org/iiif/4881",
+          "id": "http://example.org/iiif/36524",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4880",
+              "id": "http://example.org/iiif/36523",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4879"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4882",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Side B",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 315,
       "width": 515,
       "items": [
         {
-          "id": "http://example.org/iiif/4884",
+          "id": "http://example.org/iiif/36526",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4883",
+              "id": "http://example.org/iiif/36525",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4882"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4885",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Side B",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 310,
       "width": 517,
       "items": [
         {
-          "id": "http://example.org/iiif/4887",
+          "id": "http://example.org/iiif/36528",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4886",
+              "id": "http://example.org/iiif/36527",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4885"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4888",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: view from below",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 333,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/4890",
+          "id": "http://example.org/iiif/36530",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4889",
+              "id": "http://example.org/iiif/36529",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4888"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4891",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Iolaos, Athena, Herakles",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/4893",
+          "id": "http://example.org/iiif/36532",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4892",
+              "id": "http://example.org/iiif/36531",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4891"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4894",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Iolaos, Athena, Herakles",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 351,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/4896",
+          "id": "http://example.org/iiif/36534",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4895",
+              "id": "http://example.org/iiif/36533",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4894"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4897",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles, Geryon, dog Orthros",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/4899",
+          "id": "http://example.org/iiif/36536",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4898",
+              "id": "http://example.org/iiif/36535",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4897"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4900",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of Herakles and Geryon",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/4902",
+          "id": "http://example.org/iiif/36538",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4901",
+              "id": "http://example.org/iiif/36537",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4900"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4903",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of dog Orthros",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 349,
       "width": 539,
       "items": [
         {
-          "id": "http://example.org/iiif/4905",
+          "id": "http://example.org/iiif/36540",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4904",
+              "id": "http://example.org/iiif/36539",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4903"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4906",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of dog Orthros",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 545,
       "items": [
         {
-          "id": "http://example.org/iiif/4908",
+          "id": "http://example.org/iiif/36542",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4907",
+              "id": "http://example.org/iiif/36541",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4906"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4909",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Geryon and lamenting woman",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 545,
       "items": [
         {
-          "id": "http://example.org/iiif/4911",
+          "id": "http://example.org/iiif/36544",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4910",
+              "id": "http://example.org/iiif/36543",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4909"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4912",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of Geryon and lamenting woman",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 375,
       "width": 550,
       "items": [
         {
-          "id": "http://example.org/iiif/4914",
+          "id": "http://example.org/iiif/36546",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4913",
+              "id": "http://example.org/iiif/36545",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4912"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4915",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: view from below, showing foot",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 330,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4917",
+          "id": "http://example.org/iiif/36548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4916",
+              "id": "http://example.org/iiif/36547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4915"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4918",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: view from below",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 333,
       "width": 541,
       "items": [
         {
-          "id": "http://example.org/iiif/4920",
+          "id": "http://example.org/iiif/36550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4919",
+              "id": "http://example.org/iiif/36549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4918"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4921",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Geryon's herd",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/4923",
+          "id": "http://example.org/iiif/36552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4922",
+              "id": "http://example.org/iiif/36551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,24 +1022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4921"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p25"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4924",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p26",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: warriors",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 545,
       "items": [
         {
-          "id": "http://example.org/iiif/4926",
+          "id": "http://example.org/iiif/36554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4925",
+              "id": "http://example.org/iiif/36553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -906,24 +1062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4924"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p26"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4927",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p27",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Inscription: \"Euphronios painted it\"",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 376,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/4929",
+          "id": "http://example.org/iiif/36556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4928",
+              "id": "http://example.org/iiif/36555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -940,24 +1102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4927"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p27"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4930",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p34",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side B, showing the cattle of Geryon",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 383,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4932",
+          "id": "http://example.org/iiif/36558",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4931",
+              "id": "http://example.org/iiif/36557",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -974,24 +1142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4930"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p34"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4933",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p35",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side B (right), showing the cattle of Geryon and hoplites",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4935",
+          "id": "http://example.org/iiif/36560",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4934",
+              "id": "http://example.org/iiif/36559",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1008,24 +1182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4933"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p35"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4936",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p36",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side B (center), showing the cattle of Geryon",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 388,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4938",
+          "id": "http://example.org/iiif/36562",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4937",
+              "id": "http://example.org/iiif/36561",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1042,24 +1222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4936"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p36"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4939",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p37",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side B (left) showing the cattle of Geryon",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 389,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4941",
+          "id": "http://example.org/iiif/36564",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4940",
+              "id": "http://example.org/iiif/36563",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1076,24 +1262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4939"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p37"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4942",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p38",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2620, tondo.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 400,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4944",
+          "id": "http://example.org/iiif/36566",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4943",
+              "id": "http://example.org/iiif/36565",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1110,24 +1302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4942"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p38"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4945",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p39",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side A, showing the battle with Geryon",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 380,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4947",
+          "id": "http://example.org/iiif/36568",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4946",
+              "id": "http://example.org/iiif/36567",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1144,24 +1342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4945"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p39"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4948",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p40",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side A (left), showing the herdsman Eurytion, Iolaos, and Athena",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 424,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4950",
+          "id": "http://example.org/iiif/36570",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4949",
+              "id": "http://example.org/iiif/36569",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1178,24 +1382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4948"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p40"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4951",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p41",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side A (center), showing Herakles and Geryon surrounded by others",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4953",
+          "id": "http://example.org/iiif/36572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4952",
+              "id": "http://example.org/iiif/36571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1212,24 +1422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4951"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p41"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4954",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p42",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of side A (right), showing Herakles, Orthus (slain dog), Geryon, and a woman",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 395,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4956",
+          "id": "http://example.org/iiif/36574",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4955",
+              "id": "http://example.org/iiif/36573",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1246,24 +1462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4954"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p42"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4957",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p43",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of the painter's signature, \"Euphronios painted it\"",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 143,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4959",
+          "id": "http://example.org/iiif/36576",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4958",
+              "id": "http://example.org/iiif/36575",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1280,24 +1502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4957"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p43"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4960",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p44",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: drawing of the potter's signature,\"Kachrylion made it\"",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 135,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4962",
+          "id": "http://example.org/iiif/36578",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4961",
+              "id": "http://example.org/iiif/36577",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1314,24 +1542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4960"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p44"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4963",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p45",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Euphronios cup depicting Herakles fighting Geryon: profile drawing of the cup showing the signature on the foot",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 21-30. München: Bruckmann, 1902. pl. 22"
+        ]
+      },
       "height": 401,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/4965",
+          "id": "http://example.org/iiif/36580",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4964",
+              "id": "http://example.org/iiif/36579",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1348,7 +1582,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4963"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4292/p45"
             }
           ]
         }

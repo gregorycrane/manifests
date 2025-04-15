@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1313",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1313/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0989",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0989/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70768",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1313/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Draped bust of Julia Domna",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70770",
+          "id": "http://example.org/iiif/27638",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70769",
+              "id": "http://example.org/iiif/27637",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70768"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1313/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70771",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1313/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Julia Domna, holding patera and scepter, at altar with military standards",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70773",
+          "id": "http://example.org/iiif/27640",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70772",
+              "id": "http://example.org/iiif/27639",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70771"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1313/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4811",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4811/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0232",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0232/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11365",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side A",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3270,
       "width": 1744,
       "items": [
         {
-          "id": "http://example.org/iiif/11367",
+          "id": "http://example.org/iiif/1894",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11366",
+              "id": "http://example.org/iiif/1893",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11365"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11368",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Terpsichore with Mousaios and Melousa",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2515,
       "width": 3725,
       "items": [
         {
-          "id": "http://example.org/iiif/11370",
+          "id": "http://example.org/iiif/1896",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11369",
+              "id": "http://example.org/iiif/1895",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11368"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11371",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck amphora attributed to the Peleus Painter: Overview of the vase, showing side B",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 139"
+        ]
+      },
       "height": 900,
       "width": 513,
       "items": [
         {
-          "id": "http://example.org/iiif/11373",
+          "id": "http://example.org/iiif/1898",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11372",
+              "id": "http://example.org/iiif/1897",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11371"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11374",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck amphora attributed to the Peleus Painter: Drawing of side A, showing Melousa, Terpsichore, and Mousaios",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 139"
+        ]
+      },
       "height": 409,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/11376",
+          "id": "http://example.org/iiif/1900",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11375",
+              "id": "http://example.org/iiif/1899",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11374"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4811/p4"
             }
           ]
         }

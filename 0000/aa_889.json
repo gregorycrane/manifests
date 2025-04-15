@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_889",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_889/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0171",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0171/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76372",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_889/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "reverse",
+          "Photograph by Mark Wise, courtesy of the Bowdoin College Museum of Art"
+        ]
+      },
       "height": 2107,
       "width": 2732,
       "items": [
         {
-          "id": "http://example.org/iiif/76374",
+          "id": "http://example.org/iiif/31374",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76373",
+              "id": "http://example.org/iiif/31373",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76372"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_889/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76375",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_889/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "obverse",
+          "Photograph by Mark Wise, courtesy of the Bowdoin College Museum of Art"
+        ]
+      },
       "height": 2147,
       "width": 2644,
       "items": [
         {
-          "id": "http://example.org/iiif/76377",
+          "id": "http://example.org/iiif/31376",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76376",
+              "id": "http://example.org/iiif/31375",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76375"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_889/p2"
             }
           ]
         }

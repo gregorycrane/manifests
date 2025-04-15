@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_876",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_876/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0799",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0799/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76270",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_876/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Lion, profile to the right, attacking a bull, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 411,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76272",
+          "id": "http://example.org/iiif/31306",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76271",
+              "id": "http://example.org/iiif/31305",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76270"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_876/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76273",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_876/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Legend within incuse square around four pyramids with granulated surfaces",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76275",
+          "id": "http://example.org/iiif/31308",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76274",
+              "id": "http://example.org/iiif/31307",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76273"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_876/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1305",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1305/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0971",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0971/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70696",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1305/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Didius Julianus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70698",
+          "id": "http://example.org/iiif/27590",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70697",
+              "id": "http://example.org/iiif/27589",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70696"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1305/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70699",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1305/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Togate Didius Julianus standing, with globe and scroll",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70701",
+          "id": "http://example.org/iiif/27592",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70700",
+              "id": "http://example.org/iiif/27591",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70699"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1305/p2"
             }
           ]
         }

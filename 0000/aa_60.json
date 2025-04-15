@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_60",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_60/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0038a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0038a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/66868",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_60/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, Old Temple of Athena",
+          "copyright Perseus Project 1989, drawn by M. W. Cutler based on N.D. Papachadzi 1974 354 fig. 210"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/66870",
+          "id": "http://example.org/iiif/25038",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/66869",
+              "id": "http://example.org/iiif/25037",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/66868"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_60/p1"
             }
           ]
         }

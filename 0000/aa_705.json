@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_705",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_705/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0526",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0526/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75241",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_705/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Griffin seated, profile to the right, with its left foreleg raised; in right field, a swan",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 422,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75243",
+          "id": "http://example.org/iiif/30620",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75242",
+              "id": "http://example.org/iiif/30619",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75241"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_705/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5470",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5470/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0406",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0406/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25573",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5470/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen drinking",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 347,
       "width": 364,
       "items": [
         {
-          "id": "http://example.org/iiif/25575",
+          "id": "http://example.org/iiif/4742",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25574",
+              "id": "http://example.org/iiif/4741",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25573"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5470/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25576",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5470/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen drinking",
+          "From Caskey & Beazley, plate III. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 365,
       "width": 363,
       "items": [
         {
-          "id": "http://example.org/iiif/25578",
+          "id": "http://example.org/iiif/4744",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25577",
+              "id": "http://example.org/iiif/4743",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25576"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5470/p2"
             }
           ]
         }

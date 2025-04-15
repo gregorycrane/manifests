@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_792",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_792/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0683",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0683/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75766",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_792/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Athena, profile to the right, wearing Corinthian helmet adorned with Scylla",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 409,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75768",
+          "id": "http://example.org/iiif/30970",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75767",
+              "id": "http://example.org/iiif/30969",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75766"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_792/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75769",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_792/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Herakles standing facing, wearing lion skin over his left arm, resting his right hand on his club and holding bow and arrows in his left hand; above club, owl",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 402,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75771",
+          "id": "http://example.org/iiif/30972",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75770",
+              "id": "http://example.org/iiif/30971",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75769"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_792/p2"
             }
           ]
         }

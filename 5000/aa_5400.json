@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5400",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5400/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0202",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0202/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/24988",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5400/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: wedding of Menelaos and Helen",
+          "From Caskey & Beazley, plate XLVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 261,
       "items": [
         {
-          "id": "http://example.org/iiif/24990",
+          "id": "http://example.org/iiif/4352",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24989",
+              "id": "http://example.org/iiif/4351",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24988"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5400/p1"
             }
           ]
         }

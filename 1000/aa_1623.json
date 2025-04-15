@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1623",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1623/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0519",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0519/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72829",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1623/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Nerva",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72831",
+          "id": "http://example.org/iiif/29012",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72830",
+              "id": "http://example.org/iiif/29011",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72829"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1623/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72832",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1623/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Simpulum, sprinkler, ewer, lituus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72834",
+          "id": "http://example.org/iiif/29014",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72833",
+              "id": "http://example.org/iiif/29013",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72832"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1623/p2"
             }
           ]
         }

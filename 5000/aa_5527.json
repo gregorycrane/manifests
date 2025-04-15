@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5527",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5527/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0281",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0281/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25984",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5527/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Front view",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 398,
       "width": 207,
       "items": [
         {
-          "id": "http://example.org/iiif/25986",
+          "id": "http://example.org/iiif/5016",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25985",
+              "id": "http://example.org/iiif/5015",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25984"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5527/p1"
             }
           ]
         }

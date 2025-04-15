@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1283",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1283/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0927",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0927/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70564",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1283/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Commodus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70566",
+          "id": "http://example.org/iiif/27502",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70565",
+              "id": "http://example.org/iiif/27501",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70564"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1283/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70567",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1283/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Jupiter, with cape, scepter, and thunderbolt, standing next to the togate Emperor, Commodus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70569",
+          "id": "http://example.org/iiif/27504",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70568",
+              "id": "http://example.org/iiif/27503",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70567"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1283/p2"
             }
           ]
         }

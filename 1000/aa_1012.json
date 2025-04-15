@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1012",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1012/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0125",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0125/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68560",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1012/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Apollo",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68562",
+          "id": "http://example.org/iiif/26166",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68561",
+              "id": "http://example.org/iiif/26165",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68560"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1012/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68563",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1012/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Horseman galloping with spear",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68565",
+          "id": "http://example.org/iiif/26168",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68564",
+              "id": "http://example.org/iiif/26167",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68563"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1012/p2"
             }
           ]
         }

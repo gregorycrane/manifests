@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1555",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1555/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1473",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1473/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72313",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1555/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Radiate bust of Maximinus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72315",
+          "id": "http://example.org/iiif/28668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72314",
+              "id": "http://example.org/iiif/28667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72313"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1555/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72316",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1555/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Sandan standing on the back of a horned lion",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72318",
+          "id": "http://example.org/iiif/28670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72317",
+              "id": "http://example.org/iiif/28669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72316"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1555/p2"
             }
           ]
         }

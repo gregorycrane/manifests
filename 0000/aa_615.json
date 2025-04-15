@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_615",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_615/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0123",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0123/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74689",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_615/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Eagle standing to the left on a heron",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 405,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74691",
+          "id": "http://example.org/iiif/30252",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74690",
+              "id": "http://example.org/iiif/30251",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74689"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_615/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74692",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_615/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Nike seated to the left, holding tainia",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 379,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74694",
+          "id": "http://example.org/iiif/30254",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74693",
+              "id": "http://example.org/iiif/30253",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74692"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_615/p2"
             }
           ]
         }

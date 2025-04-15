@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_493",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_493/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0885",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0885/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73945",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_493/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of bearded Dionysos, wearing an ivy wreath, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 418,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73947",
+          "id": "http://example.org/iiif/29756",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73946",
+              "id": "http://example.org/iiif/29755",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73945"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_493/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73948",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_493/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Legend and club in wreath",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 420,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73950",
+          "id": "http://example.org/iiif/29758",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73949",
+              "id": "http://example.org/iiif/29757",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73948"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_493/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_722",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_722/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0558",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0558/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75337",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_722/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Forepart of lion, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 378,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75339",
+          "id": "http://example.org/iiif/30684",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75338",
+              "id": "http://example.org/iiif/30683",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75337"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_722/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75340",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_722/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Floral star within incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 373,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75342",
+          "id": "http://example.org/iiif/30686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75341",
+              "id": "http://example.org/iiif/30685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75340"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_722/p2"
             }
           ]
         }

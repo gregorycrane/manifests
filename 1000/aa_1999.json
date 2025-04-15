@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1999",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1999/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0063",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0063/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4480",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1999/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave stele with two standing figures, bearded man and young woman",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3635,
       "width": 2428,
       "items": [
         {
-          "id": "http://example.org/iiif/4482",
+          "id": "http://example.org/iiif/2988",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4481",
+              "id": "http://example.org/iiif/2987",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4480"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1999/p1"
             }
           ]
         }

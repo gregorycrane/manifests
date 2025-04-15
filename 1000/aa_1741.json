@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1741",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1741/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0221",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0221/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30832",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1741/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing Jason, with petasos, sword and shield, swallowed by the dragon, or perhaps issuing from its mouth",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30834",
+          "id": "http://example.org/iiif/1014",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30833",
+              "id": "http://example.org/iiif/1013",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30832"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1741/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30835",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1741/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the flat, Jason, with petasos, sword and shield, swallowed by the dragon, or perhaps issuing from its mouth",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30837",
+          "id": "http://example.org/iiif/1016",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30836",
+              "id": "http://example.org/iiif/1015",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30835"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1741/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30838",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1741/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the convex, a beetle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30840",
+          "id": "http://example.org/iiif/1018",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30839",
+              "id": "http://example.org/iiif/1017",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30838"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1741/p3"
             }
           ]
         }

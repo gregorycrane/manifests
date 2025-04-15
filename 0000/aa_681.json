@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_681",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_681/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0490",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0490/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75097",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_681/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Ram's head, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 384,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75099",
+          "id": "http://example.org/iiif/30524",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75098",
+              "id": "http://example.org/iiif/30523",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75097"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_681/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75100",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_681/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Quadripartite incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 357,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75102",
+          "id": "http://example.org/iiif/30526",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75101",
+              "id": "http://example.org/iiif/30525",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75100"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_681/p2"
             }
           ]
         }

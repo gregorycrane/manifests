@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0433",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0433/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5425",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: battle of Lapiths and centaurs",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 1518,
       "width": 3426,
       "items": [
         {
-          "id": "http://example.org/iiif/5427",
+          "id": "http://example.org/iiif/36888",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5426",
+              "id": "http://example.org/iiif/36887",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5425"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5428",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: Horse and rider",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2556,
       "width": 2706,
       "items": [
         {
-          "id": "http://example.org/iiif/5430",
+          "id": "http://example.org/iiif/36890",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5429",
+              "id": "http://example.org/iiif/36889",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5428"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5431",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Calydonian boar hunt",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2184,
       "width": 3798,
       "items": [
         {
-          "id": "http://example.org/iiif/5433",
+          "id": "http://example.org/iiif/36892",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5432",
+              "id": "http://example.org/iiif/36891",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5431"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p3"
             }
           ]
         }

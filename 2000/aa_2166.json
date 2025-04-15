@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2166",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2166/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0750",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0750/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10525",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nereid Monument, Nereid  BM 909, back view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3396,
       "width": 1996,
       "items": [
         {
-          "id": "http://example.org/iiif/10527",
+          "id": "http://example.org/iiif/7018",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10526",
+              "id": "http://example.org/iiif/7017",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10525"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10528",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nereid Monument, Nereid  BM 909, right profile",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3462,
       "width": 1882,
       "items": [
         {
-          "id": "http://example.org/iiif/10530",
+          "id": "http://example.org/iiif/7020",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10529",
+              "id": "http://example.org/iiif/7019",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10528"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10531",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nereid Monument, Nereid  BM 909, left profile",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3060,
       "width": 2104,
       "items": [
         {
-          "id": "http://example.org/iiif/10533",
+          "id": "http://example.org/iiif/7022",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10532",
+              "id": "http://example.org/iiif/7021",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10531"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10534",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Nereid Monument, Nereid  BM 909, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3174,
       "width": 1936,
       "items": [
         {
-          "id": "http://example.org/iiif/10536",
+          "id": "http://example.org/iiif/7024",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10535",
+              "id": "http://example.org/iiif/7023",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10534"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2166/p4"
             }
           ]
         }

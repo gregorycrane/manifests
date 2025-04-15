@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4918",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4918/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0485",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0485/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12250",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4918/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of sherd from ext. side B, girl playing flutes",
+          "copyright C. H. Smith  1988"
+        ]
+      },
       "height": 347,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/12252",
+          "id": "http://example.org/iiif/2484",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12251",
+              "id": "http://example.org/iiif/2483",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12250"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4918/p1"
             }
           ]
         }

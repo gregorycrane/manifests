@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_168",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_168/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152l",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152l/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/59941",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_168/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Treasury of the Cyreneans (XIII)",
+          "copyright D. Neel Smith 1988 drawn by M. W. Cutler and C. H. Smith based on  P. de la Coste Messelière, Au Musée de Delphes, Editions E. de Boccard 1970 plate L, in Coulton 1977 69 fig. 22 and also based on A. Tournaire, Bulletin de correspondance hellénique 1897 plate 14,  in N.D. Papachadzi 1981 287 fig.327 Temple of Apollo plan based on F. Courby, Relevés et restaurations, Fouilles de Delphes 1927, in N.D. Papachadzi 1981 366-367 fig. 405"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/59943",
+          "id": "http://example.org/iiif/20420",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59942",
+              "id": "http://example.org/iiif/20419",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/59941"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_168/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/59944",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_168/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of remains, looking S with first monuments of Sacred Way beyond, Delphi, Treasury of the Cyreneans",
+          "Photograph by Pamela J. Russell"
+        ]
+      },
       "height": 327,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/59946",
+          "id": "http://example.org/iiif/20422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59945",
+              "id": "http://example.org/iiif/20421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/59944"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_168/p2"
             }
           ]
         }

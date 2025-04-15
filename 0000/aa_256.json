@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_256",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_256/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0660",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0660/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61537",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_256/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of North Market, from N, Miletus",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 303,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/61539",
+          "id": "http://example.org/iiif/21484",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61538",
+              "id": "http://example.org/iiif/21483",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61537"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_256/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61540",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_256/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View from E side of former harbor toward S to North Market, Miletus",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 321,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/61542",
+          "id": "http://example.org/iiif/21486",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61541",
+              "id": "http://example.org/iiif/21485",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61540"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_256/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61543",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_256/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Temples of Asclepius and cult of the emperors at S side of North Market, from NE, Miletus",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 282,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/61545",
+          "id": "http://example.org/iiif/21488",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61544",
+              "id": "http://example.org/iiif/21487",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61543"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_256/p3"
             }
           ]
         }

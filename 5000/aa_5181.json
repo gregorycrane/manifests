@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5181",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5181/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0493",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0493/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/16462",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5181/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Ajax and Achilles gaming with Athena",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3420,
       "width": 2328,
       "items": [
         {
-          "id": "http://example.org/iiif/16464",
+          "id": "http://example.org/iiif/5292",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16463",
+              "id": "http://example.org/iiif/5291",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16462"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5181/p1"
             }
           ]
         }

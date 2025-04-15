@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.2560",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.2560/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/27445",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter) and chain: general view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/27447",
+          "id": "http://example.org/iiif/5048",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27446",
+              "id": "http://example.org/iiif/5047",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27445"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27448",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/27450",
+          "id": "http://example.org/iiif/5050",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27449",
+              "id": "http://example.org/iiif/5049",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27448"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27451",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter), detail of inscription at right profile of Zeus: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/27453",
+          "id": "http://example.org/iiif/5052",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27452",
+              "id": "http://example.org/iiif/5051",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27451"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27454",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter), detail of inscription",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/27456",
+          "id": "http://example.org/iiif/5054",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27455",
+              "id": "http://example.org/iiif/5053",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27454"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27457",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter), detail of inscription",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/27459",
+          "id": "http://example.org/iiif/5056",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27458",
+              "id": "http://example.org/iiif/5055",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27457"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27460",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter), detail of inscriptions",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/27462",
+          "id": "http://example.org/iiif/5058",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27461",
+              "id": "http://example.org/iiif/5057",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27460"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27463",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter), detail of inscription at left profile of Zeus: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/27465",
+          "id": "http://example.org/iiif/5060",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27464",
+              "id": "http://example.org/iiif/5059",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27463"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27466",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter): view of reverse",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/27468",
+          "id": "http://example.org/iiif/5062",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27467",
+              "id": "http://example.org/iiif/5061",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27466"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/27469",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Medallic Plaque with Bust of Zeus (Jupiter), detail of chain: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/27471",
+          "id": "http://example.org/iiif/5064",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/27470",
+              "id": "http://example.org/iiif/5063",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,7 +382,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/27469"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3444/p9"
             }
           ]
         }

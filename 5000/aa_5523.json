@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5523",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5523/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0408",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0408/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25948",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5523/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: crouching archer",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 357,
       "width": 519,
       "items": [
         {
-          "id": "http://example.org/iiif/25950",
+          "id": "http://example.org/iiif/4992",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25949",
+              "id": "http://example.org/iiif/4991",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25948"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5523/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25951",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5523/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: crouching archer",
+          "From Caskey & Beazley, plate III. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 352,
       "width": 346,
       "items": [
         {
-          "id": "http://example.org/iiif/25953",
+          "id": "http://example.org/iiif/4994",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25952",
+              "id": "http://example.org/iiif/4993",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25951"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5523/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1584",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1584/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1537",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1537/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72502",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1584/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Commodus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72504",
+          "id": "http://example.org/iiif/28794",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72503",
+              "id": "http://example.org/iiif/28793",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72502"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1584/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72505",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1584/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Pomona, with corn and poppy, reaching to a vine, beneath which are three children, two in a tub",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72507",
+          "id": "http://example.org/iiif/28796",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72506",
+              "id": "http://example.org/iiif/28795",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72505"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1584/p2"
             }
           ]
         }

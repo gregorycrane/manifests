@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_157",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_157/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0088",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0088/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/59185",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_157/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of ashlar masonry in sanctuary enclosure wall from NW, Delphi, Temenos Wall, Sanctuary of Pythian Apollo",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 278,
       "width": 429,
       "items": [
         {
-          "id": "http://example.org/iiif/59187",
+          "id": "http://example.org/iiif/19916",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59186",
+              "id": "http://example.org/iiif/19915",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/59185"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_157/p1"
             }
           ]
         }

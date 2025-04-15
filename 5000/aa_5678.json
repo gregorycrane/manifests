@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0406",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0406/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30190",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris kantharos: Overview drawing of the vase, side A, showing Herakles' Amazonomachy",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 74"
+        ]
+      },
       "height": 716,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30192",
+          "id": "http://example.org/iiif/1336",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30191",
+              "id": "http://example.org/iiif/1335",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30190"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30193",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris kantharos: Drawing of side B, showing Telamon's Amazonomachy",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 74"
+        ]
+      },
       "height": 370,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30195",
+          "id": "http://example.org/iiif/1338",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30194",
+              "id": "http://example.org/iiif/1337",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30193"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30196",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris kantharos: Drawing of side A, showing Herakles' Amazonomachy",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 74"
+        ]
+      },
       "height": 349,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30198",
+          "id": "http://example.org/iiif/1340",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30197",
+              "id": "http://example.org/iiif/1339",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30196"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p3"
             }
           ]
         }

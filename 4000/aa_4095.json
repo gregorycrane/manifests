@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4095",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4095/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0329",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0329/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/79009",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4095/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Profile",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 1134,
       "width": 3162,
       "items": [
         {
-          "id": "http://example.org/iiif/79011",
+          "id": "http://example.org/iiif/33132",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/79010",
+              "id": "http://example.org/iiif/33131",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79009"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4095/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/79012",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4095/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: satyr",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2442,
       "width": 3822,
       "items": [
         {
-          "id": "http://example.org/iiif/79014",
+          "id": "http://example.org/iiif/33134",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/79013",
+              "id": "http://example.org/iiif/33133",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79012"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4095/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/79015",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4095/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: A satyr crawls on a rocky outcropping toward the figure of a sleeping maenad whom he is about to kiss.  The maenad reclines to the left on a large striped cushion.  A wineskin hangs in the background above head.",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2550,
       "width": 3798,
       "items": [
         {
-          "id": "http://example.org/iiif/79017",
+          "id": "http://example.org/iiif/33136",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/79016",
+              "id": "http://example.org/iiif/33135",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79015"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4095/p3"
             }
           ]
         }

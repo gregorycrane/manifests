@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1716",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1716/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30385",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 833,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30387",
+          "id": "http://example.org/iiif/716",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30386",
+              "id": "http://example.org/iiif/715",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30385"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30388",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30390",
+          "id": "http://example.org/iiif/718",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30389",
+              "id": "http://example.org/iiif/717",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30388"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30391",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: oblique view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 835,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30393",
+          "id": "http://example.org/iiif/720",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30392",
+              "id": "http://example.org/iiif/719",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30391"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30394",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: left profile view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 852,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30396",
+          "id": "http://example.org/iiif/722",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30395",
+              "id": "http://example.org/iiif/721",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30394"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30397",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: three-quarter view from back left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 848,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30399",
+          "id": "http://example.org/iiif/724",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30398",
+              "id": "http://example.org/iiif/723",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30397"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30400",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 858,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30402",
+          "id": "http://example.org/iiif/726",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30401",
+              "id": "http://example.org/iiif/725",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30400"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30403",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: three-quarter view from back right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 841,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30405",
+          "id": "http://example.org/iiif/728",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30404",
+              "id": "http://example.org/iiif/727",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30403"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30406",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: view from back right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 823,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30408",
+          "id": "http://example.org/iiif/730",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30407",
+              "id": "http://example.org/iiif/729",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30406"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30409",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: right profile view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 833,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30411",
+          "id": "http://example.org/iiif/732",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30410",
+              "id": "http://example.org/iiif/731",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30409"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30412",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle in the form of Venus: three-quarter view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 835,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30414",
+          "id": "http://example.org/iiif/734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30413",
+              "id": "http://example.org/iiif/733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,7 +422,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30412"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3733/p10"
             }
           ]
         }

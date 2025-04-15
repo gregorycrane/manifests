@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_358",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_358/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0328a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0328a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/64330",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_358/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, ca. early 7th c. BC, Samos, Second Hekatompedon Temple",
+          "copyright D. Neel Smith 1989, drawn by M.W. Cutler based on H. Berve, G. Gruben, and M. Hirmer, Griechische Tempel und Heiligtümer, 1961, in Gruben 1966 318 fig. 255"
+        ]
+      },
       "height": 219,
       "width": 403,
       "items": [
         {
-          "id": "http://example.org/iiif/64332",
+          "id": "http://example.org/iiif/23346",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64331",
+              "id": "http://example.org/iiif/23345",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64330"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_358/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64333",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_358/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction drawing of the Second Hekatompedon Temple at Samos, in the seventh century B.C., Samos",
+          "Drawing by Candace Smith, from Stewart 1990, fig. 15"
+        ]
+      },
       "height": 895,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/64335",
+          "id": "http://example.org/iiif/23348",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64334",
+              "id": "http://example.org/iiif/23347",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64333"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_358/p2"
             }
           ]
         }

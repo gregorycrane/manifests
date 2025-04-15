@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1134",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1134/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0401",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0401/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69412",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1134/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Nero",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69414",
+          "id": "http://example.org/iiif/26734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69413",
+              "id": "http://example.org/iiif/26733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69412"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1134/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69415",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1134/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Figure of Nero, togate",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69417",
+          "id": "http://example.org/iiif/26736",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69416",
+              "id": "http://example.org/iiif/26735",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69415"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1134/p2"
             }
           ]
         }

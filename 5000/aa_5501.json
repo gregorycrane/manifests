@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5501",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5501/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0398",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0398/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25777",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Eurynoe",
+          "From Caskey & Beazley, plate CII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 297,
       "items": [
         {
-          "id": "http://example.org/iiif/25779",
+          "id": "http://example.org/iiif/4878",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25778",
+              "id": "http://example.org/iiif/4877",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25777"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25780",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Hippodame",
+          "From Caskey & Beazley, plate CII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 395,
       "width": 296,
       "items": [
         {
-          "id": "http://example.org/iiif/25782",
+          "id": "http://example.org/iiif/4880",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25781",
+              "id": "http://example.org/iiif/4879",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25780"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25783",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Asteria",
+          "From Caskey & Beazley, plate CII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 297,
       "items": [
         {
-          "id": "http://example.org/iiif/25785",
+          "id": "http://example.org/iiif/4882",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25784",
+              "id": "http://example.org/iiif/4881",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25783"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25786",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck: decoration",
+          "From Caskey & Beazley, plate CII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 258,
       "width": 297,
       "items": [
         {
-          "id": "http://example.org/iiif/25788",
+          "id": "http://example.org/iiif/4884",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25787",
+              "id": "http://example.org/iiif/4883",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25786"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5501/p4"
             }
           ]
         }

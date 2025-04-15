@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4955",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4955/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0303",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0303/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12412",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4955/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 387,
       "width": 273,
       "items": [
         {
-          "id": "http://example.org/iiif/12414",
+          "id": "http://example.org/iiif/2592",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12413",
+              "id": "http://example.org/iiif/2591",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12412"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4955/p1"
             }
           ]
         }

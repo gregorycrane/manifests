@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0078",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0078/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3616",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3635,
       "width": 2392,
       "items": [
         {
-          "id": "http://example.org/iiif/3618",
+          "id": "http://example.org/iiif/2412",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3617",
+              "id": "http://example.org/iiif/2411",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3616"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3619",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, general view",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3597,
       "width": 2336,
       "items": [
         {
-          "id": "http://example.org/iiif/3621",
+          "id": "http://example.org/iiif/2414",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3620",
+              "id": "http://example.org/iiif/2413",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3619"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3622",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, view from left of center",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3712,
       "width": 2391,
       "items": [
         {
-          "id": "http://example.org/iiif/3624",
+          "id": "http://example.org/iiif/2416",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3623",
+              "id": "http://example.org/iiif/2415",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3622"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3625",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of figure on left",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3706,
       "width": 2485,
       "items": [
         {
-          "id": "http://example.org/iiif/3627",
+          "id": "http://example.org/iiif/2418",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3626",
+              "id": "http://example.org/iiif/2417",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3625"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3628",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of Hegeso seated, upper torso",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3706,
       "width": 2485,
       "items": [
         {
-          "id": "http://example.org/iiif/3630",
+          "id": "http://example.org/iiif/2420",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3629",
+              "id": "http://example.org/iiif/2419",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3628"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3631",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of lap of Hegeso",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3720,
       "width": 2499,
       "items": [
         {
-          "id": "http://example.org/iiif/3633",
+          "id": "http://example.org/iiif/2422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3632",
+              "id": "http://example.org/iiif/2421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3631"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3634",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of left arm and back of chair",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3700,
       "width": 2503,
       "items": [
         {
-          "id": "http://example.org/iiif/3636",
+          "id": "http://example.org/iiif/2424",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3635",
+              "id": "http://example.org/iiif/2423",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3634"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3637",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of chair",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3710,
       "width": 2490,
       "items": [
         {
-          "id": "http://example.org/iiif/3639",
+          "id": "http://example.org/iiif/2426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3638",
+              "id": "http://example.org/iiif/2425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3637"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3640",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, back and legs of chair",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3714,
       "width": 2394,
       "items": [
         {
-          "id": "http://example.org/iiif/3642",
+          "id": "http://example.org/iiif/2428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3641",
+              "id": "http://example.org/iiif/2427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3640"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3643",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of figures' legs",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3732,
       "width": 2493,
       "items": [
         {
-          "id": "http://example.org/iiif/3645",
+          "id": "http://example.org/iiif/2430",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3644",
+              "id": "http://example.org/iiif/2429",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3643"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3646",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of hands of Hegeso",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 3705,
       "width": 2485,
       "items": [
         {
-          "id": "http://example.org/iiif/3648",
+          "id": "http://example.org/iiif/2432",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3647",
+              "id": "http://example.org/iiif/2431",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3646"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3649",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of jewel box",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2494,
       "width": 3710,
       "items": [
         {
-          "id": "http://example.org/iiif/3651",
+          "id": "http://example.org/iiif/2434",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3650",
+              "id": "http://example.org/iiif/2433",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3649"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3652",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, left half of inscription",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2491,
       "width": 3720,
       "items": [
         {
-          "id": "http://example.org/iiif/3654",
+          "id": "http://example.org/iiif/2436",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3653",
+              "id": "http://example.org/iiif/2435",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3652"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3655",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, right half of inscription",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2497,
       "width": 3701,
       "items": [
         {
-          "id": "http://example.org/iiif/3657",
+          "id": "http://example.org/iiif/2438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3656",
+              "id": "http://example.org/iiif/2437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3655"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3658",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Hegeso, detail of feet and footstool",
+          "Photograph by Maria Daniels, courtesy of Greek Ministry of Culture"
+        ]
+      },
       "height": 2495,
       "width": 3700,
       "items": [
         {
-          "id": "http://example.org/iiif/3660",
+          "id": "http://example.org/iiif/2440",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3659",
+              "id": "http://example.org/iiif/2439",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,7 +622,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3658"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1975/p15"
             }
           ]
         }

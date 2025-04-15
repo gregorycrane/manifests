@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1841",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1841/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0035",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0035/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31501",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1841/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Sirius; head and shoulders of a dog",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31503",
+          "id": "http://example.org/iiif/1460",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31502",
+              "id": "http://example.org/iiif/1459",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31501"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1841/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31504",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1841/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing Sirius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31506",
+          "id": "http://example.org/iiif/1462",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31505",
+              "id": "http://example.org/iiif/1461",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31504"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1841/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31507",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1841/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Oblique view of cast of Sirius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31509",
+          "id": "http://example.org/iiif/1464",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31508",
+              "id": "http://example.org/iiif/1463",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31507"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1841/p3"
             }
           ]
         }

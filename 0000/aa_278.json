@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_278",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_278/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0244a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0244a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61906",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_278/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Heroon (Sanctuary of a Hero)",
+          "copyright C. H. Smith 1988 based on N. Yalouris 1979 100-101 fig. 40, and based on  A. Mallwitz,  AA 1971 153 ff. fig. 3, in A. Mallwitz 1972 fig. 240, and based on  A. Mallwitz,  Berichte über die Ausgrabungen in Olympia, winter 1953/54 and 1954/55, Berlin 1958 plate 4, in A. Mallwitz 1972 271 fig. 224"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61908",
+          "id": "http://example.org/iiif/21730",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61907",
+              "id": "http://example.org/iiif/21729",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61906"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_278/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_385",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_385/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0851",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.27.0851/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/64636",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_385/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Foundations of Megaron A, extending under later Temple of Apollo, from N-NE, Thermon",
+          "Photograph by Beth McIntosh and Sebastian Heath"
+        ]
+      },
       "height": 346,
       "width": 529,
       "items": [
         {
-          "id": "http://example.org/iiif/64638",
+          "id": "http://example.org/iiif/23550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64637",
+              "id": "http://example.org/iiif/23549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64636"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_385/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64639",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_385/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Southwest corner and pronaos cross-wall of Megaron A, from SW, Thermon",
+          "Photograph by Beth McIntosh and Sebastian Heath"
+        ]
+      },
       "height": 348,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/64641",
+          "id": "http://example.org/iiif/23552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64640",
+              "id": "http://example.org/iiif/23551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64639"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_385/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64642",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_385/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Eastern long wall of Megaron A, extending under N wall of later Temple of Apollo, from W, Thermon",
+          "Photograph by Beth McIntosh and Sebastian Heath"
+        ]
+      },
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/64644",
+          "id": "http://example.org/iiif/23554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64643",
+              "id": "http://example.org/iiif/23553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64642"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_385/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64645",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_385/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Thermon, Megaron A",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Dinsmoor 1975 42 fig. 14"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/64647",
+          "id": "http://example.org/iiif/23556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64646",
+              "id": "http://example.org/iiif/23555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64645"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_385/p4"
             }
           ]
         }

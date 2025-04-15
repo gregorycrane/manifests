@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0365",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0365/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13393",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: running Perseus",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 416,
       "width": 287,
       "items": [
         {
-          "id": "http://example.org/iiif/13395",
+          "id": "http://example.org/iiif/3246",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13394",
+              "id": "http://example.org/iiif/3245",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13393"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13396",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running Gorgon",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 420,
       "width": 288,
       "items": [
         {
-          "id": "http://example.org/iiif/13398",
+          "id": "http://example.org/iiif/3248",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13397",
+              "id": "http://example.org/iiif/3247",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13396"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13399",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of vase, Side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 347,
       "width": 271,
       "items": [
         {
-          "id": "http://example.org/iiif/13401",
+          "id": "http://example.org/iiif/3250",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13400",
+              "id": "http://example.org/iiif/3249",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13399"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13402",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of vase, Side B",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 352,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/13404",
+          "id": "http://example.org/iiif/3252",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13403",
+              "id": "http://example.org/iiif/3251",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13402"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13405",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Panathenaic amphora attributed to the Berlin Painter: Drawing of side A, showing Perseus running to the right",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 134"
+        ]
+      },
       "height": 746,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/13407",
+          "id": "http://example.org/iiif/3254",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13406",
+              "id": "http://example.org/iiif/3253",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13405"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13408",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Panathenaic amphora attributed to the Berlin Painter: Drawing of side B, showing a gorgon running to the right",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 134"
+        ]
+      },
       "height": 494,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/13410",
+          "id": "http://example.org/iiif/3256",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13409",
+              "id": "http://example.org/iiif/3255",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,7 +262,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13408"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5056/p6"
             }
           ]
         }

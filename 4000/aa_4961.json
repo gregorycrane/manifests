@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4961",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4961/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0001",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0001/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12457",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4961/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Ken Strothman and Harvey Osterhoudt, courtesy of the Indiana University Art Museum, Bloomington, Indiana."
+        ]
+      },
       "height": 420,
       "width": 326,
       "items": [
         {
-          "id": "http://example.org/iiif/12459",
+          "id": "http://example.org/iiif/2622",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12458",
+              "id": "http://example.org/iiif/2621",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12457"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4961/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12460",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4961/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from left",
+          "Photograph by Ken Strothman and Harvey Osterhoudt, courtesy of the Indiana University Art Museum, Bloomington, Indiana."
+        ]
+      },
       "height": 420,
       "width": 326,
       "items": [
         {
-          "id": "http://example.org/iiif/12462",
+          "id": "http://example.org/iiif/2624",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12461",
+              "id": "http://example.org/iiif/2623",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12460"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4961/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12463",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4961/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph by Ken Strothman and Harvey Osterhoudt, courtesy of the Indiana University Art Museum, Bloomington, Indiana."
+        ]
+      },
       "height": 420,
       "width": 326,
       "items": [
         {
-          "id": "http://example.org/iiif/12465",
+          "id": "http://example.org/iiif/2626",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12464",
+              "id": "http://example.org/iiif/2625",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12463"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4961/p3"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0048",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0048/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10849",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 343,
       "width": 158,
       "items": [
         {
-          "id": "http://example.org/iiif/10851",
+          "id": "http://example.org/iiif/7234",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10850",
+              "id": "http://example.org/iiif/7233",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10849"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10852",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of head and upper torso",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 352,
       "width": 245,
       "items": [
         {
-          "id": "http://example.org/iiif/10854",
+          "id": "http://example.org/iiif/7236",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10853",
+              "id": "http://example.org/iiif/7235",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10852"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10855",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of torso",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 358,
       "width": 245,
       "items": [
         {
-          "id": "http://example.org/iiif/10857",
+          "id": "http://example.org/iiif/7238",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10856",
+              "id": "http://example.org/iiif/7237",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10855"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10858",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, statue from left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 343,
       "width": 145,
       "items": [
         {
-          "id": "http://example.org/iiif/10860",
+          "id": "http://example.org/iiif/7240",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10859",
+              "id": "http://example.org/iiif/7239",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10858"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10861",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of head and upper torso from left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 357,
       "width": 248,
       "items": [
         {
-          "id": "http://example.org/iiif/10863",
+          "id": "http://example.org/iiif/7242",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10862",
+              "id": "http://example.org/iiif/7241",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10861"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10864",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, left profile",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 382,
       "width": 126,
       "items": [
         {
-          "id": "http://example.org/iiif/10866",
+          "id": "http://example.org/iiif/7244",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10865",
+              "id": "http://example.org/iiif/7243",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10864"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10867",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of left profile: head and upper torso",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 357,
       "width": 188,
       "items": [
         {
-          "id": "http://example.org/iiif/10869",
+          "id": "http://example.org/iiif/7246",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10868",
+              "id": "http://example.org/iiif/7245",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10867"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10870",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of left arm",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 355,
       "width": 215,
       "items": [
         {
-          "id": "http://example.org/iiif/10872",
+          "id": "http://example.org/iiif/7248",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10871",
+              "id": "http://example.org/iiif/7247",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10870"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10873",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of left hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 355,
       "width": 241,
       "items": [
         {
-          "id": "http://example.org/iiif/10875",
+          "id": "http://example.org/iiif/7250",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10874",
+              "id": "http://example.org/iiif/7249",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10873"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10876",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, back view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 348,
       "width": 160,
       "items": [
         {
-          "id": "http://example.org/iiif/10878",
+          "id": "http://example.org/iiif/7252",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10877",
+              "id": "http://example.org/iiif/7251",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10876"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10879",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Kouros from Paros, detail of back: hair and shoulders",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 364,
       "width": 384,
       "items": [
         {
-          "id": "http://example.org/iiif/10881",
+          "id": "http://example.org/iiif/7254",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10880",
+              "id": "http://example.org/iiif/7253",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,7 +462,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10879"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2187/p11"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3489",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3489/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1600",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1600/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/28906",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3489/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Oblique view of dog and puppy figurine, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 334,
       "width": 547,
       "items": [
         {
-          "id": "http://example.org/iiif/28908",
+          "id": "http://example.org/iiif/6022",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28907",
+              "id": "http://example.org/iiif/6021",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28906"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3489/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28909",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3489/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Oblique view of dog and puppy figurine, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 311,
       "width": 547,
       "items": [
         {
-          "id": "http://example.org/iiif/28911",
+          "id": "http://example.org/iiif/6024",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28910",
+              "id": "http://example.org/iiif/6023",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28909"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3489/p2"
             }
           ]
         }

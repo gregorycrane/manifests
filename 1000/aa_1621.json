@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1621",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1621/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0513",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0513/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72817",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1621/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Domitian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72819",
+          "id": "http://example.org/iiif/29004",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72818",
+              "id": "http://example.org/iiif/29003",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72817"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1621/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72820",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1621/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Six corn ears",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72822",
+          "id": "http://example.org/iiif/29006",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72821",
+              "id": "http://example.org/iiif/29005",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72820"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1621/p2"
             }
           ]
         }

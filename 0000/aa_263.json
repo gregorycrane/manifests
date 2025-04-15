@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_263",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_263/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0213a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0213a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61636",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_263/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan of Citadel, Mycenae, Citadel",
+          "copyright Perseus Project 1989, drawn by M. W. Cutler based on Schaar (?) 1974 (artist), courtesy of G.E. Mylonas, in S.E. Iakovidis 1983 25 plan 4 Cult Center, based on S.E. Iakovidis 1983 46 plan 7 Grave Circle A, based on S.E. Iakovidis 1983 41 plan 8 NE Extension, based on G.E. Mylonas in S.E. Iakovidis 1983 53 plan 10 NW slope, based on G.E. Mylonas in S.E. Iakovidis 1983 51 plan 9 Palace, based on (courtesy G.E. Mylonas) S.E. Iakovidis 1983 56 plans 11-13 SE quarter, based on (courtesy G.E. Mylonas) S.E. Iakovidis 1983 49 plan 8"
+        ]
+      },
       "height": 385,
       "width": 575,
       "items": [
         {
-          "id": "http://example.org/iiif/61638",
+          "id": "http://example.org/iiif/21550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61637",
+              "id": "http://example.org/iiif/21549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61636"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_263/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.02.0756",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.02.0756/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3358",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2920,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3360",
+          "id": "http://example.org/iiif/35510",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3359",
+              "id": "http://example.org/iiif/35509",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3358"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3361",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique view from right",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2888,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3363",
+          "id": "http://example.org/iiif/35512",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3362",
+              "id": "http://example.org/iiif/35511",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3361"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3364",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: side A at left",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3000,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3366",
+          "id": "http://example.org/iiif/35514",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3365",
+              "id": "http://example.org/iiif/35513",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3364"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3367",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique view from left",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2872,
       "width": 2544,
       "items": [
         {
-          "id": "http://example.org/iiif/3369",
+          "id": "http://example.org/iiif/35516",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3368",
+              "id": "http://example.org/iiif/35515",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3367"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3370",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2752,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/3372",
+          "id": "http://example.org/iiif/35518",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3371",
+              "id": "http://example.org/iiif/35517",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3370"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3373",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique view from right",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2896,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3375",
+          "id": "http://example.org/iiif/35520",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3374",
+              "id": "http://example.org/iiif/35519",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3373"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3376",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: side A at right",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2824,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/3378",
+          "id": "http://example.org/iiif/35522",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3377",
+              "id": "http://example.org/iiif/35521",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3376"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3379",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique view from left",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2824,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3381",
+          "id": "http://example.org/iiif/35524",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3380",
+              "id": "http://example.org/iiif/35523",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3379"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3382",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike pours an offering to Poseidon",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2624,
       "width": 3792,
       "items": [
         {
-          "id": "http://example.org/iiif/3384",
+          "id": "http://example.org/iiif/35526",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3383",
+              "id": "http://example.org/iiif/35525",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3382"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3385",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3832,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3387",
+          "id": "http://example.org/iiif/35528",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3386",
+              "id": "http://example.org/iiif/35527",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3385"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3388",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, outstretched arm, wings, and upper body",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2576,
       "width": 3816,
       "items": [
         {
-          "id": "http://example.org/iiif/3390",
+          "id": "http://example.org/iiif/35530",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3389",
+              "id": "http://example.org/iiif/35529",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3388"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3391",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, wings",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3393",
+          "id": "http://example.org/iiif/35532",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3392",
+              "id": "http://example.org/iiif/35531",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3391"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3394",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, midsection",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3396",
+          "id": "http://example.org/iiif/35534",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3395",
+              "id": "http://example.org/iiif/35533",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3394"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3397",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, from the waist down",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3399",
+          "id": "http://example.org/iiif/35536",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3398",
+              "id": "http://example.org/iiif/35535",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3397"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3400",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, feet",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2568,
       "width": 3816,
       "items": [
         {
-          "id": "http://example.org/iiif/3402",
+          "id": "http://example.org/iiif/35538",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3401",
+              "id": "http://example.org/iiif/35537",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3400"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3403",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, from the waist up",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3752,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/3405",
+          "id": "http://example.org/iiif/35540",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3404",
+              "id": "http://example.org/iiif/35539",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3403"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3406",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Nike, head",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2552,
       "items": [
         {
-          "id": "http://example.org/iiif/3408",
+          "id": "http://example.org/iiif/35542",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3407",
+              "id": "http://example.org/iiif/35541",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3406"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3409",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, phiale in right hand, and Nike, oinochoe in right  hand",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3776,
       "width": 2592,
       "items": [
         {
-          "id": "http://example.org/iiif/3411",
+          "id": "http://example.org/iiif/35544",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3410",
+              "id": "http://example.org/iiif/35543",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3409"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3412",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/3414",
+          "id": "http://example.org/iiif/35546",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3413",
+              "id": "http://example.org/iiif/35545",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3412"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3415",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, from the waist up",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3696,
       "width": 2488,
       "items": [
         {
-          "id": "http://example.org/iiif/3417",
+          "id": "http://example.org/iiif/35548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3416",
+              "id": "http://example.org/iiif/35547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3415"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3418",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, head",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2440,
       "items": [
         {
-          "id": "http://example.org/iiif/3420",
+          "id": "http://example.org/iiif/35550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3419",
+              "id": "http://example.org/iiif/35549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3418"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3421",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, trident in left hand, tip",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2552,
       "items": [
         {
-          "id": "http://example.org/iiif/3423",
+          "id": "http://example.org/iiif/35552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3422",
+              "id": "http://example.org/iiif/35551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3421"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3424",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, left hand, shaft of trident and right hand holding phiale",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3824,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3426",
+          "id": "http://example.org/iiif/35554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3425",
+              "id": "http://example.org/iiif/35553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3424"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3427",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, phiale",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2568,
       "width": 3800,
       "items": [
         {
-          "id": "http://example.org/iiif/3429",
+          "id": "http://example.org/iiif/35556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3428",
+              "id": "http://example.org/iiif/35555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3427"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3430",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, from the chest down",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3432",
+          "id": "http://example.org/iiif/35558",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3431",
+              "id": "http://example.org/iiif/35557",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,24 +1022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3430"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p25"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3433",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p26",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, seat",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3824,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3435",
+          "id": "http://example.org/iiif/35560",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3434",
+              "id": "http://example.org/iiif/35559",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -906,24 +1062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3433"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p26"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3436",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p27",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Poseidon, seat, decoration, top of forward leg",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3832,
       "width": 2552,
       "items": [
         {
-          "id": "http://example.org/iiif/3438",
+          "id": "http://example.org/iiif/35562",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3437",
+              "id": "http://example.org/iiif/35561",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -940,24 +1102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3436"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p27"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3439",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p28",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman and bearded man",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2576,
       "width": 3800,
       "items": [
         {
-          "id": "http://example.org/iiif/3441",
+          "id": "http://example.org/iiif/35564",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3440",
+              "id": "http://example.org/iiif/35563",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -974,24 +1142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3439"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p28"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3442",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p29",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: bearded man",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3840,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3444",
+          "id": "http://example.org/iiif/35566",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3443",
+              "id": "http://example.org/iiif/35565",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1008,24 +1182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3442"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p29"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3445",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p30",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: bearded man, from the waist down",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3832,
       "width": 2520,
       "items": [
         {
-          "id": "http://example.org/iiif/3447",
+          "id": "http://example.org/iiif/35568",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3446",
+              "id": "http://example.org/iiif/35567",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1042,24 +1222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3445"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p30"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3448",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p31",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: bearded man, feet",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2600,
       "width": 3752,
       "items": [
         {
-          "id": "http://example.org/iiif/3450",
+          "id": "http://example.org/iiif/35570",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3449",
+              "id": "http://example.org/iiif/35569",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1076,24 +1262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3448"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p31"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3451",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p32",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: bearded man, from the waist up",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3824,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3453",
+          "id": "http://example.org/iiif/35572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3452",
+              "id": "http://example.org/iiif/35571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1110,24 +1302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3451"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p32"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3454",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p33",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: bearded man, head",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2536,
       "items": [
         {
-          "id": "http://example.org/iiif/3456",
+          "id": "http://example.org/iiif/35574",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3455",
+              "id": "http://example.org/iiif/35573",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1144,24 +1342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3454"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p33"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3457",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p34",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: bearded man, spear in right hand",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3824,
       "width": 2544,
       "items": [
         {
-          "id": "http://example.org/iiif/3459",
+          "id": "http://example.org/iiif/35576",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3458",
+              "id": "http://example.org/iiif/35575",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1178,24 +1382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3457"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p34"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3460",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p35",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3816,
       "width": 2544,
       "items": [
         {
-          "id": "http://example.org/iiif/3462",
+          "id": "http://example.org/iiif/35578",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3461",
+              "id": "http://example.org/iiif/35577",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1212,24 +1422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3460"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p35"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3463",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p36",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, from the waist up",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3800,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/3465",
+          "id": "http://example.org/iiif/35580",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3464",
+              "id": "http://example.org/iiif/35579",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1246,24 +1462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3463"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p36"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3466",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p37",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, from the waist down",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3784,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/3468",
+          "id": "http://example.org/iiif/35582",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3467",
+              "id": "http://example.org/iiif/35581",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1280,24 +1502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3466"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p37"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3469",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p38",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, right foot",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3808,
       "width": 2544,
       "items": [
         {
-          "id": "http://example.org/iiif/3471",
+          "id": "http://example.org/iiif/35584",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3470",
+              "id": "http://example.org/iiif/35583",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1314,24 +1542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3469"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p38"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3472",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p39",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, left foot",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3832,
       "width": 2544,
       "items": [
         {
-          "id": "http://example.org/iiif/3474",
+          "id": "http://example.org/iiif/35586",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3473",
+              "id": "http://example.org/iiif/35585",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1348,24 +1582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3472"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p39"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3475",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p40",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, left hand",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3824,
       "width": 2552,
       "items": [
         {
-          "id": "http://example.org/iiif/3477",
+          "id": "http://example.org/iiif/35588",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3476",
+              "id": "http://example.org/iiif/35587",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1382,24 +1622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3475"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p40"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3478",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p41",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, outstretched right arm",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2600,
       "width": 3808,
       "items": [
         {
-          "id": "http://example.org/iiif/3480",
+          "id": "http://example.org/iiif/35590",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3479",
+              "id": "http://example.org/iiif/35589",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1416,24 +1662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3478"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p41"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3481",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p42",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, right hand",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2584,
       "width": 3800,
       "items": [
         {
-          "id": "http://example.org/iiif/3483",
+          "id": "http://example.org/iiif/35592",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3482",
+              "id": "http://example.org/iiif/35591",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1450,24 +1702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3481"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p42"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3484",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p43",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: running woman, head",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 3600,
       "width": 2568,
       "items": [
         {
-          "id": "http://example.org/iiif/3486",
+          "id": "http://example.org/iiif/35594",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3485",
+              "id": "http://example.org/iiif/35593",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1484,24 +1742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3484"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p43"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3487",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p44",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: meander ground line",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2568,
       "width": 3816,
       "items": [
         {
-          "id": "http://example.org/iiif/3489",
+          "id": "http://example.org/iiif/35596",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3488",
+              "id": "http://example.org/iiif/35595",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1518,24 +1782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3487"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p44"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3490",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p45",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Palmette band below rim",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2568,
       "width": 3760,
       "items": [
         {
-          "id": "http://example.org/iiif/3492",
+          "id": "http://example.org/iiif/35598",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3491",
+              "id": "http://example.org/iiif/35597",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1552,24 +1822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3490"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p45"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3493",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p46",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Palmette band below rim",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2608,
       "width": 3784,
       "items": [
         {
-          "id": "http://example.org/iiif/3495",
+          "id": "http://example.org/iiif/35600",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3494",
+              "id": "http://example.org/iiif/35599",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1586,24 +1862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3493"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p46"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3496",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p47",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Lower body and foot",
+          "Photograph by Maria Daniels, courtesy the Yale University Art Gallery"
+        ]
+      },
       "height": 2584,
       "width": 3752,
       "items": [
         {
-          "id": "http://example.org/iiif/3498",
+          "id": "http://example.org/iiif/35602",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3497",
+              "id": "http://example.org/iiif/35601",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1620,7 +1902,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3496"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4271/p47"
             }
           ]
         }

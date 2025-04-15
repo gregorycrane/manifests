@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_271",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0227a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0227a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61783",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Oinoe, Fortification",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on L. Chandler 1926 9 fig. 4"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61785",
+          "id": "http://example.org/iiif/21648",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61784",
+              "id": "http://example.org/iiif/21647",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61783"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61786",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View looking W from NE tower toward Eleutherai, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 308,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/61788",
+          "id": "http://example.org/iiif/21650",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61787",
+              "id": "http://example.org/iiif/21649",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61786"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61789",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View looking SW from NE tower, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 308,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/61791",
+          "id": "http://example.org/iiif/21652",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61790",
+              "id": "http://example.org/iiif/21651",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61789"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61792",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blocks at E side of NE tower, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 409,
       "width": 274,
       "items": [
         {
-          "id": "http://example.org/iiif/61794",
+          "id": "http://example.org/iiif/21654",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61793",
+              "id": "http://example.org/iiif/21653",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61792"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61795",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NE tower, looking SW, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 337,
       "width": 520,
       "items": [
         {
-          "id": "http://example.org/iiif/61797",
+          "id": "http://example.org/iiif/21656",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61796",
+              "id": "http://example.org/iiif/21655",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61795"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61798",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NE tower, looking S, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 337,
       "width": 507,
       "items": [
         {
-          "id": "http://example.org/iiif/61800",
+          "id": "http://example.org/iiif/21658",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61799",
+              "id": "http://example.org/iiif/21657",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61798"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61801",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NE tower, looking E, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 406,
       "width": 269,
       "items": [
         {
-          "id": "http://example.org/iiif/61803",
+          "id": "http://example.org/iiif/21660",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61802",
+              "id": "http://example.org/iiif/21659",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61801"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61804",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "N wall and NW tower, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 299,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/61806",
+          "id": "http://example.org/iiif/21662",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61805",
+              "id": "http://example.org/iiif/21661",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61804"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61807",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NE tower, looking SE, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 298,
       "width": 524,
       "items": [
         {
-          "id": "http://example.org/iiif/61809",
+          "id": "http://example.org/iiif/21664",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61808",
+              "id": "http://example.org/iiif/21663",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61807"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61810",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NW tower, looking E, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 318,
       "width": 519,
       "items": [
         {
-          "id": "http://example.org/iiif/61812",
+          "id": "http://example.org/iiif/21666",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61811",
+              "id": "http://example.org/iiif/21665",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61810"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61813",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NW tower, looking S, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 270,
       "width": 523,
       "items": [
         {
-          "id": "http://example.org/iiif/61815",
+          "id": "http://example.org/iiif/21668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61814",
+              "id": "http://example.org/iiif/21667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61813"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61816",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NW tower, looking SE, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 328,
       "width": 517,
       "items": [
         {
-          "id": "http://example.org/iiif/61818",
+          "id": "http://example.org/iiif/21670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61817",
+              "id": "http://example.org/iiif/21669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61816"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61819",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of west wall, Oinoe, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 255,
       "width": 523,
       "items": [
         {
-          "id": "http://example.org/iiif/61821",
+          "id": "http://example.org/iiif/21672",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61820",
+              "id": "http://example.org/iiif/21671",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61819"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61822",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking E, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 410,
       "width": 253,
       "items": [
         {
-          "id": "http://example.org/iiif/61824",
+          "id": "http://example.org/iiif/21674",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61823",
+              "id": "http://example.org/iiif/21673",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61822"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61825",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking S, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 415,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/61827",
+          "id": "http://example.org/iiif/21676",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61826",
+              "id": "http://example.org/iiif/21675",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61825"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61828",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking SW, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 415,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/61830",
+          "id": "http://example.org/iiif/21678",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61829",
+              "id": "http://example.org/iiif/21677",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61828"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61831",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking W, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 415,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/61833",
+          "id": "http://example.org/iiif/21680",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61832",
+              "id": "http://example.org/iiif/21679",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61831"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61834",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking W-NW, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 415,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/61836",
+          "id": "http://example.org/iiif/21682",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61835",
+              "id": "http://example.org/iiif/21681",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61834"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61837",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking NW, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 413,
       "width": 298,
       "items": [
         {
-          "id": "http://example.org/iiif/61839",
+          "id": "http://example.org/iiif/21684",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61838",
+              "id": "http://example.org/iiif/21683",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61837"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61840",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_271/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of Mazi Tower near Oinoe, looking N, Fortification",
+          "Photograph by Maria Daniels"
+        ]
+      },
       "height": 412,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/61842",
+          "id": "http://example.org/iiif/21686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61841",
+              "id": "http://example.org/iiif/21685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,7 +822,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61840"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_271/p20"
             }
           ]
         }

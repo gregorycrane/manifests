@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2254",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2254/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0562",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0562/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12916",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2254/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele fragment with head of woman, frontal view",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 344,
       "width": 475,
       "items": [
         {
-          "id": "http://example.org/iiif/12918",
+          "id": "http://example.org/iiif/8612",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12917",
+              "id": "http://example.org/iiif/8611",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12916"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2254/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12919",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2254/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele fragment with head of woman, from right",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 350,
       "width": 274,
       "items": [
         {
-          "id": "http://example.org/iiif/12921",
+          "id": "http://example.org/iiif/8614",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12920",
+              "id": "http://example.org/iiif/8613",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12919"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2254/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12922",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2254/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele fragment with head of woman, detail of head from right",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 420,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/12924",
+          "id": "http://example.org/iiif/8616",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12923",
+              "id": "http://example.org/iiif/8615",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12922"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2254/p3"
             }
           ]
         }

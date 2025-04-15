@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_359",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_359/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0580",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0580/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/64336",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_359/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of building, Samos, South Stoa",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 256,
       "width": 414,
       "items": [
         {
-          "id": "http://example.org/iiif/64338",
+          "id": "http://example.org/iiif/23350",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64337",
+              "id": "http://example.org/iiif/23349",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64336"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_359/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64339",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_359/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, ca. late 7th c. BC, Samos, South Stoa",
+          "copyright Perseus Project 1990, drawn by M.W. Cutler, based on Irini Lilge-Elisawitou (artist) in H. Kyrieleis 1981 fig. 100"
+        ]
+      },
       "height": 128,
       "width": 426,
       "items": [
         {
-          "id": "http://example.org/iiif/64341",
+          "id": "http://example.org/iiif/23352",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64340",
+              "id": "http://example.org/iiif/23351",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64339"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_359/p2"
             }
           ]
         }

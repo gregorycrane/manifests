@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1927",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1927/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0162",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0162/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/2041",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1927/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Sandalbinder, overview",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3617,
       "width": 2374,
       "items": [
         {
-          "id": "http://example.org/iiif/2043",
+          "id": "http://example.org/iiif/1362",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2042",
+              "id": "http://example.org/iiif/1361",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2041"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1927/p1"
             }
           ]
         }

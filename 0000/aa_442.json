@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_442",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_442/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0819",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0819/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73591",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_442/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of bearded Herakles, wearing lion skin, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 411,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73593",
+          "id": "http://example.org/iiif/29520",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73592",
+              "id": "http://example.org/iiif/29519",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73591"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_442/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73594",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_442/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Horse standing profile to the right within incuse and linear square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 396,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73596",
+          "id": "http://example.org/iiif/29522",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73595",
+              "id": "http://example.org/iiif/29521",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73594"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_442/p2"
             }
           ]
         }

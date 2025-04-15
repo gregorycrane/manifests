@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_748",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_748/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0596",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0596/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75502",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_748/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Winged young male deity, with scroll headdress, running profile to the right, carrying a sun disk",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 419,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75504",
+          "id": "http://example.org/iiif/30794",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75503",
+              "id": "http://example.org/iiif/30793",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75502"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_748/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75505",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_748/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Swan standing profile to the left; in left field, a fish, downward; in right field, an ankh",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 418,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75507",
+          "id": "http://example.org/iiif/30796",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75506",
+              "id": "http://example.org/iiif/30795",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75505"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_748/p2"
             }
           ]
         }

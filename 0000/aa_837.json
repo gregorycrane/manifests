@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_837",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_837/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0751",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0751/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76036",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_837/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Eagle with open wings, standing on mullet",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 394,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76038",
+          "id": "http://example.org/iiif/31150",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76037",
+              "id": "http://example.org/iiif/31149",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76036"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_837/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76039",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_837/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Crab holding snake in left claw, below, octopus and murex; around, six pellets (only five pellets visible)",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76041",
+          "id": "http://example.org/iiif/31152",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76040",
+              "id": "http://example.org/iiif/31151",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76039"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_837/p2"
             }
           ]
         }

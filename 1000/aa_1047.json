@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1047",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1047/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0227",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0227/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68770",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1047/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Demeter (or Apollo ?)",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68772",
+          "id": "http://example.org/iiif/26306",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68771",
+              "id": "http://example.org/iiif/26305",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68770"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1047/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68773",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1047/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Venus, half-draped, leaning on a column and looking in a mirror",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68775",
+          "id": "http://example.org/iiif/26308",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68774",
+              "id": "http://example.org/iiif/26307",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68773"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1047/p2"
             }
           ]
         }

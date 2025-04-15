@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.1142",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.1142/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/21733",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle left",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1636,
       "width": 1713,
       "items": [
         {
-          "id": "http://example.org/iiif/21735",
+          "id": "http://example.org/iiif/2182",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21734",
+              "id": "http://example.org/iiif/2181",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21733"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21736",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1600,
       "width": 1526,
       "items": [
         {
-          "id": "http://example.org/iiif/21738",
+          "id": "http://example.org/iiif/2184",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21737",
+              "id": "http://example.org/iiif/2183",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21736"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21739",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: traveller and his gear",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2033,
       "width": 3068,
       "items": [
         {
-          "id": "http://example.org/iiif/21741",
+          "id": "http://example.org/iiif/2186",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21740",
+              "id": "http://example.org/iiif/2185",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21739"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21742",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: traveller",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3056,
       "width": 2039,
       "items": [
         {
-          "id": "http://example.org/iiif/21744",
+          "id": "http://example.org/iiif/2188",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21743",
+              "id": "http://example.org/iiif/2187",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21742"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21745",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: gear",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2088,
       "width": 3080,
       "items": [
         {
-          "id": "http://example.org/iiif/21747",
+          "id": "http://example.org/iiif/2190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21746",
+              "id": "http://example.org/iiif/2189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21745"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5310/p5"
             }
           ]
         }

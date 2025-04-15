@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_136",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_136/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0124k",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0124k/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/59017",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_136/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Treasury 2",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Coulton (artist), based on P. Bruneau and J. Ducat, Guide de Délos, École franᷗaise d' Athènes, Paris 1965, in J.J. Coulton 1976 230-234 fig. 60, and also based on Buglass (artist), after Exploration archéologique de Délos, in R.A. Tomlinson 1976 overleaf fig. 12 Agora of the Italians, based on N.M. Kontoleontos  1950 77 fig. 35 Hypostyle Hall, based on N.M. Kontoleontos 1950 81 fig. 38 Neorium, based on P. Bruneau and J. Ducat, Guide de Délos fig. 2, École franᷗaise d'Athènes, Paris 1965, in A.W. Lawrence 1983 345 fig. 335 Temple of Athenian Apollo, based on N.M. Kontoleontos 1950 42 fig. 15 Temple of Delian Apollo, based on N.M. Kontoleontos 1950 40 fig. 13 Thesmophorium, based on BCH 53 1929 pl. 9, in A.W. Lawrence 1983 171 fig. 137"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/59019",
+          "id": "http://example.org/iiif/19804",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59018",
+              "id": "http://example.org/iiif/19803",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/59017"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_136/p1"
             }
           ]
         }

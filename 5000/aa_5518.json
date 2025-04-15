@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0081",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0081/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25906",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: three komasts",
+          "From Caskey & Beazley, plate XVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 383,
       "width": 373,
       "items": [
         {
-          "id": "http://example.org/iiif/25908",
+          "id": "http://example.org/iiif/4964",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25907",
+              "id": "http://example.org/iiif/4963",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25906"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25909",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle, right of side B: decoration",
+          "From Caskey & Beazley, plate XVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 406,
       "width": 304,
       "items": [
         {
-          "id": "http://example.org/iiif/25911",
+          "id": "http://example.org/iiif/4966",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25910",
+              "id": "http://example.org/iiif/4965",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25909"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25912",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: man, youth, and aulist",
+          "From Caskey & Beazley, plate XVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 413,
       "width": 394,
       "items": [
         {
-          "id": "http://example.org/iiif/25914",
+          "id": "http://example.org/iiif/4968",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25913",
+              "id": "http://example.org/iiif/4967",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25912"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25915",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: man on left",
+          "From Caskey & Beazley, plate XVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 414,
       "width": 387,
       "items": [
         {
-          "id": "http://example.org/iiif/25917",
+          "id": "http://example.org/iiif/4970",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25916",
+              "id": "http://example.org/iiif/4969",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25915"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25918",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: aulist and youth on right",
+          "From Caskey & Beazley, plate XVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 420,
       "width": 385,
       "items": [
         {
-          "id": "http://example.org/iiif/25920",
+          "id": "http://example.org/iiif/4972",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25919",
+              "id": "http://example.org/iiif/4971",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25918"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5518/p5"
             }
           ]
         }

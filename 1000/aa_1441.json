@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1441",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1441/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1245",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1245/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71539",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1441/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Draped bust of Helena",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71541",
+          "id": "http://example.org/iiif/28152",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71540",
+              "id": "http://example.org/iiif/28151",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71539"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1441/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71542",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1441/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Securitas standing, with branch",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71544",
+          "id": "http://example.org/iiif/28154",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71543",
+              "id": "http://example.org/iiif/28153",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71542"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1441/p2"
             }
           ]
         }

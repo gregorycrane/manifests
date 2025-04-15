@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4380",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4380/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0360",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0360/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1774",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4380/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: birth of Athena",
+          "Courtesy, Museum of Fine Arts, Boston. H. L. Pierce Fund"
+        ]
+      },
       "height": 408,
       "width": 270,
       "items": [
         {
-          "id": "http://example.org/iiif/1776",
+          "id": "http://example.org/iiif/39630",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1775",
+              "id": "http://example.org/iiif/39629",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1774"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4380/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1777",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4380/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Athena springing from  head of Zeus",
+          "Courtesy, Museum of Fine Arts, Boston. H. L. Pierce Fund"
+        ]
+      },
       "height": 352,
       "width": 236,
       "items": [
         {
-          "id": "http://example.org/iiif/1779",
+          "id": "http://example.org/iiif/39632",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1778",
+              "id": "http://example.org/iiif/39631",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1777"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4380/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1780",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4380/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: quadriga facing front",
+          "Courtesy, Museum of Fine Arts, Boston. H. L. Pierce Fund"
+        ]
+      },
       "height": 348,
       "width": 233,
       "items": [
         {
-          "id": "http://example.org/iiif/1782",
+          "id": "http://example.org/iiif/39634",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1781",
+              "id": "http://example.org/iiif/39633",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1780"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4380/p3"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2831",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2831/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0094",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0094/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19306",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2831/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Banquet reliefs. Top left: Family of five approach a banqueting god and goddess; Top right: Two adult worshippers approach a banqueting god and goddess, attended by a nude servant boy; Bottom left: A pair of worshippers approach a banqueting god and goddess; Bottom right: Five worshippers and a temple slave with a pig approach a banqueting god and goddess",
+          "From Svoronos 1903-12, pl. 94"
+        ]
+      },
       "height": 418,
       "width": 539,
       "items": [
         {
-          "id": "http://example.org/iiif/19308",
+          "id": "http://example.org/iiif/12872",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19307",
+              "id": "http://example.org/iiif/12871",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19306"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2831/p1"
             }
           ]
         }

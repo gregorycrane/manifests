@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5641",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5641/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0381",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0381/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29479",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5641/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Lekythos attributed to the Phiale Painter: Drawing of an arming scene, showing a man and a woman",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 66"
+        ]
+      },
       "height": 745,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29481",
+          "id": "http://example.org/iiif/862",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29480",
+              "id": "http://example.org/iiif/861",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29479"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5641/p1"
             }
           ]
         }

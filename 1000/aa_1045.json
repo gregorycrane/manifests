@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1045",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1045/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0191",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0191/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68758",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1045/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Juno Moneta",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68760",
+          "id": "http://example.org/iiif/26298",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68759",
+              "id": "http://example.org/iiif/26297",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68758"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1045/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68761",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1045/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Implements for minting coins--tongs, anvil with garlanded punch die, and hammer",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68763",
+          "id": "http://example.org/iiif/26300",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68762",
+              "id": "http://example.org/iiif/26299",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68761"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1045/p2"
             }
           ]
         }

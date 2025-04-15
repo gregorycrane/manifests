@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_856",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_856/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0777",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0777/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76150",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_856/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Hound standing profile to the right; border of dots.",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 425,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76152",
+          "id": "http://example.org/iiif/31226",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76151",
+              "id": "http://example.org/iiif/31225",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76150"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_856/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76153",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_856/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Head of the goddess Aegesta (Segesta), profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 427,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76155",
+          "id": "http://example.org/iiif/31228",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76154",
+              "id": "http://example.org/iiif/31227",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76153"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_856/p2"
             }
           ]
         }

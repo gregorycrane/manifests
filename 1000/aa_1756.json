@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1756",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1756/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0155",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0155/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30937",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1756/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a portrait of an elderly Roman man",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30939",
+          "id": "http://example.org/iiif/1084",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30938",
+              "id": "http://example.org/iiif/1083",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30937"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1756/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30940",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1756/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Portrait of an elderly Roman man",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30942",
+          "id": "http://example.org/iiif/1086",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30941",
+              "id": "http://example.org/iiif/1085",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30940"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1756/p2"
             }
           ]
         }

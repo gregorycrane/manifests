@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.08.0001",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.08.0001/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/78298",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3420,
       "width": 2386,
       "items": [
         {
-          "id": "http://example.org/iiif/78300",
+          "id": "http://example.org/iiif/32658",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78299",
+              "id": "http://example.org/iiif/32657",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78298"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78301",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3366,
       "width": 2350,
       "items": [
         {
-          "id": "http://example.org/iiif/78303",
+          "id": "http://example.org/iiif/32660",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78302",
+              "id": "http://example.org/iiif/32659",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78301"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78304",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3378,
       "width": 2266,
       "items": [
         {
-          "id": "http://example.org/iiif/78306",
+          "id": "http://example.org/iiif/32662",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78305",
+              "id": "http://example.org/iiif/32661",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78304"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78307",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3396,
       "width": 2338,
       "items": [
         {
-          "id": "http://example.org/iiif/78309",
+          "id": "http://example.org/iiif/32664",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78308",
+              "id": "http://example.org/iiif/32663",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78307"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78310",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from left",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3360,
       "width": 2318,
       "items": [
         {
-          "id": "http://example.org/iiif/78312",
+          "id": "http://example.org/iiif/32666",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78311",
+              "id": "http://example.org/iiif/32665",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78310"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78313",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3438,
       "width": 2368,
       "items": [
         {
-          "id": "http://example.org/iiif/78315",
+          "id": "http://example.org/iiif/32668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78314",
+              "id": "http://example.org/iiif/32667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78313"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78316",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3372,
       "width": 2290,
       "items": [
         {
-          "id": "http://example.org/iiif/78318",
+          "id": "http://example.org/iiif/32670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78317",
+              "id": "http://example.org/iiif/32669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78316"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78319",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3368,
       "width": 2278,
       "items": [
         {
-          "id": "http://example.org/iiif/78321",
+          "id": "http://example.org/iiif/32672",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78320",
+              "id": "http://example.org/iiif/32671",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78319"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78322",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Base: decoration",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3684,
       "width": 2494,
       "items": [
         {
-          "id": "http://example.org/iiif/78324",
+          "id": "http://example.org/iiif/32674",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78323",
+              "id": "http://example.org/iiif/32673",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78322"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78325",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: charioteer and horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2470,
       "width": 3696,
       "items": [
         {
-          "id": "http://example.org/iiif/78327",
+          "id": "http://example.org/iiif/32676",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78326",
+              "id": "http://example.org/iiif/32675",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78325"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78328",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: charioteer and horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3282,
       "width": 2482,
       "items": [
         {
-          "id": "http://example.org/iiif/78330",
+          "id": "http://example.org/iiif/32678",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78329",
+              "id": "http://example.org/iiif/32677",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78328"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78331",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: charioteer",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3708,
       "width": 2488,
       "items": [
         {
-          "id": "http://example.org/iiif/78333",
+          "id": "http://example.org/iiif/32680",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78332",
+              "id": "http://example.org/iiif/32679",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78331"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78334",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: charioteer, upper half",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3712,
       "width": 2462,
       "items": [
         {
-          "id": "http://example.org/iiif/78336",
+          "id": "http://example.org/iiif/32682",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78335",
+              "id": "http://example.org/iiif/32681",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78334"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78337",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: charioteer's shield",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3690,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/78339",
+          "id": "http://example.org/iiif/32684",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78338",
+              "id": "http://example.org/iiif/32683",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78337"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78340",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: faded device on shield",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3704,
       "width": 2462,
       "items": [
         {
-          "id": "http://example.org/iiif/78342",
+          "id": "http://example.org/iiif/32686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78341",
+              "id": "http://example.org/iiif/32685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78340"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78343",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of charioteer",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3690,
       "width": 2458,
       "items": [
         {
-          "id": "http://example.org/iiif/78345",
+          "id": "http://example.org/iiif/32688",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78344",
+              "id": "http://example.org/iiif/32687",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78343"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78346",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: chariot",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3654,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/78348",
+          "id": "http://example.org/iiif/32690",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78347",
+              "id": "http://example.org/iiif/32689",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78346"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78349",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: chariot platform",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3738,
       "width": 2434,
       "items": [
         {
-          "id": "http://example.org/iiif/78351",
+          "id": "http://example.org/iiif/32692",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78350",
+              "id": "http://example.org/iiif/32691",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78349"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78352",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck: decoration",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2446,
       "width": 3666,
       "items": [
         {
-          "id": "http://example.org/iiif/78354",
+          "id": "http://example.org/iiif/32694",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78353",
+              "id": "http://example.org/iiif/32693",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78352"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78355",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: flying bird",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3690,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/78357",
+          "id": "http://example.org/iiif/32696",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78356",
+              "id": "http://example.org/iiif/32695",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78355"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78358",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2502,
       "width": 3680,
       "items": [
         {
-          "id": "http://example.org/iiif/78360",
+          "id": "http://example.org/iiif/32698",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78359",
+              "id": "http://example.org/iiif/32697",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78358"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78361",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: heads of four horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3728,
       "width": 2454,
       "items": [
         {
-          "id": "http://example.org/iiif/78363",
+          "id": "http://example.org/iiif/32700",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78362",
+              "id": "http://example.org/iiif/32699",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78361"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78364",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: heads of front two horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3688,
       "width": 2462,
       "items": [
         {
-          "id": "http://example.org/iiif/78366",
+          "id": "http://example.org/iiif/32702",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78365",
+              "id": "http://example.org/iiif/32701",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78364"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78367",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: heads of rear two horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3720,
       "width": 2462,
       "items": [
         {
-          "id": "http://example.org/iiif/78369",
+          "id": "http://example.org/iiif/32704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78368",
+              "id": "http://example.org/iiif/32703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78367"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78370",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: front legs of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3520,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/78372",
+          "id": "http://example.org/iiif/32706",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78371",
+              "id": "http://example.org/iiif/32705",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,24 +1022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78370"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p25"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78373",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p26",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: front legs of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3712,
       "width": 2462,
       "items": [
         {
-          "id": "http://example.org/iiif/78375",
+          "id": "http://example.org/iiif/32708",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78374",
+              "id": "http://example.org/iiif/32707",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -906,24 +1062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78373"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p26"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78376",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p27",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: tails of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3720,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/78378",
+          "id": "http://example.org/iiif/32710",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78377",
+              "id": "http://example.org/iiif/32709",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -940,24 +1102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78376"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p27"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78379",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p28",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: hind legs of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3456,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/78381",
+          "id": "http://example.org/iiif/32712",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78380",
+              "id": "http://example.org/iiif/32711",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -974,24 +1142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78379"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p28"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78382",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p29",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2446,
       "width": 3664,
       "items": [
         {
-          "id": "http://example.org/iiif/78384",
+          "id": "http://example.org/iiif/32714",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78383",
+              "id": "http://example.org/iiif/32713",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1008,24 +1182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78382"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p29"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78385",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p30",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: heads of front horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3696,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/78387",
+          "id": "http://example.org/iiif/32716",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78386",
+              "id": "http://example.org/iiif/32715",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1042,24 +1222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78385"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p30"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78388",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p31",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: heads of rear horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3712,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/78390",
+          "id": "http://example.org/iiif/32718",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78389",
+              "id": "http://example.org/iiif/32717",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1076,24 +1262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78388"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p31"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78391",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p32",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: legs of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2478,
       "width": 3688,
       "items": [
         {
-          "id": "http://example.org/iiif/78393",
+          "id": "http://example.org/iiif/32720",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78392",
+              "id": "http://example.org/iiif/32719",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1110,24 +1302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78391"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p32"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78394",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p33",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: front legs of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3568,
       "width": 2454,
       "items": [
         {
-          "id": "http://example.org/iiif/78396",
+          "id": "http://example.org/iiif/32722",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78395",
+              "id": "http://example.org/iiif/32721",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1144,24 +1342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78394"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p33"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78397",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p34",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: hind legs of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3736,
       "width": 2494,
       "items": [
         {
-          "id": "http://example.org/iiif/78399",
+          "id": "http://example.org/iiif/32724",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78398",
+              "id": "http://example.org/iiif/32723",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1178,24 +1382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78397"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p34"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78400",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p35",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: tails of horses",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3654,
       "width": 2446,
       "items": [
         {
-          "id": "http://example.org/iiif/78402",
+          "id": "http://example.org/iiif/32726",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78401",
+              "id": "http://example.org/iiif/32725",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1212,24 +1422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78400"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p35"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78403",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p36",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: flying bird",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3728,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/78405",
+          "id": "http://example.org/iiif/32728",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78404",
+              "id": "http://example.org/iiif/32727",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1246,24 +1462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78403"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p36"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78406",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p37",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2454,
       "width": 3680,
       "items": [
         {
-          "id": "http://example.org/iiif/78408",
+          "id": "http://example.org/iiif/32730",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78407",
+              "id": "http://example.org/iiif/32729",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1280,24 +1502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78406"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p37"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78409",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p38",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck: decoration",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2502,
       "width": 3656,
       "items": [
         {
-          "id": "http://example.org/iiif/78411",
+          "id": "http://example.org/iiif/32732",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78410",
+              "id": "http://example.org/iiif/32731",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1314,24 +1542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78409"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p38"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78412",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p39",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: charioteer",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3688,
       "width": 2438,
       "items": [
         {
-          "id": "http://example.org/iiif/78414",
+          "id": "http://example.org/iiif/32734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78413",
+              "id": "http://example.org/iiif/32733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1348,24 +1582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78412"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p39"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78415",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p40",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: charioteer, upper half",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3696,
       "width": 2462,
       "items": [
         {
-          "id": "http://example.org/iiif/78417",
+          "id": "http://example.org/iiif/32736",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78416",
+              "id": "http://example.org/iiif/32735",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1382,24 +1622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78415"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p40"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78418",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p41",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: head of charioteer",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3712,
       "width": 2430,
       "items": [
         {
-          "id": "http://example.org/iiif/78420",
+          "id": "http://example.org/iiif/32738",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78419",
+              "id": "http://example.org/iiif/32737",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1416,24 +1662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78418"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p41"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78421",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p42",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: shield of charioteer",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 2486,
       "width": 3680,
       "items": [
         {
-          "id": "http://example.org/iiif/78423",
+          "id": "http://example.org/iiif/32740",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78422",
+              "id": "http://example.org/iiif/32739",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1450,24 +1702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78421"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p42"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78424",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p43",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: chariot",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3696,
       "width": 2398,
       "items": [
         {
-          "id": "http://example.org/iiif/78426",
+          "id": "http://example.org/iiif/32742",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78425",
+              "id": "http://example.org/iiif/32741",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1484,24 +1742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78424"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p43"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78427",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p44",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: chariot",
+          "Photograph by Maria Daniels, courtesy of the Smith College Museum of Art, Northampton, Massachusetts."
+        ]
+      },
       "height": 3712,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/78429",
+          "id": "http://example.org/iiif/32744",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78428",
+              "id": "http://example.org/iiif/32743",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1518,7 +1782,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78427"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4063/p44"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_31",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0019a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0019a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62620",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstructed elevation of pediment showing acroteria, Assos, Temple of Athena",
+          "copyright Perseus Project 1989, drawn by M. W. Cutler based on J. Clarke and F. Bacon, Investigations at Assos, Archeological Institute of America, Boston 1902-1921, in E. Akurgal 1978 67 fig. 21"
+        ]
+      },
       "height": 219,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/62622",
+          "id": "http://example.org/iiif/22206",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62621",
+              "id": "http://example.org/iiif/22205",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62620"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62623",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Assos, Temple of Athena",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Erdim (artist), based on J. Clarke and F. Bacon, Investigations at Assos, Archeological Institute of America, Boston 1902-1921, in  E. Akurgal 1978 63 fig. 19"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/62625",
+          "id": "http://example.org/iiif/22208",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62624",
+              "id": "http://example.org/iiif/22207",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62623"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62626",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Echinus profile comparison, Assos, Temple of Athena",
+          "copyright D.N. Smith 1988, drawn by R. Mattison based on F.H. Bacon, J.T. Clark, R. Koldewey, Assos in Coulton 1977 104 fig. 42"
+        ]
+      },
       "height": 319,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/62628",
+          "id": "http://example.org/iiif/22210",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62627",
+              "id": "http://example.org/iiif/22209",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62626"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62629",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View from Temple of Athena on Assos acropolis toward S and island of Lesbos",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 335,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/62631",
+          "id": "http://example.org/iiif/22212",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62630",
+              "id": "http://example.org/iiif/22211",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62629"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62632",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of temple, from E, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 333,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/62634",
+          "id": "http://example.org/iiif/22214",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62633",
+              "id": "http://example.org/iiif/22213",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62632"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62635",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of temple, from NW, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 310,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/62637",
+          "id": "http://example.org/iiif/22216",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62636",
+              "id": "http://example.org/iiif/22215",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62635"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62638",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Section of entablature block without guttae and with U-shape lifting cut at side, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 352,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/62640",
+          "id": "http://example.org/iiif/22218",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62639",
+              "id": "http://example.org/iiif/22217",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62638"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62641",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Section of entablature block without guttae and with dowel-joining cut at side, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 316,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/62643",
+          "id": "http://example.org/iiif/22220",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62642",
+              "id": "http://example.org/iiif/22219",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62641"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62644",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "2 Doric capitals with flat echinus (one being restored), Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 351,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/62646",
+          "id": "http://example.org/iiif/22222",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62645",
+              "id": "http://example.org/iiif/22221",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62644"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62647",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Column drums scattered in temple cella (some reused as medieval mortars and some modern concrete replacements), from SE, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 346,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/62649",
+          "id": "http://example.org/iiif/22224",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62648",
+              "id": "http://example.org/iiif/22223",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62647"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62650",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reerected column (of 4 drums) and capital (4th from NE corner on N side), from SE, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 370,
       "width": 191,
       "items": [
         {
-          "id": "http://example.org/iiif/62652",
+          "id": "http://example.org/iiif/22226",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62651",
+              "id": "http://example.org/iiif/22225",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62650"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62653",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Fragment of triglyph and 2 entablature blocks with square dowel holes, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 351,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/62655",
+          "id": "http://example.org/iiif/22228",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62654",
+              "id": "http://example.org/iiif/22227",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62653"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62656",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Lifting bosses and unfinished edges on E (front) side of level below the stylobate, from SE, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 348,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/62658",
+          "id": "http://example.org/iiif/22230",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62657",
+              "id": "http://example.org/iiif/22229",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62656"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62659",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "South side of crepidoma with 2 stylobate blocks in place (also lifting bosses, unfinished edges and robbed butterfly clamp cuttings), from SE, Assos, Temple of Athena",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 353,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/62661",
+          "id": "http://example.org/iiif/22232",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62660",
+              "id": "http://example.org/iiif/22231",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62659"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62662",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_31/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Coffer block from ceiling of Temple of Athena built into wall of 14th century A.D. mosque on Assos acropolis",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 351,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/62664",
+          "id": "http://example.org/iiif/22234",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62663",
+              "id": "http://example.org/iiif/22233",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,7 +622,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62662"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_31/p15"
             }
           ]
         }

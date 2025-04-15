@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0514",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0514/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30604",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: interior",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 453,
       "items": [
         {
-          "id": "http://example.org/iiif/30606",
+          "id": "http://example.org/iiif/1612",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30605",
+              "id": "http://example.org/iiif/1611",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30604"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30607",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Theseus and Centaur",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/30609",
+          "id": "http://example.org/iiif/1614",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30608",
+              "id": "http://example.org/iiif/1613",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30607"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30610",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 398,
       "width": 323,
       "items": [
         {
-          "id": "http://example.org/iiif/30612",
+          "id": "http://example.org/iiif/1616",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30611",
+              "id": "http://example.org/iiif/1615",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30610"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30613",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: centauromachy",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 330,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/30615",
+          "id": "http://example.org/iiif/1618",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30614",
+              "id": "http://example.org/iiif/1617",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30613"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30616",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: centauromachy",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 325,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/30618",
+          "id": "http://example.org/iiif/1620",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30617",
+              "id": "http://example.org/iiif/1619",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30616"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30619",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: warrior on left",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 543,
       "items": [
         {
-          "id": "http://example.org/iiif/30621",
+          "id": "http://example.org/iiif/1622",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30620",
+              "id": "http://example.org/iiif/1621",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30619"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30622",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: centaur and warrior on right",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 543,
       "items": [
         {
-          "id": "http://example.org/iiif/30624",
+          "id": "http://example.org/iiif/1624",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30623",
+              "id": "http://example.org/iiif/1623",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30622"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30625",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: centaur on left",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 355,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/30627",
+          "id": "http://example.org/iiif/1626",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30626",
+              "id": "http://example.org/iiif/1625",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30625"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30628",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: centaur on right",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 355,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/30630",
+          "id": "http://example.org/iiif/1628",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30629",
+              "id": "http://example.org/iiif/1627",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30628"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30631",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Foundry Painter: Drawing of side A, two Lapiths battling a centaur",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 86"
+        ]
+      },
       "height": 383,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30633",
+          "id": "http://example.org/iiif/1630",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30632",
+              "id": "http://example.org/iiif/1629",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30631"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30634",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Foundry Painter: Drawing of side B, two Lapiths spearing a centaur; a Lapith grasping a centaur by the neck",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 86"
+        ]
+      },
       "height": 368,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30636",
+          "id": "http://example.org/iiif/1632",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30635",
+              "id": "http://example.org/iiif/1631",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30634"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30637",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Foundry Painter: Drawing of the tondo: Theseus spearing a centaur in the belly",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 86"
+        ]
+      },
       "height": 634,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30639",
+          "id": "http://example.org/iiif/1634",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30638",
+              "id": "http://example.org/iiif/1633",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,7 +502,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30637"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5745/p12"
             }
           ]
         }

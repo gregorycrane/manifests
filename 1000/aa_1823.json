@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1823",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1823/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0018",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0018/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31375",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1823/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Portrait of a Ptolemaic queen",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31377",
+          "id": "http://example.org/iiif/1376",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31376",
+              "id": "http://example.org/iiif/1375",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31375"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1823/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31378",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1823/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a portrait of a Ptolemaic queen",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31380",
+          "id": "http://example.org/iiif/1378",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31379",
+              "id": "http://example.org/iiif/1377",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31378"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1823/p2"
             }
           ]
         }

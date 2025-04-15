@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1149",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1149/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0431",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0431/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69580",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1149/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Vespasian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69582",
+          "id": "http://example.org/iiif/26846",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69581",
+              "id": "http://example.org/iiif/26845",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69580"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1149/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69583",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1149/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Victory standing on a globe",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69585",
+          "id": "http://example.org/iiif/26848",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69584",
+              "id": "http://example.org/iiif/26847",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69583"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1149/p2"
             }
           ]
         }

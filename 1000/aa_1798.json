@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1798",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1798/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0168",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0168/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31213",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1798/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a Silen tuning his lyre",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31215",
+          "id": "http://example.org/iiif/1268",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31214",
+              "id": "http://example.org/iiif/1267",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31213"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1798/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31216",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1798/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the convex, a beetle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31218",
+          "id": "http://example.org/iiif/1270",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31217",
+              "id": "http://example.org/iiif/1269",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31216"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1798/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31219",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1798/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the flat, a Silen tuning his lyre",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31221",
+          "id": "http://example.org/iiif/1272",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31220",
+              "id": "http://example.org/iiif/1271",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31219"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1798/p3"
             }
           ]
         }

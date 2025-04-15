@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1662",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1662/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0593",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0593/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73081",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1662/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Trajan",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73083",
+          "id": "http://example.org/iiif/29180",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73082",
+              "id": "http://example.org/iiif/29179",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73081"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1662/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73084",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1662/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Octastyle temple",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73086",
+          "id": "http://example.org/iiif/29182",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73085",
+              "id": "http://example.org/iiif/29181",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73084"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1662/p2"
             }
           ]
         }

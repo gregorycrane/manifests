@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5450",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5450/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0101",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0101/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25408",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5450/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: death of Orpheus",
+          "From Caskey & Beazley, plate XXII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 415,
       "width": 494,
       "items": [
         {
-          "id": "http://example.org/iiif/25410",
+          "id": "http://example.org/iiif/4632",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25409",
+              "id": "http://example.org/iiif/4631",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25408"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5450/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25411",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5450/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "From Caskey & Beazley, plate XXVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 413,
       "width": 149,
       "items": [
         {
-          "id": "http://example.org/iiif/25413",
+          "id": "http://example.org/iiif/4634",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25412",
+              "id": "http://example.org/iiif/4633",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25411"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5450/p2"
             }
           ]
         }

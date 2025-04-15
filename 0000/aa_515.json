@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_515",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_515/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0923",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0923/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74095",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_515/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Hekate, profile to the left; at right, a torch",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 369,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74097",
+          "id": "http://example.org/iiif/29856",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74096",
+              "id": "http://example.org/iiif/29855",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74095"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_515/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74098",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_515/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Nymph Hypereia standing profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 367,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74100",
+          "id": "http://example.org/iiif/29858",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74099",
+              "id": "http://example.org/iiif/29857",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74098"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_515/p2"
             }
           ]
         }

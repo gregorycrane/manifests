@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_844",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_844/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0761",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0761/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76078",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_844/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Within a dotted circle, a quadriga driven by auriga; above, Nike crowning the horses",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76080",
+          "id": "http://example.org/iiif/31178",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76079",
+              "id": "http://example.org/iiif/31177",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76078"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_844/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76081",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_844/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Forepart of river god (Acheloos?) as man headed bull",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 403,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76083",
+          "id": "http://example.org/iiif/31180",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76082",
+              "id": "http://example.org/iiif/31179",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76081"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_844/p2"
             }
           ]
         }

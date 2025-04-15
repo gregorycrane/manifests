@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1321",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1321/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1005",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1005/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70816",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1321/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Elagabalus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70818",
+          "id": "http://example.org/iiif/27670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70817",
+              "id": "http://example.org/iiif/27669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70816"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1321/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70819",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1321/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Incuse of obverse (bust of Elagabalus, facing left)",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70821",
+          "id": "http://example.org/iiif/27672",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70820",
+              "id": "http://example.org/iiif/27671",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70819"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1321/p2"
             }
           ]
         }

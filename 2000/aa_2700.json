@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2700",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2700/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0054",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0054/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18913",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2700/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Votive relief from the children of Bakchios depicting Apollo Pythios seated between Leto and Artemis",
+          "From Svoronos 1903-12, pl. 54"
+        ]
+      },
       "height": 407,
       "width": 392,
       "items": [
         {
-          "id": "http://example.org/iiif/18915",
+          "id": "http://example.org/iiif/12610",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18914",
+              "id": "http://example.org/iiif/12609",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18913"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2700/p1"
             }
           ]
         }

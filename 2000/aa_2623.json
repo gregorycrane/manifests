@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2623",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2623/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0108",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0108/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18637",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2623/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Relief on a decree originally honoring Euphron of Sikyon and his descendants showing Athena and the Athenian Demos on the left with Euphron, a groom and a horse on the right.",
+          "From Svoronos 1903-12, pl. 108"
+        ]
+      },
       "height": 578,
       "width": 415,
       "items": [
         {
-          "id": "http://example.org/iiif/18639",
+          "id": "http://example.org/iiif/12426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18638",
+              "id": "http://example.org/iiif/12425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18637"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2623/p1"
             }
           ]
         }

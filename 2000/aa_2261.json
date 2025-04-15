@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0554",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0554/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13123",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Munich Hound, detail of head",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 381,
       "width": 354,
       "items": [
         {
-          "id": "http://example.org/iiif/13125",
+          "id": "http://example.org/iiif/8750",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13124",
+              "id": "http://example.org/iiif/8749",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13123"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13126",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Munich Hound, frontal view",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 344,
       "width": 185,
       "items": [
         {
-          "id": "http://example.org/iiif/13128",
+          "id": "http://example.org/iiif/8752",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13127",
+              "id": "http://example.org/iiif/8751",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13126"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13129",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Munich Hound, detail of left rear foot",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 320,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/13131",
+          "id": "http://example.org/iiif/8754",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13130",
+              "id": "http://example.org/iiif/8753",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13129"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p3"
             }
           ]
         }

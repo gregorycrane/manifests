@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2181",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2181/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0077",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0077/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10744",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Seated Woman from Miletus 2788, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 338,
       "width": 191,
       "items": [
         {
-          "id": "http://example.org/iiif/10746",
+          "id": "http://example.org/iiif/7164",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10745",
+              "id": "http://example.org/iiif/7163",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10744"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10747",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Seated Woman from Miletus 2788, detail of upper torso",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 352,
       "width": 389,
       "items": [
         {
-          "id": "http://example.org/iiif/10749",
+          "id": "http://example.org/iiif/7166",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10748",
+              "id": "http://example.org/iiif/7165",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10747"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10750",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Seated Woman from Miletus 2788, from left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 346,
       "width": 272,
       "items": [
         {
-          "id": "http://example.org/iiif/10752",
+          "id": "http://example.org/iiif/7168",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10751",
+              "id": "http://example.org/iiif/7167",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10750"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10753",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Louvre Seated Woman from Miletus 2788, right profile",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 345,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/10755",
+          "id": "http://example.org/iiif/7170",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10754",
+              "id": "http://example.org/iiif/7169",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10753"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2181/p4"
             }
           ]
         }

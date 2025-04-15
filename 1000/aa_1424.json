@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1424",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1424/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1211",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1211/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71437",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1424/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Maximianus Hercules",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71439",
+          "id": "http://example.org/iiif/28084",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71438",
+              "id": "http://example.org/iiif/28083",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71437"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1424/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71440",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1424/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Togate Maximianus standing, with globe",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71442",
+          "id": "http://example.org/iiif/28086",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71441",
+              "id": "http://example.org/iiif/28085",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71440"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1424/p2"
             }
           ]
         }

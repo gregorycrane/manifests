@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1736",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1736/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0232",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0232/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30787",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1736/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a naked youth led off by two winged females",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30789",
+          "id": "http://example.org/iiif/984",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30788",
+              "id": "http://example.org/iiif/983",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30787"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1736/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30790",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1736/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the flat, a naked youth led off by two winged females",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30792",
+          "id": "http://example.org/iiif/986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30791",
+              "id": "http://example.org/iiif/985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30790"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1736/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30793",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1736/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the convex, a beetle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/30795",
+          "id": "http://example.org/iiif/988",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30794",
+              "id": "http://example.org/iiif/987",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30793"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1736/p3"
             }
           ]
         }

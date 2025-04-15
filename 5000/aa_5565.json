@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5565",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5565/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0356",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0356/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/26371",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 376,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/26373",
+          "id": "http://example.org/iiif/5274",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26372",
+              "id": "http://example.org/iiif/5273",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26371"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26374",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A main panel: one standing figure and two seated figures",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 352,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/26376",
+          "id": "http://example.org/iiif/5276",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26375",
+              "id": "http://example.org/iiif/5275",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26374"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26377",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 375,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/26379",
+          "id": "http://example.org/iiif/5278",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26378",
+              "id": "http://example.org/iiif/5277",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26377"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26380",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B shoulder scene: battles",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 354,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/26382",
+          "id": "http://example.org/iiif/5280",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26381",
+              "id": "http://example.org/iiif/5279",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26380"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5565/p4"
             }
           ]
         }

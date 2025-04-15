@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.3684",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.3684/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29314",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29316",
+          "id": "http://example.org/iiif/2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29315",
+              "id": "http://example.org/iiif/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29314"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29317",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin: general view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29319",
+          "id": "http://example.org/iiif/4",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29318",
+              "id": "http://example.org/iiif/3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29317"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29320",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin, detail of bead-and-reel, leaf moldings, and an ogival molding: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29322",
+          "id": "http://example.org/iiif/6",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29321",
+              "id": "http://example.org/iiif/5",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29320"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29323",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin, detail of upper half of griffin: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29325",
+          "id": "http://example.org/iiif/8",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29324",
+              "id": "http://example.org/iiif/7",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29323"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29326",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin, detail of front quarters of griffin: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29328",
+          "id": "http://example.org/iiif/10",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29327",
+              "id": "http://example.org/iiif/9",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29326"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29329",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin, detail of hind legs and tail of griffin: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29331",
+          "id": "http://example.org/iiif/12",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29330",
+              "id": "http://example.org/iiif/11",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29329"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29332",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural Panel with Griffin, detail of griffin tail turning into acanthus scroll: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29334",
+          "id": "http://example.org/iiif/14",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29333",
+              "id": "http://example.org/iiif/13",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,7 +302,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29332"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3660/p7"
             }
           ]
         }

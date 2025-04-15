@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0385",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0385/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/9262",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: overview",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 388,
       "width": 268,
       "items": [
         {
-          "id": "http://example.org/iiif/9264",
+          "id": "http://example.org/iiif/3426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9263",
+              "id": "http://example.org/iiif/3425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9262"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9265",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: overview from right",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 384,
       "width": 248,
       "items": [
         {
-          "id": "http://example.org/iiif/9267",
+          "id": "http://example.org/iiif/3428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9266",
+              "id": "http://example.org/iiif/3427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9265"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9268",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side view: side A at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 384,
       "width": 248,
       "items": [
         {
-          "id": "http://example.org/iiif/9270",
+          "id": "http://example.org/iiif/3430",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9269",
+              "id": "http://example.org/iiif/3429",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9268"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9271",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: overview from left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 384,
       "width": 248,
       "items": [
         {
-          "id": "http://example.org/iiif/9273",
+          "id": "http://example.org/iiif/3432",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9272",
+              "id": "http://example.org/iiif/3431",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9271"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9274",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: overview",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 384,
       "width": 248,
       "items": [
         {
-          "id": "http://example.org/iiif/9276",
+          "id": "http://example.org/iiif/3434",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9275",
+              "id": "http://example.org/iiif/3433",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9274"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9277",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: overview from right",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 386,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/9279",
+          "id": "http://example.org/iiif/3436",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9278",
+              "id": "http://example.org/iiif/3435",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9277"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9280",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side view: side B at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 386,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/9282",
+          "id": "http://example.org/iiif/3438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9281",
+              "id": "http://example.org/iiif/3437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9280"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9283",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: overview from left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 386,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/9285",
+          "id": "http://example.org/iiif/3440",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9284",
+              "id": "http://example.org/iiif/3439",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9283"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9286",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: frontal chariot",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 345,
       "width": 508,
       "items": [
         {
-          "id": "http://example.org/iiif/9288",
+          "id": "http://example.org/iiif/3442",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9287",
+              "id": "http://example.org/iiif/3441",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9286"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9289",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: trace horse at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/9291",
+          "id": "http://example.org/iiif/3444",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9290",
+              "id": "http://example.org/iiif/3443",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9289"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9292",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: pole horse at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/9294",
+          "id": "http://example.org/iiif/3446",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9293",
+              "id": "http://example.org/iiif/3445",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9292"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9295",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: charioteer and pole horses",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/9297",
+          "id": "http://example.org/iiif/3448",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9296",
+              "id": "http://example.org/iiif/3447",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9295"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9298",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: heads of pole horses and charioteer",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/9300",
+          "id": "http://example.org/iiif/3450",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9299",
+              "id": "http://example.org/iiif/3449",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9298"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9301",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: legs of pole horses and charioteer",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/9303",
+          "id": "http://example.org/iiif/3452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9302",
+              "id": "http://example.org/iiif/3451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9301"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9304",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: trace horse at right",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/9306",
+          "id": "http://example.org/iiif/3454",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9305",
+              "id": "http://example.org/iiif/3453",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9304"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9307",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: arming warrior",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 345,
       "width": 508,
       "items": [
         {
-          "id": "http://example.org/iiif/9309",
+          "id": "http://example.org/iiif/3456",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9308",
+              "id": "http://example.org/iiif/3455",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9307"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9310",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: upper bodies of youth and man at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 358,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/9312",
+          "id": "http://example.org/iiif/3458",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9311",
+              "id": "http://example.org/iiif/3457",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9310"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9313",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: lower bodies of youth and man at left",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 358,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/9315",
+          "id": "http://example.org/iiif/3460",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9314",
+              "id": "http://example.org/iiif/3459",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9313"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9316",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: upper body of warrior donning greaves",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 358,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/9318",
+          "id": "http://example.org/iiif/3462",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9317",
+              "id": "http://example.org/iiif/3461",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9316"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9319",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: lower body of warrior donning greaves",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 358,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/9321",
+          "id": "http://example.org/iiif/3464",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9320",
+              "id": "http://example.org/iiif/3463",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9319"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9322",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: upper bodies of man and  youth at right",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/9324",
+          "id": "http://example.org/iiif/3466",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9323",
+              "id": "http://example.org/iiif/3465",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9322"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9325",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: lower bodies of man and youth at right",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/9327",
+          "id": "http://example.org/iiif/3468",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9326",
+              "id": "http://example.org/iiif/3467",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,7 +902,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9325"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4538/p22"
             }
           ]
         }

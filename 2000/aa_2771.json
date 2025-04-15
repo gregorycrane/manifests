@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2771",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2771/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0077",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0077/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19129",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2771/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Left: Votive relief showing a hero, perhaps Kephalos, seated on a rock, facing a worshipper (?); Right: Votive relief showing Demeter, Kore, and four (or more?) worshippers",
+          "From Svoronos 1903-12, pl. 77"
+        ]
+      },
       "height": 376,
       "width": 585,
       "items": [
         {
-          "id": "http://example.org/iiif/19131",
+          "id": "http://example.org/iiif/12754",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19130",
+              "id": "http://example.org/iiif/12753",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19129"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2771/p1"
             }
           ]
         }

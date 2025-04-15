@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4643",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4643/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.1195",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.1195/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5512",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4643/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: overview",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 350,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/5514",
+          "id": "http://example.org/iiif/7226",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5513",
+              "id": "http://example.org/iiif/7225",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5512"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4643/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5515",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4643/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Neck and shoulder: ray pattern and pomegranate chain",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 353,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/5517",
+          "id": "http://example.org/iiif/7228",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5516",
+              "id": "http://example.org/iiif/7227",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5515"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4643/p2"
             }
           ]
         }

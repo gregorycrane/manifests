@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0175",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0175/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/9334",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main panel",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 348,
       "width": 270,
       "items": [
         {
-          "id": "http://example.org/iiif/9336",
+          "id": "http://example.org/iiif/540",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9335",
+              "id": "http://example.org/iiif/539",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9334"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9337",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel:  judgement of Paris",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 420,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/9339",
+          "id": "http://example.org/iiif/542",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9338",
+              "id": "http://example.org/iiif/541",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9337"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9340",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at center,  four divinities",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 365,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/9342",
+          "id": "http://example.org/iiif/544",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9341",
+              "id": "http://example.org/iiif/543",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9340"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9343",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at left, three goddesses",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 363,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/9345",
+          "id": "http://example.org/iiif/546",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9344",
+              "id": "http://example.org/iiif/545",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9343"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9346",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Shoulder scene: Achilles and Paris",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 363,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/9348",
+          "id": "http://example.org/iiif/548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9347",
+              "id": "http://example.org/iiif/547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9346"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/9349",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Shoulder scene: Achilles and Paris",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 357,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/9351",
+          "id": "http://example.org/iiif/550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/9350",
+              "id": "http://example.org/iiif/549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,7 +262,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/9349"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4729/p6"
             }
           ]
         }

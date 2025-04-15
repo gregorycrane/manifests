@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1767",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1767/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0026",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0026/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31006",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1767/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "The Palladion",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31008",
+          "id": "http://example.org/iiif/1130",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31007",
+              "id": "http://example.org/iiif/1129",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31006"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1767/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31009",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1767/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing the Palladion",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31011",
+          "id": "http://example.org/iiif/1132",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31010",
+              "id": "http://example.org/iiif/1131",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31009"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1767/p2"
             }
           ]
         }

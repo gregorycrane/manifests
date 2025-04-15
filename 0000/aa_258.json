@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_258",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_258/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0654",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0654/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61546",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_258/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hellenistic store rooms at W side of South Market, from NE, Miletus",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 330,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/61548",
+          "id": "http://example.org/iiif/21490",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61547",
+              "id": "http://example.org/iiif/21489",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61546"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_258/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61549",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_258/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Hellenistic warehouse on W side of South Market, from N, Miletus",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 337,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/61551",
+          "id": "http://example.org/iiif/21492",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61550",
+              "id": "http://example.org/iiif/21491",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61549"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_258/p2"
             }
           ]
         }

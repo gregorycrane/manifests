@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.01.0039",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.01.0039/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13780",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, general view",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 487,
       "width": 335,
       "items": [
         {
-          "id": "http://example.org/iiif/13782",
+          "id": "http://example.org/iiif/9188",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13781",
+              "id": "http://example.org/iiif/9187",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13780"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13783",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, view from left",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/13785",
+          "id": "http://example.org/iiif/9190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13784",
+              "id": "http://example.org/iiif/9189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13783"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13786",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, figure on right",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/13788",
+          "id": "http://example.org/iiif/9192",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13787",
+              "id": "http://example.org/iiif/9191",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13786"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13789",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, torso of right figure",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 276,
       "items": [
         {
-          "id": "http://example.org/iiif/13791",
+          "id": "http://example.org/iiif/9194",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13790",
+              "id": "http://example.org/iiif/9193",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13789"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13792",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of torso",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 420,
       "width": 636,
       "items": [
         {
-          "id": "http://example.org/iiif/13794",
+          "id": "http://example.org/iiif/9196",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13793",
+              "id": "http://example.org/iiif/9195",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13792"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13795",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of torso",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 324,
       "items": [
         {
-          "id": "http://example.org/iiif/13797",
+          "id": "http://example.org/iiif/9198",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13796",
+              "id": "http://example.org/iiif/9197",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13795"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13798",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of left arm",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 503,
       "width": 340,
       "items": [
         {
-          "id": "http://example.org/iiif/13800",
+          "id": "http://example.org/iiif/9200",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13799",
+              "id": "http://example.org/iiif/9199",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13798"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13801",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, torso and legs",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 503,
       "width": 341,
       "items": [
         {
-          "id": "http://example.org/iiif/13803",
+          "id": "http://example.org/iiif/9202",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13802",
+              "id": "http://example.org/iiif/9201",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13801"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13804",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of left hand",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 342,
       "items": [
         {
-          "id": "http://example.org/iiif/13806",
+          "id": "http://example.org/iiif/9204",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13805",
+              "id": "http://example.org/iiif/9203",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13804"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13807",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, hands over thymiaterion",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 343,
       "items": [
         {
-          "id": "http://example.org/iiif/13809",
+          "id": "http://example.org/iiif/9206",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13808",
+              "id": "http://example.org/iiif/9205",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13807"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13810",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, figure on left",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 307,
       "items": [
         {
-          "id": "http://example.org/iiif/13812",
+          "id": "http://example.org/iiif/9208",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13811",
+              "id": "http://example.org/iiif/9207",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13810"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13813",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, torso of left figure",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 307,
       "items": [
         {
-          "id": "http://example.org/iiif/13815",
+          "id": "http://example.org/iiif/9210",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13814",
+              "id": "http://example.org/iiif/9209",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13813"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13816",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of torso",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 419,
       "width": 567,
       "items": [
         {
-          "id": "http://example.org/iiif/13818",
+          "id": "http://example.org/iiif/9212",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13817",
+              "id": "http://example.org/iiif/9211",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13816"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13819",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of upper torso",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 420,
       "width": 642,
       "items": [
         {
-          "id": "http://example.org/iiif/13821",
+          "id": "http://example.org/iiif/9214",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13820",
+              "id": "http://example.org/iiif/9213",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13819"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13822",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of legs",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 336,
       "items": [
         {
-          "id": "http://example.org/iiif/13824",
+          "id": "http://example.org/iiif/9216",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13823",
+              "id": "http://example.org/iiif/9215",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13822"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13825",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, edge of drapery and feet",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 420,
       "width": 636,
       "items": [
         {
-          "id": "http://example.org/iiif/13827",
+          "id": "http://example.org/iiif/9218",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13826",
+              "id": "http://example.org/iiif/9217",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13825"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13828",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Copy of Eleusinian Relief with Thymiaterion, detail of thymiaterion",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 342,
       "items": [
         {
-          "id": "http://example.org/iiif/13830",
+          "id": "http://example.org/iiif/9220",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13829",
+              "id": "http://example.org/iiif/9219",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,7 +702,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13828"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2301/p19"
             }
           ]
         }

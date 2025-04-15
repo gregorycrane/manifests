@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3708",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3708/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1671",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1671/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30250",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3708/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 735,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30252",
+          "id": "http://example.org/iiif/626",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30251",
+              "id": "http://example.org/iiif/625",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30250"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3708/p1"
             }
           ]
         }

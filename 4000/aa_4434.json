@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.10.0945",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.10.0945/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4126",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: view from above",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 352,
       "width": 392,
       "items": [
         {
-          "id": "http://example.org/iiif/4128",
+          "id": "http://example.org/iiif/2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4127",
+              "id": "http://example.org/iiif/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4126"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4129",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: two fish",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 343,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/4131",
+          "id": "http://example.org/iiif/4",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4130",
+              "id": "http://example.org/iiif/3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4129"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4132",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: octopus and scallop",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/4134",
+          "id": "http://example.org/iiif/6",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4133",
+              "id": "http://example.org/iiif/5",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4132"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4135",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: fish, scallop, and crayfish",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 346,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/4137",
+          "id": "http://example.org/iiif/8",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4136",
+              "id": "http://example.org/iiif/7",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4135"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4138",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: fish",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 346,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/4140",
+          "id": "http://example.org/iiif/10",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4139",
+              "id": "http://example.org/iiif/9",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4138"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4141",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: head of fish",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 338,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/4143",
+          "id": "http://example.org/iiif/12",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4142",
+              "id": "http://example.org/iiif/11",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4141"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4144",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior profile: floral pattern",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 122,
       "width": 460,
       "items": [
         {
-          "id": "http://example.org/iiif/4146",
+          "id": "http://example.org/iiif/14",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4145",
+              "id": "http://example.org/iiif/13",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,7 +302,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4144"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4434/p7"
             }
           ]
         }

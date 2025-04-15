@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_324",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_324/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0242",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0242/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62866",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_324/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of SW doorway and S room of library, Pergamon",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 348,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/62868",
+          "id": "http://example.org/iiif/22370",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62867",
+              "id": "http://example.org/iiif/22369",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62866"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_324/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62869",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_324/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Humidity gap behind N wall of library, from SW, Pergamon",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 348,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/62871",
+          "id": "http://example.org/iiif/22372",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62870",
+              "id": "http://example.org/iiif/22371",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62869"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_324/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62872",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_324/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Northeast corner of NE reading room, from SW, Pergamon, Library",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 350,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/62874",
+          "id": "http://example.org/iiif/22374",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62873",
+              "id": "http://example.org/iiif/22373",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62872"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_324/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62875",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_324/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Central room of library, from SE, Pergamon, Library",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 351,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/62877",
+          "id": "http://example.org/iiif/22376",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62876",
+              "id": "http://example.org/iiif/22375",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62875"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_324/p4"
             }
           ]
         }

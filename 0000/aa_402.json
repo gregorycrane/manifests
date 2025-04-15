@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_402",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_402/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0801a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0801a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/65509",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_402/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olynthus, House A 11",
+          "From Olynthus, vol. 8 pl. 91"
+        ]
+      },
       "height": 399,
       "width": 460,
       "items": [
         {
-          "id": "http://example.org/iiif/65511",
+          "id": "http://example.org/iiif/24132",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65510",
+              "id": "http://example.org/iiif/24131",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/65509"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_402/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/65512",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_402/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "House A 11 and North Hill, looking NE, Olynthus",
+          "Photograph by Nick Cahill"
+        ]
+      },
       "height": 344,
       "width": 526,
       "items": [
         {
-          "id": "http://example.org/iiif/65514",
+          "id": "http://example.org/iiif/24134",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65513",
+              "id": "http://example.org/iiif/24133",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/65512"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_402/p2"
             }
           ]
         }

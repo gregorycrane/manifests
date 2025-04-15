@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1399",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1399/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1161",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1161/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71287",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1399/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Trebonianus Gallus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71289",
+          "id": "http://example.org/iiif/27984",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71288",
+              "id": "http://example.org/iiif/27983",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71287"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1399/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71290",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1399/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Libertas standing, with scepter and pileus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71292",
+          "id": "http://example.org/iiif/27986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71291",
+              "id": "http://example.org/iiif/27985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71290"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1399/p2"
             }
           ]
         }

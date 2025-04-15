@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5277",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5277/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0324",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0324/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20245",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5277/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3282,
       "width": 1888,
       "items": [
         {
-          "id": "http://example.org/iiif/20247",
+          "id": "http://example.org/iiif/1190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20246",
+              "id": "http://example.org/iiif/1189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20245"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5277/p1"
             }
           ]
         }

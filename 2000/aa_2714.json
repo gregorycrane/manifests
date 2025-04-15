@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2714",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2714/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0039",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0039/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18955",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2714/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Votive relief of two women with a baby; Top center: Votive relief with family and servants approaching a deity?; Top right: Votive relief to Asklepios, Hygieia, amd Machaon; Lower left: A hero, Asklepios and four Asklepiades, and a worshipper; Lower right: Votive relief with Kore holding two torches",
+          "From Svoronos 1903-12, pl. 39"
+        ]
+      },
       "height": 452,
       "width": 594,
       "items": [
         {
-          "id": "http://example.org/iiif/18957",
+          "id": "http://example.org/iiif/12638",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18956",
+              "id": "http://example.org/iiif/12637",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18955"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2714/p1"
             }
           ]
         }

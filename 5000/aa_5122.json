@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5122",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5122/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0310",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0310/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/15910",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5122/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: lovemaking",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2568,
       "width": 3462,
       "items": [
         {
-          "id": "http://example.org/iiif/15912",
+          "id": "http://example.org/iiif/4924",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15911",
+              "id": "http://example.org/iiif/4923",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15910"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5122/p1"
             }
           ]
         }

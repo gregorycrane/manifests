@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4690",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4690/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.1222",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.1222/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/8101",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main frieze: view from center",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 200,
       "width": 420,
       "items": [
         {
-          "id": "http://example.org/iiif/8103",
+          "id": "http://example.org/iiif/8952",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8102",
+              "id": "http://example.org/iiif/8951",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8101"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8104",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main frieze: oblique from right",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 192,
       "width": 347,
       "items": [
         {
-          "id": "http://example.org/iiif/8106",
+          "id": "http://example.org/iiif/8954",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8105",
+              "id": "http://example.org/iiif/8953",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8104"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8107",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: main frieze to right and left",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 195,
       "width": 330,
       "items": [
         {
-          "id": "http://example.org/iiif/8109",
+          "id": "http://example.org/iiif/8956",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8108",
+              "id": "http://example.org/iiif/8955",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8107"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8110",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Frieze: bird and geometric motifs",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
       "height": 235,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/8112",
+          "id": "http://example.org/iiif/8958",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8111",
+              "id": "http://example.org/iiif/8957",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8110"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4690/p4"
             }
           ]
         }

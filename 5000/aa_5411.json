@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5411",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5411/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0356",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0356/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25057",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: figures in procession",
+          "From Caskey & Beazley, plate LXXXIX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 366,
       "width": 526,
       "items": [
         {
-          "id": "http://example.org/iiif/25059",
+          "id": "http://example.org/iiif/4398",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25058",
+              "id": "http://example.org/iiif/4397",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25057"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25060",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: figures in procession",
+          "From Caskey & Beazley, plate LXXXIX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 313,
       "width": 526,
       "items": [
         {
-          "id": "http://example.org/iiif/25062",
+          "id": "http://example.org/iiif/4400",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25061",
+              "id": "http://example.org/iiif/4399",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25060"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25063",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: figures in procession",
+          "From Caskey & Beazley, plate LXXXIX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 366,
       "width": 526,
       "items": [
         {
-          "id": "http://example.org/iiif/25065",
+          "id": "http://example.org/iiif/4402",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25064",
+              "id": "http://example.org/iiif/4401",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25063"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25066",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Eos pursuing Tithonos",
+          "From Caskey & Beazley, plate LXXXIX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 355,
       "width": 361,
       "items": [
         {
-          "id": "http://example.org/iiif/25068",
+          "id": "http://example.org/iiif/4404",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25067",
+              "id": "http://example.org/iiif/4403",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25066"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5411/p4"
             }
           ]
         }

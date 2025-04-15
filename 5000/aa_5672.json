@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5672",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5672/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0500.lg",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0500.lg/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30118",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A, Polyneikes and Eriphyle (large)",
+          "Copyright D. Neel Smith 1988, drawn by M. W. Cutler, based on Reichhold (artist) 1903 in FR plate 66"
+        ]
+      },
       "height": 1254,
       "width": 1214,
       "items": [
         {
-          "id": "http://example.org/iiif/30120",
+          "id": "http://example.org/iiif/1288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30119",
+              "id": "http://example.org/iiif/1287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30118"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30121",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A, Polyneikes and Eriphyle (small)",
+          "copyright D. Neel Smith 1988 drawn by M. W. Cutler, based on Reichhold (artist) 1903 in FR plate 66"
+        ]
+      },
       "height": 400,
       "width": 387,
       "items": [
         {
-          "id": "http://example.org/iiif/30123",
+          "id": "http://example.org/iiif/1290",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30122",
+              "id": "http://example.org/iiif/1289",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30121"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30124",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Pelike attributed to the Chicago Painter: Overview drawing of the vase, side A, showing Polyneices and Eriphyle",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 66"
+        ]
+      },
       "height": 819,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30126",
+          "id": "http://example.org/iiif/1292",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30125",
+              "id": "http://example.org/iiif/1291",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30124"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30127",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Pelike attributed to the Chicago Painter: Drawing of side A, showing Polyneices and Eriphyle",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 66"
+        ]
+      },
       "height": 765,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30129",
+          "id": "http://example.org/iiif/1294",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30128",
+              "id": "http://example.org/iiif/1293",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30127"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5672/p4"
             }
           ]
         }

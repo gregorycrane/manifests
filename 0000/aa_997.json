@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_997",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_997/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0095",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0095/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/77104",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_997/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Mercury",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/77106",
+          "id": "http://example.org/iiif/31862",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77105",
+              "id": "http://example.org/iiif/31861",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/77104"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_997/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/77107",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_997/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Ulysses with mariner's dress and pileus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/77109",
+          "id": "http://example.org/iiif/31864",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77108",
+              "id": "http://example.org/iiif/31863",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/77107"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_997/p2"
             }
           ]
         }

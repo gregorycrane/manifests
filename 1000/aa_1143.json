@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1143",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1143/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0419",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0419/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69544",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1143/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Domitian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69546",
+          "id": "http://example.org/iiif/26822",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69545",
+              "id": "http://example.org/iiif/26821",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69544"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1143/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69547",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1143/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Kneeling figure of a Sarmatian presenting a military ensign",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69549",
+          "id": "http://example.org/iiif/26824",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69548",
+              "id": "http://example.org/iiif/26823",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69547"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1143/p2"
             }
           ]
         }

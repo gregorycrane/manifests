@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1352",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1352/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1067",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1067/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71008",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1352/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Maximinus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71010",
+          "id": "http://example.org/iiif/27798",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71009",
+              "id": "http://example.org/iiif/27797",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71008"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1352/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71011",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1352/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Maximinus, in military costume, standing between two standards",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71013",
+          "id": "http://example.org/iiif/27800",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71012",
+              "id": "http://example.org/iiif/27799",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71011"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1352/p2"
             }
           ]
         }

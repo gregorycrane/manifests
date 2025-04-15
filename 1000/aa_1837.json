@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1837",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1837/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0036",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0036/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31477",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1837/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Centaur about to hurl a krater",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31479",
+          "id": "http://example.org/iiif/1444",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31478",
+              "id": "http://example.org/iiif/1443",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31477"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1837/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31480",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1837/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a centaur about to hurl a krater",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31482",
+          "id": "http://example.org/iiif/1446",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31481",
+              "id": "http://example.org/iiif/1445",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31480"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1837/p2"
             }
           ]
         }

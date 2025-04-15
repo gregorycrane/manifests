@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2693",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2693/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0049",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0049/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18892",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2693/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: votive relief showing Pan; Top, middle: Votive relief showing Leto between Apollo Kitharoidos and Artemis, with a deer; Right: fragment of a votive relief with Apollo, a woman, a man, dogs, and a snake in a mysterious landscape",
+          "From Svoronos 1903-12, pl. 49"
+        ]
+      },
       "height": 326,
       "width": 589,
       "items": [
         {
-          "id": "http://example.org/iiif/18894",
+          "id": "http://example.org/iiif/12596",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18893",
+              "id": "http://example.org/iiif/12595",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18892"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2693/p1"
             }
           ]
         }

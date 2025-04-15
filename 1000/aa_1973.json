@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1973",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1973/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0061",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0061/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3613",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1973/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Block from unidentified frieze with Amazonomachy",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 2060,
       "width": 3619,
       "items": [
         {
-          "id": "http://example.org/iiif/3615",
+          "id": "http://example.org/iiif/2410",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3614",
+              "id": "http://example.org/iiif/2409",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3613"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1973/p1"
             }
           ]
         }

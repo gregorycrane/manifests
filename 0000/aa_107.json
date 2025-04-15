@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_107",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_107/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5135",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5135/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/58807",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_107/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble arch stones with shield and helmets of the Dioskouroi, Delos, Hypostyle Hall (Stoa of Poseidon)",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2436,
       "width": 3685,
       "items": [
         {
-          "id": "http://example.org/iiif/58809",
+          "id": "http://example.org/iiif/19664",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58808",
+              "id": "http://example.org/iiif/19663",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58807"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_107/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58810",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_107/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble column bases in NW corner of hall, Delos, Hypostyle Hall (Stoa of Poseidon)",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2376,
       "width": 3667,
       "items": [
         {
-          "id": "http://example.org/iiif/58812",
+          "id": "http://example.org/iiif/19666",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58811",
+              "id": "http://example.org/iiif/19665",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58810"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_107/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58813",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_107/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Hypostyle Hall (Stoa of Poseidon)",
+          "copyright D. Neel Smith drawn by M. W. Cutler based on N.M. Kontoleontos 1950 81 fig. 38"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/58815",
+          "id": "http://example.org/iiif/19668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58814",
+              "id": "http://example.org/iiif/19667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58813"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_107/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58816",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_107/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Section, interior view, ca. 210 BC, Delos, Hypostyle Hall (Stoa of Poseidon)",
+          "copyright Perseus Project 1989, drawn by M. W. Cutler based on R. Vallois and G. Poulsen, Exploration archaéologique de Délos 2, Complement, Nouvelles recherches sur la Salle Hypostyle, Paris 1914 plate 2, in A.W. Lawrence 1983 352 fig. 346"
+        ]
+      },
       "height": 258,
       "width": 599,
       "items": [
         {
-          "id": "http://example.org/iiif/58818",
+          "id": "http://example.org/iiif/19670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58817",
+              "id": "http://example.org/iiif/19669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58816"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_107/p4"
             }
           ]
         }

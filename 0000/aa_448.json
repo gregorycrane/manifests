@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_448",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_448/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0107",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0107/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73627",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_448/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Within a border of dots, the head of Poseidon, hair bound with seaweed, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73629",
+          "id": "http://example.org/iiif/29544",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73628",
+              "id": "http://example.org/iiif/29543",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73627"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_448/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73630",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_448/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Legend; at left, a prow, upon which is seated Apollo, profile to the left, holding bow; below, monogram",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73632",
+          "id": "http://example.org/iiif/29546",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73631",
+              "id": "http://example.org/iiif/29545",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73630"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_448/p2"
             }
           ]
         }

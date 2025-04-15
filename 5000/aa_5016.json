@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5016",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5016/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0001",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0001/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12853",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5016/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, handle left",
+          "Photograph courtesy of the Tulane University Art Collection"
+        ]
+      },
       "height": 378,
       "width": 158,
       "items": [
         {
-          "id": "http://example.org/iiif/12855",
+          "id": "http://example.org/iiif/2886",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12854",
+              "id": "http://example.org/iiif/2885",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12853"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5016/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12856",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5016/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, handle right",
+          "Photograph courtesy of the Tulane University Art Collection"
+        ]
+      },
       "height": 371,
       "width": 158,
       "items": [
         {
-          "id": "http://example.org/iiif/12858",
+          "id": "http://example.org/iiif/2888",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12857",
+              "id": "http://example.org/iiif/2887",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12856"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5016/p2"
             }
           ]
         }

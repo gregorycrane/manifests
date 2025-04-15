@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_176",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_176/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152r",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152r/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/60142",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_176/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Treasury of the Thebans (VI)",
+          "copyright D. Neel Smith 1988 drawn by M. W. Cutler and C. H. Smith based on  P. de la Coste Messelière, Au Musée de Delphes, Editions E. de Boccard 1970 plate L, in Coulton 1977 69 fig. 22 and also based on A. Tournaire, Bulletin de correspondance hellénique 1897 plate 14,  in N.D. Papachadzi 1981 287 fig.327 Temple of Apollo plan based on F. Courby, Relevés et restaurations, Fouilles de Delphes 1927, in N.D. Papachadzi 1981 366-367 fig. 405"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/60144",
+          "id": "http://example.org/iiif/20554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60143",
+              "id": "http://example.org/iiif/20553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60142"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_176/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60145",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_176/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View looking W up Sacred Way, Delphi, Treasury of the Thebans",
+          "Photograph by Pamela J. Russell"
+        ]
+      },
       "height": 352,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/60147",
+          "id": "http://example.org/iiif/20556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60146",
+              "id": "http://example.org/iiif/20555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60145"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_176/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60148",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_176/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View looking SE down Sacred Way, Delphi, Treasury of the Thebans",
+          "Photograph by Pamela J. Russell"
+        ]
+      },
       "height": 351,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/60150",
+          "id": "http://example.org/iiif/20558",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60149",
+              "id": "http://example.org/iiif/20557",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60148"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_176/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60151",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_176/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View looking E, Delphi, Treasury of the Thebans",
+          "Photograph by Pamela J. Russell"
+        ]
+      },
       "height": 347,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/60153",
+          "id": "http://example.org/iiif/20560",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60152",
+              "id": "http://example.org/iiif/20559",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60151"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_176/p4"
             }
           ]
         }

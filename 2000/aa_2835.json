@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2835",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2835/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0095",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0095/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19318",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2835/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Relief with the Apolline Triad (Apollo Kitharoidos, Leto, Artemis) and a worshipper; Bottom left: Votive relief with three worshippers; Bottom right: Relief with four worshippers",
+          "From Svoronos 1903-12, pl. 95"
+        ]
+      },
       "height": 581,
       "width": 387,
       "items": [
         {
-          "id": "http://example.org/iiif/19320",
+          "id": "http://example.org/iiif/12880",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19319",
+              "id": "http://example.org/iiif/12879",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19318"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2835/p1"
             }
           ]
         }

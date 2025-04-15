@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_304",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_304/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0279a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0279a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62371",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_304/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Treasury of the Sybarites",
+          "copyright C. H. Smith 1988 based on N. Yalouris 1979 100-101 fig. 40, and based on A. Mallwitz, AA 1971 153 ff fig. 3, in A. Mallwitz 1972 170 fig. 240"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/62373",
+          "id": "http://example.org/iiif/22040",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62372",
+              "id": "http://example.org/iiif/22039",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62371"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_304/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62374",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_304/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of the Treasury of the Sybarites, Olympia",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 284,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/62376",
+          "id": "http://example.org/iiif/22042",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62375",
+              "id": "http://example.org/iiif/22041",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62374"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_304/p2"
             }
           ]
         }

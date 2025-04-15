@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3893",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3893/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0742",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0742/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/43867",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3893/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Six ruined windmills along ridge, Dreros",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 223,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/43869",
+          "id": "http://example.org/iiif/9704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/43868",
+              "id": "http://example.org/iiif/9703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/43867"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3893/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/43870",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3893/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of the interior of the Temple of Apollo, Dreros",
+          "Drawing by Candace Smith, from Stewart 1990, fig. 16"
+        ]
+      },
       "height": 812,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/43872",
+          "id": "http://example.org/iiif/9706",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/43871",
+              "id": "http://example.org/iiif/9705",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/43870"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3893/p2"
             }
           ]
         }

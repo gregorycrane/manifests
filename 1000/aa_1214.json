@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1214",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1214/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0789",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0789/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69985",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1214/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Antoninus Pius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69987",
+          "id": "http://example.org/iiif/27116",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69986",
+              "id": "http://example.org/iiif/27115",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69985"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1214/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69988",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1214/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Standing Salus, holding scepter and patera and feeding a snake",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69990",
+          "id": "http://example.org/iiif/27118",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69989",
+              "id": "http://example.org/iiif/27117",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69988"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1214/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_847",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_847/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0037",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0037/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76096",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_847/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Cock, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 387,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76098",
+          "id": "http://example.org/iiif/31190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76097",
+              "id": "http://example.org/iiif/31189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76096"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_847/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76099",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_847/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Crab of Akragantine type",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 395,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76101",
+          "id": "http://example.org/iiif/31192",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76100",
+              "id": "http://example.org/iiif/31191",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76099"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_847/p2"
             }
           ]
         }

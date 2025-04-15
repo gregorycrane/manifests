@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5516",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5516/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0270",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0270/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25879",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: satyrs attacking sleeping maenad",
+          "From Caskey & Beazley, plate LXIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 348,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/25881",
+          "id": "http://example.org/iiif/4946",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25880",
+              "id": "http://example.org/iiif/4945",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25879"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25882",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: satyr on left",
+          "From Caskey & Beazley, plate LXIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 251,
       "width": 206,
       "items": [
         {
-          "id": "http://example.org/iiif/25884",
+          "id": "http://example.org/iiif/4948",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25883",
+              "id": "http://example.org/iiif/4947",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25882"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25885",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: maenad",
+          "From Caskey & Beazley, plate LXIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 254,
       "width": 297,
       "items": [
         {
-          "id": "http://example.org/iiif/25887",
+          "id": "http://example.org/iiif/4950",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25886",
+              "id": "http://example.org/iiif/4949",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25885"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25888",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: satyr on right",
+          "From Caskey & Beazley, plate LXIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 248,
       "width": 198,
       "items": [
         {
-          "id": "http://example.org/iiif/25890",
+          "id": "http://example.org/iiif/4952",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25889",
+              "id": "http://example.org/iiif/4951",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25888"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5516/p4"
             }
           ]
         }

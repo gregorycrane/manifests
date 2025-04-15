@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3322",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3322/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0127",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0127/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20929",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3322/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Upper left: Votive relief; Top, middle: Votive relief; Upper right: Banquet relief; Lower left: Votive relief; Bottom, center: Votive relief; Lower right: Votive relief",
+          "From Svoronos 1903-12, pl. 127"
+        ]
+      },
       "height": 416,
       "width": 569,
       "items": [
         {
-          "id": "http://example.org/iiif/20931",
+          "id": "http://example.org/iiif/704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20930",
+              "id": "http://example.org/iiif/703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20929"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3322/p1"
             }
           ]
         }

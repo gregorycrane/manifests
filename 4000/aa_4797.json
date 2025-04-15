@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4797",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4797/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0257",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0257/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11182",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4797/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side A",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2004,
       "width": 2350,
       "items": [
         {
-          "id": "http://example.org/iiif/11184",
+          "id": "http://example.org/iiif/1772",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11183",
+              "id": "http://example.org/iiif/1771",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11182"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4797/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11185",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4797/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles and Acheloos",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2488,
       "width": 3684,
       "items": [
         {
-          "id": "http://example.org/iiif/11187",
+          "id": "http://example.org/iiif/1774",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11186",
+              "id": "http://example.org/iiif/1773",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11185"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4797/p2"
             }
           ]
         }

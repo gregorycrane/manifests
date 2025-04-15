@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2839",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2839/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0096",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0096/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19333",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2839/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Relief with Hermes and the Nymphs; Bottom left: A bearded male worshipper, wearing a himation, approaches a mask of Acheloos; Bottom right: Mask of Acheloos from a nymph relief",
+          "From Svoronos 1903-12, pl. 96"
+        ]
+      },
       "height": 574,
       "width": 412,
       "items": [
         {
-          "id": "http://example.org/iiif/19335",
+          "id": "http://example.org/iiif/12890",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19334",
+              "id": "http://example.org/iiif/12889",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19333"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2839/p1"
             }
           ]
         }

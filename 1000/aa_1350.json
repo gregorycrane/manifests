@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1350",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1350/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1063",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1063/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70996",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1350/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Alexander Severus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70998",
+          "id": "http://example.org/iiif/27790",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70997",
+              "id": "http://example.org/iiif/27789",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70996"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1350/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70999",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1350/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Jupiter standing, with thunderbolt and scepter",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71001",
+          "id": "http://example.org/iiif/27792",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71000",
+              "id": "http://example.org/iiif/27791",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70999"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1350/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2436",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2436/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0528",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0528/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/17959",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2436/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "South Metope 8: Lapith and Centaur",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2506,
       "width": 2898,
       "items": [
         {
-          "id": "http://example.org/iiif/17961",
+          "id": "http://example.org/iiif/11974",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17960",
+              "id": "http://example.org/iiif/11973",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17959"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2436/p1"
             }
           ]
         }

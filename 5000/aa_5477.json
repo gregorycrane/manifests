@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5477",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5477/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0290",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0290/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25591",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5477/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: satyr and maenad",
+          "From Caskey & Beazley, plate LXIX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 294,
       "width": 237,
       "items": [
         {
-          "id": "http://example.org/iiif/25593",
+          "id": "http://example.org/iiif/4754",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25592",
+              "id": "http://example.org/iiif/4753",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25591"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5477/p1"
             }
           ]
         }

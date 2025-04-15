@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2703",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2703/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0057",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0057/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18922",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2703/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Votive relief depicting Asklepios, Epione, Hippolytos (?), and a horse and groom",
+          "From Svoronos 1903-12, pl. 57"
+        ]
+      },
       "height": 391,
       "width": 563,
       "items": [
         {
-          "id": "http://example.org/iiif/18924",
+          "id": "http://example.org/iiif/12616",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18923",
+              "id": "http://example.org/iiif/12615",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18922"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2703/p1"
             }
           ]
         }

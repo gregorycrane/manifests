@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5018",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5018/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0048",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0048/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12859",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5018/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main panel front",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
       "height": 366,
       "width": 205,
       "items": [
         {
-          "id": "http://example.org/iiif/12861",
+          "id": "http://example.org/iiif/2890",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12860",
+              "id": "http://example.org/iiif/2889",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12859"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5018/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12862",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5018/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle front",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
       "height": 373,
       "width": 220,
       "items": [
         {
-          "id": "http://example.org/iiif/12864",
+          "id": "http://example.org/iiif/2892",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12863",
+              "id": "http://example.org/iiif/2891",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12862"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5018/p2"
             }
           ]
         }

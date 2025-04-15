@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_46",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_46/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.20.0416",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.20.0416/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/66139",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_46/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "South Stoa and Stoa of Attalos; Heliaia at lower left, from W, Athens",
+          "Photograph by Gregory Crane"
+        ]
+      },
       "height": 282,
       "width": 426,
       "items": [
         {
-          "id": "http://example.org/iiif/66141",
+          "id": "http://example.org/iiif/24552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/66140",
+              "id": "http://example.org/iiif/24551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/66139"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_46/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/66142",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_46/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Heliaia, from SW, Athens",
+          "Photograph by Gregory Crane"
+        ]
+      },
       "height": 286,
       "width": 427,
       "items": [
         {
-          "id": "http://example.org/iiif/66144",
+          "id": "http://example.org/iiif/24554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/66143",
+              "id": "http://example.org/iiif/24553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/66142"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_46/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/66145",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_46/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Heliaia, from S, Athens",
+          "Photograph by Gregory Crane"
+        ]
+      },
       "height": 282,
       "width": 426,
       "items": [
         {
-          "id": "http://example.org/iiif/66147",
+          "id": "http://example.org/iiif/24556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/66146",
+              "id": "http://example.org/iiif/24555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/66145"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_46/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/66148",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_46/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, Heliaia",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Travlos 1967 (artist) in Travlos 236 fig. 303"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/66150",
+          "id": "http://example.org/iiif/24558",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/66149",
+              "id": "http://example.org/iiif/24557",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/66148"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_46/p4"
             }
           ]
         }

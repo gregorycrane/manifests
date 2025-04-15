@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1954",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1954/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0099",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0099/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3274",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1954/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Asklepios relief",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 2396,
       "width": 3419,
       "items": [
         {
-          "id": "http://example.org/iiif/3276",
+          "id": "http://example.org/iiif/2184",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3275",
+              "id": "http://example.org/iiif/2183",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3274"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1954/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/3277",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1954/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Votive relief showing Asklepios and his daughters; Top center: Votive relief to Asklepios and Epione or Hygieia; Top right: Votive relief to Asklepios and Hygieia; Lower left: Votive relief showing Asklepios and his children with a family of worshippers; Lower right: relief showing Asklepios' sons, a dog, and two female worshippers",
+          "From Svoronos 1903-12, pl. 35"
+        ]
+      },
       "height": 439,
       "width": 570,
       "items": [
         {
-          "id": "http://example.org/iiif/3279",
+          "id": "http://example.org/iiif/2186",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3278",
+              "id": "http://example.org/iiif/2185",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3277"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1954/p2"
             }
           ]
         }

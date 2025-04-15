@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_965",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_965/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0031",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0031/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76912",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_965/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Carus laureate",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76914",
+          "id": "http://example.org/iiif/31734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76913",
+              "id": "http://example.org/iiif/31733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76912"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_965/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76915",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_965/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Providentia with globe and staff",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76917",
+          "id": "http://example.org/iiif/31736",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76916",
+              "id": "http://example.org/iiif/31735",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76915"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_965/p2"
             }
           ]
         }

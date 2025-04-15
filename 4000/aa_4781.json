@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4781",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4781/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0276",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0276/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11101",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4781/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: cult initiation of Herakles to the Mysteries",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2478,
       "width": 2392,
       "items": [
         {
-          "id": "http://example.org/iiif/11103",
+          "id": "http://example.org/iiif/1718",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11102",
+              "id": "http://example.org/iiif/1717",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11101"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4781/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11104",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4781/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dioskouros on far right",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3708,
       "width": 2458,
       "items": [
         {
-          "id": "http://example.org/iiif/11106",
+          "id": "http://example.org/iiif/1720",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11105",
+              "id": "http://example.org/iiif/1719",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11104"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4781/p2"
             }
           ]
         }

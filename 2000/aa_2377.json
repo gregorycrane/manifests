@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2377",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2377/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0012",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0012/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/17530",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2377/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "East Frieze Slab 5:  (l to r) priestess of Athena(?), handing over of the peplos, Athena and Hephaistos",
+          "Photograph courtesy of the British Museum, London"
+        ]
+      },
       "height": 1914,
       "width": 3703,
       "items": [
         {
-          "id": "http://example.org/iiif/17532",
+          "id": "http://example.org/iiif/11688",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17531",
+              "id": "http://example.org/iiif/11687",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17530"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2377/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/17533",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2377/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of Parthenon East Frieze slab 5",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 2568,
       "width": 3798,
       "items": [
         {
-          "id": "http://example.org/iiif/17535",
+          "id": "http://example.org/iiif/11690",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17534",
+              "id": "http://example.org/iiif/11689",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17533"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2377/p2"
             }
           ]
         }

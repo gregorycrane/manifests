@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0253",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0253/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11191",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Peleus and Thetis",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3642,
       "width": 2470,
       "items": [
         {
-          "id": "http://example.org/iiif/11193",
+          "id": "http://example.org/iiif/1778",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11192",
+              "id": "http://example.org/iiif/1777",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11191"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11194",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Peleus accosting Thetis",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3054,
       "width": 1870,
       "items": [
         {
-          "id": "http://example.org/iiif/11196",
+          "id": "http://example.org/iiif/1780",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11195",
+              "id": "http://example.org/iiif/1779",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11194"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11197",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Dionysos with satyr and maenad",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2928,
       "width": 1960,
       "items": [
         {
-          "id": "http://example.org/iiif/11199",
+          "id": "http://example.org/iiif/1782",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11198",
+              "id": "http://example.org/iiif/1781",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11197"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p3"
             }
           ]
         }

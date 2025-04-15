@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4323",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4323/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0427",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0427/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5443",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4323/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Frontal view of hydria",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3048,
       "width": 2472,
       "items": [
         {
-          "id": "http://example.org/iiif/5445",
+          "id": "http://example.org/iiif/36900",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5444",
+              "id": "http://example.org/iiif/36899",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5443"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4323/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5446",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4323/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of body scene: Apollo and Herakles",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2560,
       "width": 3792,
       "items": [
         {
-          "id": "http://example.org/iiif/5448",
+          "id": "http://example.org/iiif/36902",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5447",
+              "id": "http://example.org/iiif/36901",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5446"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4323/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5449",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4323/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of shoulder scene: Herakles and lion",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2544,
       "width": 3784,
       "items": [
         {
-          "id": "http://example.org/iiif/5451",
+          "id": "http://example.org/iiif/36904",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5450",
+              "id": "http://example.org/iiif/36903",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5449"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4323/p3"
             }
           ]
         }

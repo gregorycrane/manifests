@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2928",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2928/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0111",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0111/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20413",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2928/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Left: Ephebic decree relief with three standing figures from A.D. 143/4; Right: Ephebic decree relief depicting (above) two nude ephebes flanking an older man; boat with eight men (below).",
+          "From Svoronos 1903-12, pl. 111"
+        ]
+      },
       "height": 411,
       "width": 555,
       "items": [
         {
-          "id": "http://example.org/iiif/20415",
+          "id": "http://example.org/iiif/360",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20414",
+              "id": "http://example.org/iiif/359",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20413"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2928/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5180",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5180/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0494",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0494/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/16453",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5180/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Hermes and infant Arkas",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2298,
       "width": 1806,
       "items": [
         {
-          "id": "http://example.org/iiif/16455",
+          "id": "http://example.org/iiif/5286",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16454",
+              "id": "http://example.org/iiif/5285",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16453"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5180/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16456",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5180/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: decoration beneath handle",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2232,
       "width": 1692,
       "items": [
         {
-          "id": "http://example.org/iiif/16458",
+          "id": "http://example.org/iiif/5288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16457",
+              "id": "http://example.org/iiif/5287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16456"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5180/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16459",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5180/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: hunter left of Kallisto",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2172,
       "width": 1776,
       "items": [
         {
-          "id": "http://example.org/iiif/16461",
+          "id": "http://example.org/iiif/5290",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16460",
+              "id": "http://example.org/iiif/5289",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16459"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5180/p3"
             }
           ]
         }

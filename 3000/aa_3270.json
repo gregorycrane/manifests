@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3270",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3270/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0132",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0132/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20755",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3270/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Round altar with nine Muses",
+          "From Svoronos 1903-12, pl. 132"
+        ]
+      },
       "height": 263,
       "width": 579,
       "items": [
         {
-          "id": "http://example.org/iiif/20757",
+          "id": "http://example.org/iiif/588",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20756",
+              "id": "http://example.org/iiif/587",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20755"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3270/p1"
             }
           ]
         }

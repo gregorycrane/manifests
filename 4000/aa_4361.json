@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2216",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2216/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1231,
       "width": 2704,
       "items": [
         {
-          "id": "http://example.org/iiif/3",
+          "id": "http://example.org/iiif/38448",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2",
+              "id": "http://example.org/iiif/38447",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1183,
       "width": 2776,
       "items": [
         {
-          "id": "http://example.org/iiif/6",
+          "id": "http://example.org/iiif/38450",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5",
+              "id": "http://example.org/iiif/38449",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/7",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1147,
       "width": 2572,
       "items": [
         {
-          "id": "http://example.org/iiif/9",
+          "id": "http://example.org/iiif/38452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8",
+              "id": "http://example.org/iiif/38451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from left",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1195,
       "width": 2734,
       "items": [
         {
-          "id": "http://example.org/iiif/12",
+          "id": "http://example.org/iiif/38454",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11",
+              "id": "http://example.org/iiif/38453",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1236,
       "width": 3009,
       "items": [
         {
-          "id": "http://example.org/iiif/15",
+          "id": "http://example.org/iiif/38456",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14",
+              "id": "http://example.org/iiif/38455",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1177,
       "width": 2572,
       "items": [
         {
-          "id": "http://example.org/iiif/18",
+          "id": "http://example.org/iiif/38458",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17",
+              "id": "http://example.org/iiif/38457",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/19",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1063,
       "width": 2596,
       "items": [
         {
-          "id": "http://example.org/iiif/21",
+          "id": "http://example.org/iiif/38460",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20",
+              "id": "http://example.org/iiif/38459",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/22",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from left",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1195,
       "width": 2788,
       "items": [
         {
-          "id": "http://example.org/iiif/24",
+          "id": "http://example.org/iiif/38462",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/23",
+              "id": "http://example.org/iiif/38461",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/22"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: scene from above",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2051,
       "width": 3020,
       "items": [
         {
-          "id": "http://example.org/iiif/27",
+          "id": "http://example.org/iiif/38464",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26",
+              "id": "http://example.org/iiif/38463",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen and maenad",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2027,
       "width": 3056,
       "items": [
         {
-          "id": "http://example.org/iiif/30",
+          "id": "http://example.org/iiif/38466",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29",
+              "id": "http://example.org/iiif/38465",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, and maenad",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3062,
       "width": 2027,
       "items": [
         {
-          "id": "http://example.org/iiif/33",
+          "id": "http://example.org/iiif/38468",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/32",
+              "id": "http://example.org/iiif/38467",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/34",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: maenad, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3050,
       "width": 2045,
       "items": [
         {
-          "id": "http://example.org/iiif/36",
+          "id": "http://example.org/iiif/38470",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/35",
+              "id": "http://example.org/iiif/38469",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/34"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/37",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: maenad, from the waist down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3062,
       "width": 2033,
       "items": [
         {
-          "id": "http://example.org/iiif/39",
+          "id": "http://example.org/iiif/38472",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/38",
+              "id": "http://example.org/iiif/38471",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/37"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/40",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, from the waist down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3050,
       "width": 2033,
       "items": [
         {
-          "id": "http://example.org/iiif/42",
+          "id": "http://example.org/iiif/38474",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/41",
+              "id": "http://example.org/iiif/38473",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/40"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/43",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3044,
       "width": 2039,
       "items": [
         {
-          "id": "http://example.org/iiif/45",
+          "id": "http://example.org/iiif/38476",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/44",
+              "id": "http://example.org/iiif/38475",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/43"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/46",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: rock outcrop, rhyton, and tail of silen",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3062,
       "width": 2015,
       "items": [
         {
-          "id": "http://example.org/iiif/48",
+          "id": "http://example.org/iiif/38478",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/47",
+              "id": "http://example.org/iiif/38477",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/46"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: rhyton in background",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3038,
       "width": 2039,
       "items": [
         {
-          "id": "http://example.org/iiif/51",
+          "id": "http://example.org/iiif/38480",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50",
+              "id": "http://example.org/iiif/38479",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/52",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, right hand clutching wrist of maenad",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3038,
       "width": 2021,
       "items": [
         {
-          "id": "http://example.org/iiif/54",
+          "id": "http://example.org/iiif/38482",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/53",
+              "id": "http://example.org/iiif/38481",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/52"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/55",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3062,
       "width": 2021,
       "items": [
         {
-          "id": "http://example.org/iiif/57",
+          "id": "http://example.org/iiif/38484",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/56",
+              "id": "http://example.org/iiif/38483",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/55"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: maenad, head",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3050,
       "width": 2021,
       "items": [
         {
-          "id": "http://example.org/iiif/60",
+          "id": "http://example.org/iiif/38486",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59",
+              "id": "http://example.org/iiif/38485",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: maenad, thyrsos in left hand",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3044,
       "width": 2039,
       "items": [
         {
-          "id": "http://example.org/iiif/63",
+          "id": "http://example.org/iiif/38488",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62",
+              "id": "http://example.org/iiif/38487",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at left holding rhyton",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3044,
       "width": 2039,
       "items": [
         {
-          "id": "http://example.org/iiif/66",
+          "id": "http://example.org/iiif/38490",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65",
+              "id": "http://example.org/iiif/38489",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/67",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at left holding rhyton, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3050,
       "width": 2039,
       "items": [
         {
-          "id": "http://example.org/iiif/69",
+          "id": "http://example.org/iiif/38492",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68",
+              "id": "http://example.org/iiif/38491",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/67"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at left holding rhyton, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2033,
       "width": 3056,
       "items": [
         {
-          "id": "http://example.org/iiif/72",
+          "id": "http://example.org/iiif/38494",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71",
+              "id": "http://example.org/iiif/38493",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at left, head",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2033,
       "width": 3050,
       "items": [
         {
-          "id": "http://example.org/iiif/75",
+          "id": "http://example.org/iiif/38496",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74",
+              "id": "http://example.org/iiif/38495",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,24 +1022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p25"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p26",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at left, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3062,
       "width": 2027,
       "items": [
         {
-          "id": "http://example.org/iiif/78",
+          "id": "http://example.org/iiif/38498",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/77",
+              "id": "http://example.org/iiif/38497",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -906,24 +1062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p26"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/79",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p27",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at left, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3056,
       "width": 2021,
       "items": [
         {
-          "id": "http://example.org/iiif/81",
+          "id": "http://example.org/iiif/38500",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/80",
+              "id": "http://example.org/iiif/38499",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -940,24 +1102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p27"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/82",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p28",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at left",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3032,
       "width": 2003,
       "items": [
         {
-          "id": "http://example.org/iiif/84",
+          "id": "http://example.org/iiif/38502",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/83",
+              "id": "http://example.org/iiif/38501",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -974,24 +1142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/82"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p28"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/85",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p29",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at center",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2954,
       "width": 2021,
       "items": [
         {
-          "id": "http://example.org/iiif/87",
+          "id": "http://example.org/iiif/38504",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/86",
+              "id": "http://example.org/iiif/38503",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1008,24 +1182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/85"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p29"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/88",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p30",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at center, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3038,
       "width": 2033,
       "items": [
         {
-          "id": "http://example.org/iiif/90",
+          "id": "http://example.org/iiif/38506",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/89",
+              "id": "http://example.org/iiif/38505",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1042,24 +1222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/88"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p30"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/91",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p31",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at center, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3056,
       "width": 2027,
       "items": [
         {
-          "id": "http://example.org/iiif/93",
+          "id": "http://example.org/iiif/38508",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/92",
+              "id": "http://example.org/iiif/38507",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1076,24 +1262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/91"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p31"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/94",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p32",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen at center, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2033,
       "width": 3056,
       "items": [
         {
-          "id": "http://example.org/iiif/96",
+          "id": "http://example.org/iiif/38510",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/95",
+              "id": "http://example.org/iiif/38509",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1110,24 +1302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/94"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p32"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/97",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p33",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at left, thyrsos, and fist of silen at center",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1991,
       "width": 3050,
       "items": [
         {
-          "id": "http://example.org/iiif/99",
+          "id": "http://example.org/iiif/38512",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/98",
+              "id": "http://example.org/iiif/38511",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1144,24 +1342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/97"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p33"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/100",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p34",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at center, head",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 1756,
       "width": 3060,
       "items": [
         {
-          "id": "http://example.org/iiif/102",
+          "id": "http://example.org/iiif/38514",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/101",
+              "id": "http://example.org/iiif/38513",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1178,24 +1382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/100"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p34"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/103",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p35",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at center, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3094,
       "width": 2095,
       "items": [
         {
-          "id": "http://example.org/iiif/105",
+          "id": "http://example.org/iiif/38516",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/104",
+              "id": "http://example.org/iiif/38515",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1212,24 +1422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/103"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p35"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/106",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p36",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at center, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2892,
       "width": 2055,
       "items": [
         {
-          "id": "http://example.org/iiif/108",
+          "id": "http://example.org/iiif/38518",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/107",
+              "id": "http://example.org/iiif/38517",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1246,24 +1462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/106"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p36"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/109",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p37",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at center, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3100,
       "width": 2055,
       "items": [
         {
-          "id": "http://example.org/iiif/111",
+          "id": "http://example.org/iiif/38520",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/110",
+              "id": "http://example.org/iiif/38519",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1280,24 +1502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/109"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p37"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/112",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p38",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at center",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3094,
       "width": 2077,
       "items": [
         {
-          "id": "http://example.org/iiif/114",
+          "id": "http://example.org/iiif/38522",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/113",
+              "id": "http://example.org/iiif/38521",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1314,24 +1542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/112"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p38"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/115",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p39",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at center, left arm holding thyrsos, and draped fist of maenad at right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3048,
       "width": 2063,
       "items": [
         {
-          "id": "http://example.org/iiif/117",
+          "id": "http://example.org/iiif/38524",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/116",
+              "id": "http://example.org/iiif/38523",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1348,24 +1582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/115"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p39"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/118",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p40",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at right, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3068,
       "width": 2055,
       "items": [
         {
-          "id": "http://example.org/iiif/120",
+          "id": "http://example.org/iiif/38526",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/119",
+              "id": "http://example.org/iiif/38525",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1382,24 +1622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/118"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p40"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/121",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p41",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2900,
       "width": 2047,
       "items": [
         {
-          "id": "http://example.org/iiif/123",
+          "id": "http://example.org/iiif/38528",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/122",
+              "id": "http://example.org/iiif/38527",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1416,24 +1662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/121"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p41"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/124",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p42",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad at right, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3076,
       "width": 2083,
       "items": [
         {
-          "id": "http://example.org/iiif/126",
+          "id": "http://example.org/iiif/38530",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/125",
+              "id": "http://example.org/iiif/38529",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1450,24 +1702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/124"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p42"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/127",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p43",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: palmette at right by handle",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2968,
       "width": 2067,
       "items": [
         {
-          "id": "http://example.org/iiif/129",
+          "id": "http://example.org/iiif/38532",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/128",
+              "id": "http://example.org/iiif/38531",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1484,24 +1742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/127"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p43"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/130",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p44",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at left, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2067,
       "width": 3052,
       "items": [
         {
-          "id": "http://example.org/iiif/132",
+          "id": "http://example.org/iiif/38534",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/131",
+              "id": "http://example.org/iiif/38533",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1518,24 +1782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/130"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p44"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/133",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p45",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at left, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3088,
       "width": 2077,
       "items": [
         {
-          "id": "http://example.org/iiif/135",
+          "id": "http://example.org/iiif/38536",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/134",
+              "id": "http://example.org/iiif/38535",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1552,24 +1822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/133"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p45"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/136",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p46",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at left, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3092,
       "width": 2083,
       "items": [
         {
-          "id": "http://example.org/iiif/138",
+          "id": "http://example.org/iiif/38538",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/137",
+              "id": "http://example.org/iiif/38537",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1586,24 +1862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/136"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p46"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/139",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p47",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at left",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3068,
       "width": 2059,
       "items": [
         {
-          "id": "http://example.org/iiif/141",
+          "id": "http://example.org/iiif/38540",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/140",
+              "id": "http://example.org/iiif/38539",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1620,24 +1902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/139"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p47"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/142",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p48",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at left",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3084,
       "width": 2067,
       "items": [
         {
-          "id": "http://example.org/iiif/144",
+          "id": "http://example.org/iiif/38542",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/143",
+              "id": "http://example.org/iiif/38541",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1654,24 +1942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/142"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p48"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/145",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p49",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at left, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3068,
       "width": 2019,
       "items": [
         {
-          "id": "http://example.org/iiif/147",
+          "id": "http://example.org/iiif/38544",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/146",
+              "id": "http://example.org/iiif/38543",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1688,24 +1982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/145"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p49"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/148",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p50",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at left, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3076,
       "width": 2077,
       "items": [
         {
-          "id": "http://example.org/iiif/150",
+          "id": "http://example.org/iiif/38546",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/149",
+              "id": "http://example.org/iiif/38545",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1722,24 +2022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/148"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p50"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/151",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p51",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at left, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2059,
       "width": 3052,
       "items": [
         {
-          "id": "http://example.org/iiif/153",
+          "id": "http://example.org/iiif/38548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/152",
+              "id": "http://example.org/iiif/38547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1756,24 +2062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/151"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p51"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/154",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p52",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2083,
       "width": 3060,
       "items": [
         {
-          "id": "http://example.org/iiif/156",
+          "id": "http://example.org/iiif/38550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/155",
+              "id": "http://example.org/iiif/38549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1790,24 +2102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/154"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p52"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/157",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p53",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3052,
       "width": 2059,
       "items": [
         {
-          "id": "http://example.org/iiif/159",
+          "id": "http://example.org/iiif/38552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/158",
+              "id": "http://example.org/iiif/38551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1824,24 +2142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/157"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p53"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/160",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p54",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2940,
       "width": 2059,
       "items": [
         {
-          "id": "http://example.org/iiif/162",
+          "id": "http://example.org/iiif/38554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/161",
+              "id": "http://example.org/iiif/38553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1858,24 +2182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/160"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p54"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/163",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p55",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3060,
       "width": 2043,
       "items": [
         {
-          "id": "http://example.org/iiif/165",
+          "id": "http://example.org/iiif/38556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/164",
+              "id": "http://example.org/iiif/38555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1892,24 +2222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/163"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p55"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/166",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p56",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at right, from the chest down",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3088,
       "width": 2053,
       "items": [
         {
-          "id": "http://example.org/iiif/168",
+          "id": "http://example.org/iiif/38558",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/167",
+              "id": "http://example.org/iiif/38557",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1926,24 +2262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/166"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p56"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/169",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p57",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at right, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2972,
       "width": 2075,
       "items": [
         {
-          "id": "http://example.org/iiif/171",
+          "id": "http://example.org/iiif/38560",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/170",
+              "id": "http://example.org/iiif/38559",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1960,24 +2302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/169"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p57"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/172",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p58",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3068,
       "width": 2059,
       "items": [
         {
-          "id": "http://example.org/iiif/174",
+          "id": "http://example.org/iiif/38562",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/173",
+              "id": "http://example.org/iiif/38561",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1994,24 +2342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/172"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p58"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/175",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p59",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at right, midsection",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2059,
       "width": 3084,
       "items": [
         {
-          "id": "http://example.org/iiif/177",
+          "id": "http://example.org/iiif/38564",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/176",
+              "id": "http://example.org/iiif/38563",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2028,24 +2382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/175"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p59"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/178",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p60",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: silen at right, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2065,
       "width": 3088,
       "items": [
         {
-          "id": "http://example.org/iiif/180",
+          "id": "http://example.org/iiif/38566",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/179",
+              "id": "http://example.org/iiif/38565",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2062,24 +2422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/178"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p60"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/181",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p61",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at right, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2077,
       "width": 3076,
       "items": [
         {
-          "id": "http://example.org/iiif/183",
+          "id": "http://example.org/iiif/38568",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/182",
+              "id": "http://example.org/iiif/38567",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2096,24 +2462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/181"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p61"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/184",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p62",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at right, from the knees up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3082,
       "width": 2065,
       "items": [
         {
-          "id": "http://example.org/iiif/186",
+          "id": "http://example.org/iiif/38570",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/185",
+              "id": "http://example.org/iiif/38569",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2130,24 +2502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/184"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p62"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/187",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p63",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at right, from the waist up",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2914,
       "width": 2059,
       "items": [
         {
-          "id": "http://example.org/iiif/189",
+          "id": "http://example.org/iiif/38572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/188",
+              "id": "http://example.org/iiif/38571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2164,24 +2542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/187"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p63"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/190",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p64",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2962,
       "width": 2076,
       "items": [
         {
-          "id": "http://example.org/iiif/192",
+          "id": "http://example.org/iiif/38574",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/191",
+              "id": "http://example.org/iiif/38573",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2198,24 +2582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/190"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p64"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/193",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p65",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at right, from the chest down, and left leg of silen at right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3082,
       "width": 2035,
       "items": [
         {
-          "id": "http://example.org/iiif/195",
+          "id": "http://example.org/iiif/38576",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/194",
+              "id": "http://example.org/iiif/38575",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2232,24 +2622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/193"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p65"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/196",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p66",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: maenad at right, from the neck down, and left leg of silen at right",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3094,
       "width": 2059,
       "items": [
         {
-          "id": "http://example.org/iiif/198",
+          "id": "http://example.org/iiif/38578",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/197",
+              "id": "http://example.org/iiif/38577",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2266,24 +2662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/196"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p66"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/199",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p67",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Palmette decoration",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2063,
       "width": 3092,
       "items": [
         {
-          "id": "http://example.org/iiif/201",
+          "id": "http://example.org/iiif/38580",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/200",
+              "id": "http://example.org/iiif/38579",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2300,24 +2702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/199"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p67"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/202",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p68",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, right leg",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3076,
       "width": 2051,
       "items": [
         {
-          "id": "http://example.org/iiif/204",
+          "id": "http://example.org/iiif/38582",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/203",
+              "id": "http://example.org/iiif/38581",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2334,24 +2742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/202"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p68"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/205",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p69",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: silen, horse tail",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3096,
       "width": 2067,
       "items": [
         {
-          "id": "http://example.org/iiif/207",
+          "id": "http://example.org/iiif/38584",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/206",
+              "id": "http://example.org/iiif/38583",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2368,24 +2782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/205"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p69"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/208",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p70",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: scene from below",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 2047,
       "width": 2556,
       "items": [
         {
-          "id": "http://example.org/iiif/210",
+          "id": "http://example.org/iiif/38586",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/209",
+              "id": "http://example.org/iiif/38585",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2402,7 +2822,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/208"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4361/p70"
             }
           ]
         }

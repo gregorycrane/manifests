@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1557",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1557/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1477",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1477/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72325",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1557/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Gordian III",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72327",
+          "id": "http://example.org/iiif/28676",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72326",
+              "id": "http://example.org/iiif/28675",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72325"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1557/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72328",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1557/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: River god, Hermos, reclining, with a tree",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72330",
+          "id": "http://example.org/iiif/28678",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72329",
+              "id": "http://example.org/iiif/28677",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72328"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1557/p2"
             }
           ]
         }

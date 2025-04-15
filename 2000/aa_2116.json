@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2116",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2116/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0187",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.11.0187/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/8977",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2116/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Daochos Monument, Daochos II, plinth, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Greek Ministry of Culture and the Delphi Museum"
+        ]
+      },
       "height": 2168,
       "width": 2996,
       "items": [
         {
-          "id": "http://example.org/iiif/8979",
+          "id": "http://example.org/iiif/5986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8978",
+              "id": "http://example.org/iiif/5985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8977"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2116/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8980",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2116/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Daochos Monument, Daochos II, plinth, from right",
+          "Photograph by Maria Daniels, courtesy of the Greek Ministry of Culture and the Delphi Museum"
+        ]
+      },
       "height": 1988,
       "width": 2396,
       "items": [
         {
-          "id": "http://example.org/iiif/8982",
+          "id": "http://example.org/iiif/5988",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8981",
+              "id": "http://example.org/iiif/5987",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8980"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2116/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/8983",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2116/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Daochos Monument, Daochos II, plinth, from left",
+          "Photograph by Maria Daniels, courtesy of the Greek Ministry of Culture and the Delphi Museum"
+        ]
+      },
       "height": 2308,
       "width": 3156,
       "items": [
         {
-          "id": "http://example.org/iiif/8985",
+          "id": "http://example.org/iiif/5990",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8984",
+              "id": "http://example.org/iiif/5989",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8983"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2116/p3"
             }
           ]
         }

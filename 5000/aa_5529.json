@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0382",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0382/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25990",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center, black figure",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 350,
       "width": 226,
       "items": [
         {
-          "id": "http://example.org/iiif/25992",
+          "id": "http://example.org/iiif/5020",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25991",
+              "id": "http://example.org/iiif/5019",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25990"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25993",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center, red figure",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 353,
       "width": 218,
       "items": [
         {
-          "id": "http://example.org/iiif/25995",
+          "id": "http://example.org/iiif/5022",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25994",
+              "id": "http://example.org/iiif/5021",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25993"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25996",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center, black figure",
+          "From Caskey & Beazley, plate LXV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/25998",
+          "id": "http://example.org/iiif/5024",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25997",
+              "id": "http://example.org/iiif/5023",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25996"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25999",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center, red figure",
+          "From Caskey & Beazley, plate LXV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/26001",
+          "id": "http://example.org/iiif/5026",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26000",
+              "id": "http://example.org/iiif/5025",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25999"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26002",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Achilles and Ajax playing, black figure",
+          "From Caskey & Beazley, plate LXVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 300,
       "width": 421,
       "items": [
         {
-          "id": "http://example.org/iiif/26004",
+          "id": "http://example.org/iiif/5028",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26003",
+              "id": "http://example.org/iiif/5027",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26002"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26005",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Achilles and Ajax playing, red figure",
+          "From Caskey & Beazley, plate LXVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 300,
       "width": 421,
       "items": [
         {
-          "id": "http://example.org/iiif/26007",
+          "id": "http://example.org/iiif/5030",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26006",
+              "id": "http://example.org/iiif/5029",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,7 +262,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26005"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5529/p6"
             }
           ]
         }

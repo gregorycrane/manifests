@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2802",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2802/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0081",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0081/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19219",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2802/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Left: Relief depicting Leda and the swan; Right: Banquet relief showing a male figure and a female figure feasting, attended by a serving boy (?), and four worshippers; a horse's head in the background",
+          "From Svoronos 1903-12, pl. 81"
+        ]
+      },
       "height": 389,
       "width": 603,
       "items": [
         {
-          "id": "http://example.org/iiif/19221",
+          "id": "http://example.org/iiif/12814",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19220",
+              "id": "http://example.org/iiif/12813",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19219"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2802/p1"
             }
           ]
         }

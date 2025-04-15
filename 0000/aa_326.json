@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_326",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_326/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0241",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.09.0241/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62899",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_326/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Northeast corner of court and NE corner room of Palace VI, from NE, Pergamon",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 350,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/62901",
+          "id": "http://example.org/iiif/22392",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62900",
+              "id": "http://example.org/iiif/22391",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62899"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_326/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62902",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_326/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Inside NE corner of the court of Palace V, from S, Pergamon",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 351,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/62904",
+          "id": "http://example.org/iiif/22394",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62903",
+              "id": "http://example.org/iiif/22393",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62902"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_326/p2"
             }
           ]
         }

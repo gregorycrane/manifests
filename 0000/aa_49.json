@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_49",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_49/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0079a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0079a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/66190",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_49/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, Kallirrhoe (SW Fountainhouse)",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Travlos 1968 (artist) in Travlos 206 fig. 269"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/66192",
+          "id": "http://example.org/iiif/24586",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/66191",
+              "id": "http://example.org/iiif/24585",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/66190"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_49/p1"
             }
           ]
         }

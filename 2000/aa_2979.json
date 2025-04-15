@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2979",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2979/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0250",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0250/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20530",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2979/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble statue of Prokne and Itys, from the Akropolis, perhaps by Agorakritos (ca. 430 B.C.)",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 405,
       "width": 260,
       "items": [
         {
-          "id": "http://example.org/iiif/20532",
+          "id": "http://example.org/iiif/438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20531",
+              "id": "http://example.org/iiif/437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20530"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2979/p1"
             }
           ]
         }

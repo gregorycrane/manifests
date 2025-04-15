@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2418",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2418/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0749",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0749/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/17869",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2418/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "South Frieze Slab 6: Cavalcade",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2290,
       "width": 3678,
       "items": [
         {
-          "id": "http://example.org/iiif/17871",
+          "id": "http://example.org/iiif/11914",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17870",
+              "id": "http://example.org/iiif/11913",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17869"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2418/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2069",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2069/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/7105",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Lydion, overview",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3050,
       "width": 2045,
       "items": [
         {
-          "id": "http://example.org/iiif/7107",
+          "id": "http://example.org/iiif/38008",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/7106",
+              "id": "http://example.org/iiif/38007",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7105"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/7108",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up of body",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3044,
       "width": 1997,
       "items": [
         {
-          "id": "http://example.org/iiif/7110",
+          "id": "http://example.org/iiif/38010",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/7109",
+              "id": "http://example.org/iiif/38009",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7108"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/7111",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "From above",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
       "height": 3044,
       "width": 2009,
       "items": [
         {
-          "id": "http://example.org/iiif/7113",
+          "id": "http://example.org/iiif/38012",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/7112",
+              "id": "http://example.org/iiif/38011",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7111"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p3"
             }
           ]
         }

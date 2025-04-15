@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0185",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0185/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1447",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 274,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/1449",
+          "id": "http://example.org/iiif/34236",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1448",
+              "id": "http://example.org/iiif/34235",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1447"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1450",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 273,
       "width": 429,
       "items": [
         {
-          "id": "http://example.org/iiif/1452",
+          "id": "http://example.org/iiif/34238",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1451",
+              "id": "http://example.org/iiif/34237",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1450"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1453",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 267,
       "width": 421,
       "items": [
         {
-          "id": "http://example.org/iiif/1455",
+          "id": "http://example.org/iiif/34240",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1454",
+              "id": "http://example.org/iiif/34239",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1453"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1456",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up view of the figural frieze on side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 298,
       "width": 632,
       "items": [
         {
-          "id": "http://example.org/iiif/1458",
+          "id": "http://example.org/iiif/34242",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1457",
+              "id": "http://example.org/iiif/34241",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1456"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1459",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left: palmette; a bearded satyr between two maenads, all dancing  to the right (both maenads wear peploi)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 364,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/1461",
+          "id": "http://example.org/iiif/34244",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1460",
+              "id": "http://example.org/iiif/34243",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1459"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1462",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left side: a bearded satyr between two maenads, all dancing to the right; Dionysos and Ariadne, both in profile, facing each other",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 643,
       "items": [
         {
-          "id": "http://example.org/iiif/1464",
+          "id": "http://example.org/iiif/34246",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1463",
+              "id": "http://example.org/iiif/34245",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1462"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1465",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, center: Dionysos and Ariadne, both in profile, facing each other (Dionysos holds a rhyton, and Ariadne a wreath); maenads and satyrs approach them, from either side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 412,
       "width": 643,
       "items": [
         {
-          "id": "http://example.org/iiif/1467",
+          "id": "http://example.org/iiif/34248",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1466",
+              "id": "http://example.org/iiif/34247",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1465"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1468",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, right: a maenad, wearing a peplos, between two bearded satyrs, all dancing profile to the left; a palmette",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 638,
       "items": [
         {
-          "id": "http://example.org/iiif/1470",
+          "id": "http://example.org/iiif/34250",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1469",
+              "id": "http://example.org/iiif/34249",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1468"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1471",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up view of the figural frieze on side B: hoplites and cavalrymen",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 315,
       "width": 639,
       "items": [
         {
-          "id": "http://example.org/iiif/1473",
+          "id": "http://example.org/iiif/34252",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1472",
+              "id": "http://example.org/iiif/34251",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1471"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1474",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: palmette; a man wearing a white tunic and a pilos, wielding a spear, riding a horse profile to the right; an armed hoplite, with a cock drawn on his shield, running profile to the left, aiming his spear at the horseman",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 389,
       "width": 643,
       "items": [
         {
-          "id": "http://example.org/iiif/1476",
+          "id": "http://example.org/iiif/34254",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1475",
+              "id": "http://example.org/iiif/34253",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1474"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1477",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, center: two hoplites running profile toward each other, aiming spears at each other; the warrior on the left wears a white cuirass over a red tunic, and a Corinthian helmet; the warrior on the right wears a dark cuirass, carries a spear at his left side, and his shield is emblazoned with a white sunburst",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 404,
       "width": 639,
       "items": [
         {
-          "id": "http://example.org/iiif/1479",
+          "id": "http://example.org/iiif/34256",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1478",
+              "id": "http://example.org/iiif/34255",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1477"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1480",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, right: a cavalryman wearing a red tunic and a white pilos, carrying a spear, rides his horse profile to the right; a hoplite, with a white bee emblazoned on his shield, runs profile to the right, but turns his head profile to the left, and aims his spear horizontally, at the cavalryman behind him; a palmette",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 638,
       "items": [
         {
-          "id": "http://example.org/iiif/1482",
+          "id": "http://example.org/iiif/34258",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1481",
+              "id": "http://example.org/iiif/34257",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,7 +502,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1480"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4132/p12"
             }
           ]
         }

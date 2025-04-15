@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5262",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5262/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0073",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0073/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20167",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5262/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: horserace winner",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2494,
       "width": 3234,
       "items": [
         {
-          "id": "http://example.org/iiif/20169",
+          "id": "http://example.org/iiif/1138",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20168",
+              "id": "http://example.org/iiif/1137",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20167"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5262/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20170",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5262/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: horserace winner",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2470,
       "width": 2970,
       "items": [
         {
-          "id": "http://example.org/iiif/20172",
+          "id": "http://example.org/iiif/1140",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20171",
+              "id": "http://example.org/iiif/1139",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20170"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5262/p2"
             }
           ]
         }

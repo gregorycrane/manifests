@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_190",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_190/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0223",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0223/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/60367",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_190/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Gateway from S, Eleusis, Lesser Propylon",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 697,
       "width": 1050,
       "items": [
         {
-          "id": "http://example.org/iiif/60369",
+          "id": "http://example.org/iiif/20704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60368",
+              "id": "http://example.org/iiif/20703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60367"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_190/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60370",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_190/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble relief sculpture from frieze of the architrave, Eleusis, Lesser Propylon",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 693,
       "width": 1072,
       "items": [
         {
-          "id": "http://example.org/iiif/60372",
+          "id": "http://example.org/iiif/20706",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60371",
+              "id": "http://example.org/iiif/20705",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60370"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_190/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60373",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_190/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view from SW, Eleusis, Greater Propylon, Lesser Propylon, Stoa of the Great Forecourt, Telesterion",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/60375",
+          "id": "http://example.org/iiif/20708",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60374",
+              "id": "http://example.org/iiif/20707",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60373"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_190/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60376",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_190/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Eleusis, Lesser Propylon",
+          "copyright C. H. Smith 1989, based on Travlos (artist), in L.D. Loukopoulos 1973 overleaf"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/60378",
+          "id": "http://example.org/iiif/20710",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60377",
+              "id": "http://example.org/iiif/20709",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60376"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_190/p4"
             }
           ]
         }

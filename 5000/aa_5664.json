@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5664",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5664/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0334",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0334/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30037",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5664/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "A pyxis depicting Iphigenia behind a door and women working wool: drawing of the vase with the figural scene rolled out",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 57"
+        ]
+      },
       "height": 371,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30039",
+          "id": "http://example.org/iiif/1234",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30038",
+              "id": "http://example.org/iiif/1233",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30037"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5664/p1"
             }
           ]
         }

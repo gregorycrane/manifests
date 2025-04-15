@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4311",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4311/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0303",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0303/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5365",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4311/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: man and youth with lyre",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2562,
       "width": 3792,
       "items": [
         {
-          "id": "http://example.org/iiif/5367",
+          "id": "http://example.org/iiif/36848",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5366",
+              "id": "http://example.org/iiif/36847",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5365"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4311/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5368",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4311/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: men and seated youths",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2364,
       "width": 3816,
       "items": [
         {
-          "id": "http://example.org/iiif/5370",
+          "id": "http://example.org/iiif/36850",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5369",
+              "id": "http://example.org/iiif/36849",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5368"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4311/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5371",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4311/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: men and seated youths",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2448,
       "width": 3792,
       "items": [
         {
-          "id": "http://example.org/iiif/5373",
+          "id": "http://example.org/iiif/36852",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5372",
+              "id": "http://example.org/iiif/36851",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5371"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4311/p3"
             }
           ]
         }

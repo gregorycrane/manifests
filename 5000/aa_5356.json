@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0070",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0070/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/24673",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 328,
       "width": 246,
       "items": [
         {
-          "id": "http://example.org/iiif/24675",
+          "id": "http://example.org/iiif/4142",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24674",
+              "id": "http://example.org/iiif/4141",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24673"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24676",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique from right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 327,
       "width": 236,
       "items": [
         {
-          "id": "http://example.org/iiif/24678",
+          "id": "http://example.org/iiif/4144",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24677",
+              "id": "http://example.org/iiif/4143",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24676"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24679",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side A",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 326,
       "width": 231,
       "items": [
         {
-          "id": "http://example.org/iiif/24681",
+          "id": "http://example.org/iiif/4146",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24680",
+              "id": "http://example.org/iiif/4145",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24679"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24682",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 342,
       "width": 261,
       "items": [
         {
-          "id": "http://example.org/iiif/24684",
+          "id": "http://example.org/iiif/4148",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24683",
+              "id": "http://example.org/iiif/4147",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24682"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24685",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 345,
       "width": 265,
       "items": [
         {
-          "id": "http://example.org/iiif/24687",
+          "id": "http://example.org/iiif/4150",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24686",
+              "id": "http://example.org/iiif/4149",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24685"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24688",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique from right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 344,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/24690",
+          "id": "http://example.org/iiif/4152",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24689",
+              "id": "http://example.org/iiif/4151",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24688"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24691",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: right of side B",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 347,
       "width": 251,
       "items": [
         {
-          "id": "http://example.org/iiif/24693",
+          "id": "http://example.org/iiif/4154",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24692",
+              "id": "http://example.org/iiif/4153",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24691"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24694",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: two Amazons mounted on horseback",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 411,
       "width": 272,
       "items": [
         {
-          "id": "http://example.org/iiif/24696",
+          "id": "http://example.org/iiif/4156",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24695",
+              "id": "http://example.org/iiif/4155",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24694"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24697",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Amazon on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 412,
       "width": 279,
       "items": [
         {
-          "id": "http://example.org/iiif/24699",
+          "id": "http://example.org/iiif/4158",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24698",
+              "id": "http://example.org/iiif/4157",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24697"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24700",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of Amazon on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 340,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/24702",
+          "id": "http://example.org/iiif/4160",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24701",
+              "id": "http://example.org/iiif/4159",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24700"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24703",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: forequarters of horse on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 357,
       "width": 240,
       "items": [
         {
-          "id": "http://example.org/iiif/24705",
+          "id": "http://example.org/iiif/4162",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24704",
+              "id": "http://example.org/iiif/4161",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24703"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24706",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of horse on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 352,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/24708",
+          "id": "http://example.org/iiif/4164",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24707",
+              "id": "http://example.org/iiif/4163",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24706"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24709",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: hindquarters of horse on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 355,
       "width": 241,
       "items": [
         {
-          "id": "http://example.org/iiif/24711",
+          "id": "http://example.org/iiif/4166",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24710",
+              "id": "http://example.org/iiif/4165",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24709"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24712",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Amazon on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 355,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/24714",
+          "id": "http://example.org/iiif/4168",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24713",
+              "id": "http://example.org/iiif/4167",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24712"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24715",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Amazon on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 354,
       "width": 239,
       "items": [
         {
-          "id": "http://example.org/iiif/24717",
+          "id": "http://example.org/iiif/4170",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24716",
+              "id": "http://example.org/iiif/4169",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24715"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24718",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of Amazon on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 352,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/24720",
+          "id": "http://example.org/iiif/4172",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24719",
+              "id": "http://example.org/iiif/4171",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24718"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24721",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: forequarters of horse on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 355,
       "width": 239,
       "items": [
         {
-          "id": "http://example.org/iiif/24723",
+          "id": "http://example.org/iiif/4174",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24722",
+              "id": "http://example.org/iiif/4173",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24721"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24724",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of horse on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 353,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/24726",
+          "id": "http://example.org/iiif/4176",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24725",
+              "id": "http://example.org/iiif/4175",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24724"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24727",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: hindquarters of horse on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 353,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/24729",
+          "id": "http://example.org/iiif/4178",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24728",
+              "id": "http://example.org/iiif/4177",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24727"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24730",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: three youths",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 356,
       "width": 235,
       "items": [
         {
-          "id": "http://example.org/iiif/24732",
+          "id": "http://example.org/iiif/4180",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24731",
+              "id": "http://example.org/iiif/4179",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24730"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24733",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 352,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/24735",
+          "id": "http://example.org/iiif/4182",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24734",
+              "id": "http://example.org/iiif/4181",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24733"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24736",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth in middle",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 354,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/24738",
+          "id": "http://example.org/iiif/4184",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24737",
+              "id": "http://example.org/iiif/4183",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24736"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24739",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: youth on right",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 354,
       "width": 239,
       "items": [
         {
-          "id": "http://example.org/iiif/24741",
+          "id": "http://example.org/iiif/4186",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24740",
+              "id": "http://example.org/iiif/4185",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24739"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24742",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: head of youth on left",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 343,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/24744",
+          "id": "http://example.org/iiif/4188",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24743",
+              "id": "http://example.org/iiif/4187",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24742"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24745",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: head of youth in middle",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 344,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/24747",
+          "id": "http://example.org/iiif/4190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24746",
+              "id": "http://example.org/iiif/4189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,24 +1022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24745"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p25"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24748",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p26",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: head of youth in middle",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 357,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/24750",
+          "id": "http://example.org/iiif/4192",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24749",
+              "id": "http://example.org/iiif/4191",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -906,24 +1062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24748"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p26"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24751",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p27",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: floral pattern above main panel",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 350,
       "width": 526,
       "items": [
         {
-          "id": "http://example.org/iiif/24753",
+          "id": "http://example.org/iiif/4194",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24752",
+              "id": "http://example.org/iiif/4193",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -940,24 +1102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24751"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p27"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24754",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p28",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: meander pattern below main panel",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 327,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/24756",
+          "id": "http://example.org/iiif/4196",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24755",
+              "id": "http://example.org/iiif/4195",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -974,24 +1142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24754"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p28"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24757",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p29",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Base: graffito",
+          "Photograph courtesy of The University Museum, University of Arkansas"
+        ]
+      },
       "height": 350,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/24759",
+          "id": "http://example.org/iiif/4198",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24758",
+              "id": "http://example.org/iiif/4197",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1008,7 +1182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24757"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5356/p29"
             }
           ]
         }

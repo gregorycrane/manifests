@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1019",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1019/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0139",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0139/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68602",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1019/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Helmeted head of Roma",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68604",
+          "id": "http://example.org/iiif/26194",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68603",
+              "id": "http://example.org/iiif/26193",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68602"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1019/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68605",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1019/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Venus Genetrix, crowned by Cupid, driving a biga",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68607",
+          "id": "http://example.org/iiif/26196",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68606",
+              "id": "http://example.org/iiif/26195",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68605"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1019/p2"
             }
           ]
         }

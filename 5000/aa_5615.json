@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0018",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0018/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29161",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Full view",
+          "Photograph courtesy of the Archer M. Huntington Art Gallery, The University of Texas at Austin, Archer M. Huntington Museum Fund and The James R. Dougherty, Jr. Foundation, 1980.  Photo credit:  George Holmes."
+        ]
+      },
       "height": 396,
       "width": 157,
       "items": [
         {
-          "id": "http://example.org/iiif/29163",
+          "id": "http://example.org/iiif/650",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29162",
+              "id": "http://example.org/iiif/649",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29161"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29164",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Scene",
+          "Photograph courtesy of the Archer M. Huntington Art Gallery, The University of Texas at Austin, Archer M. Huntington Museum Fund and The James R. Dougherty, Jr. Foundation, 1980.  Photo credit:  George Holmes."
+        ]
+      },
       "height": 343,
       "width": 228,
       "items": [
         {
-          "id": "http://example.org/iiif/29166",
+          "id": "http://example.org/iiif/652",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29165",
+              "id": "http://example.org/iiif/651",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29164"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p2"
             }
           ]
         }

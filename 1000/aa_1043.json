@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1043",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1043/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0187",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0187/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/68746",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1043/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Pietas",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68748",
+          "id": "http://example.org/iiif/26290",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68747",
+              "id": "http://example.org/iiif/26289",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68746"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1043/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/68749",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1043/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Dextrarum iunctio (shaking of two right hands) before winged caduceus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/68751",
+          "id": "http://example.org/iiif/26292",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68750",
+              "id": "http://example.org/iiif/26291",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/68749"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1043/p2"
             }
           ]
         }

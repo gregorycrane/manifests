@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5421",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5421/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0326",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0326/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25132",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5421/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: men and boys",
+          "From Caskey & Beazley, plate LXXX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 298,
       "width": 541,
       "items": [
         {
-          "id": "http://example.org/iiif/25134",
+          "id": "http://example.org/iiif/4448",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25133",
+              "id": "http://example.org/iiif/4447",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25132"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5421/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25135",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5421/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: men and boys",
+          "From Caskey & Beazley, plate LXXX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 286,
       "width": 539,
       "items": [
         {
-          "id": "http://example.org/iiif/25137",
+          "id": "http://example.org/iiif/4450",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25136",
+              "id": "http://example.org/iiif/4449",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25135"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5421/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25138",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5421/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: youth and boy",
+          "From Caskey & Beazley, plate LXXXI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 345,
       "width": 351,
       "items": [
         {
-          "id": "http://example.org/iiif/25140",
+          "id": "http://example.org/iiif/4452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25139",
+              "id": "http://example.org/iiif/4451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25138"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5421/p3"
             }
           ]
         }

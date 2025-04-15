@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5682",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5682/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0656",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0656/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30232",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Skyphos attributed to the Penelope Painter: Drawing of the figural scene showing sides A and B, Odysseus slaying the suitors; below, an overview of the vase, showing side B",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 138"
+        ]
+      },
       "height": 305,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30234",
+          "id": "http://example.org/iiif/1364",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30233",
+              "id": "http://example.org/iiif/1363",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30232"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30235",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Skyphos attributed to the Penelope Painter: Drawing of side A, showing two worried young women and Odysseus drawing a bow",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 138"
+        ]
+      },
       "height": 406,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30237",
+          "id": "http://example.org/iiif/1366",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30236",
+              "id": "http://example.org/iiif/1365",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30235"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30238",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Skyphos attributed to the Penelope Painter: Drawing of side B, showing three suitors being attacked by Odysseus' arrows",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 138"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30240",
+          "id": "http://example.org/iiif/1368",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30239",
+              "id": "http://example.org/iiif/1367",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30238"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30241",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Skyphos attributed to the Penelope Painter: Overview of the vase, showing side B (three suitors being attacked by Odysseus' arrows)",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 138"
+        ]
+      },
       "height": 391,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30243",
+          "id": "http://example.org/iiif/1370",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30242",
+              "id": "http://example.org/iiif/1369",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30241"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5682/p4"
             }
           ]
         }

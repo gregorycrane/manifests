@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.03.0380",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.03.0380/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/4231",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2242,
       "width": 2332,
       "items": [
         {
-          "id": "http://example.org/iiif/4233",
+          "id": "http://example.org/iiif/36092",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4232",
+              "id": "http://example.org/iiif/36091",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4231"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4234",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique view from right",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2084,
       "width": 1956,
       "items": [
         {
-          "id": "http://example.org/iiif/4236",
+          "id": "http://example.org/iiif/36094",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4235",
+              "id": "http://example.org/iiif/36093",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4234"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4237",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: side A to left",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2128,
       "width": 1912,
       "items": [
         {
-          "id": "http://example.org/iiif/4239",
+          "id": "http://example.org/iiif/36096",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4238",
+              "id": "http://example.org/iiif/36095",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4237"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4240",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique view from left",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2120,
       "width": 1976,
       "items": [
         {
-          "id": "http://example.org/iiif/4242",
+          "id": "http://example.org/iiif/36098",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4241",
+              "id": "http://example.org/iiif/36097",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4240"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4243",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2144,
       "width": 2200,
       "items": [
         {
-          "id": "http://example.org/iiif/4245",
+          "id": "http://example.org/iiif/36100",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4244",
+              "id": "http://example.org/iiif/36099",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4243"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4246",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: oblique view from right",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2240,
       "width": 1992,
       "items": [
         {
-          "id": "http://example.org/iiif/4248",
+          "id": "http://example.org/iiif/36102",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4247",
+              "id": "http://example.org/iiif/36101",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4246"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4249",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle: side A to right",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2200,
       "width": 1872,
       "items": [
         {
-          "id": "http://example.org/iiif/4251",
+          "id": "http://example.org/iiif/36104",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4250",
+              "id": "http://example.org/iiif/36103",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4249"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4252",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: oblique view from left",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2232,
       "width": 2160,
       "items": [
         {
-          "id": "http://example.org/iiif/4254",
+          "id": "http://example.org/iiif/36106",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4253",
+              "id": "http://example.org/iiif/36105",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4252"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4255",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 2320,
       "width": 2584,
       "items": [
         {
-          "id": "http://example.org/iiif/4257",
+          "id": "http://example.org/iiif/36108",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4256",
+              "id": "http://example.org/iiif/36107",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4255"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4258",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Stem and foot",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 3352,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/4260",
+          "id": "http://example.org/iiif/36110",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4259",
+              "id": "http://example.org/iiif/36109",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4258"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4261",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of floral ornament",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 3288,
       "width": 2576,
       "items": [
         {
-          "id": "http://example.org/iiif/4263",
+          "id": "http://example.org/iiif/36112",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4262",
+              "id": "http://example.org/iiif/36111",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4261"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4264",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of whorl shell",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 3464,
       "width": 2552,
       "items": [
         {
-          "id": "http://example.org/iiif/4266",
+          "id": "http://example.org/iiif/36114",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4265",
+              "id": "http://example.org/iiif/36113",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4264"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4267",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: detail of whorl shell",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 3384,
       "width": 2584,
       "items": [
         {
-          "id": "http://example.org/iiif/4269",
+          "id": "http://example.org/iiif/36116",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4268",
+              "id": "http://example.org/iiif/36115",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4267"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4270",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: detail of floral ornament",
+          "Photograph by Brooke Hammerle, courtesy of the Museum of Art, RISD, Providence, RI"
+        ]
+      },
       "height": 3336,
       "width": 2560,
       "items": [
         {
-          "id": "http://example.org/iiif/4272",
+          "id": "http://example.org/iiif/36118",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/4271",
+              "id": "http://example.org/iiif/36117",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,7 +582,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4270"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4282/p14"
             }
           ]
         }

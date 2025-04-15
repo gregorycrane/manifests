@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3333",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3333/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.4819",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.4819/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/21280",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cuirassed statuette of a Roman emperor: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/21282",
+          "id": "http://example.org/iiif/938",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21281",
+              "id": "http://example.org/iiif/937",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21280"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21283",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cuirassed statuette of a Roman emperor: three-quarter view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/21285",
+          "id": "http://example.org/iiif/940",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21284",
+              "id": "http://example.org/iiif/939",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21283"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21286",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cuirassed statuette of a Roman emperor: left profile view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/21288",
+          "id": "http://example.org/iiif/942",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21287",
+              "id": "http://example.org/iiif/941",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21286"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/21289",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cuirassed statuette of a Roman emperor: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/21291",
+          "id": "http://example.org/iiif/944",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/21290",
+              "id": "http://example.org/iiif/943",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/21289"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3333/p4"
             }
           ]
         }

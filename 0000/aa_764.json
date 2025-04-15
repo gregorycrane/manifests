@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_764",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_764/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0624",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0624/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75598",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_764/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Probable traces of an illegible inscription above. Ram lying to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 370,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75600",
+          "id": "http://example.org/iiif/30858",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75599",
+              "id": "http://example.org/iiif/30857",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75598"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_764/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75601",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_764/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Ankh with ring formed of dots; no inscription visible within ring; possible trace of unknown marking to right; all in incuse square with three-leaved sprays in each corner",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 387,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75603",
+          "id": "http://example.org/iiif/30860",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75602",
+              "id": "http://example.org/iiif/30859",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75601"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_764/p2"
             }
           ]
         }

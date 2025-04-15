@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0572",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0572/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18166",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior overview: handles at sides",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 184,
       "width": 464,
       "items": [
         {
-          "id": "http://example.org/iiif/18168",
+          "id": "http://example.org/iiif/6428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18167",
+              "id": "http://example.org/iiif/6427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18166"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18169",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior overview: handles oblique right front and oblique left rear",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 237,
       "width": 494,
       "items": [
         {
-          "id": "http://example.org/iiif/18171",
+          "id": "http://example.org/iiif/6430",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18170",
+              "id": "http://example.org/iiif/6429",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18169"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18172",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior overview: handles front and rear",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 245,
       "width": 487,
       "items": [
         {
-          "id": "http://example.org/iiif/18174",
+          "id": "http://example.org/iiif/6432",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18173",
+              "id": "http://example.org/iiif/6431",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18172"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18175",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: view from above",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 350,
       "width": 482,
       "items": [
         {
-          "id": "http://example.org/iiif/18177",
+          "id": "http://example.org/iiif/6434",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18176",
+              "id": "http://example.org/iiif/6433",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18175"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18178",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Eos with body of Memnon",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/18180",
+          "id": "http://example.org/iiif/6436",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18179",
+              "id": "http://example.org/iiif/6435",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18178"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18181",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: inscription on left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 353,
       "width": 241,
       "items": [
         {
-          "id": "http://example.org/iiif/18183",
+          "id": "http://example.org/iiif/6438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18182",
+              "id": "http://example.org/iiif/6437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18181"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18184",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: heads of Eos and Memnon and inscription on right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 350,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/18186",
+          "id": "http://example.org/iiif/6440",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18185",
+              "id": "http://example.org/iiif/6439",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18184"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18187",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: view from below",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 327,
       "width": 424,
       "items": [
         {
-          "id": "http://example.org/iiif/18189",
+          "id": "http://example.org/iiif/6442",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18188",
+              "id": "http://example.org/iiif/6441",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18187"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18190",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Menelaos versus Paris",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 350,
       "width": 521,
       "items": [
         {
-          "id": "http://example.org/iiif/18192",
+          "id": "http://example.org/iiif/6444",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18191",
+              "id": "http://example.org/iiif/6443",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18190"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18193",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Aphrodite and Menelaos",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 351,
       "width": 521,
       "items": [
         {
-          "id": "http://example.org/iiif/18195",
+          "id": "http://example.org/iiif/6446",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18194",
+              "id": "http://example.org/iiif/6445",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18193"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18196",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Paris and Artemis",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 349,
       "width": 524,
       "items": [
         {
-          "id": "http://example.org/iiif/18198",
+          "id": "http://example.org/iiif/6448",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18197",
+              "id": "http://example.org/iiif/6447",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18196"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18199",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Ajax versus Hektor",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 350,
       "width": 523,
       "items": [
         {
-          "id": "http://example.org/iiif/18201",
+          "id": "http://example.org/iiif/6450",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18200",
+              "id": "http://example.org/iiif/6449",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18199"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18202",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Athena and Ajax",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 354,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/18204",
+          "id": "http://example.org/iiif/6452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18203",
+              "id": "http://example.org/iiif/6451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18202"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18205",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Ajax and Hektor",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 355,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/18207",
+          "id": "http://example.org/iiif/6454",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18206",
+              "id": "http://example.org/iiif/6453",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18205"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18208",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Hektor and Apollo",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 352,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/18210",
+          "id": "http://example.org/iiif/6456",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18209",
+              "id": "http://example.org/iiif/6455",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18208"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18211",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: inscription behind Apollo",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 327,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/18213",
+          "id": "http://example.org/iiif/6458",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18212",
+              "id": "http://example.org/iiif/6457",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,7 +662,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18211"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5204/p16"
             }
           ]
         }

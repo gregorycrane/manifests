@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2562",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2562/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0003",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0003/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18223",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2562/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Antikythera Philosopher, front and right side views",
+          "From Svoronos 1903-12, pl. 3"
+        ]
+      },
       "height": 371,
       "width": 549,
       "items": [
         {
-          "id": "http://example.org/iiif/18225",
+          "id": "http://example.org/iiif/12150",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18224",
+              "id": "http://example.org/iiif/12149",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18223"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2562/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18226",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2562/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Restoration of draped statue of Antikythera Philosopher, by J.N. Svoronos",
+          "From Svoronos 1903-12, pl. 4"
+        ]
+      },
       "height": 527,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/18228",
+          "id": "http://example.org/iiif/12152",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18227",
+              "id": "http://example.org/iiif/12151",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18226"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2562/p2"
             }
           ]
         }

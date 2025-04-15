@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.03.0008",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.03.0008/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1918",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of the Athena Parthenos in the Royal Ontario Museum, front view",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 3450,
       "width": 2538,
       "items": [
         {
-          "id": "http://example.org/iiif/1920",
+          "id": "http://example.org/iiif/1280",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1919",
+              "id": "http://example.org/iiif/1279",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1918"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1921",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of the Athena Parthenos in the Royal Ontario Museum, detail of upper body and head",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 3793,
       "width": 2552,
       "items": [
         {
-          "id": "http://example.org/iiif/1923",
+          "id": "http://example.org/iiif/1282",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1922",
+              "id": "http://example.org/iiif/1281",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1921"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1924",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of the Athena Parthenos in the Royal Ontario Museum, view from proper left, showing shield",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 3744,
       "width": 2040,
       "items": [
         {
-          "id": "http://example.org/iiif/1926",
+          "id": "http://example.org/iiif/1284",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1925",
+              "id": "http://example.org/iiif/1283",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1924"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1927",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of the Athena Parthenos in the Royal Ontario Museum, shield",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 2550,
       "width": 2730,
       "items": [
         {
-          "id": "http://example.org/iiif/1929",
+          "id": "http://example.org/iiif/1286",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1928",
+              "id": "http://example.org/iiif/1285",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1927"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1930",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of the Athena Parthenos in the Royal Ontario Museum, base",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 2562,
       "width": 3774,
       "items": [
         {
-          "id": "http://example.org/iiif/1932",
+          "id": "http://example.org/iiif/1288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1931",
+              "id": "http://example.org/iiif/1287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1930"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1905/p5"
             }
           ]
         }

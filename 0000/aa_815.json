@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_815",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_815/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0723",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0723/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75904",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_815/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Apollo striding profile to the right, holding laurel branch in his upraised right hand, with a small running daimon on his outstretched left arm; in right field, a stag with head reverted",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 414,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75906",
+          "id": "http://example.org/iiif/31062",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75905",
+              "id": "http://example.org/iiif/31061",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75904"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_815/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75907",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_815/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Stag standing profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 400,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75909",
+          "id": "http://example.org/iiif/31064",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75908",
+              "id": "http://example.org/iiif/31063",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75907"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_815/p2"
             }
           ]
         }

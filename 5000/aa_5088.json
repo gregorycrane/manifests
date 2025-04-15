@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5088",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5088/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.01.0954",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.01.0954/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/15256",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle left",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2097,
       "width": 1876,
       "items": [
         {
-          "id": "http://example.org/iiif/15258",
+          "id": "http://example.org/iiif/4488",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15257",
+              "id": "http://example.org/iiif/4487",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15256"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15259",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2129,
       "width": 1692,
       "items": [
         {
-          "id": "http://example.org/iiif/15261",
+          "id": "http://example.org/iiif/4490",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15260",
+              "id": "http://example.org/iiif/4489",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15259"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15262",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: boy",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2505,
       "width": 2464,
       "items": [
         {
-          "id": "http://example.org/iiif/15264",
+          "id": "http://example.org/iiif/4492",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15263",
+              "id": "http://example.org/iiif/4491",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15262"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/15265",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: dog",
+          "Photograph by Maria Daniels, courtesy of the University Museums, University of Mississippi"
+        ]
+      },
       "height": 2489,
       "width": 2420,
       "items": [
         {
-          "id": "http://example.org/iiif/15267",
+          "id": "http://example.org/iiif/4494",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15266",
+              "id": "http://example.org/iiif/4493",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15265"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5088/p4"
             }
           ]
         }

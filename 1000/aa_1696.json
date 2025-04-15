@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1696",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1696/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0661",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0661/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73285",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1696/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Hadrian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73287",
+          "id": "http://example.org/iiif/29316",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73286",
+              "id": "http://example.org/iiif/29315",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73285"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1696/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73288",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1696/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Amalthea standing",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73290",
+          "id": "http://example.org/iiif/29318",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73289",
+              "id": "http://example.org/iiif/29317",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73288"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1696/p2"
             }
           ]
         }

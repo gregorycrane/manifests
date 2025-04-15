@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.2339",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.2339/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29248",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Eagle Finial: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29250",
+          "id": "http://example.org/iiif/6250",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29249",
+              "id": "http://example.org/iiif/6249",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29248"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29251",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Eagle Finial: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29253",
+          "id": "http://example.org/iiif/6252",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29252",
+              "id": "http://example.org/iiif/6251",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29251"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29254",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Eagle Finial: oblique view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/29256",
+          "id": "http://example.org/iiif/6254",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29255",
+              "id": "http://example.org/iiif/6253",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29254"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29257",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Eagle Finial, detail of head: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29259",
+          "id": "http://example.org/iiif/6256",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29258",
+              "id": "http://example.org/iiif/6255",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29257"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29260",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Eagle Finial: view from below",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29262",
+          "id": "http://example.org/iiif/6258",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29261",
+              "id": "http://example.org/iiif/6257",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29260"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3656/p5"
             }
           ]
         }

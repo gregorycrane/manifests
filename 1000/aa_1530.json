@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1530",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1530/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0315",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0315/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72136",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Busts of twin sons of Drusus, Tiberius Gemellus and Germanicus, emerging from crossed cornucopiae; winged caduceus behind",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72138",
+          "id": "http://example.org/iiif/28550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72137",
+              "id": "http://example.org/iiif/28549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72136"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72139",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: SC in center",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72141",
+          "id": "http://example.org/iiif/28552",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72140",
+              "id": "http://example.org/iiif/28551",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72139"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72142",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Draped bust of Sabina",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72144",
+          "id": "http://example.org/iiif/28554",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72143",
+              "id": "http://example.org/iiif/28553",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72142"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72145",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Artemis standing, with a bow, and her right arm raised",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72147",
+          "id": "http://example.org/iiif/28556",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72146",
+              "id": "http://example.org/iiif/28555",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72145"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1530/p4"
             }
           ]
         }

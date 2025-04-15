@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_718",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_718/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0550",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0550/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75313",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_718/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Winged female deity running profile to the right, head reverted; hair worn in ringlets; two scrolls on head; winged feet (not preserved)",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 384,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75315",
+          "id": "http://example.org/iiif/30668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75314",
+              "id": "http://example.org/iiif/30667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75313"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_718/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75316",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_718/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Rough triangular shape in incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 389,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75318",
+          "id": "http://example.org/iiif/30670",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75317",
+              "id": "http://example.org/iiif/30669",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75316"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_718/p2"
             }
           ]
         }

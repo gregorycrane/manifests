@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.5104",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.5104/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/28456",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Disc with Dionysiac Scene: general view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/28458",
+          "id": "http://example.org/iiif/5722",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28457",
+              "id": "http://example.org/iiif/5721",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28456"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28459",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Disc with Dionysiac Scene: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/28461",
+          "id": "http://example.org/iiif/5724",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28460",
+              "id": "http://example.org/iiif/5723",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28459"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28462",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Disc with Dionysiac Scene, detail of torch-bearer, female participant and male attendant: front view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/28464",
+          "id": "http://example.org/iiif/5726",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28463",
+              "id": "http://example.org/iiif/5725",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28462"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28465",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Disc with Dionysiac Scene, detail of swooning female participants and male attendants: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/28467",
+          "id": "http://example.org/iiif/5728",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28466",
+              "id": "http://example.org/iiif/5727",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28465"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28468",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Disc with Dionysiac Scene, detail of swooning female participants and male attendant: frontal view ",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/28470",
+          "id": "http://example.org/iiif/5730",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28469",
+              "id": "http://example.org/iiif/5729",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28468"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3472/p5"
             }
           ]
         }

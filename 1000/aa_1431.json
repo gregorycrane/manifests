@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1431",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1431/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1225",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1225/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71479",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1431/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Galerius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71481",
+          "id": "http://example.org/iiif/28112",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71480",
+              "id": "http://example.org/iiif/28111",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71479"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1431/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71482",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1431/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Moneta standing, with scales and cornucopia",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71484",
+          "id": "http://example.org/iiif/28114",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71483",
+              "id": "http://example.org/iiif/28113",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71482"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1431/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1446",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1446/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1255",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1255/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71569",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1446/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Draped bust of Magnentius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71571",
+          "id": "http://example.org/iiif/28172",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71570",
+              "id": "http://example.org/iiif/28171",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71569"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1446/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71572",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1446/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Sign of Christ (Chi-Rho)",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71574",
+          "id": "http://example.org/iiif/28174",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71573",
+              "id": "http://example.org/iiif/28173",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71572"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1446/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1435",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1435/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1233",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1233/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71503",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1435/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Diocletian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71505",
+          "id": "http://example.org/iiif/28128",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71504",
+              "id": "http://example.org/iiif/28127",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71503"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1435/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71506",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1435/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Moneta standing, with scales and cornucopia",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71508",
+          "id": "http://example.org/iiif/28130",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71507",
+              "id": "http://example.org/iiif/28129",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71506"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1435/p2"
             }
           ]
         }

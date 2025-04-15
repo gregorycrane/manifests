@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1127",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1127/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0387",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0387/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69370",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1127/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Nero",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69372",
+          "id": "http://example.org/iiif/26706",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69371",
+              "id": "http://example.org/iiif/26705",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69370"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1127/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69373",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1127/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Port of Ostia with eight ships, statue, and water deity",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69375",
+          "id": "http://example.org/iiif/26708",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69374",
+              "id": "http://example.org/iiif/26707",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69373"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1127/p2"
             }
           ]
         }

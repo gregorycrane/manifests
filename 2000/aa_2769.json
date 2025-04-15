@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2769",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2769/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0076",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0076/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19123",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2769/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Fragment of a Votive Relief (?) with Herakles; Top right: Votive of Zopyros; Bottom left: Votive relief to Helikon; Bottom right: Fragment of a Sarcophagus from Piraeus",
+          "From Svoronos 1903-12, pl. 76"
+        ]
+      },
       "height": 595,
       "width": 421,
       "items": [
         {
-          "id": "http://example.org/iiif/19125",
+          "id": "http://example.org/iiif/12750",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19124",
+              "id": "http://example.org/iiif/12749",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19123"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2769/p1"
             }
           ]
         }

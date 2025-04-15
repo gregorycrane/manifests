@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2444",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2444/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0025",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0025/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18010",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  Figure O ('Amphitrite'), 3/4 view of right side",
+          "Photograph courtesy of the British Museum, London"
+        ]
+      },
       "height": 2731,
       "width": 1980,
       "items": [
         {
-          "id": "http://example.org/iiif/18012",
+          "id": "http://example.org/iiif/12008",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18011",
+              "id": "http://example.org/iiif/12007",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18010"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18013",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  Figure O ('Amphitrite'), oblique frontal view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2448,
       "width": 1582,
       "items": [
         {
-          "id": "http://example.org/iiif/18015",
+          "id": "http://example.org/iiif/12010",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18014",
+              "id": "http://example.org/iiif/12009",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18013"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18016",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  Figure O ('Amphitrite'), right side view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2856,
       "width": 1710,
       "items": [
         {
-          "id": "http://example.org/iiif/18018",
+          "id": "http://example.org/iiif/12012",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18017",
+              "id": "http://example.org/iiif/12011",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18016"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18019",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  Figure O ('Amphitrite'), back right side view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3012,
       "width": 1948,
       "items": [
         {
-          "id": "http://example.org/iiif/18021",
+          "id": "http://example.org/iiif/12014",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18020",
+              "id": "http://example.org/iiif/12013",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18019"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2444/p4"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1916",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1916/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0146",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0146/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1972",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1916/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Acropolis Kore 643, frontal view",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3497,
       "width": 2248,
       "items": [
         {
-          "id": "http://example.org/iiif/1974",
+          "id": "http://example.org/iiif/1316",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1973",
+              "id": "http://example.org/iiif/1315",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1972"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1916/p1"
             }
           ]
         }

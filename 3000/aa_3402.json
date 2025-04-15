@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.4394",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.4394/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25414",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25416",
+          "id": "http://example.org/iiif/3694",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25415",
+              "id": "http://example.org/iiif/3693",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25414"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25417",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25419",
+          "id": "http://example.org/iiif/3696",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25418",
+              "id": "http://example.org/iiif/3695",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25417"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25420",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: three-quarter view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25422",
+          "id": "http://example.org/iiif/3698",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25421",
+              "id": "http://example.org/iiif/3697",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25420"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25423",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: left profile",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25425",
+          "id": "http://example.org/iiif/3700",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25424",
+              "id": "http://example.org/iiif/3699",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25423"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25426",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: three-quarter view from back left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25428",
+          "id": "http://example.org/iiif/3702",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25427",
+              "id": "http://example.org/iiif/3701",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25426"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25429",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: view from back left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25431",
+          "id": "http://example.org/iiif/3704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25430",
+              "id": "http://example.org/iiif/3703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25429"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25432",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: back view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25434",
+          "id": "http://example.org/iiif/3706",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25433",
+              "id": "http://example.org/iiif/3705",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25432"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25435",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: view from back right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25437",
+          "id": "http://example.org/iiif/3708",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25436",
+              "id": "http://example.org/iiif/3707",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25435"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25438",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: three-quarter view from back right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25440",
+          "id": "http://example.org/iiif/3710",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25439",
+              "id": "http://example.org/iiif/3709",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25438"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25441",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: right profile",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25443",
+          "id": "http://example.org/iiif/3712",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25442",
+              "id": "http://example.org/iiif/3711",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25441"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25444",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: three-quarter view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25446",
+          "id": "http://example.org/iiif/3714",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25445",
+              "id": "http://example.org/iiif/3713",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25444"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25447",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Hercules: view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25449",
+          "id": "http://example.org/iiif/3716",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25448",
+              "id": "http://example.org/iiif/3715",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,7 +502,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25447"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3402/p12"
             }
           ]
         }

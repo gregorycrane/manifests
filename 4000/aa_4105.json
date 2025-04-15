@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0868",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0868/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 464,
       "width": 240,
       "items": [
         {
-          "id": "http://example.org/iiif/3",
+          "id": "http://example.org/iiif/33272",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2",
+              "id": "http://example.org/iiif/33271",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/4",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 464,
       "width": 240,
       "items": [
         {
-          "id": "http://example.org/iiif/6",
+          "id": "http://example.org/iiif/33274",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5",
+              "id": "http://example.org/iiif/33273",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/4"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/7",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 448,
       "width": 222,
       "items": [
         {
-          "id": "http://example.org/iiif/9",
+          "id": "http://example.org/iiif/33276",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8",
+              "id": "http://example.org/iiif/33275",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/7"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 458,
       "width": 239,
       "items": [
         {
-          "id": "http://example.org/iiif/12",
+          "id": "http://example.org/iiif/33278",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11",
+              "id": "http://example.org/iiif/33277",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 455,
       "width": 219,
       "items": [
         {
-          "id": "http://example.org/iiif/15",
+          "id": "http://example.org/iiif/33280",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14",
+              "id": "http://example.org/iiif/33279",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/16",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 453,
       "width": 232,
       "items": [
         {
-          "id": "http://example.org/iiif/18",
+          "id": "http://example.org/iiif/33282",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17",
+              "id": "http://example.org/iiif/33281",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/19",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the left side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 457,
       "width": 235,
       "items": [
         {
-          "id": "http://example.org/iiif/21",
+          "id": "http://example.org/iiif/33284",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20",
+              "id": "http://example.org/iiif/33283",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/22",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 453,
       "width": 230,
       "items": [
         {
-          "id": "http://example.org/iiif/24",
+          "id": "http://example.org/iiif/33286",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/23",
+              "id": "http://example.org/iiif/33285",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/22"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side A (body): a seated woman, holding a lebes gamikos, surrounded by other women",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 569,
       "items": [
         {
-          "id": "http://example.org/iiif/27",
+          "id": "http://example.org/iiif/33288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26",
+              "id": "http://example.org/iiif/33287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene under the left side handle, left: a woman, swathed in a himation, standing profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/30",
+          "id": "http://example.org/iiif/33290",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29",
+              "id": "http://example.org/iiif/33289",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene under the left side handle, right: a woman, wearing  himation over a medium-sleeved chiton, with a sakkos on her hair, standing 3/4-view to the left, holding a basket in her right hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/33",
+          "id": "http://example.org/iiif/33292",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/32",
+              "id": "http://example.org/iiif/33291",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/34",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side A (body), left: a woman standing profile to the right, wearing a himation over a medium-sleeved chiton, with a narrow taenia in her hair, holding a box over the head of the seated woman",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/36",
+          "id": "http://example.org/iiif/33294",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/35",
+              "id": "http://example.org/iiif/33293",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/34"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/37",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side A (body), center: a woman seated profile to the right on a klismos, wearing a himation over a medium-sleeved chiton, with a sakkos on her hair, holding a  lebes gamikos on her lap",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/39",
+          "id": "http://example.org/iiif/33296",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/38",
+              "id": "http://example.org/iiif/33295",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/37"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/40",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side A (body), right: a woman standing 3/4-view to the left, wearing a himation over a medium-sleeved chiton, holding a lebes gamikos in her upraised left hand, and a sash and a small, footed box in her upraised left hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 269,
       "items": [
         {
-          "id": "http://example.org/iiif/42",
+          "id": "http://example.org/iiif/33298",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/41",
+              "id": "http://example.org/iiif/33297",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/40"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/43",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene under the right side handle, left: a woman, swathed in a himation, standing profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 418,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/45",
+          "id": "http://example.org/iiif/33300",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/44",
+              "id": "http://example.org/iiif/33299",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/43"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/46",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side B (body): three standing women",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 419,
       "width": 556,
       "items": [
         {
-          "id": "http://example.org/iiif/48",
+          "id": "http://example.org/iiif/33302",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/47",
+              "id": "http://example.org/iiif/33301",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/46"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/49",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene under the right side handle, right: a man (whose head is not preserved) wearing a himation, stands profile to the left, resting his right hand on a staff",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 431,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/51",
+          "id": "http://example.org/iiif/33304",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/50",
+              "id": "http://example.org/iiif/33303",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/49"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/52",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side B (body), left: a woman, swathed in a himation, with a sakkos on her hair, standing profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 425,
       "width": 287,
       "items": [
         {
-          "id": "http://example.org/iiif/54",
+          "id": "http://example.org/iiif/33306",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/53",
+              "id": "http://example.org/iiif/33305",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/52"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/55",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side B (body), center: a woman, wearing a himation over a medium-sleeved chiton, with a narrow taenia in her hair, stands in a frontal pose, with her head turned profile to the left; she rests her (covered) left hand on her hip, and holds a large box and a sash in her upraised right hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 432,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/57",
+          "id": "http://example.org/iiif/33308",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/56",
+              "id": "http://example.org/iiif/33307",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/55"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on side B (body), right: a woman, wearing a himation over a medium-sleeved chiton, with a sakkos on her hair, stands 3/4-view to the left, rests her (covered) left hand on her hip, and holds a footed box in her upraised right hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 432,
       "width": 285,
       "items": [
         {
-          "id": "http://example.org/iiif/60",
+          "id": "http://example.org/iiif/33310",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59",
+              "id": "http://example.org/iiif/33309",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on the stand, side A, left of center: a woman, wearing a himation over a medium-sleeved chiton, with a kekryphylon binding her hair, stands profile to the right and holds a sash in her right hand, over a basket",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 425,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/63",
+          "id": "http://example.org/iiif/33312",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62",
+              "id": "http://example.org/iiif/33311",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on the stand, side A, right of center: a woman, wearing a himation over a medium-sleeved chiton, with a sakkos on her hair, stands in 3/4-view to the left, rests her left hand on her up, and holds a box in her upraised right hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/66",
+          "id": "http://example.org/iiif/33314",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/65",
+              "id": "http://example.org/iiif/33313",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/67",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on the stand, side B, left: a youth, wearing a himation, stands profile to the right, resting his weight on a staff that he holds in his right hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 275,
       "items": [
         {
-          "id": "http://example.org/iiif/69",
+          "id": "http://example.org/iiif/33316",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/68",
+              "id": "http://example.org/iiif/33315",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/67"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on the stand, side B, center: a woman, swathed in a himation, with a sakkos on her hair, stands profile to the left, ahead of a narrow Doric column",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 277,
       "items": [
         {
-          "id": "http://example.org/iiif/72",
+          "id": "http://example.org/iiif/33318",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71",
+              "id": "http://example.org/iiif/33317",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the figural scene on the stand, side B, right: a woman, wearing a himation over a chiton, with a sakkos on her hair, stands 3/4-view to the right, but turns her head profile to the left, to look towards the narrow Doric column behind her",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/75",
+          "id": "http://example.org/iiif/33320",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74",
+              "id": "http://example.org/iiif/33319",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,7 +1022,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4105/p25"
             }
           ]
         }

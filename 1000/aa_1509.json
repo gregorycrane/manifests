@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1509",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1509/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1381",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1381/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71986",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1509/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Diademed bust of Faustina I",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71988",
+          "id": "http://example.org/iiif/28450",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71987",
+              "id": "http://example.org/iiif/28449",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71986"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1509/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71989",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1509/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Standing female (Venus?), raising her right hand",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71991",
+          "id": "http://example.org/iiif/28452",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71990",
+              "id": "http://example.org/iiif/28451",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71989"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1509/p2"
             }
           ]
         }

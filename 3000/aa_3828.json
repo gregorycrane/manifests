@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3828",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3828/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0382",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0382/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30625",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3828/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble portrait head of Sokrates (Roman copy after an original ca. 330 B.C.)",
+          "Photograph by Amy C. Smith"
+        ]
+      },
       "height": 431,
       "width": 267,
       "items": [
         {
-          "id": "http://example.org/iiif/30627",
+          "id": "http://example.org/iiif/876",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30626",
+              "id": "http://example.org/iiif/875",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30625"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3828/p1"
             }
           ]
         }

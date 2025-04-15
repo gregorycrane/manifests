@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0522",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0522/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29713",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1908 in FR plate 105"
+        ]
+      },
       "height": 419,
       "width": 417,
       "items": [
         {
-          "id": "http://example.org/iiif/29715",
+          "id": "http://example.org/iiif/1018",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29714",
+              "id": "http://example.org/iiif/1017",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29713"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29716",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo (restored)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1908 in FR plate 105"
+        ]
+      },
       "height": 420,
       "width": 424,
       "items": [
         {
-          "id": "http://example.org/iiif/29718",
+          "id": "http://example.org/iiif/1020",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29717",
+              "id": "http://example.org/iiif/1019",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29716"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29719",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior of cup",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 350,
       "width": 445,
       "items": [
         {
-          "id": "http://example.org/iiif/29721",
+          "id": "http://example.org/iiif/1022",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29720",
+              "id": "http://example.org/iiif/1021",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29719"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29722",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 343,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/29724",
+          "id": "http://example.org/iiif/1024",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29723",
+              "id": "http://example.org/iiif/1023",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29722"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29725",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles and Linos",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 350,
       "width": 550,
       "items": [
         {
-          "id": "http://example.org/iiif/29727",
+          "id": "http://example.org/iiif/1026",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29726",
+              "id": "http://example.org/iiif/1025",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29725"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29728",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: men and youths",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 338,
       "width": 539,
       "items": [
         {
-          "id": "http://example.org/iiif/29730",
+          "id": "http://example.org/iiif/1028",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29729",
+              "id": "http://example.org/iiif/1027",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29728"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29731",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene, Herakles and Linos",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 350,
       "width": 550,
       "items": [
         {
-          "id": "http://example.org/iiif/29733",
+          "id": "http://example.org/iiif/1030",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29732",
+              "id": "http://example.org/iiif/1029",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29731"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29734",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: left side of scene",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 363,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/29736",
+          "id": "http://example.org/iiif/1032",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29735",
+              "id": "http://example.org/iiif/1031",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29734"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29737",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: center of scene",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 353,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/29739",
+          "id": "http://example.org/iiif/1034",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29738",
+              "id": "http://example.org/iiif/1033",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29737"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29740",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: right side of scene",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 361,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/29742",
+          "id": "http://example.org/iiif/1036",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29741",
+              "id": "http://example.org/iiif/1035",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29740"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29743",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene, men and youths",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 320,
       "width": 534,
       "items": [
         {
-          "id": "http://example.org/iiif/29745",
+          "id": "http://example.org/iiif/1038",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29744",
+              "id": "http://example.org/iiif/1037",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29743"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29746",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: left side of scene",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 324,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/29748",
+          "id": "http://example.org/iiif/1040",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29747",
+              "id": "http://example.org/iiif/1039",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29746"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29749",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: center of scene",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/29751",
+          "id": "http://example.org/iiif/1042",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29750",
+              "id": "http://example.org/iiif/1041",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29749"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29752",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: right side of scene",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/29754",
+          "id": "http://example.org/iiif/1044",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29753",
+              "id": "http://example.org/iiif/1043",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29752"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29755",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to Douris: Drawing of the exterior showing Herakles and Linos (side A), and men and youths (side B)",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 105"
+        ]
+      },
       "height": 461,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29757",
+          "id": "http://example.org/iiif/1046",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29756",
+              "id": "http://example.org/iiif/1045",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29755"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29758",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to Douris: Drawing of side B, showing three men and three youths talking and gesturing",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 105"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29760",
+          "id": "http://example.org/iiif/1048",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29759",
+              "id": "http://example.org/iiif/1047",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29758"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29761",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to Douris: Drawing of side A, showing Herakles fighting Linos (shown with his lyre), surrounded by four youths",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 105"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29763",
+          "id": "http://example.org/iiif/1050",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29762",
+              "id": "http://example.org/iiif/1049",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29761"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29764",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2646,tondo.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 105"
+        ]
+      },
       "height": 661,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29766",
+          "id": "http://example.org/iiif/1052",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29765",
+              "id": "http://example.org/iiif/1051",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,7 +742,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29764"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5653/p19"
             }
           ]
         }

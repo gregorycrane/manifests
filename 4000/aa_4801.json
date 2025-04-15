@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0248",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0248/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11203",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Theseus abducting Antiope",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2454,
       "width": 3664,
       "items": [
         {
-          "id": "http://example.org/iiif/11205",
+          "id": "http://example.org/iiif/1786",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11204",
+              "id": "http://example.org/iiif/1785",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11203"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11206",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Theseus and rescued maiden",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2554,
       "width": 3132,
       "items": [
         {
-          "id": "http://example.org/iiif/11208",
+          "id": "http://example.org/iiif/1788",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11207",
+              "id": "http://example.org/iiif/1787",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11206"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11209",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Theseus abducting Antiope",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 1828,
       "width": 3714,
       "items": [
         {
-          "id": "http://example.org/iiif/11211",
+          "id": "http://example.org/iiif/1790",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11210",
+              "id": "http://example.org/iiif/1789",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11209"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11212",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: man and woman between two mounted youths",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 1811,
       "width": 3720,
       "items": [
         {
-          "id": "http://example.org/iiif/11214",
+          "id": "http://example.org/iiif/1792",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11213",
+              "id": "http://example.org/iiif/1791",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11212"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11215",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Athena",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2512,
       "width": 3744,
       "items": [
         {
-          "id": "http://example.org/iiif/11217",
+          "id": "http://example.org/iiif/1794",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11216",
+              "id": "http://example.org/iiif/1793",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11215"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4801/p5"
             }
           ]
         }

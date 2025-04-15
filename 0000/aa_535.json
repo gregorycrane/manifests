@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_535",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_535/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0241",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0241/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74215",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_535/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Boeotian shield",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 349,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74217",
+          "id": "http://example.org/iiif/29936",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74216",
+              "id": "http://example.org/iiif/29935",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74215"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_535/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74218",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_535/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Mill-sail incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 367,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74220",
+          "id": "http://example.org/iiif/29938",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74219",
+              "id": "http://example.org/iiif/29937",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74218"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_535/p2"
             }
           ]
         }

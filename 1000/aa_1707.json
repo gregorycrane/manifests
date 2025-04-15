@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1707",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1707/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0683",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0683/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73351",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1707/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Hadrian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73353",
+          "id": "http://example.org/iiif/29360",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73352",
+              "id": "http://example.org/iiif/29359",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73351"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1707/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73354",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1707/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Fortuna standing",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73356",
+          "id": "http://example.org/iiif/29362",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73355",
+              "id": "http://example.org/iiif/29361",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73354"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1707/p2"
             }
           ]
         }

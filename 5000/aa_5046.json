@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0513.lg",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0513.lg/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13132",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A (large)",
+          "Copyright C.H. Smith 1988, based on Reichhold (artist) 1908 in FR plate 107"
+        ]
+      },
       "height": 1161,
       "width": 1224,
       "items": [
         {
-          "id": "http://example.org/iiif/13134",
+          "id": "http://example.org/iiif/3072",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13133",
+              "id": "http://example.org/iiif/3071",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13132"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13135",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A (small)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1908 in FR plate 107"
+        ]
+      },
       "height": 400,
       "width": 362,
       "items": [
         {
-          "id": "http://example.org/iiif/13137",
+          "id": "http://example.org/iiif/3074",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13136",
+              "id": "http://example.org/iiif/3073",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13135"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13138",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: Side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 385,
       "width": 350,
       "items": [
         {
-          "id": "http://example.org/iiif/13140",
+          "id": "http://example.org/iiif/3076",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13139",
+              "id": "http://example.org/iiif/3075",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13138"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13141",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: naked women at washbasin",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 373,
       "width": 503,
       "items": [
         {
-          "id": "http://example.org/iiif/13143",
+          "id": "http://example.org/iiif/3078",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13142",
+              "id": "http://example.org/iiif/3077",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13141"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13144",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: woman on right",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 420,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/13146",
+          "id": "http://example.org/iiif/3080",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13145",
+              "id": "http://example.org/iiif/3079",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13144"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13147",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: woman in center, upper half",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 358,
       "width": 536,
       "items": [
         {
-          "id": "http://example.org/iiif/13149",
+          "id": "http://example.org/iiif/3082",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13148",
+              "id": "http://example.org/iiif/3081",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13147"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13150",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: head of woman in center",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/13152",
+          "id": "http://example.org/iiif/3084",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13151",
+              "id": "http://example.org/iiif/3083",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13150"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13153",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: woman on right, upper half",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 362,
       "width": 244,
       "items": [
         {
-          "id": "http://example.org/iiif/13155",
+          "id": "http://example.org/iiif/3086",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13154",
+              "id": "http://example.org/iiif/3085",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13153"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13156",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Polygnotan stamnos: Overview of the vase, 3/4-view of side B, from the left",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 107"
+        ]
+      },
       "height": 508,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/13158",
+          "id": "http://example.org/iiif/3088",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13157",
+              "id": "http://example.org/iiif/3087",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13156"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13159",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Polygnotan stamnos: Drawing of side A, showing three women bathing themselves at a basin",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 107"
+        ]
+      },
       "height": 506,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/13161",
+          "id": "http://example.org/iiif/3090",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13160",
+              "id": "http://example.org/iiif/3089",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,7 +422,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13159"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5046/p10"
             }
           ]
         }

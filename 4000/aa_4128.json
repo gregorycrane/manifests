@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1322",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1322/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1000",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 166,
       "width": 564,
       "items": [
         {
-          "id": "http://example.org/iiif/1002",
+          "id": "http://example.org/iiif/33938",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1001",
+              "id": "http://example.org/iiif/33937",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1000"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1003",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 213,
       "width": 613,
       "items": [
         {
-          "id": "http://example.org/iiif/1005",
+          "id": "http://example.org/iiif/33940",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1004",
+              "id": "http://example.org/iiif/33939",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1003"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1006",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 208,
       "width": 569,
       "items": [
         {
-          "id": "http://example.org/iiif/1008",
+          "id": "http://example.org/iiif/33942",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1007",
+              "id": "http://example.org/iiif/33941",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1006"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1009",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top view: tondo illustrating a man and a dog",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 394,
       "width": 501,
       "items": [
         {
-          "id": "http://example.org/iiif/1011",
+          "id": "http://example.org/iiif/33944",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1010",
+              "id": "http://example.org/iiif/33943",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1009"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1012",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of tondo: man vomiting into a bowl in his lowered right hand; a quiver rests him",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 377,
       "width": 650,
       "items": [
         {
-          "id": "http://example.org/iiif/1014",
+          "id": "http://example.org/iiif/33946",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1013",
+              "id": "http://example.org/iiif/33945",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1012"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1015",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of tondo: dog crouching behind a man wearing Scythian slippers",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 394,
       "width": 649,
       "items": [
         {
-          "id": "http://example.org/iiif/1017",
+          "id": "http://example.org/iiif/33948",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1016",
+              "id": "http://example.org/iiif/33947",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1015"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1018",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of tondo: man vomiting into a bowl in his lowered right hand; a quiver rests him",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 383,
       "width": 639,
       "items": [
         {
-          "id": "http://example.org/iiif/1020",
+          "id": "http://example.org/iiif/33950",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1019",
+              "id": "http://example.org/iiif/33949",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1018"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1021",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of tondo revealing part of dipinto (inscription)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 416,
       "width": 637,
       "items": [
         {
-          "id": "http://example.org/iiif/1023",
+          "id": "http://example.org/iiif/33952",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1022",
+              "id": "http://example.org/iiif/33951",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1021"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1024",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of exterior from bottom",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 559,
       "items": [
         {
-          "id": "http://example.org/iiif/1026",
+          "id": "http://example.org/iiif/33954",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1025",
+              "id": "http://example.org/iiif/33953",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1024"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1027",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B (exterior): Three helmeted hoplite warriors, crouching profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 416,
       "width": 634,
       "items": [
         {
-          "id": "http://example.org/iiif/1029",
+          "id": "http://example.org/iiif/33956",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1028",
+              "id": "http://example.org/iiif/33955",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1027"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1030",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: Two helmeted hoplite warriors, crouching profile to the left, with a dipinto inscription between them",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 411,
       "width": 632,
       "items": [
         {
-          "id": "http://example.org/iiif/1032",
+          "id": "http://example.org/iiif/33958",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1031",
+              "id": "http://example.org/iiif/33957",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1030"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1033",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, center: A helmeted hoplite warrior, crouching profile to the left, with a dipinto inscription above his shield",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 395,
       "width": 632,
       "items": [
         {
-          "id": "http://example.org/iiif/1035",
+          "id": "http://example.org/iiif/33960",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1034",
+              "id": "http://example.org/iiif/33959",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1033"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1036",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, right: A helmeted hoplite warrior, crouching profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 420,
       "width": 637,
       "items": [
         {
-          "id": "http://example.org/iiif/1038",
+          "id": "http://example.org/iiif/33962",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1037",
+              "id": "http://example.org/iiif/33961",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1036"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1039",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A (exterior): Three helmeted hoplite warriors, kneeling profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 386,
       "width": 626,
       "items": [
         {
-          "id": "http://example.org/iiif/1041",
+          "id": "http://example.org/iiif/33964",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1040",
+              "id": "http://example.org/iiif/33963",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1039"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1042",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left: A youthful (unbearded), helmeted hoplite warrior, kneeling profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 386,
       "width": 637,
       "items": [
         {
-          "id": "http://example.org/iiif/1044",
+          "id": "http://example.org/iiif/33966",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1043",
+              "id": "http://example.org/iiif/33965",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1042"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1045",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, center: A bearded, helmeted hoplite warrior, kneeling profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 395,
       "width": 636,
       "items": [
         {
-          "id": "http://example.org/iiif/1047",
+          "id": "http://example.org/iiif/33968",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1046",
+              "id": "http://example.org/iiif/33967",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1045"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1048",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, right: A youthful (unbearded), helmeted hoplite warrior, kneeling profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 411,
       "width": 642,
       "items": [
         {
-          "id": "http://example.org/iiif/1050",
+          "id": "http://example.org/iiif/33970",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1049",
+              "id": "http://example.org/iiif/33969",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,7 +702,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1048"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4128/p17"
             }
           ]
         }

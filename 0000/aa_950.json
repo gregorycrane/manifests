@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_950",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_950/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0001",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0001/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76822",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_950/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Septimius Severus facing bust of Caracalla",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76824",
+          "id": "http://example.org/iiif/31674",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76823",
+              "id": "http://example.org/iiif/31673",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76822"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_950/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76825",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_950/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Hercules on lion skin, on rock",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76827",
+          "id": "http://example.org/iiif/31676",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76826",
+              "id": "http://example.org/iiif/31675",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76825"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_950/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_453",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_453/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0085",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0085/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73657",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_453/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of bearded satyr, profile to the left, wearing ivy wreath",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73659",
+          "id": "http://example.org/iiif/29564",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73658",
+              "id": "http://example.org/iiif/29563",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73657"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_453/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73660",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_453/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Horned griffin, profile to the left, holding spear in mouth; below, grain stalk",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73662",
+          "id": "http://example.org/iiif/29566",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73661",
+              "id": "http://example.org/iiif/29565",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73660"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_453/p2"
             }
           ]
         }

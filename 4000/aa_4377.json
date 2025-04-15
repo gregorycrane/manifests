@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0423",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0423/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1735",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: satyr on a pointed amphora",
+          "Courtesy, Museum of Fine Arts, Boston. James Fund and by Special Contribution"
+        ]
+      },
       "height": 345,
       "width": 524,
       "items": [
         {
-          "id": "http://example.org/iiif/1737",
+          "id": "http://example.org/iiif/39604",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1736",
+              "id": "http://example.org/iiif/39603",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1735"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1738",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: satyr, head",
+          "Courtesy, Museum of Fine Arts, Boston. James Fund and by Special Contribution"
+        ]
+      },
       "height": 344,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/1740",
+          "id": "http://example.org/iiif/39606",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1739",
+              "id": "http://example.org/iiif/39605",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1738"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1741",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: satyr on a pointed amphora",
+          "From Caskey & Beazley, plate XXXVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 419,
       "items": [
         {
-          "id": "http://example.org/iiif/1743",
+          "id": "http://example.org/iiif/39608",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1742",
+              "id": "http://example.org/iiif/39607",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1741"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p3"
             }
           ]
         }

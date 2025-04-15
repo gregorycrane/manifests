@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5285",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5285/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0004",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0004/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20290",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5285/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenads",
+          "Photograph courtesy of the Cummer Museum of Art and Gardens, Jacksonville, Florida, USA"
+        ]
+      },
       "height": 366,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/20292",
+          "id": "http://example.org/iiif/1220",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20291",
+              "id": "http://example.org/iiif/1219",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20290"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5285/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/20293",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5285/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos between dancing satyrs",
+          "Photograph courtesy of the Cummer Museum of Art and Gardens, Jacksonville, Florida, USA"
+        ]
+      },
       "height": 385,
       "width": 250,
       "items": [
         {
-          "id": "http://example.org/iiif/20295",
+          "id": "http://example.org/iiif/1222",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20294",
+              "id": "http://example.org/iiif/1221",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20293"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5285/p2"
             }
           ]
         }

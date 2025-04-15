@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.1024",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.1024/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62314",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Model of sanctuary showing propylon, from S",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 347,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/62316",
+          "id": "http://example.org/iiif/22002",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62315",
+              "id": "http://example.org/iiif/22001",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62314"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62317",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Aegina, Propylon",
+          "copyright C. H. Smith 1989, based on Weber (artist), in D. Ohly 1978 29 fig. 15"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/62319",
+          "id": "http://example.org/iiif/22004",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62318",
+              "id": "http://example.org/iiif/22003",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62317"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3/p2"
             }
           ]
         }

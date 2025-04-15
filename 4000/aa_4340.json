@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0001",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0001/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5755",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, from right",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3226,
       "width": 1762,
       "items": [
         {
-          "id": "http://example.org/iiif/5757",
+          "id": "http://example.org/iiif/37108",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5756",
+              "id": "http://example.org/iiif/37107",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5755"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5758",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, from left",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3024,
       "width": 1630,
       "items": [
         {
-          "id": "http://example.org/iiif/5760",
+          "id": "http://example.org/iiif/37110",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5759",
+              "id": "http://example.org/iiif/37109",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5758"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5761",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grazing horse on shoulder",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2486,
       "width": 3672,
       "items": [
         {
-          "id": "http://example.org/iiif/5763",
+          "id": "http://example.org/iiif/37112",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5762",
+              "id": "http://example.org/iiif/37111",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5761"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p3"
             }
           ]
         }

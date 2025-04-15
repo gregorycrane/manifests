@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0510.lg",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0510.lg/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29797",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A (large)",
+          "Copyright C. H. Smith 1988, based on Reichhold (artist) 1904 in FR plate 7"
+        ]
+      },
       "height": 745,
       "width": 985,
       "items": [
         {
-          "id": "http://example.org/iiif/29799",
+          "id": "http://example.org/iiif/1074",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29798",
+              "id": "http://example.org/iiif/1073",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29797"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29800",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A (small)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1904 in FR plate 7,"
+        ]
+      },
       "height": 400,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/29802",
+          "id": "http://example.org/iiif/1076",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29801",
+              "id": "http://example.org/iiif/1075",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29800"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29803",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of Side A, composite of preliminary sketches and painting (large)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1904 in FR plate 7"
+        ]
+      },
       "height": 719,
       "width": 959,
       "items": [
         {
-          "id": "http://example.org/iiif/29805",
+          "id": "http://example.org/iiif/1078",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29804",
+              "id": "http://example.org/iiif/1077",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29803"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29806",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of preliminary sketches on Side A (large)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1904 in FR plate 7"
+        ]
+      },
       "height": 631,
       "width": 846,
       "items": [
         {
-          "id": "http://example.org/iiif/29808",
+          "id": "http://example.org/iiif/1080",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29807",
+              "id": "http://example.org/iiif/1079",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29806"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29809",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: return of Hephaistos",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 355,
       "width": 510,
       "items": [
         {
-          "id": "http://example.org/iiif/29811",
+          "id": "http://example.org/iiif/1082",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29810",
+              "id": "http://example.org/iiif/1081",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29809"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29812",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 404,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/29814",
+          "id": "http://example.org/iiif/1084",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29813",
+              "id": "http://example.org/iiif/1083",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29812"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29815",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater depicting the return of Hephaistos: sketch lines on side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 1-10. München: Bruckmann, 1900. pl. 7"
+        ]
+      },
       "height": 359,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29817",
+          "id": "http://example.org/iiif/1086",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29816",
+              "id": "http://example.org/iiif/1085",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29815"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29818",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater depicting the return of Hephaistos: drawing of the figural scene on side A, showing a satyr, Dionysos, and Hephaistos on an ass",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 1-10. München: Bruckmann, 1900. pl. 7"
+        ]
+      },
       "height": 411,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29820",
+          "id": "http://example.org/iiif/1088",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29819",
+              "id": "http://example.org/iiif/1087",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29818"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29821",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater depicting the return of Hephaistos: detail, drawing of the right side of side A, showing a satyr with a barbiton",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 1-10. München: Bruckmann, 1900. pl. 7"
+        ]
+      },
       "height": 899,
       "width": 593,
       "items": [
         {
-          "id": "http://example.org/iiif/29823",
+          "id": "http://example.org/iiif/1090",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29822",
+              "id": "http://example.org/iiif/1089",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29821"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29824",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater depicting the return of Hephaistos: detail, drawing of the center of side A, showing Dionysos",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 1-10. München: Bruckmann, 1900. pl. 7"
+        ]
+      },
       "height": 900,
       "width": 591,
       "items": [
         {
-          "id": "http://example.org/iiif/29826",
+          "id": "http://example.org/iiif/1092",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29825",
+              "id": "http://example.org/iiif/1091",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29824"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29827",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater depicting the return of Hephaistos: detail, drawing of the left side of side A, showing the drunken Hephaistos on an ass",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 1-10. München: Bruckmann, 1900. pl. 7"
+        ]
+      },
       "height": 869,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29829",
+          "id": "http://example.org/iiif/1094",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29828",
+              "id": "http://example.org/iiif/1093",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29827"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29830",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater depicting the return of Hephaistos: drawing of side B, showing three women",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 1-10. München: Bruckmann, 1900. pl. 7"
+        ]
+      },
       "height": 531,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29832",
+          "id": "http://example.org/iiif/1096",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29831",
+              "id": "http://example.org/iiif/1095",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,7 +502,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29830"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5657/p12"
             }
           ]
         }

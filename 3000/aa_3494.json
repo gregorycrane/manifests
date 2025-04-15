@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3494",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3494/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0542",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0542/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/28921",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3494/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Malibu 77.AA.89 from the J. Paul Getty Museum, Malibu, California",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3774,
       "width": 2424,
       "items": [
         {
-          "id": "http://example.org/iiif/28923",
+          "id": "http://example.org/iiif/6032",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28922",
+              "id": "http://example.org/iiif/6031",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28921"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3494/p1"
             }
           ]
         }

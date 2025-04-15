@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1285",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1285/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/1483",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A: Herakles, Eurytion, and Geryon",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 418,
       "width": 298,
       "items": [
         {
-          "id": "http://example.org/iiif/1485",
+          "id": "http://example.org/iiif/34260",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1484",
+              "id": "http://example.org/iiif/34259",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1483"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1486",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right: Geryon, the triple-bodied monster",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 410,
       "width": 278,
       "items": [
         {
-          "id": "http://example.org/iiif/1488",
+          "id": "http://example.org/iiif/34262",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1487",
+              "id": "http://example.org/iiif/34261",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1486"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1489",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 406,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/1491",
+          "id": "http://example.org/iiif/34264",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1490",
+              "id": "http://example.org/iiif/34263",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1489"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1492",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from the left: two satyrs, and Dionysos with a rhyton",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 420,
       "width": 290,
       "items": [
         {
-          "id": "http://example.org/iiif/1494",
+          "id": "http://example.org/iiif/34266",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1493",
+              "id": "http://example.org/iiif/34265",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1492"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1495",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B: Dionysos with a rhyton; two satyrs on each side of him",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 420,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/1497",
+          "id": "http://example.org/iiif/34268",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1496",
+              "id": "http://example.org/iiif/34267",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1495"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1498",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from the right: Dionysos with a rhyton, and two satyrs",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 412,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/1500",
+          "id": "http://example.org/iiif/34270",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1499",
+              "id": "http://example.org/iiif/34269",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1498"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1501",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the left side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 417,
       "width": 287,
       "items": [
         {
-          "id": "http://example.org/iiif/1503",
+          "id": "http://example.org/iiif/34272",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1502",
+              "id": "http://example.org/iiif/34271",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1501"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1504",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the left: Herakles and Eurytion",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 416,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/1506",
+          "id": "http://example.org/iiif/34274",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1505",
+              "id": "http://example.org/iiif/34273",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1504"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1507",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up view of side A, figural scene: Herakles, Eurytion, and Geryon",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 599,
       "items": [
         {
-          "id": "http://example.org/iiif/1509",
+          "id": "http://example.org/iiif/34276",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1508",
+              "id": "http://example.org/iiif/34275",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1507"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1510",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left: Herakles and Eurytion",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 431,
       "width": 278,
       "items": [
         {
-          "id": "http://example.org/iiif/1512",
+          "id": "http://example.org/iiif/34278",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1511",
+              "id": "http://example.org/iiif/34277",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1510"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1513",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, top left: Upper half of Herakles, moving to the right, wearing his lionskin, and wielding a club",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 423,
       "width": 644,
       "items": [
         {
-          "id": "http://example.org/iiif/1515",
+          "id": "http://example.org/iiif/34280",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1514",
+              "id": "http://example.org/iiif/34279",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1513"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1516",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, bottom left: Eurytion, seated 3/4-view to the left, on the ground, behind Herakles' legs",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 433,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/1518",
+          "id": "http://example.org/iiif/34282",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1517",
+              "id": "http://example.org/iiif/34281",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1516"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1519",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, top right: Herakles aims his club at Geryon, the three-bodied monster, standing profile to the left, although one of his bodies turns profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 428,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/1521",
+          "id": "http://example.org/iiif/34284",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1520",
+              "id": "http://example.org/iiif/34283",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1519"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1522",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, top: Heads of Herakles and Geryon",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 644,
       "items": [
         {
-          "id": "http://example.org/iiif/1524",
+          "id": "http://example.org/iiif/34286",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1523",
+              "id": "http://example.org/iiif/34285",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1522"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1525",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: Two satyrs, one profile to the left, with his head frontally posed, and one profile to the right; Dionysos, standing profile to the right, wearing a himation over an undergarment, and an ivy wreath, and holding a rhyton in his left hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 611,
       "items": [
         {
-          "id": "http://example.org/iiif/1527",
+          "id": "http://example.org/iiif/34288",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1526",
+              "id": "http://example.org/iiif/34287",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1525"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1528",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: Two satyrs, one profile to the left, with his head frontally posed, resting his weight on his bent left leg, and one (with red hair and beard) standing profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 434,
       "width": 294,
       "items": [
         {
-          "id": "http://example.org/iiif/1530",
+          "id": "http://example.org/iiif/34290",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1529",
+              "id": "http://example.org/iiif/34289",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1528"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1531",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: Two satyrs and Dionysos",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 431,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/1533",
+          "id": "http://example.org/iiif/34292",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1532",
+              "id": "http://example.org/iiif/34291",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1531"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1534",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, top left: Heads of two satyrs",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 423,
       "width": 643,
       "items": [
         {
-          "id": "http://example.org/iiif/1536",
+          "id": "http://example.org/iiif/34294",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1535",
+              "id": "http://example.org/iiif/34293",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1534"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1537",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, center: Dionysos, standing profile to the right, wearing a himation over an undergarment, and an ivy wreath, and holding a rhyton in his left hand, flanked by two satyrs",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 431,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/1539",
+          "id": "http://example.org/iiif/34296",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1538",
+              "id": "http://example.org/iiif/34295",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1537"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1540",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, top center: heads of Dionysos (middle) and two satyrs",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 423,
       "width": 644,
       "items": [
         {
-          "id": "http://example.org/iiif/1542",
+          "id": "http://example.org/iiif/34298",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1541",
+              "id": "http://example.org/iiif/34297",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1540"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1543",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, right: Dionysos and two satyrs, one standing profile to the left, one dancing profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 431,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/1545",
+          "id": "http://example.org/iiif/34300",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1544",
+              "id": "http://example.org/iiif/34299",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1543"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1546",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, right: Two satyrs, one standing profile to the left, one dancing profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 431,
       "width": 289,
       "items": [
         {
-          "id": "http://example.org/iiif/1548",
+          "id": "http://example.org/iiif/34302",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1547",
+              "id": "http://example.org/iiif/34301",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1546"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/1549",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, top right: Heads of Dionysos and two satyrs",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 425,
       "width": 645,
       "items": [
         {
-          "id": "http://example.org/iiif/1551",
+          "id": "http://example.org/iiif/34304",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/1550",
+              "id": "http://example.org/iiif/34303",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,7 +942,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/1549"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4133/p23"
             }
           ]
         }

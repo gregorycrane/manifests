@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_66",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_66/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0086a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0086a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/67102",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_66/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Athens, Prytanikon",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Travlos 1966 (artist) in Travlos 192 figs. 252-253"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/67104",
+          "id": "http://example.org/iiif/25194",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/67103",
+              "id": "http://example.org/iiif/25193",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/67102"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_66/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/67105",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_66/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan with Primitive Bouleterion, c. 6th century B.C., Athens, Prytanikon",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Travlos 1966 (artist) in Travlos 192 fig.253"
+        ]
+      },
       "height": 378,
       "width": 208,
       "items": [
         {
-          "id": "http://example.org/iiif/67107",
+          "id": "http://example.org/iiif/25196",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/67106",
+              "id": "http://example.org/iiif/25195",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/67105"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_66/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0141",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0141/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/2014",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blond Boy, frontal view",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3605,
       "width": 2098,
       "items": [
         {
-          "id": "http://example.org/iiif/2016",
+          "id": "http://example.org/iiif/1344",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2015",
+              "id": "http://example.org/iiif/1343",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2014"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2017",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blond Boy, frontal view",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 419,
       "width": 316,
       "items": [
         {
-          "id": "http://example.org/iiif/2019",
+          "id": "http://example.org/iiif/1346",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2018",
+              "id": "http://example.org/iiif/1345",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2017"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2020",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blond Boy, left profile",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 374,
       "width": 315,
       "items": [
         {
-          "id": "http://example.org/iiif/2022",
+          "id": "http://example.org/iiif/1348",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2021",
+              "id": "http://example.org/iiif/1347",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2020"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2023",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blond Boy, left profile",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 386,
       "width": 331,
       "items": [
         {
-          "id": "http://example.org/iiif/2025",
+          "id": "http://example.org/iiif/1350",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2024",
+              "id": "http://example.org/iiif/1349",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2023"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2026",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blond Boy, back view",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 416,
       "width": 323,
       "items": [
         {
-          "id": "http://example.org/iiif/2028",
+          "id": "http://example.org/iiif/1352",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2027",
+              "id": "http://example.org/iiif/1351",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2026"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2029",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blond Boy, right profile",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
       "height": 416,
       "width": 323,
       "items": [
         {
-          "id": "http://example.org/iiif/2031",
+          "id": "http://example.org/iiif/1354",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2030",
+              "id": "http://example.org/iiif/1353",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,7 +262,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2029"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1923/p6"
             }
           ]
         }

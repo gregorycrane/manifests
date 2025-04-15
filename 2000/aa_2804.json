@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2804",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2804/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0083",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0083/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19225",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2804/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Totenmahl, or funeral feast, relief (?) known formerly as the \"Death of Socrates\"",
+          "From Svoronos 1903-12, pl. 83"
+        ]
+      },
       "height": 418,
       "width": 516,
       "items": [
         {
-          "id": "http://example.org/iiif/19227",
+          "id": "http://example.org/iiif/12818",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19226",
+              "id": "http://example.org/iiif/12817",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19225"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2804/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2613",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2613/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0192",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0192/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18607",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2613/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Part of a relief from an honorary decree; Top right: Relief from an honorary decree (?); Bottom left:; Bottom right",
+          "From Svoronos 1903-12, pl. 192"
+        ]
+      },
       "height": 540,
       "width": 436,
       "items": [
         {
-          "id": "http://example.org/iiif/18609",
+          "id": "http://example.org/iiif/12406",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18608",
+              "id": "http://example.org/iiif/12405",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18607"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2613/p1"
             }
           ]
         }

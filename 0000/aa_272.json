@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_272",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_272/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0231a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0231a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61843",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_272/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Altar of Zeus",
+          "copyright C. H. Smith 1988 based on N. Yalouris 1979 100-101 fig. 40, and based on A. Mallwitz,  AA 1971 153 ff. fig. 3, in A. Mallwitz 1972 fig. 240, and also based on L. Drees, I. Konti, and C. Durantez, in N.D. Papachadzi 1979 237 fig. 212, 213 Bouleterion, based on E. Mallwitz (artist), in A. Mallwitz 1972 112 fig. 87 Temple of Hera, based on A. Mallwitz, JdI 81, 1966 fig. 17, in A.Mallwitz 1972 139 fig. 109 Treasuries, based on N. Yalouris 1979 100-101 fig. 40, and based on A. Mallwitz, AA 1971 153 ff fig. 3, in A. Mallwitz 1972 163-179 fig. 240"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61845",
+          "id": "http://example.org/iiif/21688",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61844",
+              "id": "http://example.org/iiif/21687",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61843"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_272/p1"
             }
           ]
         }

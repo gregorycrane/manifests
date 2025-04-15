@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0029",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0029/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12895",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 336,
       "width": 238,
       "items": [
         {
-          "id": "http://example.org/iiif/12897",
+          "id": "http://example.org/iiif/2914",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12896",
+              "id": "http://example.org/iiif/2913",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12895"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12898",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 337,
       "width": 227,
       "items": [
         {
-          "id": "http://example.org/iiif/12900",
+          "id": "http://example.org/iiif/2916",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12899",
+              "id": "http://example.org/iiif/2915",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12898"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12901",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A (b/w)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 419,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/12903",
+          "id": "http://example.org/iiif/2918",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12902",
+              "id": "http://example.org/iiif/2917",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12901"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12904",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene (b/w)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 420,
       "width": 268,
       "items": [
         {
-          "id": "http://example.org/iiif/12906",
+          "id": "http://example.org/iiif/2920",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12905",
+              "id": "http://example.org/iiif/2919",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12904"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12907",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B (b/w)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 420,
       "width": 268,
       "items": [
         {
-          "id": "http://example.org/iiif/12909",
+          "id": "http://example.org/iiif/2922",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12908",
+              "id": "http://example.org/iiif/2921",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12907"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12910",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: female figure, full view (b/w)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 420,
       "width": 336,
       "items": [
         {
-          "id": "http://example.org/iiif/12912",
+          "id": "http://example.org/iiif/2924",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12911",
+              "id": "http://example.org/iiif/2923",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12910"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12913",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: left and central warriors, full view (b/w)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 420,
       "width": 336,
       "items": [
         {
-          "id": "http://example.org/iiif/12915",
+          "id": "http://example.org/iiif/2926",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12914",
+              "id": "http://example.org/iiif/2925",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12913"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12916",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene (b/w)",
+          "Photograph courtesy of the North Carolina Museum of Art, Raleigh. Purchased with funds from the State of North Carolina"
+        ]
+      },
       "height": 419,
       "width": 338,
       "items": [
         {
-          "id": "http://example.org/iiif/12918",
+          "id": "http://example.org/iiif/2928",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12917",
+              "id": "http://example.org/iiif/2927",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,7 +342,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12916"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5030/p8"
             }
           ]
         }

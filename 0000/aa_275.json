@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_275",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_275/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2274",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.2274/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61864",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_275/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Front of stoa from N, Olympia, Echo Hall (Painted Stoa)",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 268,
       "width": 433,
       "items": [
         {
-          "id": "http://example.org/iiif/61866",
+          "id": "http://example.org/iiif/21702",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61865",
+              "id": "http://example.org/iiif/21701",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61864"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_275/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61867",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_275/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Echo Hall (Painted Stoa)",
+          "copyright C. H. Smith 1988 based on N. Yalouris 1979 100-101 fig. 40, and based on  A. Mallwitz,  AA 1971 153 ff. fig. 3, in A. Mallwitz 1972 fig. 240"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61869",
+          "id": "http://example.org/iiif/21704",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61868",
+              "id": "http://example.org/iiif/21703",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61867"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_275/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61870",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_275/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Ionic Capital, from W, Olympia, Echo Hall (Painted Stoa)",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 278,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/61872",
+          "id": "http://example.org/iiif/21706",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61871",
+              "id": "http://example.org/iiif/21705",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61870"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_275/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61873",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_275/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains, from N, Olympia, Echo Hall (Painted Stoa)",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 274,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/61875",
+          "id": "http://example.org/iiif/21708",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61874",
+              "id": "http://example.org/iiif/21707",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61873"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_275/p4"
             }
           ]
         }

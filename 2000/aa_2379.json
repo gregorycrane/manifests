@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2379",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2379/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.03.0005",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.03.0005/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/17548",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2379/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of Parthenon East Frieze slab 6",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
       "height": 2526,
       "width": 3774,
       "items": [
         {
-          "id": "http://example.org/iiif/17550",
+          "id": "http://example.org/iiif/11700",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17549",
+              "id": "http://example.org/iiif/11699",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17548"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2379/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/17551",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2379/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "East Frieze Slab 6: Group of five standing men",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2388,
       "width": 3616,
       "items": [
         {
-          "id": "http://example.org/iiif/17553",
+          "id": "http://example.org/iiif/11702",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17552",
+              "id": "http://example.org/iiif/11701",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17551"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2379/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_634",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_634/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0127",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0127/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74803",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_634/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Kantharos with two bunches of grapes; above, ivy leaf",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 394,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74805",
+          "id": "http://example.org/iiif/30328",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74804",
+              "id": "http://example.org/iiif/30327",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74803"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_634/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74806",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_634/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 384,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74808",
+          "id": "http://example.org/iiif/30330",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74807",
+              "id": "http://example.org/iiif/30329",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74806"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_634/p2"
             }
           ]
         }

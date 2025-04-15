@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_227",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_227/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0202a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0202a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61075",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_227/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Epidauros, Temple of Themis",
+          "copyright D. Neel Smith 1989  drawn by M. W. Cutler and C. H. Smith based on Buglass (artist) based on G. Roux, L'architecture de l'Argolide, Bibliothèque des Écoles franᷗaises d'Athènes et de Rome, Paris 1961, in R.A. Tomlinson 1976 fig. 16;  also based on Coulton (artist), based on G. Roux, L'architecture de l'Argolide, Bibliothèque des Écoles franᷗaises d'Athènes et de Rome, Paris 1961, in J.J. Coulton 1976 239 fig. 65"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61077",
+          "id": "http://example.org/iiif/21176",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61076",
+              "id": "http://example.org/iiif/21175",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61075"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_227/p1"
             }
           ]
         }

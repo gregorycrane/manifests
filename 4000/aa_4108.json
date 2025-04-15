@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0591",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0591/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/166",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 191,
       "width": 551,
       "items": [
         {
-          "id": "http://example.org/iiif/168",
+          "id": "http://example.org/iiif/33382",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/167",
+              "id": "http://example.org/iiif/33381",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/166"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/169",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 237,
       "width": 615,
       "items": [
         {
-          "id": "http://example.org/iiif/171",
+          "id": "http://example.org/iiif/33384",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/170",
+              "id": "http://example.org/iiif/33383",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/169"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/172",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 241,
       "width": 575,
       "items": [
         {
-          "id": "http://example.org/iiif/174",
+          "id": "http://example.org/iiif/33386",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/173",
+              "id": "http://example.org/iiif/33385",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/172"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/175",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top view: the tondo depicts a satyr",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 419,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/177",
+          "id": "http://example.org/iiif/33388",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/176",
+              "id": "http://example.org/iiif/33387",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/175"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/178",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up view of the tondo: a nude satyr, wearing a red fillet tied around his head, is shown in a frontal pose, with his head turned profile to the left; he dances, with his weight temporarily on his right leg, holds both hands on his waist, and looks down at a table to the left, on which a kantharos rests",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 643,
       "items": [
         {
-          "id": "http://example.org/iiif/180",
+          "id": "http://example.org/iiif/33390",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/179",
+              "id": "http://example.org/iiif/33389",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/178"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/181",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bottom view: note the ivy tendrils beneath each handle",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 419,
       "width": 519,
       "items": [
         {
-          "id": "http://example.org/iiif/183",
+          "id": "http://example.org/iiif/33392",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/182",
+              "id": "http://example.org/iiif/33391",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/181"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/184",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from below: three youths, draped in himatia, the first two of whom are seated, profile to the right, on boxes; the first youth holds a sprig in his right hand and a staff in his left hand; the second is completely enveloped in his himation; the third, who leans profile to the left, on his staff, holds his right hand in front of his face, in a speaking gesture",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 418,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/186",
+          "id": "http://example.org/iiif/33394",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/185",
+              "id": "http://example.org/iiif/33393",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/184"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/187",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, left: a youth, wearing a himation, sits near profile to the right on a box; he holds a sprig in his right hand, and a staff upright in his left hand",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 415,
       "width": 629,
       "items": [
         {
-          "id": "http://example.org/iiif/189",
+          "id": "http://example.org/iiif/33396",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/188",
+              "id": "http://example.org/iiif/33395",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/187"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/190",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, center: a youth, swathed in a himation,  sits profile to the right on a box; behind him is a cross ornament",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 409,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/192",
+          "id": "http://example.org/iiif/33398",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/191",
+              "id": "http://example.org/iiif/33397",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/190"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/193",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side B, right: a youth, wearing a himation, leans profile to the left, on his staff, and holds his right hand in front of his face, in a speaking gesture",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 417,
       "width": 637,
       "items": [
         {
-          "id": "http://example.org/iiif/195",
+          "id": "http://example.org/iiif/33400",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/194",
+              "id": "http://example.org/iiif/33399",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/193"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/196",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from below: three youths, draped in himatia, the middle one playing a lyre",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 400,
       "width": 637,
       "items": [
         {
-          "id": "http://example.org/iiif/198",
+          "id": "http://example.org/iiif/33402",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/197",
+              "id": "http://example.org/iiif/33401",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/196"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/199",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left: a youth, wearing a himation, leans 3/4-view to the right, on his staff, and holds his hand on his hip",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 401,
       "width": 638,
       "items": [
         {
-          "id": "http://example.org/iiif/201",
+          "id": "http://example.org/iiif/33404",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/200",
+              "id": "http://example.org/iiif/33403",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/199"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/202",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, center: a youth, wearing a himation and a narrow red taenia, sits profile to the right on a box, and plays a lyre; behind him is a cross ornament",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 416,
       "width": 638,
       "items": [
         {
-          "id": "http://example.org/iiif/204",
+          "id": "http://example.org/iiif/33406",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/203",
+              "id": "http://example.org/iiif/33405",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/202"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/205",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, right: a youth, wearing a himation, leans profile to the left, on his staff, and holds a sprig forward, in his right hand, as a gesture to the musician",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 402,
       "width": 641,
       "items": [
         {
-          "id": "http://example.org/iiif/207",
+          "id": "http://example.org/iiif/33408",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/206",
+              "id": "http://example.org/iiif/33407",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,7 +582,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/205"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4108/p14"
             }
           ]
         }

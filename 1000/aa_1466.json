@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1466",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1466/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1295",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1295/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71680",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1466/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Trajan",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71682",
+          "id": "http://example.org/iiif/28246",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71681",
+              "id": "http://example.org/iiif/28245",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71680"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1466/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71683",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1466/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Four chariots in the Circus Maximus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71685",
+          "id": "http://example.org/iiif/28248",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71684",
+              "id": "http://example.org/iiif/28247",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71683"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1466/p2"
             }
           ]
         }

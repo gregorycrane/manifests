@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1447",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1447/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -10,17 +10,23 @@
   "metadata": [],
   "items": [
     {
-      "id": "http://example.org/iiif/71575",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1447/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Tychai of Roma (Rome) and Constantinopolis (Constantinople), holding an inscribed tablet",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71577",
+          "id": "http://example.org/iiif/28176",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71576",
+              "id": "http://example.org/iiif/28175",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -37,7 +43,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71575"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1447/p2"
             }
           ]
         }

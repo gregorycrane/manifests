@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4312",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4312/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0298",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0298/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5374",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Tecmessa and dead Ajax",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3738,
       "width": 2580,
       "items": [
         {
-          "id": "http://example.org/iiif/5376",
+          "id": "http://example.org/iiif/36854",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5375",
+              "id": "http://example.org/iiif/36853",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5374"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5377",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: casting votes",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2070,
       "width": 3816,
       "items": [
         {
-          "id": "http://example.org/iiif/5379",
+          "id": "http://example.org/iiif/36856",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5378",
+              "id": "http://example.org/iiif/36855",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5377"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5380",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: dispute of Odysseus and Ajax",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 1932,
       "width": 3810,
       "items": [
         {
-          "id": "http://example.org/iiif/5382",
+          "id": "http://example.org/iiif/36858",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5381",
+              "id": "http://example.org/iiif/36857",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5380"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5383",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Ajax",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2190,
       "width": 3150,
       "items": [
         {
-          "id": "http://example.org/iiif/5385",
+          "id": "http://example.org/iiif/36860",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5384",
+              "id": "http://example.org/iiif/36859",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5383"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4312/p4"
             }
           ]
         }

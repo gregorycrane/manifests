@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_11",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_11/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0282a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0282a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/58840",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_11/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Amphiaraion, Earlier Temple of Amphiaraios",
+          "copyright C. H. Smith 1989, based on V. Petrakou 1968 supplementary plate A Klepshydra, based on V. Petrakou 1968 113-117 figs. 29-32 Stoa, based on V. Petrakou 1968 77-84 fig. 4,5 Temple of Amphiareios, based on V. Petrakou 1968 99-107 figs. 20-23 Theater, based on V. Petrakou 1968 84-93 figs. 11-13"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/58842",
+          "id": "http://example.org/iiif/19686",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58841",
+              "id": "http://example.org/iiif/19685",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58840"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_11/p1"
             }
           ]
         }

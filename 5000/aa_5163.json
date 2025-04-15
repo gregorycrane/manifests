@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5163",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5163/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0175",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0175/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/16276",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5163/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: reclining woman playing kottabos",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2544,
       "width": 3760,
       "items": [
         {
-          "id": "http://example.org/iiif/16278",
+          "id": "http://example.org/iiif/5168",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16277",
+              "id": "http://example.org/iiif/5167",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16276"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5163/p1"
             }
           ]
         }

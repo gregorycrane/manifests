@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2818",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2818/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0089",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0089/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19267",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2818/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Banquet relief showing male figure and a female figure feasting at a tripod table, attended by a nude serving boy; Top right: Banquet relief from Athens depicting a male and a female figure feasting; Bottom: Banquet relief from Athens showing bearded god, goddess, and a family of four worshippers",
+          "From Svoronos 1903-12, pl. 89"
+        ]
+      },
       "height": 578,
       "width": 419,
       "items": [
         {
-          "id": "http://example.org/iiif/19269",
+          "id": "http://example.org/iiif/12846",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19268",
+              "id": "http://example.org/iiif/12845",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19267"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2818/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2027",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2027/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0785",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.07.0785/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5422",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2027/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of a Bearded man, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu  Berlin, Preußischer Kulturbesitz: Antikensammlung"
+        ]
+      },
       "height": 477,
       "width": 323,
       "items": [
         {
-          "id": "http://example.org/iiif/5424",
+          "id": "http://example.org/iiif/3616",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5423",
+              "id": "http://example.org/iiif/3615",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5422"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2027/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5425",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2027/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of a Bearded man, 3/4-view from left",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu  Berlin, Preußischer Kulturbesitz: Antikensammlung"
+        ]
+      },
       "height": 479,
       "width": 305,
       "items": [
         {
-          "id": "http://example.org/iiif/5427",
+          "id": "http://example.org/iiif/3618",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5426",
+              "id": "http://example.org/iiif/3617",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5425"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2027/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5428",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2027/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of a Bearded man, 3/4-view from right",
+          "Photograph by Maria Daniels, courtesy of the Staatliche Museen zu  Berlin, Preußischer Kulturbesitz: Antikensammlung"
+        ]
+      },
       "height": 478,
       "width": 316,
       "items": [
         {
-          "id": "http://example.org/iiif/5430",
+          "id": "http://example.org/iiif/3620",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5429",
+              "id": "http://example.org/iiif/3619",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5428"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2027/p3"
             }
           ]
         }

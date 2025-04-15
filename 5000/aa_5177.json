@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5177",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5177/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0516",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0516/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/16435",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5177/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Homeric battle between sphinxes",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2028,
       "width": 2862,
       "items": [
         {
-          "id": "http://example.org/iiif/16437",
+          "id": "http://example.org/iiif/5274",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/16436",
+              "id": "http://example.org/iiif/5273",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/16435"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5177/p1"
             }
           ]
         }

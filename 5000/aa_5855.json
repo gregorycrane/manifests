@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5855",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5855/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0424",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0424/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/32239",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5855/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Squat lekythos depicting Dionysos (?) and his retinue, in Oriental costume: Overview drawing of the vase, with the figural scene rolled out",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 78"
+        ]
+      },
       "height": 386,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/32241",
+          "id": "http://example.org/iiif/2702",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/32240",
+              "id": "http://example.org/iiif/2701",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/32239"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5855/p1"
             }
           ]
         }

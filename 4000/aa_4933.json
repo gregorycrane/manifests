@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0304",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0304/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12304",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side A",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 299,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/12306",
+          "id": "http://example.org/iiif/2520",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12305",
+              "id": "http://example.org/iiif/2519",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12304"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12307",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side B",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 292,
       "width": 527,
       "items": [
         {
-          "id": "http://example.org/iiif/12309",
+          "id": "http://example.org/iiif/2522",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12308",
+              "id": "http://example.org/iiif/2521",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12307"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12310",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: bride dressing",
+          "From Caskey & Beazley, plate XCVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 197,
       "width": 389,
       "items": [
         {
-          "id": "http://example.org/iiif/12312",
+          "id": "http://example.org/iiif/2524",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12311",
+              "id": "http://example.org/iiif/2523",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12310"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12313",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: figure on left",
+          "From Caskey & Beazley, plate XCVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 346,
       "width": 145,
       "items": [
         {
-          "id": "http://example.org/iiif/12315",
+          "id": "http://example.org/iiif/2526",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12314",
+              "id": "http://example.org/iiif/2525",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12313"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12316",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: two figures on right",
+          "From Caskey & Beazley, plate XCVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 346,
       "width": 145,
       "items": [
         {
-          "id": "http://example.org/iiif/12318",
+          "id": "http://example.org/iiif/2528",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12317",
+              "id": "http://example.org/iiif/2527",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12316"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4933/p5"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1518",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1518/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1399",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1399/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72064",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1518/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Severus Alexander",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72066",
+          "id": "http://example.org/iiif/28502",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72065",
+              "id": "http://example.org/iiif/28501",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72064"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1518/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72067",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1518/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Togate Severus Alexander standing at an altar with a patera",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72069",
+          "id": "http://example.org/iiif/28504",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72068",
+              "id": "http://example.org/iiif/28503",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72067"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1518/p2"
             }
           ]
         }

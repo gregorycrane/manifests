@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_778",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_778/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0646",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0646/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75682",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_778/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: King, kneeling profile to the right on his right knee, holding bow and lance",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 389,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75684",
+          "id": "http://example.org/iiif/30914",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75683",
+              "id": "http://example.org/iiif/30913",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75682"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_778/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75685",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_778/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Oblong incuse",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 380,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75687",
+          "id": "http://example.org/iiif/30916",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75686",
+              "id": "http://example.org/iiif/30915",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75685"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_778/p2"
             }
           ]
         }

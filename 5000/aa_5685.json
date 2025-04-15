@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5685",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5685/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0382",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0382/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30280",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5685/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Arezzo amphora: Overview drawing of the vase, with a rolled out image of side A, showing Pelops' abduction of Hippodameia",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 67"
+        ]
+      },
       "height": 752,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30282",
+          "id": "http://example.org/iiif/1396",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30281",
+              "id": "http://example.org/iiif/1395",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30280"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5685/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30283",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5685/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Arezzo amphora: Drawing of side A, showing Pelops' abduction of Hippodameia",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 67"
+        ]
+      },
       "height": 337,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30285",
+          "id": "http://example.org/iiif/1398",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30284",
+              "id": "http://example.org/iiif/1397",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30283"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5685/p2"
             }
           ]
         }

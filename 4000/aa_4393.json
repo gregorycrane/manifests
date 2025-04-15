@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0245",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0245/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/2497",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Profile",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 1678,
       "width": 3608,
       "items": [
         {
-          "id": "http://example.org/iiif/2499",
+          "id": "http://example.org/iiif/40112",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2498",
+              "id": "http://example.org/iiif/40111",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2497"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2500",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2262,
       "width": 3672,
       "items": [
         {
-          "id": "http://example.org/iiif/2502",
+          "id": "http://example.org/iiif/40114",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2501",
+              "id": "http://example.org/iiif/40113",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2500"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2503",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Base",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 1982,
       "width": 3728,
       "items": [
         {
-          "id": "http://example.org/iiif/2505",
+          "id": "http://example.org/iiif/40116",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2504",
+              "id": "http://example.org/iiif/40115",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2503"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2506",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "From below",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2430,
       "width": 3104,
       "items": [
         {
-          "id": "http://example.org/iiif/2508",
+          "id": "http://example.org/iiif/40118",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2507",
+              "id": "http://example.org/iiif/40117",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2506"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2509",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "From above",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2478,
       "width": 3120,
       "items": [
         {
-          "id": "http://example.org/iiif/2511",
+          "id": "http://example.org/iiif/40120",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2510",
+              "id": "http://example.org/iiif/40119",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2509"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2512",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reclining satyr drinking from pointed amphora",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2752,
       "width": 2478,
       "items": [
         {
-          "id": "http://example.org/iiif/2514",
+          "id": "http://example.org/iiif/40122",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2513",
+              "id": "http://example.org/iiif/40121",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2512"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2515",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reclining satyr, midsection and couch",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2482,
       "width": 3714,
       "items": [
         {
-          "id": "http://example.org/iiif/2517",
+          "id": "http://example.org/iiif/40124",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2516",
+              "id": "http://example.org/iiif/40123",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2515"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2518",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reclining satyr, amphora",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2506,
       "width": 3684,
       "items": [
         {
-          "id": "http://example.org/iiif/2520",
+          "id": "http://example.org/iiif/40126",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2519",
+              "id": "http://example.org/iiif/40125",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2518"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2521",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Satyr",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 3714,
       "width": 2494,
       "items": [
         {
-          "id": "http://example.org/iiif/2523",
+          "id": "http://example.org/iiif/40128",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2522",
+              "id": "http://example.org/iiif/40127",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2521"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2524",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reclining satyr, head",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 3720,
       "width": 2510,
       "items": [
         {
-          "id": "http://example.org/iiif/2526",
+          "id": "http://example.org/iiif/40130",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2525",
+              "id": "http://example.org/iiif/40129",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2524"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2527",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reclining satyr, pillow",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 3702,
       "width": 2464,
       "items": [
         {
-          "id": "http://example.org/iiif/2529",
+          "id": "http://example.org/iiif/40132",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2528",
+              "id": "http://example.org/iiif/40131",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2527"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/2530",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reclining satyr, pointed amphora",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
       "height": 2512,
       "width": 3714,
       "items": [
         {
-          "id": "http://example.org/iiif/2532",
+          "id": "http://example.org/iiif/40134",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/2531",
+              "id": "http://example.org/iiif/40133",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,7 +502,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/2530"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4393/p12"
             }
           ]
         }

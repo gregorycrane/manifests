@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1830",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1830/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0235",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0235/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31417",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1830/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing Ajax falling on his sword",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31419",
+          "id": "http://example.org/iiif/1404",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31418",
+              "id": "http://example.org/iiif/1403",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31417"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1830/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31420",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1830/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the flat, Ajax falling on his sword",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31422",
+          "id": "http://example.org/iiif/1406",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31421",
+              "id": "http://example.org/iiif/1405",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31420"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1830/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31423",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1830/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "On the convex, a beetle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31425",
+          "id": "http://example.org/iiif/1408",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31424",
+              "id": "http://example.org/iiif/1407",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31423"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1830/p3"
             }
           ]
         }

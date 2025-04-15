@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0069",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0069/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/26176",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: woman",
+          "From Caskey & Beazley, plate XV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 334,
       "width": 571,
       "items": [
         {
-          "id": "http://example.org/iiif/26178",
+          "id": "http://example.org/iiif/5144",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26177",
+              "id": "http://example.org/iiif/5143",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26176"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26179",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: woman",
+          "From Caskey & Beazley, plate XV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 309,
       "width": 540,
       "items": [
         {
-          "id": "http://example.org/iiif/26181",
+          "id": "http://example.org/iiif/5146",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26180",
+              "id": "http://example.org/iiif/5145",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26179"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26182",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: Apollo and a Muse",
+          "From Caskey & Beazley, plate XV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 411,
       "width": 556,
       "items": [
         {
-          "id": "http://example.org/iiif/26184",
+          "id": "http://example.org/iiif/5148",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26183",
+              "id": "http://example.org/iiif/5147",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26182"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p3"
             }
           ]
         }

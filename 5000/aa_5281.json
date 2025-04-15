@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5281",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5281/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0065",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0065/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20278",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5281/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Troilos and Polyxene",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2748,
       "width": 2506,
       "items": [
         {
-          "id": "http://example.org/iiif/20280",
+          "id": "http://example.org/iiif/1212",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20279",
+              "id": "http://example.org/iiif/1211",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20278"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5281/p1"
             }
           ]
         }

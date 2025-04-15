@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5466",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5466/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0350",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0350/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25528",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5466/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: naked women under tree",
+          "From Caskey & Beazley, plate LXXXVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 296,
       "width": 453,
       "items": [
         {
-          "id": "http://example.org/iiif/25530",
+          "id": "http://example.org/iiif/4712",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25529",
+              "id": "http://example.org/iiif/4711",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25528"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5466/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25531",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5466/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: naked women in building",
+          "From Caskey & Beazley, plate LXXXVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 344,
       "width": 453,
       "items": [
         {
-          "id": "http://example.org/iiif/25533",
+          "id": "http://example.org/iiif/4714",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25532",
+              "id": "http://example.org/iiif/4713",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25531"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5466/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25534",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5466/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: running satyr",
+          "From Caskey & Beazley, plate LXXXVII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 271,
       "width": 278,
       "items": [
         {
-          "id": "http://example.org/iiif/25536",
+          "id": "http://example.org/iiif/4716",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25535",
+              "id": "http://example.org/iiif/4715",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25534"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5466/p3"
             }
           ]
         }

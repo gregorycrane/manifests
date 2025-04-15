@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2161",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2161/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0401",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0401/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10486",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blacas Asklepios, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3344,
       "width": 2110,
       "items": [
         {
-          "id": "http://example.org/iiif/10488",
+          "id": "http://example.org/iiif/6992",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10487",
+              "id": "http://example.org/iiif/6991",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10486"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10489",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blacas Asklepios, from right",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3064,
       "width": 2422,
       "items": [
         {
-          "id": "http://example.org/iiif/10491",
+          "id": "http://example.org/iiif/6994",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10490",
+              "id": "http://example.org/iiif/6993",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10489"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10492",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blacas Asklepios, from left",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3072,
       "width": 2342,
       "items": [
         {
-          "id": "http://example.org/iiif/10494",
+          "id": "http://example.org/iiif/6996",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10493",
+              "id": "http://example.org/iiif/6995",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10492"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10495",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Blacas Asklepios, from below",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2992,
       "width": 2182,
       "items": [
         {
-          "id": "http://example.org/iiif/10497",
+          "id": "http://example.org/iiif/6998",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10496",
+              "id": "http://example.org/iiif/6997",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10495"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2161/p4"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1390",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1390/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1143",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1143/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71233",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1390/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Radiate bust of Trajan Decius",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71235",
+          "id": "http://example.org/iiif/27948",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71234",
+              "id": "http://example.org/iiif/27947",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71233"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1390/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71236",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1390/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Dacia standing, holding a staff topped with the head of an ass",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71238",
+          "id": "http://example.org/iiif/27950",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71237",
+              "id": "http://example.org/iiif/27949",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71236"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1390/p2"
             }
           ]
         }

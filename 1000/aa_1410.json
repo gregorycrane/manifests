@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1410",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1410/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1183",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1183/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71353",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1410/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate head of Claudius Gothicus, veiled",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71355",
+          "id": "http://example.org/iiif/28028",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71354",
+              "id": "http://example.org/iiif/28027",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71353"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1410/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71356",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1410/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Eagle with spread wings",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71358",
+          "id": "http://example.org/iiif/28030",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71357",
+              "id": "http://example.org/iiif/28029",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71356"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1410/p2"
             }
           ]
         }

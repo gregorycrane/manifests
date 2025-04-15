@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_130",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_130/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5014",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5014/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/58978",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_130/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Courtyard with marble benches, Delos, Temple of Serapis",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2448,
       "width": 3691,
       "items": [
         {
-          "id": "http://example.org/iiif/58980",
+          "id": "http://example.org/iiif/19778",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58979",
+              "id": "http://example.org/iiif/19777",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58978"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_130/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58981",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_130/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Temple of Serapis",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on  N.M. Kontoleontos 1950 122 fig. 65"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/58983",
+          "id": "http://example.org/iiif/19780",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58982",
+              "id": "http://example.org/iiif/19779",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58981"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_130/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4101",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4101/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0379",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0379/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/79042",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4101/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2772,
       "width": 1788,
       "items": [
         {
-          "id": "http://example.org/iiif/79044",
+          "id": "http://example.org/iiif/33154",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/79043",
+              "id": "http://example.org/iiif/33153",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79042"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4101/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/79045",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4101/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle right",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2808,
       "width": 1794,
       "items": [
         {
-          "id": "http://example.org/iiif/79047",
+          "id": "http://example.org/iiif/33156",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/79046",
+              "id": "http://example.org/iiif/33155",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79045"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4101/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/79048",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4101/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle front",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2724,
       "width": 1800,
       "items": [
         {
-          "id": "http://example.org/iiif/79050",
+          "id": "http://example.org/iiif/33158",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/79049",
+              "id": "http://example.org/iiif/33157",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/79048"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4101/p3"
             }
           ]
         }

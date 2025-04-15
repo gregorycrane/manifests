@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1844",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1844/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0161",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0161/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31522",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1844/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing Bellerphon mastering Pegasos",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31524",
+          "id": "http://example.org/iiif/1474",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31523",
+              "id": "http://example.org/iiif/1473",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31522"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1844/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31525",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1844/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bellerphon mastering Pegasos",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31527",
+          "id": "http://example.org/iiif/1476",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31526",
+              "id": "http://example.org/iiif/1475",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31525"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1844/p2"
             }
           ]
         }

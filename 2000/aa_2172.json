@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2172",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2172/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0298",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0298/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10561",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bronze head of a man from Cyrene, frontal view",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2816,
       "width": 2190,
       "items": [
         {
-          "id": "http://example.org/iiif/10563",
+          "id": "http://example.org/iiif/7042",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10562",
+              "id": "http://example.org/iiif/7041",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10561"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10564",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bronze head of a man from Cyrene, three-quarter view from right",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2960,
       "width": 2150,
       "items": [
         {
-          "id": "http://example.org/iiif/10566",
+          "id": "http://example.org/iiif/7044",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10565",
+              "id": "http://example.org/iiif/7043",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10564"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10567",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bronze head of a man from Cyrene, left profile",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2648,
       "width": 2334,
       "items": [
         {
-          "id": "http://example.org/iiif/10569",
+          "id": "http://example.org/iiif/7046",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10568",
+              "id": "http://example.org/iiif/7045",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10567"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10570",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Bronze head of a man from Cyrene, right profile",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2694,
       "width": 2212,
       "items": [
         {
-          "id": "http://example.org/iiif/10572",
+          "id": "http://example.org/iiif/7048",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10571",
+              "id": "http://example.org/iiif/7047",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10570"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2172/p4"
             }
           ]
         }

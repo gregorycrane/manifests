@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4302",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4302/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0420",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0420/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5305",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4302/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: running Gorgon between eyes",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3234,
       "width": 2202,
       "items": [
         {
-          "id": "http://example.org/iiif/5307",
+          "id": "http://example.org/iiif/36808",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5306",
+              "id": "http://example.org/iiif/36807",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5305"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4302/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5308",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4302/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: detail of shoulder with Gorgon",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 2556,
       "width": 3804,
       "items": [
         {
-          "id": "http://example.org/iiif/5310",
+          "id": "http://example.org/iiif/36810",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5309",
+              "id": "http://example.org/iiif/36809",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5308"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4302/p2"
             }
           ]
         }

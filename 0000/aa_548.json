@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_548",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_548/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0263",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0263/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74293",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_548/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Cow scratching itself, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 364,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74295",
+          "id": "http://example.org/iiif/29988",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74294",
+              "id": "http://example.org/iiif/29987",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74293"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_548/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74296",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_548/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Octopus in incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 366,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74298",
+          "id": "http://example.org/iiif/29990",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74297",
+              "id": "http://example.org/iiif/29989",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74296"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_548/p2"
             }
           ]
         }

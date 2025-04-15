@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5773",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5773/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1763",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1763/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30940",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5773/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30942",
+          "id": "http://example.org/iiif/1836",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30941",
+              "id": "http://example.org/iiif/1835",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30940"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5773/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30943",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5773/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30945",
+          "id": "http://example.org/iiif/1838",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30944",
+              "id": "http://example.org/iiif/1837",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30943"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5773/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30946",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5773/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora, detail of handle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30948",
+          "id": "http://example.org/iiif/1840",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30947",
+              "id": "http://example.org/iiif/1839",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30946"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5773/p3"
             }
           ]
         }

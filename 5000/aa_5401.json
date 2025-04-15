@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5401",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5401/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0201",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0201/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/24991",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5401/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Athena",
+          "From Caskey & Beazley, plate XLVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 419,
       "width": 261,
       "items": [
         {
-          "id": "http://example.org/iiif/24993",
+          "id": "http://example.org/iiif/4354",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24992",
+              "id": "http://example.org/iiif/4353",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24991"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5401/p1"
             }
           ]
         }

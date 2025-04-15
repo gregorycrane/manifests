@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_197",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_197/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0028",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0028/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/60394",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_197/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view from SW, Eleusis, Greater Propylon, Lesser Propylon, Stoa of the Great Forecourt, Telesterion",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/60396",
+          "id": "http://example.org/iiif/20722",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60395",
+              "id": "http://example.org/iiif/20721",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60394"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_197/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60397",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_197/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Eleusis, Stoa of the Great Forecourt",
+          "copyright C. H. Smith 1989, based on Travlos (artist), in L.D. Loukopoulos 1973 overleaf"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/60399",
+          "id": "http://example.org/iiif/20724",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60398",
+              "id": "http://example.org/iiif/20723",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60397"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_197/p2"
             }
           ]
         }

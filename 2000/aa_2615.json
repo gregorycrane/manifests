@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2615",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2615/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0196",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0196/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/18616",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2615/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Image from Svoronos",
+          "From Svoronos 1903-12, pl. 196"
+        ]
+      },
       "height": 574,
       "width": 398,
       "items": [
         {
-          "id": "http://example.org/iiif/18618",
+          "id": "http://example.org/iiif/12412",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18617",
+              "id": "http://example.org/iiif/12411",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18616"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2615/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/18619",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2615/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Relief from a decree honoring a man from Kroton (?); Bottom: Relief from an honorary decree(?)",
+          "From Svoronos 1903-12 pl. 197"
+        ]
+      },
       "height": 577,
       "width": 419,
       "items": [
         {
-          "id": "http://example.org/iiif/18621",
+          "id": "http://example.org/iiif/12414",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/18620",
+              "id": "http://example.org/iiif/12413",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/18619"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2615/p2"
             }
           ]
         }

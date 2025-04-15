@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2762",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2762/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0075",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0075/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19102",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2762/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Votive relief from Gytheion showing Demeter, Kerberos, Kore, Agathokleia, (So)sikrates (?), and Nike (?); Bottom: Heroized Youth on a Relief from Loukou showing youth in a frontal pose, wearing a chlamys, in a garden, with his horse, surrounded by a snake, a tree, and a slave boy",
+          "From Svoronos 1903-12, pl. 75"
+        ]
+      },
       "height": 547,
       "width": 396,
       "items": [
         {
-          "id": "http://example.org/iiif/19104",
+          "id": "http://example.org/iiif/12736",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19103",
+              "id": "http://example.org/iiif/12735",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19102"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2762/p1"
             }
           ]
         }

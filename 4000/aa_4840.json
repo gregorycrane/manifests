@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4840",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4840/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0376",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0376/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11584",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4840/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main panel",
+          "Photograph courtesy of the Nelson-Atkins Museum of Art, Kansas City, Missouri."
+        ]
+      },
       "height": 366,
       "width": 218,
       "items": [
         {
-          "id": "http://example.org/iiif/11586",
+          "id": "http://example.org/iiif/2040",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11585",
+              "id": "http://example.org/iiif/2039",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11584"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4840/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1096",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1096/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0325",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0325/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69184",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1096/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Caligula",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69186",
+          "id": "http://example.org/iiif/26582",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69185",
+              "id": "http://example.org/iiif/26581",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69184"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1096/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69187",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1096/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Agrippina, Drusilla, and Jlia as Securitas, Concordia, and Fortuna, respectively",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69189",
+          "id": "http://example.org/iiif/26584",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69188",
+              "id": "http://example.org/iiif/26583",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69187"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1096/p2"
             }
           ]
         }

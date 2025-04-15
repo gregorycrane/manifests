@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_224",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_224/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0029",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0029/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61060",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_224/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view of site, from N, Epidauros, Abaton (Dormitory), Anakeion, Fountainhouse, Gymnasium, Katagogeion, Northeast Stoa, Propylon, Temple of Aphrodite (Temple L), Temple of Apollo, Temple of Artemis, Theater, Tholos",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
       "height": 351,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/61062",
+          "id": "http://example.org/iiif/21166",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61061",
+              "id": "http://example.org/iiif/21165",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61060"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_224/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61063",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_224/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Epidauros, Temple of Apollo",
+          "copyright C. H. Smith 1989, based on Inscriptiones Graecae IV 1 plate 3, in N.D. Papachadzi 1976 214 fig. 243"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61065",
+          "id": "http://example.org/iiif/21168",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61064",
+              "id": "http://example.org/iiif/21167",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61063"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_224/p2"
             }
           ]
         }

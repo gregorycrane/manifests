@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1622",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1622/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0515",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0515/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72823",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1622/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Domitia or Ceres",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72825",
+          "id": "http://example.org/iiif/29008",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72824",
+              "id": "http://example.org/iiif/29007",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72823"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1622/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72826",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1622/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Basket filled with corn",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72828",
+          "id": "http://example.org/iiif/29010",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72827",
+              "id": "http://example.org/iiif/29009",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72826"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1622/p2"
             }
           ]
         }

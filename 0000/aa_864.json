@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_864",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_864/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0195",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0195/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/76198",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_864/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Quadriga to the right; above, Nike flying to the left to crown the charioteer; in exergue, ketos, profile to the right. Border of dots.",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 381,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76200",
+          "id": "http://example.org/iiif/31258",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76199",
+              "id": "http://example.org/iiif/31257",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76198"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_864/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/76201",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_864/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Head of Arethusa, profile to the right (copied from Damareteion); around, four dolphins",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 408,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/76203",
+          "id": "http://example.org/iiif/31260",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/76202",
+              "id": "http://example.org/iiif/31259",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/76201"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_864/p2"
             }
           ]
         }

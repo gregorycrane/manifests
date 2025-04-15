@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0549",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0549/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/26311",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle oblique right rear",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 373,
       "width": 342,
       "items": [
         {
-          "id": "http://example.org/iiif/26313",
+          "id": "http://example.org/iiif/5234",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26312",
+              "id": "http://example.org/iiif/5233",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26311"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26314",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: youth with castanets",
+          "From Caskey & Beazley, plate VIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 398,
       "width": 450,
       "items": [
         {
-          "id": "http://example.org/iiif/26316",
+          "id": "http://example.org/iiif/5236",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26315",
+              "id": "http://example.org/iiif/5235",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26314"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/26317",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: girl with flute",
+          "From Caskey & Beazley, plate VIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 397,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/26319",
+          "id": "http://example.org/iiif/5238",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/26318",
+              "id": "http://example.org/iiif/5237",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/26317"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p3"
             }
           ]
         }

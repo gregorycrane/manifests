@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_758",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_758/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0658",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0658/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75562",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_758/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Baaltars seated to the left, holding a scepter; in left field, an ear of grain, a bunch of grapes, and an unrecognizable object",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 413,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75564",
+          "id": "http://example.org/iiif/30834",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75563",
+              "id": "http://example.org/iiif/30833",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75562"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_758/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75565",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_758/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Lion, profile to the left, attacking a bull; below, two rows of walls with towers and battlements",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75567",
+          "id": "http://example.org/iiif/30836",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75566",
+              "id": "http://example.org/iiif/30835",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75565"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_758/p2"
             }
           ]
         }

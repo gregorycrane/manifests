@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_24",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_24/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0015a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0015a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/61198",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_24/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Assos, Bouleuterion",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on J. Clarke and F. Bacon, Investigations at Assos, Archeological Institute of America, Boston 1902-1921 fig. 4, in A.W. Lawrence 1983 346 fig. 337; and also based on Coulton (artist) based on A.W. Lawrence, Greek Architecture 1973 fig. 151, in J.J. Coulton 1976 219 fig.52"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/61200",
+          "id": "http://example.org/iiif/21258",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61199",
+              "id": "http://example.org/iiif/21257",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61198"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_24/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61201",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_24/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Central column and NE interior corner, from SW, Assos, Bouleuterion",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 345,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/61203",
+          "id": "http://example.org/iiif/21260",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61202",
+              "id": "http://example.org/iiif/21259",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61201"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_24/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61204",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_24/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View from bouleuterion toward W and the agora, Assos",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 312,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/61206",
+          "id": "http://example.org/iiif/21262",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61205",
+              "id": "http://example.org/iiif/21261",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61204"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_24/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/61207",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_24/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "East wall of building with butterfly clamp cuttings and rare use of marble blocks; steps along outside of wall, from S, Assos, Bouleuterion",
+          "Photograph by Don Keller"
+        ]
+      },
       "height": 350,
       "width": 235,
       "items": [
         {
-          "id": "http://example.org/iiif/61209",
+          "id": "http://example.org/iiif/21264",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/61208",
+              "id": "http://example.org/iiif/21263",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/61207"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_24/p4"
             }
           ]
         }

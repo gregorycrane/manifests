@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.5062",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.5062/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25222",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/25224",
+          "id": "http://example.org/iiif/3566",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25223",
+              "id": "http://example.org/iiif/3565",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25222"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25225",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table: view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/25227",
+          "id": "http://example.org/iiif/3568",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25226",
+              "id": "http://example.org/iiif/3567",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25225"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25228",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of head and chest of chimaera (left support): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25230",
+          "id": "http://example.org/iiif/3570",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25229",
+              "id": "http://example.org/iiif/3569",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25228"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25231",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of leg of chimaera (left support): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25233",
+          "id": "http://example.org/iiif/3572",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25232",
+              "id": "http://example.org/iiif/3571",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25231"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25234",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of head and chest of chimaera (right support): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25236",
+          "id": "http://example.org/iiif/3574",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25235",
+              "id": "http://example.org/iiif/3573",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25234"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25237",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of leg of chimaera (right support): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25239",
+          "id": "http://example.org/iiif/3576",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25238",
+              "id": "http://example.org/iiif/3575",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25237"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25240",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of chimaera (right support): three-quarter view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25242",
+          "id": "http://example.org/iiif/3578",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25241",
+              "id": "http://example.org/iiif/3577",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25240"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25243",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of chimaera (left support): three-quarter view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25245",
+          "id": "http://example.org/iiif/3580",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25244",
+              "id": "http://example.org/iiif/3579",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25243"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25246",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table: right profile view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25248",
+          "id": "http://example.org/iiif/3582",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25247",
+              "id": "http://example.org/iiif/3581",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25246"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25249",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of fighting goats on exterior of support: right profile view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/25251",
+          "id": "http://example.org/iiif/3584",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25250",
+              "id": "http://example.org/iiif/3583",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25249"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25252",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of chimaera (support): three-quarter view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25254",
+          "id": "http://example.org/iiif/3586",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25253",
+              "id": "http://example.org/iiif/3585",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25252"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25255",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Marble table, detail of foliage relief on interior of support: oblique view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25257",
+          "id": "http://example.org/iiif/3588",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25256",
+              "id": "http://example.org/iiif/3587",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,7 +502,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25255"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3391/p12"
             }
           ]
         }

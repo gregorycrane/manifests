@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5635",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5635/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0384",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0384/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29422",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5635/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kerch lekanis lid: Drawing of the main scene (part 1), showing wedding preparations",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 68"
+        ]
+      },
       "height": 360,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29424",
+          "id": "http://example.org/iiif/824",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29423",
+              "id": "http://example.org/iiif/823",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29422"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5635/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29425",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5635/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kerch lekanis lid: Drawing of the main scene (part 2), showing wedding preparations",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 68"
+        ]
+      },
       "height": 328,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29427",
+          "id": "http://example.org/iiif/826",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29426",
+              "id": "http://example.org/iiif/825",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29425"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5635/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29428",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5635/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kerch lekanis: Profile drawing of the vase and its lid which bears the figural decoration",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 68"
+        ]
+      },
       "height": 298,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29430",
+          "id": "http://example.org/iiif/828",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29429",
+              "id": "http://example.org/iiif/827",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29428"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5635/p3"
             }
           ]
         }

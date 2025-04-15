@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2761",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2761/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0074",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0074/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19099",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2761/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Votive relief of Telephanes showing Hermes and three nymphs, behind a low rounded altar; Bottom: Votive relief to the Seasons showing three female figures dance toward Pan",
+          "From Svoronos 1903-12, pl. 74"
+        ]
+      },
       "height": 587,
       "width": 378,
       "items": [
         {
-          "id": "http://example.org/iiif/19101",
+          "id": "http://example.org/iiif/12734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19100",
+              "id": "http://example.org/iiif/12733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19099"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2761/p1"
             }
           ]
         }

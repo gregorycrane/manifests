@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4804",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4804/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0323",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0323/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11275",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4804/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Athena and Erichthonios",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2506,
       "width": 2940,
       "items": [
         {
-          "id": "http://example.org/iiif/11277",
+          "id": "http://example.org/iiif/1834",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11276",
+              "id": "http://example.org/iiif/1833",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11275"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4804/p1"
             }
           ]
         }

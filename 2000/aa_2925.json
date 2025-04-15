@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2925",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2925/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0109",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0109/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20404",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2925/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Ephebe stele from A.D. 105/6 showing four ephebes on either side of a draped man; Lower left: Relief from an honorary decree with a representation of Boule and perhaps Demos with honorand; Lower right: Document relief showing worshippers and hero.",
+          "From Svoronos 1903-12, pl. 109"
+        ]
+      },
       "height": 557,
       "width": 393,
       "items": [
         {
-          "id": "http://example.org/iiif/20406",
+          "id": "http://example.org/iiif/354",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20405",
+              "id": "http://example.org/iiif/353",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20404"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2925/p1"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2779",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2779/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0080",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0080/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19153",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2779/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top and Bottom: Three sides of square altar with relief depictions of Eleusinian and Asiatic divinities",
+          "From Svoronos 1903-12, pl. 80"
+        ]
+      },
       "height": 396,
       "width": 596,
       "items": [
         {
-          "id": "http://example.org/iiif/19155",
+          "id": "http://example.org/iiif/12770",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19154",
+              "id": "http://example.org/iiif/12769",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19153"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2779/p1"
             }
           ]
         }

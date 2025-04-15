@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3398",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3398/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -10,17 +10,23 @@
   "metadata": [],
   "items": [
     {
-      "id": "http://example.org/iiif/25375",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3398/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side view, from the left, of a statuette of a man sacrificing a piglet",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 429,
       "width": 337,
       "items": [
         {
-          "id": "http://example.org/iiif/25377",
+          "id": "http://example.org/iiif/3668",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25376",
+              "id": "http://example.org/iiif/3667",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -37,7 +43,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25375"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3398/p2"
             }
           ]
         }

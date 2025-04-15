@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.5035",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.5035/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/25312",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Group of four Double-headed Herms, sides A: view from slightly right of center",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25314",
+          "id": "http://example.org/iiif/3626",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25313",
+              "id": "http://example.org/iiif/3625",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25312"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25315",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Group of Four Double-headed Herms, sides B: frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25317",
+          "id": "http://example.org/iiif/3628",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25316",
+              "id": "http://example.org/iiif/3627",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25315"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25318",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Group of Four Double-headed Herms, sides A: view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25320",
+          "id": "http://example.org/iiif/3630",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25319",
+              "id": "http://example.org/iiif/3629",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25318"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25321",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Double-headed Herm, detail of head of a Silenos (side A): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25323",
+          "id": "http://example.org/iiif/3632",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25322",
+              "id": "http://example.org/iiif/3631",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25321"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25324",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Double-headed Herm, detail of head of a Silenos (side A): view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25326",
+          "id": "http://example.org/iiif/3634",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25325",
+              "id": "http://example.org/iiif/3633",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25324"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25327",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Double-headed Herm, detail of head of a Maenad (side B): view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25329",
+          "id": "http://example.org/iiif/3636",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25328",
+              "id": "http://example.org/iiif/3635",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25327"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25330",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Double-headed Herm, detail of head of a Maenad (side B): frontal view",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25332",
+          "id": "http://example.org/iiif/3638",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25331",
+              "id": "http://example.org/iiif/3637",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25330"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25333",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Double-headed Herm, detail of head of a Maenad (side B): view from right",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25335",
+          "id": "http://example.org/iiif/3640",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25334",
+              "id": "http://example.org/iiif/3639",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25333"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/25336",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Double-headed Herm, detail of head of a Silenos (side A): view from left",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/25338",
+          "id": "http://example.org/iiif/3642",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/25337",
+              "id": "http://example.org/iiif/3641",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,7 +382,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/25336"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3394/p9"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5386",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5386/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0476",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0476/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/24916",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 418,
       "width": 261,
       "items": [
         {
-          "id": "http://example.org/iiif/24918",
+          "id": "http://example.org/iiif/4304",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24917",
+              "id": "http://example.org/iiif/4303",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24916"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24919",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: scene at center",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 351,
       "width": 224,
       "items": [
         {
-          "id": "http://example.org/iiif/24921",
+          "id": "http://example.org/iiif/4306",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24920",
+              "id": "http://example.org/iiif/4305",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24919"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24922",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: satyr",
+          "From Caskey & Beazley, plate LXXXII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 420,
       "width": 301,
       "items": [
         {
-          "id": "http://example.org/iiif/24924",
+          "id": "http://example.org/iiif/4308",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24923",
+              "id": "http://example.org/iiif/4307",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24922"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/24925",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: satyr with his son",
+          "From Caskey & Beazley, plate LXXXII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
       "height": 417,
       "width": 221,
       "items": [
         {
-          "id": "http://example.org/iiif/24927",
+          "id": "http://example.org/iiif/4310",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/24926",
+              "id": "http://example.org/iiif/4309",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/24925"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5386/p4"
             }
           ]
         }

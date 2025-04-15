@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_198",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0225",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0225/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/60400",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view from SE, Eleusis, Telesterion",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 705,
       "width": 1080,
       "items": [
         {
-          "id": "http://example.org/iiif/60402",
+          "id": "http://example.org/iiif/20726",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60401",
+              "id": "http://example.org/iiif/20725",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60400"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60403",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "East half of Telesterion from SE, Eleusis, Telesterion",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 705,
       "width": 1074,
       "items": [
         {
-          "id": "http://example.org/iiif/60405",
+          "id": "http://example.org/iiif/20728",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60404",
+              "id": "http://example.org/iiif/20727",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60403"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60406",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West half of Telesterion from SE, Eleusis, Telesterion",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 709,
       "width": 1069,
       "items": [
         {
-          "id": "http://example.org/iiif/60408",
+          "id": "http://example.org/iiif/20730",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60407",
+              "id": "http://example.org/iiif/20729",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60406"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60409",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Rock-cut steps at north of Telesterion, Eleusis",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60411",
+          "id": "http://example.org/iiif/20732",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60410",
+              "id": "http://example.org/iiif/20731",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60409"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60412",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "North corner of the Telesterion, Eleusis",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60414",
+          "id": "http://example.org/iiif/20734",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60413",
+              "id": "http://example.org/iiif/20733",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60412"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60415",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View across Telesterion, Eleusis",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60417",
+          "id": "http://example.org/iiif/20736",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60416",
+              "id": "http://example.org/iiif/20735",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60415"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60418",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of back wall from NE, Eleusis, Telesterion",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60420",
+          "id": "http://example.org/iiif/20738",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60419",
+              "id": "http://example.org/iiif/20737",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60418"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60421",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Close view of back wall from NE, Eleusis, Telesterion",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60423",
+          "id": "http://example.org/iiif/20740",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60422",
+              "id": "http://example.org/iiif/20739",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60421"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60424",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West corner interior, Eleusis, Telesterion",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60426",
+          "id": "http://example.org/iiif/20742",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60425",
+              "id": "http://example.org/iiif/20741",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60424"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60427",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Entrance from Sacred Way viewed from NE, Eleusis, Telesterion",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60429",
+          "id": "http://example.org/iiif/20744",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60428",
+              "id": "http://example.org/iiif/20743",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60427"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60430",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View from N, Eleusis, Telesterion",
+          "Photograph courtesy of Frederick Hemans"
+        ]
+      },
       "height": 225,
       "width": 308,
       "items": [
         {
-          "id": "http://example.org/iiif/60432",
+          "id": "http://example.org/iiif/20746",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60431",
+              "id": "http://example.org/iiif/20745",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60430"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60433",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view from SW, Eleusis, Greater Propylon, Lesser Propylon, Stoa of the Great Forecourt, Telesterion",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/60435",
+          "id": "http://example.org/iiif/20748",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60434",
+              "id": "http://example.org/iiif/20747",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60433"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60436",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan of Kimonian phase (479-461 B.C.), Eleusis, Telesterion",
+          "copyright C. H. Smith 1989 Telesterion phase J. Travlos, The Palace at Eleusis, ArchEph 1950-51 fig. 10, in A.W. Lawrence1983 335 fig.328"
+        ]
+      },
       "height": 380,
       "width": 401,
       "items": [
         {
-          "id": "http://example.org/iiif/60438",
+          "id": "http://example.org/iiif/20750",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60437",
+              "id": "http://example.org/iiif/20749",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60436"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60439",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan,Eleusis, Telesterion",
+          "copyright C. H. Smith 1989 Telesterion phase based on J. Travlos, The Palace at Eleusis, ArchEph 1950-51 fig. 10, in A.W. Lawrence1983 335 fig.328"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/60441",
+          "id": "http://example.org/iiif/20752",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60440",
+              "id": "http://example.org/iiif/20751",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60439"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/60442",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_198/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan of Pisistratid phase (c. 550-510 B.C.), Eleusis, Telesterion",
+          "copyright C. H. Smith 1989 Telesterion phase based on J. Travlos, The Palace at Eleusis, ArchEph 1950-51 fig. 10, in A.W. Lawrence1983 335 fig.328"
+        ]
+      },
       "height": 379,
       "width": 432,
       "items": [
         {
-          "id": "http://example.org/iiif/60444",
+          "id": "http://example.org/iiif/20754",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/60443",
+              "id": "http://example.org/iiif/20753",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,7 +622,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/60442"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_198/p15"
             }
           ]
         }

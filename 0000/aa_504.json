@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_504",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_504/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0903",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0903/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74017",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_504/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of the nymph Larissa, profile to the left",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 407,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74019",
+          "id": "http://example.org/iiif/29804",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74018",
+              "id": "http://example.org/iiif/29803",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74017"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_504/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74020",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_504/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Horse prancing to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 389,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74022",
+          "id": "http://example.org/iiif/29806",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74021",
+              "id": "http://example.org/iiif/29805",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74020"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_504/p2"
             }
           ]
         }

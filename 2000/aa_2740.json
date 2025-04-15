@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2740",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2740/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0070",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0070/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19036",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2740/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Left half of a votive relief from Loukou with 17 worshippers; Top middle: Votive relief of seven worshippers; Top right: Votive relief of Herakleides showing rising snake facing left; Bottom left: Votive of Aristarche showing Zeus Meilichios and three worshippers; Bottom right: Votive of King Cutius showing two ears",
+          "From Svoronos 1903-12, pl. 70"
+        ]
+      },
       "height": 446,
       "width": 571,
       "items": [
         {
-          "id": "http://example.org/iiif/19038",
+          "id": "http://example.org/iiif/12692",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19037",
+              "id": "http://example.org/iiif/12691",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19036"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2740/p1"
             }
           ]
         }

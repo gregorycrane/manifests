@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_649",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_649/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0139",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0139/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74905",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_649/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bearded sea god with fishtail, profile to the right, holding a thunderbolt; at right, a grasshopper",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 388,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74907",
+          "id": "http://example.org/iiif/30396",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74906",
+              "id": "http://example.org/iiif/30395",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74905"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_649/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74908",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_649/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Star within laurel wreath",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 390,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74910",
+          "id": "http://example.org/iiif/30398",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74909",
+              "id": "http://example.org/iiif/30397",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74908"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_649/p2"
             }
           ]
         }

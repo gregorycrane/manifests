@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5228",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5228/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0187",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0187/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19984",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5228/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Herakles and Nereus",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3540,
       "width": 2350,
       "items": [
         {
-          "id": "http://example.org/iiif/19986",
+          "id": "http://example.org/iiif/1016",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19985",
+              "id": "http://example.org/iiif/1015",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19984"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5228/p1"
             }
           ]
         }

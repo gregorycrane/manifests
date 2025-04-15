@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_687",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_687/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0500",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0500/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75133",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_687/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Aktaion with small horns, profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 405,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75135",
+          "id": "http://example.org/iiif/30548",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75134",
+              "id": "http://example.org/iiif/30547",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75133"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_687/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75136",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_687/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Gorgoneion in incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 360,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75138",
+          "id": "http://example.org/iiif/30550",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75137",
+              "id": "http://example.org/iiif/30549",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75136"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_687/p2"
             }
           ]
         }

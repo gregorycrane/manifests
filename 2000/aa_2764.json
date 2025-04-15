@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2764",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2764/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0102",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0102/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19108",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2764/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Dioskouroi Relief from Kythera showing the Dioskouroi, each wearing a belted exomis and a chlamys, and holding a spear in his upraised right hand; Middle and Bottom: Architectural relief with a procession of winged boys, probably Erotes, shown in profile to the left, carrying thymiateria and oinochoes.",
+          "From Svoronos 1903-12, pl. 102"
+        ]
+      },
       "height": 551,
       "width": 406,
       "items": [
         {
-          "id": "http://example.org/iiif/19110",
+          "id": "http://example.org/iiif/12740",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19109",
+              "id": "http://example.org/iiif/12739",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19108"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2764/p1"
             }
           ]
         }

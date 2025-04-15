@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4710",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4710/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0408",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0408/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/8929",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4710/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle left",
+          "Photograph courtesy of the Joslyn Art Museum, Omaha, Nebraska. Memorial Purchase Fund."
+        ]
+      },
       "height": 396,
       "width": 289,
       "items": [
         {
-          "id": "http://example.org/iiif/8931",
+          "id": "http://example.org/iiif/270",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/8930",
+              "id": "http://example.org/iiif/269",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/8929"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4710/p1"
             }
           ]
         }

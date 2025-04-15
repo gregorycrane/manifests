@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3239",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3239/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0115",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0115/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20629",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3239/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Nemean relief depicting comic actors (?); Middle: Relief with musicians (?); Bottom: Base for victory (?) relief depicting four-horse chariot with charioteer (perhaps Nike?) and tripod at left.",
+          "From Svoronos 1903-12, pl. 115"
+        ]
+      },
       "height": 549,
       "width": 417,
       "items": [
         {
-          "id": "http://example.org/iiif/20631",
+          "id": "http://example.org/iiif/504",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20630",
+              "id": "http://example.org/iiif/503",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20629"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3239/p1"
             }
           ]
         }

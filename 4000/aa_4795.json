@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4795",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4795/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0260",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0260/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11167",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: the ambush of Dolon",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2670,
       "width": 2398,
       "items": [
         {
-          "id": "http://example.org/iiif/11169",
+          "id": "http://example.org/iiif/1762",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11168",
+              "id": "http://example.org/iiif/1761",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11167"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11170",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Diomedes, Dolon, and Odysseus",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2512,
       "width": 3666,
       "items": [
         {
-          "id": "http://example.org/iiif/11172",
+          "id": "http://example.org/iiif/1764",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11171",
+              "id": "http://example.org/iiif/1763",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11170"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11173",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Dolon Painter: Overview of the vase, side B, showing a nude youth, a draped woman, and a draped youth",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 110"
+        ]
+      },
       "height": 476,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/11175",
+          "id": "http://example.org/iiif/1766",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11174",
+              "id": "http://example.org/iiif/1765",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11173"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11176",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Dolon Painter: Drawing of side B, showing the ambush of Dolon by Odysseus (left) and Diomedes (right)",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 110"
+        ]
+      },
       "height": 345,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/11178",
+          "id": "http://example.org/iiif/1768",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11177",
+              "id": "http://example.org/iiif/1767",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11176"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4795/p4"
             }
           ]
         }

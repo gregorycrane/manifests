@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0613",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0613/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30421",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Drawing of the figural scene, side B (left), showing Eos pursuing Kephalos, accompanied by a dog, and preceded by the veiled figure of Selene, and side A, showing Helios riding a quadriga of four winged horses, among diving and swimming youths. Below, an overview of the vase, side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
       "height": 376,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30423",
+          "id": "http://example.org/iiif/1490",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30422",
+              "id": "http://example.org/iiif/1489",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30421"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30424",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Drawing of side B, showing Eos pursuing Kephalos, accompanied by a dog, and preceded by the veiled figure of Selene",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
       "height": 391,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30426",
+          "id": "http://example.org/iiif/1492",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30425",
+              "id": "http://example.org/iiif/1491",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30424"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30427",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Drawing of side A, showing Helios riding a quadriga of four winged horses, among diving and swimming youths",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
       "height": 405,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30429",
+          "id": "http://example.org/iiif/1494",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30428",
+              "id": "http://example.org/iiif/1493",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30427"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30430",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Overview of the vase, side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
       "height": 458,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30432",
+          "id": "http://example.org/iiif/1496",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30431",
+              "id": "http://example.org/iiif/1495",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30430"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p4"
             }
           ]
         }

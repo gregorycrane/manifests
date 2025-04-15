@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1371",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1371/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1105",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1105/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71116",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1371/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Radiate bust of Gordianus III",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71118",
+          "id": "http://example.org/iiif/27870",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71117",
+              "id": "http://example.org/iiif/27869",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71116"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1371/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71119",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1371/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Felicitas standing, awith cornucopia and caduceus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71121",
+          "id": "http://example.org/iiif/27872",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71120",
+              "id": "http://example.org/iiif/27871",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71119"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1371/p2"
             }
           ]
         }

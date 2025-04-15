@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1462",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1462/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1287",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1287/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71656",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1462/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Bust of Trajan",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71658",
+          "id": "http://example.org/iiif/28230",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71657",
+              "id": "http://example.org/iiif/28229",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71656"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1462/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71659",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1462/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Bacchus reclining in a cart pulled by two panthers, attended by a silen and a double-flute player, among other companions",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71661",
+          "id": "http://example.org/iiif/28232",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71660",
+              "id": "http://example.org/iiif/28231",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71659"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1462/p2"
             }
           ]
         }

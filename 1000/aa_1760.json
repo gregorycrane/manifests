@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1760",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1760/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0002",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0002/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30955",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1760/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "A lioness standing on a bull",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30957",
+          "id": "http://example.org/iiif/1096",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30956",
+              "id": "http://example.org/iiif/1095",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30955"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1760/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30958",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1760/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a lioness standing on a bull",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30960",
+          "id": "http://example.org/iiif/1098",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30959",
+              "id": "http://example.org/iiif/1097",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30958"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1760/p2"
             }
           ]
         }

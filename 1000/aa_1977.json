@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1977",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1977/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0071",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0071/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3709",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1977/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Trapeza for grave memorial",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3019,
       "width": 2543,
       "items": [
         {
-          "id": "http://example.org/iiif/3711",
+          "id": "http://example.org/iiif/2474",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3710",
+              "id": "http://example.org/iiif/2473",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3709"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1977/p1"
             }
           ]
         }

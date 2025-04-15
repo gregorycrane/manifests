@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5694",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5694/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0430",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0430/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/30319",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Paestan askos: Overview of the vase, side A, showing a draped, dancing woman, a dancing phlyax, and a satyr with torch and tambourine",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 80"
+        ]
+      },
       "height": 895,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30321",
+          "id": "http://example.org/iiif/1422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30320",
+              "id": "http://example.org/iiif/1421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30319"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30322",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Paestan askos: Rolled out drawing of the figural scene, showing a satyr with a tambourine and torch, a hare, a veiled woman with a wreath, a Phlyax actor, a young satyr with a tambourine and a torch, a nude woman, a woman with a tambourine, a hound, a satyr with a torch and a branch, and another woman with a tambourine",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 80"
+        ]
+      },
       "height": 169,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30324",
+          "id": "http://example.org/iiif/1424",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30323",
+              "id": "http://example.org/iiif/1423",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30322"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30325",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Paestan askos:  Drawing of the figural scene (left), showing a satyr with a tambourine and torch, a hare, a veiled woman with a wreath, a Phlyax actor, a young satyr with a tambourine and a torch, a nude woman",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 80"
+        ]
+      },
       "height": 262,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30327",
+          "id": "http://example.org/iiif/1426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30326",
+              "id": "http://example.org/iiif/1425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30325"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/30328",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Paestan askos: Drawing of the figural scene (right), showing a young satyr with a tambourine and a torch, a nude woman, a woman with a tambourine, a hound, a satyr with a torch and a branch, and another woman with a tambourine",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 80"
+        ]
+      },
       "height": 285,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/30330",
+          "id": "http://example.org/iiif/1428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/30329",
+              "id": "http://example.org/iiif/1427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/30328"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5694/p4"
             }
           ]
         }

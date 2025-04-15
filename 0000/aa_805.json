@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_805",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_805/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0709",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0709/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75844",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_805/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Athena, profile to the right, wearing a wreathed Attic helmet",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 394,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75846",
+          "id": "http://example.org/iiif/31022",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75845",
+              "id": "http://example.org/iiif/31021",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75844"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_805/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75847",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_805/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Bull, profile to the right, head reverted",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75849",
+          "id": "http://example.org/iiif/31024",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75848",
+              "id": "http://example.org/iiif/31023",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75847"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_805/p2"
             }
           ]
         }

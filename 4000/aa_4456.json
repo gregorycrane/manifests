@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0370",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0370/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5431",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: side B, view from below",
+          "Photograph courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 309,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/5433",
+          "id": "http://example.org/iiif/872",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5432",
+              "id": "http://example.org/iiif/871",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5431"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5434",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: side A, view from below",
+          "Photograph courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 308,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/5436",
+          "id": "http://example.org/iiif/874",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5435",
+              "id": "http://example.org/iiif/873",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5434"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5437",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: view from above",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 437,
       "items": [
         {
-          "id": "http://example.org/iiif/5439",
+          "id": "http://example.org/iiif/876",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5438",
+              "id": "http://example.org/iiif/875",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5437"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5440",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: boxer and trainer",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 352,
       "width": 513,
       "items": [
         {
-          "id": "http://example.org/iiif/5442",
+          "id": "http://example.org/iiif/878",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5441",
+              "id": "http://example.org/iiif/877",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5440"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5443",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: trainer, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 345,
       "width": 524,
       "items": [
         {
-          "id": "http://example.org/iiif/5445",
+          "id": "http://example.org/iiif/880",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5444",
+              "id": "http://example.org/iiif/879",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5443"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5446",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: trainer, lower half, and boxer",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 355,
       "width": 537,
       "items": [
         {
-          "id": "http://example.org/iiif/5448",
+          "id": "http://example.org/iiif/882",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5447",
+              "id": "http://example.org/iiif/881",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5446"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5449",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: boxer",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 235,
       "items": [
         {
-          "id": "http://example.org/iiif/5451",
+          "id": "http://example.org/iiif/884",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5450",
+              "id": "http://example.org/iiif/883",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5449"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5452",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: boxer, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 530,
       "items": [
         {
-          "id": "http://example.org/iiif/5454",
+          "id": "http://example.org/iiif/886",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5453",
+              "id": "http://example.org/iiif/885",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5452"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5455",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: view from below",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 346,
       "width": 435,
       "items": [
         {
-          "id": "http://example.org/iiif/5457",
+          "id": "http://example.org/iiif/888",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5456",
+              "id": "http://example.org/iiif/887",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5455"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5458",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxers",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/5460",
+          "id": "http://example.org/iiif/890",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5459",
+              "id": "http://example.org/iiif/889",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5458"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5461",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: trainer on left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 386,
       "width": 273,
       "items": [
         {
-          "id": "http://example.org/iiif/5463",
+          "id": "http://example.org/iiif/892",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5462",
+              "id": "http://example.org/iiif/891",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5461"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5464",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: trainer, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 351,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/5466",
+          "id": "http://example.org/iiif/894",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5465",
+              "id": "http://example.org/iiif/893",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5464"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5467",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on center left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 382,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/5469",
+          "id": "http://example.org/iiif/896",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5468",
+              "id": "http://example.org/iiif/895",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5467"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5470",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p14",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on center left, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 350,
       "width": 514,
       "items": [
         {
-          "id": "http://example.org/iiif/5472",
+          "id": "http://example.org/iiif/898",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5471",
+              "id": "http://example.org/iiif/897",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5470"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5473",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on near left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 410,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/5475",
+          "id": "http://example.org/iiif/900",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5474",
+              "id": "http://example.org/iiif/899",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5473"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5476",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on near left, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/5478",
+          "id": "http://example.org/iiif/902",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5477",
+              "id": "http://example.org/iiif/901",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5476"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5479",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: trainer on right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 389,
       "width": 280,
       "items": [
         {
-          "id": "http://example.org/iiif/5481",
+          "id": "http://example.org/iiif/904",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5480",
+              "id": "http://example.org/iiif/903",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,24 +702,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5479"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5482",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: trainer on right, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 348,
       "width": 531,
       "items": [
         {
-          "id": "http://example.org/iiif/5484",
+          "id": "http://example.org/iiif/906",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5483",
+              "id": "http://example.org/iiif/905",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -634,24 +742,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5482"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5485",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on near right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 412,
       "width": 283,
       "items": [
         {
-          "id": "http://example.org/iiif/5487",
+          "id": "http://example.org/iiif/908",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5486",
+              "id": "http://example.org/iiif/907",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -668,24 +782,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5485"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5488",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on near right, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 347,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/5490",
+          "id": "http://example.org/iiif/910",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5489",
+              "id": "http://example.org/iiif/909",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -702,24 +822,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5488"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5491",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on far right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 408,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/5493",
+          "id": "http://example.org/iiif/912",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5492",
+              "id": "http://example.org/iiif/911",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -736,24 +862,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5491"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5494",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: boxer on far right, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 339,
       "width": 535,
       "items": [
         {
-          "id": "http://example.org/iiif/5496",
+          "id": "http://example.org/iiif/914",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5495",
+              "id": "http://example.org/iiif/913",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -770,24 +902,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5494"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5497",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin throwers",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 517,
       "items": [
         {
-          "id": "http://example.org/iiif/5499",
+          "id": "http://example.org/iiif/916",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5498",
+              "id": "http://example.org/iiif/915",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -804,24 +942,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5497"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5500",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: trainer on left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 362,
       "width": 284,
       "items": [
         {
-          "id": "http://example.org/iiif/5502",
+          "id": "http://example.org/iiif/918",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5501",
+              "id": "http://example.org/iiif/917",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -838,24 +982,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5500"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5503",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: trainer on left, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 352,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/5505",
+          "id": "http://example.org/iiif/920",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5504",
+              "id": "http://example.org/iiif/919",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -872,24 +1022,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5503"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p25"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5506",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p26",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower on left",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 376,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/5508",
+          "id": "http://example.org/iiif/922",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5507",
+              "id": "http://example.org/iiif/921",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -906,24 +1062,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5506"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p26"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5509",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p27",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower on left, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 352,
       "width": 525,
       "items": [
         {
-          "id": "http://example.org/iiif/5511",
+          "id": "http://example.org/iiif/924",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5510",
+              "id": "http://example.org/iiif/923",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -940,24 +1102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5509"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p27"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5512",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p28",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower in center",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 420,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/5514",
+          "id": "http://example.org/iiif/926",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5513",
+              "id": "http://example.org/iiif/925",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -974,24 +1142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5512"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p28"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5515",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p29",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower in center, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 351,
       "width": 521,
       "items": [
         {
-          "id": "http://example.org/iiif/5517",
+          "id": "http://example.org/iiif/928",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5516",
+              "id": "http://example.org/iiif/927",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1008,24 +1182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5515"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p29"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5518",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p30",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower on near right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 400,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/5520",
+          "id": "http://example.org/iiif/930",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5519",
+              "id": "http://example.org/iiif/929",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1042,24 +1222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5518"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p30"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5521",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p31",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower on near right, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 349,
       "width": 532,
       "items": [
         {
-          "id": "http://example.org/iiif/5523",
+          "id": "http://example.org/iiif/932",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5522",
+              "id": "http://example.org/iiif/931",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1076,24 +1262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5521"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p31"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5524",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p32",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower on far right",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 400,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/5526",
+          "id": "http://example.org/iiif/934",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5525",
+              "id": "http://example.org/iiif/933",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1110,24 +1302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5524"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p32"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5527",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p33",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: javelin thrower on far right, upper half",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 353,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/5529",
+          "id": "http://example.org/iiif/936",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5528",
+              "id": "http://example.org/iiif/935",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1144,24 +1342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5527"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p33"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5530",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p34",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Profile: handles at sides",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 203,
       "width": 523,
       "items": [
         {
-          "id": "http://example.org/iiif/5532",
+          "id": "http://example.org/iiif/938",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5531",
+              "id": "http://example.org/iiif/937",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1178,24 +1382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5530"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p34"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5533",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p35",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Profile: handles oblique right front and left rear",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 192,
       "width": 478,
       "items": [
         {
-          "id": "http://example.org/iiif/5535",
+          "id": "http://example.org/iiif/940",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5534",
+              "id": "http://example.org/iiif/939",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1212,24 +1422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5533"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p35"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5536",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p36",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Profile: handles front and rear",
+          "Photograph by Maria Daniels, courtesy of the Toledo Museum of Art"
+        ]
+      },
       "height": 183,
       "width": 408,
       "items": [
         {
-          "id": "http://example.org/iiif/5538",
+          "id": "http://example.org/iiif/942",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5537",
+              "id": "http://example.org/iiif/941",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1246,7 +1462,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5536"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4456/p36"
             }
           ]
         }

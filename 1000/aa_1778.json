@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1778",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1778/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0205",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0205/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31066",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1778/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing an Erotostasia: Aphrodite weighing two Erotes",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 900,
       "width": 598,
       "items": [
         {
-          "id": "http://example.org/iiif/31068",
+          "id": "http://example.org/iiif/1170",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31067",
+              "id": "http://example.org/iiif/1169",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31066"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1778/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31069",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1778/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Erotostasia: Aphrodite weighing two Erotes",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 768,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31071",
+          "id": "http://example.org/iiif/1172",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31070",
+              "id": "http://example.org/iiif/1171",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31069"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1778/p2"
             }
           ]
         }

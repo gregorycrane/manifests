@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1021",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1021/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/220",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 346,
       "items": [
         {
-          "id": "http://example.org/iiif/222",
+          "id": "http://example.org/iiif/33418",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/221",
+              "id": "http://example.org/iiif/33417",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/220"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/223",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 419,
       "width": 371,
       "items": [
         {
-          "id": "http://example.org/iiif/225",
+          "id": "http://example.org/iiif/33420",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/224",
+              "id": "http://example.org/iiif/33419",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/223"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/226",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 417,
       "width": 380,
       "items": [
         {
-          "id": "http://example.org/iiif/228",
+          "id": "http://example.org/iiif/33422",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/227",
+              "id": "http://example.org/iiif/33421",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/226"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/229",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 410,
       "width": 356,
       "items": [
         {
-          "id": "http://example.org/iiif/231",
+          "id": "http://example.org/iiif/33424",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/230",
+              "id": "http://example.org/iiif/33423",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/229"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/232",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 420,
       "width": 358,
       "items": [
         {
-          "id": "http://example.org/iiif/234",
+          "id": "http://example.org/iiif/33426",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/233",
+              "id": "http://example.org/iiif/33425",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/232"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/235",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B, from the right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 412,
       "width": 356,
       "items": [
         {
-          "id": "http://example.org/iiif/237",
+          "id": "http://example.org/iiif/33428",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/236",
+              "id": "http://example.org/iiif/33427",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/235"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/238",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p7",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the left side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 370,
       "items": [
         {
-          "id": "http://example.org/iiif/240",
+          "id": "http://example.org/iiif/33430",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/239",
+              "id": "http://example.org/iiif/33429",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/238"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/241",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p8",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 400,
       "width": 349,
       "items": [
         {
-          "id": "http://example.org/iiif/243",
+          "id": "http://example.org/iiif/33432",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/242",
+              "id": "http://example.org/iiif/33431",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/241"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/244",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p9",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, left: panther, griffin, and bull drawing a chariot",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 605,
       "items": [
         {
-          "id": "http://example.org/iiif/246",
+          "id": "http://example.org/iiif/33434",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/245",
+              "id": "http://example.org/iiif/33433",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/244"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/247",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p10",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, top left: detail of the heads of the panther, griffin, and bull drawing a chariot",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 647,
       "items": [
         {
-          "id": "http://example.org/iiif/249",
+          "id": "http://example.org/iiif/33436",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/248",
+              "id": "http://example.org/iiif/33435",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/247"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/250",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p11",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, right: Dionysos hunched over in the chariotbox, wearing a chlamys and an ivy wreath",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 435,
       "width": 282,
       "items": [
         {
-          "id": "http://example.org/iiif/252",
+          "id": "http://example.org/iiif/33438",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/251",
+              "id": "http://example.org/iiif/33437",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/250"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/253",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p12",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Detail of side A, top right: Dionysos as charioteer, wearing a chlamys and an ivy wreath",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 422,
       "width": 647,
       "items": [
         {
-          "id": "http://example.org/iiif/255",
+          "id": "http://example.org/iiif/33440",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/254",
+              "id": "http://example.org/iiif/33439",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/253"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/256",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p13",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "The figural scene on side B: three youths wearing himatia; the first and last holds strigils; the middle one, standing in a frontal pose, with his head turned profile to the right, is slightly shorter than the others",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 424,
       "width": 590,
       "items": [
         {
-          "id": "http://example.org/iiif/258",
+          "id": "http://example.org/iiif/33442",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/257",
+              "id": "http://example.org/iiif/33441",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,7 +542,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/256"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4110/p13"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.01.0126",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.01.0126/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/14218",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NY Herm of Herodotos, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 466,
       "width": 286,
       "items": [
         {
-          "id": "http://example.org/iiif/14220",
+          "id": "http://example.org/iiif/9480",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14219",
+              "id": "http://example.org/iiif/9479",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14218"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14221",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NY Herm of Herodotos, detail of head, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 504,
       "width": 338,
       "items": [
         {
-          "id": "http://example.org/iiif/14223",
+          "id": "http://example.org/iiif/9482",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14222",
+              "id": "http://example.org/iiif/9481",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14221"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14224",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NY Herm of Herodotos, view from right",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 454,
       "width": 307,
       "items": [
         {
-          "id": "http://example.org/iiif/14226",
+          "id": "http://example.org/iiif/9484",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14225",
+              "id": "http://example.org/iiif/9483",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14224"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14227",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NY Herm of Herodotos, view from left",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 451,
       "width": 302,
       "items": [
         {
-          "id": "http://example.org/iiif/14229",
+          "id": "http://example.org/iiif/9486",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14228",
+              "id": "http://example.org/iiif/9485",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14227"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/14230",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "NY Herm of Herodotos, right profile view",
+          "Photograph by Maria Daniels, courtesy of the Metropolitan Museum of Art, New York"
+        ]
+      },
       "height": 410,
       "width": 217,
       "items": [
         {
-          "id": "http://example.org/iiif/14232",
+          "id": "http://example.org/iiif/9488",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/14231",
+              "id": "http://example.org/iiif/9487",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/14230"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2327/p5"
             }
           ]
         }

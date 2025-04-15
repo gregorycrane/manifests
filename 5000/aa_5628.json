@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5628",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5628/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0316",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0316/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/29356",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris cup depicting a departure: drawing of the exterior, side A, showing the arming of the warrior",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 53"
+        ]
+      },
       "height": 339,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29358",
+          "id": "http://example.org/iiif/780",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29357",
+              "id": "http://example.org/iiif/779",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29356"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29359",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris cup depicting a departure: drawing of an inscription on the foot, \"Python\"",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 53"
+        ]
+      },
       "height": 527,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29361",
+          "id": "http://example.org/iiif/782",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29360",
+              "id": "http://example.org/iiif/781",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29359"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29362",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris cup depicting a departure: drawing of the tondo, showing the departure of the warrior from his wife, pouring a libation",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 53"
+        ]
+      },
       "height": 797,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29364",
+          "id": "http://example.org/iiif/784",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29363",
+              "id": "http://example.org/iiif/783",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29362"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/29365",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris cup depicting a departure: drawing of side B, showing the arming of the warrior",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 53"
+        ]
+      },
       "height": 352,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/29367",
+          "id": "http://example.org/iiif/786",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/29366",
+              "id": "http://example.org/iiif/785",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/29365"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5628/p4"
             }
           ]
         }

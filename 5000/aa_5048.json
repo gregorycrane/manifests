@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0585",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0585/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13192",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: oblique from above",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 407,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/13194",
+          "id": "http://example.org/iiif/3112",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13193",
+              "id": "http://example.org/iiif/3111",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13192"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13195",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Apollo and the Muse",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 374,
       "width": 278,
       "items": [
         {
-          "id": "http://example.org/iiif/13197",
+          "id": "http://example.org/iiif/3114",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13196",
+              "id": "http://example.org/iiif/3113",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13195"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13198",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: woman fleeing",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 374,
       "width": 278,
       "items": [
         {
-          "id": "http://example.org/iiif/13200",
+          "id": "http://example.org/iiif/3116",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13199",
+              "id": "http://example.org/iiif/3115",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13198"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13201",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Apollo and the Muse",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 355,
       "width": 450,
       "items": [
         {
-          "id": "http://example.org/iiif/13203",
+          "id": "http://example.org/iiif/3118",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13202",
+              "id": "http://example.org/iiif/3117",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13201"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13204",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: woman fleeing",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 360,
       "width": 240,
       "items": [
         {
-          "id": "http://example.org/iiif/13206",
+          "id": "http://example.org/iiif/3120",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13205",
+              "id": "http://example.org/iiif/3119",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13204"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5048/p5"
             }
           ]
         }

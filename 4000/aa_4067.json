@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4067",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4067/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.04.0023",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.04.0023/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/78649",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4067/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "red-figure bell-krater; side A",
+          "Photograph courtesy of The Art Museum, Princeton University"
+        ]
+      },
       "height": 2460,
       "width": 2376,
       "items": [
         {
-          "id": "http://example.org/iiif/78651",
+          "id": "http://example.org/iiif/32892",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78650",
+              "id": "http://example.org/iiif/32891",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78649"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4067/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/78652",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4067/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "red-figure bell-krater; side B",
+          "Photograph courtesy of The Art Museum, Princeton University"
+        ]
+      },
       "height": 2550,
       "width": 2394,
       "items": [
         {
-          "id": "http://example.org/iiif/78654",
+          "id": "http://example.org/iiif/32894",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/78653",
+              "id": "http://example.org/iiif/32893",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/78652"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4067/p2"
             }
           ]
         }

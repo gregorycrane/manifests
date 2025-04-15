@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0023",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0023/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/17965",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  Figure L (Athena-R) and Figure M (Poseidon-R)",
+          "Photograph courtesy of the British Museum, London"
+        ]
+      },
       "height": 1176,
       "width": 3433,
       "items": [
         {
-          "id": "http://example.org/iiif/17967",
+          "id": "http://example.org/iiif/11978",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17966",
+              "id": "http://example.org/iiif/11977",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17965"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/17968",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  Figure H (Hermes-L) and Figure L (Athena-R)",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 1863,
       "width": 2440,
       "items": [
         {
-          "id": "http://example.org/iiif/17970",
+          "id": "http://example.org/iiif/11980",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17969",
+              "id": "http://example.org/iiif/11979",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17968"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/17971",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment:  (L to R) Figures N ('Iris'), O ('Amphitrite'), and Q ('Oreithyia'), oblique view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2218,
       "width": 3096,
       "items": [
         {
-          "id": "http://example.org/iiif/17973",
+          "id": "http://example.org/iiif/11982",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17972",
+              "id": "http://example.org/iiif/11981",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17971"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/17974",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment: schematic elevation drawing (large)",
+          "copyright Perseus Project 1990, drawn by M.W. Cutler"
+        ]
+      },
       "height": 366,
       "width": 1178,
       "items": [
         {
-          "id": "http://example.org/iiif/17976",
+          "id": "http://example.org/iiif/11984",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17975",
+              "id": "http://example.org/iiif/11983",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17974"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/17977",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "West pediment: schematic elevation drawing (small)",
+          "copyright Perseus Project 1990, drawn by M.W. Cutler"
+        ]
+      },
       "height": 199,
       "width": 640,
       "items": [
         {
-          "id": "http://example.org/iiif/17979",
+          "id": "http://example.org/iiif/11986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/17978",
+              "id": "http://example.org/iiif/11985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,7 +222,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/17977"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2438/p5"
             }
           ]
         }

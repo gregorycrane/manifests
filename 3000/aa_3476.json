@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1567",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1567/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/28807",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a baker, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 490,
       "width": 266,
       "items": [
         {
-          "id": "http://example.org/iiif/28809",
+          "id": "http://example.org/iiif/5956",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28808",
+              "id": "http://example.org/iiif/5955",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28807"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28810",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a baker, view from the left side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 448,
       "width": 299,
       "items": [
         {
-          "id": "http://example.org/iiif/28812",
+          "id": "http://example.org/iiif/5958",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28811",
+              "id": "http://example.org/iiif/5957",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28810"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28813",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a baker, oblique view from above",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 406,
       "width": 211,
       "items": [
         {
-          "id": "http://example.org/iiif/28815",
+          "id": "http://example.org/iiif/5960",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28814",
+              "id": "http://example.org/iiif/5959",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28813"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p3"
             }
           ]
         }

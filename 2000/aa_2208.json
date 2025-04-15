@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2208",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2208/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0094",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0094/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11566",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief from Pharsalos, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 346,
       "width": 410,
       "items": [
         {
-          "id": "http://example.org/iiif/11568",
+          "id": "http://example.org/iiif/7712",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11567",
+              "id": "http://example.org/iiif/7711",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11566"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11569",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief from Pharsalos, detail of upper portion of relief",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 354,
       "width": 533,
       "items": [
         {
-          "id": "http://example.org/iiif/11571",
+          "id": "http://example.org/iiif/7714",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11570",
+              "id": "http://example.org/iiif/7713",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11569"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11572",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief from Pharsalos, detail of head on left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 355,
       "width": 419,
       "items": [
         {
-          "id": "http://example.org/iiif/11574",
+          "id": "http://example.org/iiif/7716",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11573",
+              "id": "http://example.org/iiif/7715",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11572"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11575",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Grave Relief from Pharsalos, detail of head on right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 350,
       "width": 502,
       "items": [
         {
-          "id": "http://example.org/iiif/11577",
+          "id": "http://example.org/iiif/7718",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11576",
+              "id": "http://example.org/iiif/7717",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11575"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2208/p4"
             }
           ]
         }

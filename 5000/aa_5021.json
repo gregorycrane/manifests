@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0050",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0050/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/12877",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: running Nike with torches",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
       "height": 403,
       "width": 247,
       "items": [
         {
-          "id": "http://example.org/iiif/12879",
+          "id": "http://example.org/iiif/2902",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12878",
+              "id": "http://example.org/iiif/2901",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12877"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/12880",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: standing youth",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
       "height": 392,
       "width": 236,
       "items": [
         {
-          "id": "http://example.org/iiif/12882",
+          "id": "http://example.org/iiif/2904",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/12881",
+              "id": "http://example.org/iiif/2903",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/12880"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p2"
             }
           ]
         }

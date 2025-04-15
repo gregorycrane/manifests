@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2264",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2264/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0390",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0390/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/13183",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Asklepius Giustini type, frontal view",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 413,
       "width": 257,
       "items": [
         {
-          "id": "http://example.org/iiif/13185",
+          "id": "http://example.org/iiif/8790",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13184",
+              "id": "http://example.org/iiif/8789",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13183"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13186",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Asklepius Giustini type, from left",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 432,
       "width": 312,
       "items": [
         {
-          "id": "http://example.org/iiif/13188",
+          "id": "http://example.org/iiif/8792",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13187",
+              "id": "http://example.org/iiif/8791",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13186"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13189",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Asklepius Giustini type, right profile",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 504,
       "width": 390,
       "items": [
         {
-          "id": "http://example.org/iiif/13191",
+          "id": "http://example.org/iiif/8794",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13190",
+              "id": "http://example.org/iiif/8793",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13189"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/13192",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Asklepius Giustini type, from right",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 430,
       "width": 257,
       "items": [
         {
-          "id": "http://example.org/iiif/13194",
+          "id": "http://example.org/iiif/8796",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/13193",
+              "id": "http://example.org/iiif/8795",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/13192"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2264/p4"
             }
           ]
         }

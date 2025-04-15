@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_439",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_439/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0071",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0071/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/73573",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_439/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: A warrior, wearing kausia and chlamys, armed with two spears, and standing beside his horse, profile to the right; border of dots",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73575",
+          "id": "http://example.org/iiif/29508",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73574",
+              "id": "http://example.org/iiif/29507",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73573"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_439/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/73576",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_439/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Legend around an incuse square within which is quadripartite linear square in low relief.",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 392,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/73578",
+          "id": "http://example.org/iiif/29510",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/73577",
+              "id": "http://example.org/iiif/29509",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/73576"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_439/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1570",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1570/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1503",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1503/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/72403",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1570/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Zeus",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72405",
+          "id": "http://example.org/iiif/28728",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72404",
+              "id": "http://example.org/iiif/28727",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72403"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1570/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/72406",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1570/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Asklepios of Pergamon, Tyche of Mytilene, and Artemis of Ephesos",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/72408",
+          "id": "http://example.org/iiif/28730",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/72407",
+              "id": "http://example.org/iiif/28729",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/72406"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1570/p2"
             }
           ]
         }

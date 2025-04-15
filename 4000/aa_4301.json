@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4301",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4301/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0425",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0425/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5299",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4301/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: apotheosis of Herakles",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3480,
       "width": 2292,
       "items": [
         {
-          "id": "http://example.org/iiif/5301",
+          "id": "http://example.org/iiif/36804",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5300",
+              "id": "http://example.org/iiif/36803",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5299"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4301/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5302",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4301/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: cavalrymen and hoplite",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3270,
       "width": 2202,
       "items": [
         {
-          "id": "http://example.org/iiif/5304",
+          "id": "http://example.org/iiif/36806",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5303",
+              "id": "http://example.org/iiif/36805",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5302"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4301/p2"
             }
           ]
         }

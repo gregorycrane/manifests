@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1318",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1318/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0999",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0999/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/70798",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1318/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Draped bust of Julia Domna",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70800",
+          "id": "http://example.org/iiif/27658",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70799",
+              "id": "http://example.org/iiif/27657",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70798"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1318/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/70801",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1318/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Venus, half-draped, shown in 3/4-back view, leaning on a column, holding a branch and a helmet",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/70803",
+          "id": "http://example.org/iiif/27660",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/70802",
+              "id": "http://example.org/iiif/27659",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/70801"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1318/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_355",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_355/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0578",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.09.0578/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/64312",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_355/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Restacked fragments of marble architectural molding, Samos, Main Altar",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 361,
       "width": 281,
       "items": [
         {
-          "id": "http://example.org/iiif/64314",
+          "id": "http://example.org/iiif/23334",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64313",
+              "id": "http://example.org/iiif/23333",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64312"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_355/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64315",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_355/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Architectural molding details of altar fragments, Samos, Main Altar",
+          "Photograph courtesy of the Department of Archaeology, Boston University, Saul S. Weinberg Collection"
+        ]
+      },
       "height": 263,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/64317",
+          "id": "http://example.org/iiif/23336",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64316",
+              "id": "http://example.org/iiif/23335",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64315"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_355/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64318",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_355/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Samos, Main Altar",
+          "copyright Perseus Project 1990, drawn by M.W. Cutler based on H. Berve and Gottfried Gruben 1962 446 fig. 111"
+        ]
+      },
       "height": 290,
       "width": 450,
       "items": [
         {
-          "id": "http://example.org/iiif/64320",
+          "id": "http://example.org/iiif/23338",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64319",
+              "id": "http://example.org/iiif/23337",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64318"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_355/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/64321",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_355/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Section of NW Anta of Main Altar, Samos",
+          "copyright Perseus Project 1989, drawn by M.W. Cutler, based on Gruben (artist) 1961, based on H. Schleif in AM 58 1933 146 ff, in G. Gruben 1966 317 fig. 251"
+        ]
+      },
       "height": 416,
       "width": 314,
       "items": [
         {
-          "id": "http://example.org/iiif/64323",
+          "id": "http://example.org/iiif/23340",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/64322",
+              "id": "http://example.org/iiif/23339",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/64321"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_355/p4"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2205",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2205/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0040",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0040/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/11473",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Louvre Kouros 695, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 373,
       "width": 232,
       "items": [
         {
-          "id": "http://example.org/iiif/11475",
+          "id": "http://example.org/iiif/7650",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11474",
+              "id": "http://example.org/iiif/7649",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11473"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11476",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Louvre Kouros 695, from left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 384,
       "width": 255,
       "items": [
         {
-          "id": "http://example.org/iiif/11478",
+          "id": "http://example.org/iiif/7652",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11477",
+              "id": "http://example.org/iiif/7651",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11476"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11479",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Louvre Kouros 695, left profile",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 352,
       "width": 278,
       "items": [
         {
-          "id": "http://example.org/iiif/11481",
+          "id": "http://example.org/iiif/7654",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11480",
+              "id": "http://example.org/iiif/7653",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11479"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/11482",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of Louvre Kouros 695, back view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 386,
       "width": 252,
       "items": [
         {
-          "id": "http://example.org/iiif/11484",
+          "id": "http://example.org/iiif/7656",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/11483",
+              "id": "http://example.org/iiif/7655",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,7 +182,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/11482"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2205/p4"
             }
           ]
         }

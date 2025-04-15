@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1478",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1478/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1319",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1319/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/71755",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1478/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Constantine",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71757",
+          "id": "http://example.org/iiif/28296",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71756",
+              "id": "http://example.org/iiif/28295",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71755"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1478/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/71758",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1478/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: The emperor Constantine or Mars-Virtus, with spear and thunderbolt, walking on a barbarian in Eastern dress",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/71760",
+          "id": "http://example.org/iiif/28298",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/71759",
+              "id": "http://example.org/iiif/28297",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/71758"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1478/p2"
             }
           ]
         }

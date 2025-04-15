@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5128",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5128/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0365",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0365/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/15937",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5128/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: reveler and attendant",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
       "height": 3714,
       "width": 2538,
       "items": [
         {
-          "id": "http://example.org/iiif/15939",
+          "id": "http://example.org/iiif/4942",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/15938",
+              "id": "http://example.org/iiif/4941",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/15937"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5128/p1"
             }
           ]
         }

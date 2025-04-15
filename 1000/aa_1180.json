@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1180",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1180/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0493",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0493/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69766",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1180/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Domitian",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69768",
+          "id": "http://example.org/iiif/26970",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69767",
+              "id": "http://example.org/iiif/26969",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69766"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1180/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69769",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1180/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Pax lighting fire to a pile of arms, with her torch",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69771",
+          "id": "http://example.org/iiif/26972",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69770",
+              "id": "http://example.org/iiif/26971",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69769"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1180/p2"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2191",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2191/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0181",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.04.0181/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10921",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2191/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Parthenon, Louvre Head from Frieze, frontal view (head looks right)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 389,
       "width": 338,
       "items": [
         {
-          "id": "http://example.org/iiif/10923",
+          "id": "http://example.org/iiif/7282",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10922",
+              "id": "http://example.org/iiif/7281",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10921"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2191/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10924",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2191/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Parthenon, Louvre Head from Frieze, view from right",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre, Paris"
+        ]
+      },
       "height": 346,
       "width": 310,
       "items": [
         {
-          "id": "http://example.org/iiif/10926",
+          "id": "http://example.org/iiif/7284",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10925",
+              "id": "http://example.org/iiif/7283",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10924"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2191/p2"
             }
           ]
         }

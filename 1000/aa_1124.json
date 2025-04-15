@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1124",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1124/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0381",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.0381/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/69352",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1124/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Head of Nero",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69354",
+          "id": "http://example.org/iiif/26694",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69353",
+              "id": "http://example.org/iiif/26693",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69352"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1124/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/69355",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1124/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Triumphal Arch of Nero with quadriga atop",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/69357",
+          "id": "http://example.org/iiif/26696",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/69356",
+              "id": "http://example.org/iiif/26695",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/69355"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1124/p2"
             }
           ]
         }

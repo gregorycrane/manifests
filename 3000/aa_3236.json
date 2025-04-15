@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3236",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3236/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0114",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0114/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/20623",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3236/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Statue base (?) from the Theater of Dionysos showing a female figure and Dionysos; Bottom: Choregic relief for dithyramb showing satyr setting up victory tripod on stone base for commemorative monument, with male figure to the left.",
+          "From Svoronos 1903-12, pl. 114"
+        ]
+      },
       "height": 528,
       "width": 304,
       "items": [
         {
-          "id": "http://example.org/iiif/20625",
+          "id": "http://example.org/iiif/500",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/20624",
+              "id": "http://example.org/iiif/499",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/20623"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3236/p1"
             }
           ]
         }

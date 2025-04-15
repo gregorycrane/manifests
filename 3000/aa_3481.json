@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3481",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3481/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1580",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1580/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/28846",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3481/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a cook, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 372,
       "width": 295,
       "items": [
         {
-          "id": "http://example.org/iiif/28848",
+          "id": "http://example.org/iiif/5982",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28847",
+              "id": "http://example.org/iiif/5981",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28846"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3481/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28849",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3481/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a cook, oblique top view from the front",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 421,
       "width": 314,
       "items": [
         {
-          "id": "http://example.org/iiif/28851",
+          "id": "http://example.org/iiif/5984",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28850",
+              "id": "http://example.org/iiif/5983",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28849"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3481/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/28852",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3481/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a cook, oblique side view, from the left",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
       "height": 380,
       "width": 450,
       "items": [
         {
-          "id": "http://example.org/iiif/28854",
+          "id": "http://example.org/iiif/5986",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/28853",
+              "id": "http://example.org/iiif/5985",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/28852"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3481/p3"
             }
           ]
         }

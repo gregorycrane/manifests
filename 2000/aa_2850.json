@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2850",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2850/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0105",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0105/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/19366",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2850/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Left: Proxeny Decree for Philiskos showing a worshipper approaching Athena Parthenos Nikephoros and a horseman; Top right: Decree from Aigina depicting Hippolytos (?) with a horse approaching Hekate; Lower right: Private decree, with relief showing seated man Eukrates (?) with Misthosis (?) or Tyche (?).",
+          "From Svoronos 1903-12, pl. 105"
+        ]
+      },
       "height": 546,
       "width": 399,
       "items": [
         {
-          "id": "http://example.org/iiif/19368",
+          "id": "http://example.org/iiif/12912",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/19367",
+              "id": "http://example.org/iiif/12911",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/19366"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2850/p1"
             }
           ]
         }

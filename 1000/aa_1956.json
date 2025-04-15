@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1956",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1956/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0083",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0083/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/3283",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1956/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kouros from Melos",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
       "height": 3647,
       "width": 1481,
       "items": [
         {
-          "id": "http://example.org/iiif/3285",
+          "id": "http://example.org/iiif/2190",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/3284",
+              "id": "http://example.org/iiif/2189",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/3283"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1956/p1"
             }
           ]
         }

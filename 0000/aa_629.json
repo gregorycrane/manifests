@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_629",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_629/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0395",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0395/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/74773",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_629/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Radiate  bust of Helios facing",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 379,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74775",
+          "id": "http://example.org/iiif/30308",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74774",
+              "id": "http://example.org/iiif/30307",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74773"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_629/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/74776",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_629/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Bull butting to the right; above, centaur brandishing branch",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 359,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/74778",
+          "id": "http://example.org/iiif/30310",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/74777",
+              "id": "http://example.org/iiif/30309",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/74776"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_629/p2"
             }
           ]
         }

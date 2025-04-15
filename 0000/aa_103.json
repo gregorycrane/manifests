@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_103",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_103/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5113",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5113/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/58738",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_103/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Peristyle impluvium with mosaic and monolithic Ionic columns, Delos, House of the Lake",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2460,
       "width": 3655,
       "items": [
         {
-          "id": "http://example.org/iiif/58740",
+          "id": "http://example.org/iiif/19618",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58739",
+              "id": "http://example.org/iiif/19617",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58738"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_103/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58741",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_103/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Club of Heracles and phallus apotropaic reliefs on house wall, Delos, House of the Lake",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
       "height": 2460,
       "width": 3649,
       "items": [
         {
-          "id": "http://example.org/iiif/58743",
+          "id": "http://example.org/iiif/19620",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58742",
+              "id": "http://example.org/iiif/19619",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58741"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_103/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/58744",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_103/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, House of the Lake",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on Dinsmoor 1975 324 fig. 118"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/58746",
+          "id": "http://example.org/iiif/19622",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/58745",
+              "id": "http://example.org/iiif/19621",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,7 +142,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/58744"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_103/p3"
             }
           ]
         }

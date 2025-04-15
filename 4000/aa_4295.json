@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0509",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0509/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/5044",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of neck (sides A & B)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) 1904 in FR plate 45"
+        ]
+      },
       "height": 464,
       "width": 391,
       "items": [
         {
-          "id": "http://example.org/iiif/5046",
+          "id": "http://example.org/iiif/36634",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5045",
+              "id": "http://example.org/iiif/36633",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5044"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5047",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Dionysos and maenads",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 414,
       "width": 272,
       "items": [
         {
-          "id": "http://example.org/iiif/5049",
+          "id": "http://example.org/iiif/36636",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5048",
+              "id": "http://example.org/iiif/36635",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,24 +102,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5047"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5050",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p3",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenads and silen",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 414,
       "width": 272,
       "items": [
         {
-          "id": "http://example.org/iiif/5052",
+          "id": "http://example.org/iiif/36638",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5051",
+              "id": "http://example.org/iiif/36637",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -124,24 +142,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5050"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5053",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p4",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: maenad and silen",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 355,
       "width": 538,
       "items": [
         {
-          "id": "http://example.org/iiif/5055",
+          "id": "http://example.org/iiif/36640",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5054",
+              "id": "http://example.org/iiif/36639",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -158,24 +182,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5053"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5056",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p5",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: silen playing aulos",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 362,
       "width": 239,
       "items": [
         {
-          "id": "http://example.org/iiif/5058",
+          "id": "http://example.org/iiif/36642",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5057",
+              "id": "http://example.org/iiif/36641",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -192,24 +222,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5056"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5059",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p6",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: ecstatic maenad on left",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
       "height": 362,
       "width": 239,
       "items": [
         {
-          "id": "http://example.org/iiif/5061",
+          "id": "http://example.org/iiif/36644",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5060",
+              "id": "http://example.org/iiif/36643",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -226,24 +262,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5059"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5062",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p15",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: overview drawing of the vase, side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 44"
+        ]
+      },
       "height": 900,
       "width": 513,
       "items": [
         {
-          "id": "http://example.org/iiif/5064",
+          "id": "http://example.org/iiif/36646",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5063",
+              "id": "http://example.org/iiif/36645",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -260,24 +302,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5062"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5065",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p16",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of preliminary sketch lines on side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 44"
+        ]
+      },
       "height": 310,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5067",
+          "id": "http://example.org/iiif/36648",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5066",
+              "id": "http://example.org/iiif/36647",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,24 +342,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5065"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5068",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p17",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side A, Dionysos with maenads and a satyr",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 44"
+        ]
+      },
       "height": 355,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5070",
+          "id": "http://example.org/iiif/36650",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5069",
+              "id": "http://example.org/iiif/36649",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -328,24 +382,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5068"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5071",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p18",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side A (center ), showing a maenad fending off a satyr",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 44"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5073",
+          "id": "http://example.org/iiif/36652",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5072",
+              "id": "http://example.org/iiif/36651",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -362,24 +422,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5071"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5074",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p19",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side A (left ), showing Dionysos and a maenad",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 44"
+        ]
+      },
       "height": 418,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5076",
+          "id": "http://example.org/iiif/36654",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5075",
+              "id": "http://example.org/iiif/36653",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -396,24 +462,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5074"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5077",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p20",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side A (right ), showing a satyr and an ecstatic maenad",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 44"
+        ]
+      },
       "height": 505,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5079",
+          "id": "http://example.org/iiif/36656",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5078",
+              "id": "http://example.org/iiif/36655",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -430,24 +502,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5077"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p20"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5080",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p21",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side B (right ), showing a maenad fending off a satyr",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 45"
+        ]
+      },
       "height": 393,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5082",
+          "id": "http://example.org/iiif/36658",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5081",
+              "id": "http://example.org/iiif/36657",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,24 +542,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5080"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p21"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5083",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p22",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side B (left ), showing a satyr, facing frontal and playing double pipes, and an ecstatic maenad",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 45"
+        ]
+      },
       "height": 409,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5085",
+          "id": "http://example.org/iiif/36660",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5084",
+              "id": "http://example.org/iiif/36659",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -498,24 +582,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5083"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p22"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5086",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p23",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of side B, showing satyrs and maenad",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 45"
+        ]
+      },
       "height": 323,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5088",
+          "id": "http://example.org/iiif/36662",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5087",
+              "id": "http://example.org/iiif/36661",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -532,24 +622,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5086"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p23"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5089",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p24",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of the neck scene (left), showing three athletes",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 45"
+        ]
+      },
       "height": 304,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5091",
+          "id": "http://example.org/iiif/36664",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5090",
+              "id": "http://example.org/iiif/36663",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -566,24 +662,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5089"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p24"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/5092",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p25",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Kleophrades Painter's pointed amphora: drawing of the neck scene (right), showing three athletes",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 41-50. München: Bruckmann, 1903. pl. 45"
+        ]
+      },
       "height": 285,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/5094",
+          "id": "http://example.org/iiif/36666",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/5093",
+              "id": "http://example.org/iiif/36665",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -600,7 +702,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/5092"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4295/p25"
             }
           ]
         }

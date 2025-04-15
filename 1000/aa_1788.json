@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1788",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1788/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0029",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.02.0029/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/31135",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1788/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cow licking and suckling her calf",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31137",
+          "id": "http://example.org/iiif/1216",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31136",
+              "id": "http://example.org/iiif/1215",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31135"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1788/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/31138",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1788/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Cast showing a cow licking and suckling her calf",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
       "height": 399,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/31140",
+          "id": "http://example.org/iiif/1218",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/31139",
+              "id": "http://example.org/iiif/1217",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/31138"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1788/p2"
             }
           ]
         }

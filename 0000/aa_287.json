@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_287",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_287/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0253a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0253a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/62026",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_287/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Philippeion",
+          "copyright C. H. Smith 1988 based on H. Schleif, Neue Ausgrabungen in Olympia und ihre bisherigen Ergebnisse für die antike Bauforschung, Europäische  Studienmappen, Berlin 1943 fig. 4, in A. Mallwitz 1972 129 fig. 96"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/62028",
+          "id": "http://example.org/iiif/21810",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62027",
+              "id": "http://example.org/iiif/21809",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62026"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_287/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/62029",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_287/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Walls, from NW, Olympia, Philippeion",
+          "Photograph by Michael Bennett"
+        ]
+      },
       "height": 280,
       "width": 425,
       "items": [
         {
-          "id": "http://example.org/iiif/62031",
+          "id": "http://example.org/iiif/21812",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/62030",
+              "id": "http://example.org/iiif/21811",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/62029"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_287/p2"
             }
           ]
         }

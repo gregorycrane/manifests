@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0421",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0421/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/10456",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "London Erechtheum Caryatid, detail of mid-section of drapery",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 2500,
       "width": 2160,
       "items": [
         {
-          "id": "http://example.org/iiif/10458",
+          "id": "http://example.org/iiif/6972",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10457",
+              "id": "http://example.org/iiif/6971",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10456"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/10459",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "London Erechtheum Caryatid, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
       "height": 3684,
       "width": 2290,
       "items": [
         {
-          "id": "http://example.org/iiif/10461",
+          "id": "http://example.org/iiif/6974",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/10460",
+              "id": "http://example.org/iiif/6973",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/10459"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p2"
             }
           ]
         }

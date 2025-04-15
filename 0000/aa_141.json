@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_141",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_141/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0154a",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0154a/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/59047",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_141/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Baths",
+          "copyright C. H. Smith 1989, based on Jannoray 1953, redrawn in Papachadzi 1981"
+        ]
+      },
       "height": 312,
       "width": 512,
       "items": [
         {
-          "id": "http://example.org/iiif/59049",
+          "id": "http://example.org/iiif/19824",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/59048",
+              "id": "http://example.org/iiif/19823",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,7 +62,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/59047"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_141/p1"
             }
           ]
         }

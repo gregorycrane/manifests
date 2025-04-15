@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif-metadata.perseus.tufts.edu/aa_710",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_710/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -23,23 +23,29 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0534",
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0534/full/100,/0/default.png",
       "type": "Image"
     }
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/75268",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_710/p1",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Swastika on raised square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 386,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75270",
+          "id": "http://example.org/iiif/30638",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75269",
+              "id": "http://example.org/iiif/30637",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -56,24 +62,30 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75268"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_710/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://example.org/iiif/75271",
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_710/p2",
       "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
       "height": 404,
       "width": 600,
       "items": [
         {
-          "id": "http://example.org/iiif/75273",
+          "id": "http://example.org/iiif/30640",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://example.org/iiif/75272",
+              "id": "http://example.org/iiif/30639",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -90,7 +102,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "http://example.org/iiif/75271"
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_710/p2"
             }
           ]
         }
