@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_845/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 606"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0763/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0763/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_845/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Quadriga driven by Nike; above, olive wreath",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49418",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49417",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0763/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0763",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_845/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_845/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Forepart of river god (Acheloos?) as man headed bull in classical style; between bull's legs, bird (heron?)",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 395,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49420",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49419",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0764/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 395,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0764",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_845/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

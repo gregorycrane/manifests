@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_433/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1063"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0067/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0067/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_433/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Gorgoneion",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 390,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47720",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47719",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0067/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 390,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0067",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_433/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_433/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Quadripartite incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 384,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47722",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47721",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0068/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 384,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0068",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_433/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2816/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1519"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0088/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0088/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2816/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Stele of Lysimachides showing two feasts framed within one shrine",
+          "From Svoronos 1903-12, pl. 88"
+        ]
+      },
+      "height": 330,
+      "width": 570,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11536",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11535",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0088/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 330,
+                "width": 570,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0088",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2816/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

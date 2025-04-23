@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_1370/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 34.1428"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1103/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1103/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1370/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Laureate bust of Gordianus II",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/46102",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/46101",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1103/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1103",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1370/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_1370/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Virtus (Valor) standing, with sword and shield",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 399,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/46104",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/46103",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1104/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1104",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_1370/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

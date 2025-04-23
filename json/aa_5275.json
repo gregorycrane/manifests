@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5275/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London 1917.12-10.1"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0007/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0007/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5275/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Orestes at Delphi",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2744,
+      "width": 2398,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21430",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21429",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0007/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2744,
+                "width": 2398,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0007",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5275/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5275/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Dionysos, satyr and maenad",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2528,
+      "width": 2198,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21432",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21431",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0008/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2528,
+                "width": 2198,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0008",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5275/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

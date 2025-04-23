@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5708/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre G 197"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0547/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0547/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5708/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora attributed to Myson: Drawing of side A, showing King Croesus on the funeral pyre, lit by his servant Euthymos",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 111-120. München: Bruckmann, 1909. pl. 113"
+        ]
+      },
+      "height": 509,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28218",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28217",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0547/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 509,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0547",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5708/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5708/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora attributed to Myson: Drawing of side A, showing Theseus carrying off Antiope, and followed by Peirithoos",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 111-120. München: Bruckmann, 1909. pl. 113"
+        ]
+      },
+      "height": 397,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28220",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28219",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0548/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 397,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0548",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5708/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

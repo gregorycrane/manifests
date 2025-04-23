@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3592/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delian Group of Archaic Lions"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5129/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5129/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3592/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Left profile view of the southernmost lion statue, Delian Group of Archaic Lions, Delos, Lion Terrace",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
+      "height": 2175,
+      "width": 2864,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18008",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18007",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5129/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2175,
+                "width": 2864,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5129",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3592/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

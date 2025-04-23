@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4371/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 63.473"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0345/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0345/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4371/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Achilles dragging Hektor past the tomb of Patroklos",
+          "Courtesy, Museum of Fine Arts, Boston. William Francis Warden Fund"
+        ]
+      },
+      "height": 414,
+      "width": 286,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2710",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2709",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0345/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 414,
+                "width": 286,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0345",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4371/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4371/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main Panel: Priam and Hekabe, Achilles and Hektor",
+          "Courtesy, Museum of Fine Arts, Boston. William Francis Warden Fund"
+        ]
+      },
+      "height": 351,
+      "width": 234,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2712",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2711",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0346/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 234,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0346",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4371/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4371/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Shoulder: Herakles pursuing Kyknos, aided by Athena and Zeus",
+          "Courtesy, Museum of Fine Arts, Boston. William Francis Warden Fund"
+        ]
+      },
+      "height": 350,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2714",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2713",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0347/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 350,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0347",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4371/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4871/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Columbia 72.22"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0330/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0330/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4871/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview:main panel",
+          "Photograph courtesy of the Museum of Art and Archaeology, Univ. of Missouri-Columbia"
+        ]
+      },
+      "height": 311,
+      "width": 347,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15870",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15869",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0330/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 311,
+                "width": 347,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0330",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4871/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4871/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Elevated view: shoulder fragment",
+          "Photograph courtesy of the Museum of Art and Archaeology, Univ. of Missouri-Columbia"
+        ]
+      },
+      "height": 243,
+      "width": 456,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15872",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15871",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0410/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 243,
+                "width": 456,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0410",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4871/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

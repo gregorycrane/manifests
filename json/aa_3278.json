@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3278/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 2013"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0137/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0137/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3278/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Fragment of a relief to Hermes and the Nymphs; Top right: Fragment of a nymph relief; Center: Fragment of a nymph relief; Bottom center: Fragment of a relief; Lower right: Part of a votive relief",
+          "From Svoronos 1903-12 pl. 137.1"
+        ]
+      },
+      "height": 435,
+      "width": 551,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12554",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12553",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0137/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 435,
+                "width": 551,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0137",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3278/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

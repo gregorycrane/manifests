@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4099/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Malibu 86.AE.160"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0351/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0351/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4099/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: confronted rams",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 1902,
+      "width": 3768,
+      "items": [
+        {
+          "id": "http://example.org/iiif/51386",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/51385",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0351/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1902,
+                "width": 3768,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0351",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4099/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

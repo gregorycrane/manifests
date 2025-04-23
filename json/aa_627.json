@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_627/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1935"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0391/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0391/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_627/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse:  Zeus Lycaeus enthroned to the left, with scepter and eagle",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 348,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/48536",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/48535",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0391/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 348,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0391",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_627/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_627/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Head of goddess, profile to the right, within incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 382,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/48538",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/48537",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0392/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 382,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0392",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_627/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

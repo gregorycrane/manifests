@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4958/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Bloomington 77.30.4"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0012/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0012/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4958/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle decoration",
+          "Photograph by Ken Strothman and Harvey Osterhoudt, courtesy of the Indiana University Art Museum, Bloomington, Indiana."
+        ]
+      },
+      "height": 387,
+      "width": 237,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16222",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16221",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0012/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 387,
+                "width": 237,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0012",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4958/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4958/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main frieze",
+          "Photograph by Ken Strothman and Harvey Osterhoudt, courtesy of the Indiana University Art Museum, Bloomington, Indiana."
+        ]
+      },
+      "height": 420,
+      "width": 261,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16224",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16223",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0013/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 261,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0013",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4958/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

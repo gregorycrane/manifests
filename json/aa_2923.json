@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2923/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1335"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0036/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0036/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2923/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Votive relief to Asklepios and Hygieia; Top right: Votive relief of doctors to Asklepios and the Eleusinian goddesses; Lower left: Votive Relief to Asklepios and Hygieia; Lower right: Votive to Asklepios and Hygieia by Nikias and Mnesimachos",
+          "From Svoronos 1903-12, pl. 36"
+        ]
+      },
+      "height": 440,
+      "width": 572,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12294",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12293",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0036/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 440,
+                "width": 572,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0036",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2923/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

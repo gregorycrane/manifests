@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5230/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London E 157"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0191/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0191/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5230/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2796,
+      "width": 2398,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21272",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21271",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0191/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2796,
+                "width": 2398,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0191",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5230/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

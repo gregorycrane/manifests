@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_818/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 493"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0015/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0015/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_818/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Ornate tripod within dotted circle",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 392,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49310",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49309",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0015/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 392,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0015",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_818/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_818/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Ornate tripod, incuse, within dotted circle",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 400,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49312",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49311",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0016/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0016",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_818/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

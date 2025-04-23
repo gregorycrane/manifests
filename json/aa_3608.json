@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3608/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 146"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0029/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0029/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3608/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Relief-decorated tripod base. A (center): Dionysos; B (right); C (left): Winged Nikai",
+          "From Svoronos 1903-12, pl. 29"
+        ]
+      },
+      "height": 383,
+      "width": 588,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18028",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18027",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0029/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 383,
+                "width": 588,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0029",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3608/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3608/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Relief from an alliance decree between Athens and Korkyra",
+          "From Svoronos 1903-12, pl. 103"
+        ]
+      },
+      "height": 566,
+      "width": 360,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18030",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18029",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0103/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 566,
+                "width": 360,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0103",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3608/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

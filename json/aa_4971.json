@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4971/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Ann Arbor 77.7.1"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0318/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0318/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4971/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: overview",
+          "Photograph courtesy of the Kelsey Museum of Archaeology, University of Michigan"
+        ]
+      },
+      "height": 393,
+      "width": 236,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16306",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16305",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0318/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 393,
+                "width": 236,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0318",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4971/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4971/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: overview",
+          "Photograph courtesy of the Kelsey Museum of Archaeology, University of Michigan"
+        ]
+      },
+      "height": 399,
+      "width": 244,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16308",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16307",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0319/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 244,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0319",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4971/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

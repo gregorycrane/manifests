@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4887/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Cincinnati 1976.205"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0339/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0339/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4887/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse side: overview",
+          "Photograph courtesy of Cincinnati Art Museum. Museum purchase by exchange, Israel & Caroline Wilson Endowment, William W. Taylor Endowment"
+        ]
+      },
+      "height": 303,
+      "width": 319,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16050",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16049",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0339/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 303,
+                "width": 319,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0339",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4887/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4887/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: overview",
+          "Photograph courtesy of Cincinnati Art Museum. Museum purchase by exchange, Israel & Caroline Wilson Endowment, William W. Taylor Endowment"
+        ]
+      },
+      "height": 352,
+      "width": 362,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16052",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16051",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0340/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 352,
+                "width": 362,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0340",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4887/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_409/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "House of Cybele and Attis, Glanum"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0095/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0095/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_409/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View north towards the residential quarter, with the House of Cybele and Attis (foreground, left), Market Square, and House of the Antae (background), House of Cybele and Attis, House of the Antae, Market Square, Glanum.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42492",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42491",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0095/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0095",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_409/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_409/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Foundations of the House of Cybele and Attis: view to the south, Glanum.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42494",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42493",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0111/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0111",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_409/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

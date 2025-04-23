@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2409/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Parthenon SF.15"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0732/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0732/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2409/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "South Frieze Slab 15: Cavalcade",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2440,
+      "width": 3504,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10584",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10583",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0732/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2440,
+                "width": 3504,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0732",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2409/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

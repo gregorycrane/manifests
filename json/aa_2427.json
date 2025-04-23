@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2427/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Parthenon SM.3"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0017/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0017/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2427/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Lapith and Centaur",
+          "Photograph courtesy of the British Museum, London"
+        ]
+      },
+      "height": 2677,
+      "width": 2298,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10634",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10633",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0017/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2677,
+                "width": 2298,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0017",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2427/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2427/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reconstruction of Parthenon South Metopes 3-4",
+          "Photograph courtesy of the Royal Ontario Museum, Toronto, Canada"
+        ]
+      },
+      "height": 2552,
+      "width": 3784,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10636",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10635",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.03.0006/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2552,
+                "width": 3784,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.03.0006",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2427/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2427/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "South Metope 3: Lapith and Centaur",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 1988,
+      "width": 1992,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10638",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10637",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0525/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1988,
+                "width": 1992,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0525",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2427/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

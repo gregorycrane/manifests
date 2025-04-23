@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_377/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Syracuse, Altar of Hieron II"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.23.0079/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.23.0079/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_377/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "North end of the altar, from NW, Altar of Hieron II, Syracuse",
+          "Photograph by Nigel Pollard"
+        ]
+      },
+      "height": 402,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/41694",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/41693",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.23.0079/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 402,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.23.0079",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_377/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_377/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "North end of the altar, from W, Altar of Hieron II, Syracuse",
+          "Photograph by Nigel Pollard"
+        ]
+      },
+      "height": 400,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/41696",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/41695",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.23.0080/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.23.0080",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_377/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

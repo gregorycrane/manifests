@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5632/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "St. Petersburg St. 1795"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0460/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0460/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5632/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Marsyas Painter: Drawing of side A, showing the satyr, Marsyas, and others observing Apollo playing the lyre",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 87"
+        ]
+      },
+      "height": 419,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27542",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27541",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0460/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0460",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5632/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5632/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Marsyas Painter: Drawing of side B, showing women washing",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 81-90. München: Bruckmann, 1906. pl. 87"
+        ]
+      },
+      "height": 396,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27544",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27543",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0461/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 396,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0461",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5632/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

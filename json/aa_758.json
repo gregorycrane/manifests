@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_758/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 2513"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0658/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0658/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_758/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Baaltars seated to the left, holding a scepter; in left field, an ear of grain, a bunch of grapes, and an unrecognizable object",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 413,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49070",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49069",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0658/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 413,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0658",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_758/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_758/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Lion, profile to the left, attacking a bull; below, two rows of walls with towers and battlements",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 392,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49072",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49071",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0659/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 392,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0659",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_758/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

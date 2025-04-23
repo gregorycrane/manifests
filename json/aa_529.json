@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_529/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1487"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0229/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0229/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_529/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Boeotian shield",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 377,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/48148",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/48147",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0229/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 377,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0229",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_529/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_529/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Gorgoneion",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 358,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/48150",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/48149",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0230/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 358,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0230",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_529/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

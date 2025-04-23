@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_779/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 2715"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0648/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0648/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_779/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Persian king profile to the right, kneeling on right knee and drawing bow with right hand; no visible inscription. Border of dots.",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 414,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49154",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49153",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0648/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 414,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0648",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_779/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_779/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Satrap wearing Persian dress and tiara, riding horse in right field, lance in upraised right hand; no visible inscription. Border of dots.",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49156",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49155",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0649/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0649",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_779/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

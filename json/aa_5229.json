@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5229/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London E 159"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0188/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0188/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5229/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3192,
+      "width": 2470,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21266",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21265",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0188/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3192,
+                "width": 2470,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0188",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5229/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5229/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Shoulder: man and youth reclining",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2470,
+      "width": 3702,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21268",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21267",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0189/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2470,
+                "width": 3702,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0189",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5229/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5229/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: youths at the fountain",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3066,
+      "width": 2386,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21270",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21269",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0190/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3066,
+                "width": 2386,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0190",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5229/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

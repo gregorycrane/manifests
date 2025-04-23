@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_175/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delphi, Treasury of the Syracusans"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.12.0182/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.12.0182/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_175/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of foundations, looking E, Delphi, Treasury of the Syracusans",
+          "Photograph by Pamela J. Russell"
+        ]
+      },
+      "height": 328,
+      "width": 504,
+      "items": [
+        {
+          "id": "http://example.org/iiif/38786",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/38785",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.12.0182/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 328,
+                "width": 504,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.12.0182",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_175/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_175/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Remains of foundations, looking NW with Athenian Treasury beyond, Delphi, Treasury of the Syracusans",
+          "Photograph by Pamela J. Russell"
+        ]
+      },
+      "height": 345,
+      "width": 523,
+      "items": [
+        {
+          "id": "http://example.org/iiif/38788",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/38787",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.12.0183/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 345,
+                "width": 523,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.12.0183",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_175/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

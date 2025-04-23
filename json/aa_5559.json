@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 00.339"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0549/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0549/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle oblique right rear",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 373,
+      "width": 342,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25482",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25481",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0549/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 373,
+                "width": 342,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0549",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: youth with castanets",
+          "From Caskey & Beazley, plate VIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 398,
+      "width": 450,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25484",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25483",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0040/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 398,
+                "width": 450,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0040",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: girl with flute",
+          "From Caskey & Beazley, plate VIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 397,
+      "width": 532,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25486",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25485",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0041/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 397,
+                "width": 532,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0041",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5559/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

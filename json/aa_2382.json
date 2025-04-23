@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2382/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Parthenon EP.O"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0020/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0020/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2382/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "East pediment:  Figure O (horse from quadriga of Selene/Nyx), view of right side",
+          "Photograph courtesy of the British Museum, London"
+        ]
+      },
+      "height": 2274,
+      "width": 3037,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10402",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10401",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0020/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2274,
+                "width": 3037,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.02.0020",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2382/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2382/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "East pediment:  Figure O (horse from quadriga of Selene/Nyx), en face",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 225,
+      "width": 304,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10404",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10403",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0586/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 225,
+                "width": 304,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0586",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2382/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2382/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "East pediment:  Figure O (horse from quadriga of Selene/Nyx), view of right side",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 225,
+      "width": 304,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10406",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10405",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0587/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 225,
+                "width": 304,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0587",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2382/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

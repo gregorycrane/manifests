@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5403/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 95.41"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0310/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0310/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5403/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "From Caskey & Beazley, plate LXXXIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 348,
+      "width": 128,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24604",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24603",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0310/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 348,
+                "width": 128,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0310",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5403/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

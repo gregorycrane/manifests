@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Sarasota 1600.G2"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0050/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0050/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: running Nike with torches",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
+      "height": 403,
+      "width": 247,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16526",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16525",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0050/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 403,
+                "width": 247,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0050",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: standing youth",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
+      "height": 392,
+      "width": 236,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16528",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16527",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0051/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 392,
+                "width": 236,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0051",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5021/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

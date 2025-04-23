@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3696/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 30.403"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1652/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1652/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3696/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Jug",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 818,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18824",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18823",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1652/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 818,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1652",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3696/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3696/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Jug, detail of handle",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 823,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18826",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18825",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1653/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 823,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1653",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3696/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3696/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Jug",
+          "Photograph by Maria Daniels, courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 818,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18828",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18827",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1654/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 818,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.03.1654",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3696/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

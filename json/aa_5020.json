@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5020/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Sarasota 1600.G3"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0052/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0052/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5020/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: youth reclining at a symposium",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
+      "height": 332,
+      "width": 441,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16522",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16521",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0052/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 332,
+                "width": 441,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0052",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5020/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5020/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
+      "height": 220,
+      "width": 442,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16524",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16523",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0053/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 220,
+                "width": 442,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0053",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5020/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

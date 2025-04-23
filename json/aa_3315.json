@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3315/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Trier 84"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0063/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0063/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3315/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Trier Amazon (Mattei type)",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 458,
+      "width": 288,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12634",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12633",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0063/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 458,
+                "width": 288,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0063",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3315/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

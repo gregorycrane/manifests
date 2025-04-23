@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2803/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1504"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0081/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0081/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2803/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Left: Relief depicting Leda and the swan; Right: Banquet relief showing a male figure and a female figure feasting, attended by a serving boy (?), and four worshippers; a horse's head in the background",
+          "From Svoronos 1903-12, pl. 81"
+        ]
+      },
+      "height": 389,
+      "width": 603,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11510",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11509",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0081/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 389,
+                "width": 603,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0081",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2803/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

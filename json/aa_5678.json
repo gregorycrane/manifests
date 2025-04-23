@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Brussels A 718"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0406/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0406/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris kantharos: Overview drawing of the vase, side A, showing Herakles' Amazonomachy",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 74"
+        ]
+      },
+      "height": 716,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28068",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28067",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0406/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 716,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0406",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris kantharos: Drawing of side B, showing Telamon's Amazonomachy",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 74"
+        ]
+      },
+      "height": 370,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28070",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28069",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0407/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 370,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0407",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Douris kantharos: Drawing of side A, showing Herakles' Amazonomachy",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 74"
+        ]
+      },
+      "height": 349,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28072",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28071",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0408/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 349,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0408",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5678/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

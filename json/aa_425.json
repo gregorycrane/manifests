@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_425/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1007"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0801/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0801/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_425/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Goat kneeling to the right, with head reverted; in field, two pellets",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 397,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47688",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47687",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0801/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 397,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0801",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_425/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_425/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Quadripartite incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 407,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47690",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47689",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0802/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 407,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0802",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_425/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

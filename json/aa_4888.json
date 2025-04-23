@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4888/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Cincinnati 1962.386-388"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0345/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0345/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4888/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fragments A, B, C",
+          "Photograph courtesy of Cincinnati Art Museum. The William T. and Louise Taft Semple Collection."
+        ]
+      },
+      "height": 240,
+      "width": 438,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16054",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16053",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0345/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 240,
+                "width": 438,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0345",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4888/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4888/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fragment A: Helen",
+          "Photograph courtesy of Cincinnati Art Museum. The William T. and Louise Taft Semple Collection."
+        ]
+      },
+      "height": 353,
+      "width": 513,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16056",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16055",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0346/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 353,
+                "width": 513,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0346",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4888/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4888/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fragment C: Paris (edge of cloak) and Aeneas",
+          "Photograph courtesy of Cincinnati Art Museum. The William T. and Louise Taft Semple Collection."
+        ]
+      },
+      "height": 405,
+      "width": 353,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16058",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16057",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0347/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 405,
+                "width": 353,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0347",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4888/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3037/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, EM 6609"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0207/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0207/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3037/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Fragment of a treaty between Athens and Argos, Athens, EM 6588a; Top right: Fragment of a stele honoring Sotimos of Herakleia, Athens, EM 6609; Bottom left:;  Bottom right: Fragment of a stele honoring Apollonophanes of Kolphon,  Athens, EM 6615",
+          "From Svoronos 1903-12, pl. 207"
+        ]
+      },
+      "height": 455,
+      "width": 536,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12394",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12393",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0207/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 455,
+                "width": 536,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0207",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3037/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

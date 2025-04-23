@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London 1873.8-20.385"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0001/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0001/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, from right",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3226,
+      "width": 1762,
+      "items": [
+        {
+          "id": "http://example.org/iiif/302",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/301",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0001/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3226,
+                "width": 1762,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0001",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview, from left",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3024,
+      "width": 1630,
+      "items": [
+        {
+          "id": "http://example.org/iiif/304",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/303",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0002/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3024,
+                "width": 1630,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0002",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Grazing horse on shoulder",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2486,
+      "width": 3672,
+      "items": [
+        {
+          "id": "http://example.org/iiif/306",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/305",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0003/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2486,
+                "width": 3672,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0003",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4340/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

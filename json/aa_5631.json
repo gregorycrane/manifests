@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5631/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Tarquinia RC 6843"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0480/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0480/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5631/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Phintias' amphora: Drawing of side B, showing Herakles and Apollo struggling for the Delphic tripod",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 91-100. München: Bruckmann, 1907. pl. 91"
+        ]
+      },
+      "height": 379,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27540",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27539",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0480/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 379,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0480",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5631/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

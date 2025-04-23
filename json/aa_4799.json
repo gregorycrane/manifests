@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London E 424"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0253/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0253/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Peleus and Thetis",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3642,
+      "width": 2470,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15402",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15401",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0253/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3642,
+                "width": 2470,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0253",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Peleus accosting Thetis",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3054,
+      "width": 1870,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15404",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15403",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0254/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3054,
+                "width": 1870,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0254",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Dionysos with satyr and maenad",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2928,
+      "width": 1960,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15406",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15405",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0255/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2928,
+                "width": 1960,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0255",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4799/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

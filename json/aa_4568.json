@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4568/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "St. Louis 156.1922"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0301/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0301/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4568/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: scene at left",
+          "Photograph courtesy of The Saint Louis Art Museum"
+        ]
+      },
+      "height": 399,
+      "width": 328,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8520",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8519",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0301/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 399,
+                "width": 328,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0301",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4568/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4568/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: scene at right",
+          "Photograph courtesy of The Saint Louis Art Museum"
+        ]
+      },
+      "height": 412,
+      "width": 331,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8522",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8521",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0302/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 412,
+                "width": 331,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0302",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4568/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4568/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: scene at center",
+          "Photograph courtesy of The Saint Louis Art Museum"
+        ]
+      },
+      "height": 402,
+      "width": 326,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8524",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8523",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0303/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 402,
+                "width": 326,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0303",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4568/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

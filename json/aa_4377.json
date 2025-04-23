@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 10.179"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0423/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0423/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: satyr on a pointed amphora",
+          "Courtesy, Museum of Fine Arts, Boston. James Fund and by Special Contribution"
+        ]
+      },
+      "height": 345,
+      "width": 524,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2798",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2797",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0423/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 345,
+                "width": 524,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0423",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: satyr, head",
+          "Courtesy, Museum of Fine Arts, Boston. James Fund and by Special Contribution"
+        ]
+      },
+      "height": 344,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2800",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2799",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0424/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0424",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: satyr on a pointed amphora",
+          "From Caskey & Beazley, plate XXXVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 419,
+      "width": 419,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2802",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2801",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0158/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 419,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0158",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4377/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

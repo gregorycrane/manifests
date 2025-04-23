@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5274/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London 1917.7-25.2"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0327/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0327/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5274/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Apollo on the swan, with two women and a satyr",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2486,
+      "width": 3672,
+      "items": [
+        {
+          "id": "http://example.org/iiif/21428",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21427",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0327/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2486,
+                "width": 3672,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0327",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5274/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

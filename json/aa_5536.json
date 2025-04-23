@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5536/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 01.8027"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0379/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0379/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5536/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: Achilles receiving his armor from Thetis",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 391,
+      "width": 273,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25324",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25323",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0379/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 391,
+                "width": 273,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0379",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5536/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5536/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles and Apollo, upper bodies",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 355,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25326",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25325",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0380/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 355,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0380",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5536/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

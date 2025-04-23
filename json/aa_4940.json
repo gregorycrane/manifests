@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4940/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 63.420"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0309/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0309/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4940/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 301,
+      "width": 341,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16174",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16173",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0309/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 301,
+                "width": 341,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0309",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4940/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4940/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: procession",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 349,
+      "width": 521,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16176",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16175",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0310/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 349,
+                "width": 521,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0310",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4940/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4940/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Handle plate: male and female heads",
+          "Photograph courtesy of the Museum of Fine Arts, Boston"
+        ]
+      },
+      "height": 353,
+      "width": 537,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16178",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16177",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0311/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 353,
+                "width": 537,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0311",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4940/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

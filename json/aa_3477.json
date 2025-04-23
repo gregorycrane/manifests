@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3477/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre CA 3459"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1570/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1570/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3477/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a woman seated in front of a basin; frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 466,
+      "width": 268,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17906",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17905",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1570/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 466,
+                "width": 268,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1570",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3477/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3477/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a woman seated in front of a basin; left side view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 449,
+      "width": 329,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17908",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17907",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1571/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 449,
+                "width": 329,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1571",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3477/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

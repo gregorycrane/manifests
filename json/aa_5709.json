@@ -1,0 +1,192 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London E 466"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0613/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0613/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Drawing of the figural scene, side B (left), showing Eos pursuing Kephalos, accompanied by a dog, and preceded by the veiled figure of Selene, and side A, showing Helios riding a quadriga of four winged horses, among diving and swimming youths. Below, an overview of the vase, side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
+      "height": 376,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28222",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28221",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0613/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 376,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0613",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Drawing of side B, showing Eos pursuing Kephalos, accompanied by a dog, and preceded by the veiled figure of Selene",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
+      "height": 391,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28224",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28223",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0614/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 391,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0614",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Drawing of side A, showing Helios riding a quadriga of four winged horses, among diving and swimming youths",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
+      "height": 405,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28226",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28225",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0615/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 405,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0615",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Calyx krater: Overview of the vase, side A",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 121-130. München: Bruckmann, 1900. pl. 126"
+        ]
+      },
+      "height": 458,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28228",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28227",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0616/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 458,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0616",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5709/p4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

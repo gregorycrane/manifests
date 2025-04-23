@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Munich GL 497"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0554/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0554/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Munich Hound, detail of head",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 381,
+      "width": 354,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7444",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7443",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0554/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 381,
+                "width": 354,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0554",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Munich Hound, frontal view",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 344,
+      "width": 185,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7446",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7445",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0557/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 185,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0557",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Munich Hound, detail of left rear foot",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 320,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7448",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7447",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0560/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 320,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.0560",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2261/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

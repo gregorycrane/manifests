@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_413/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Julien Monument, St. Remy"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0115/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0115/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_413/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Julien Monument: view toward the northeast, Julien Monument, St. Remy.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 896,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42510",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42509",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0115/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 896,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0115",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_413/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

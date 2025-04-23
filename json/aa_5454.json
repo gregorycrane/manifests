@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5454/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 13.197"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0086/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0086/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5454/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: silen and maenad",
+          "From Caskey & Beazley, plate XVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 415,
+      "width": 261,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24906",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24905",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0086/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 415,
+                "width": 261,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0086",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5454/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

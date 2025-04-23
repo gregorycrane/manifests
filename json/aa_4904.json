@@ -1,0 +1,192 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4904/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Champaign 70.8.1"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0422/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0422/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior: overview",
+          "Photograph courtesy of the Krannert Art Museum, University of Illinois"
+        ]
+      },
+      "height": 194,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16080",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16079",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0422/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 194,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0422",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: overview",
+          "Photograph courtesy of the Krannert Art Museum, University of Illinois"
+        ]
+      },
+      "height": 419,
+      "width": 515,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16082",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16081",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0423/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 515,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0423",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Scene at first handle",
+          "Photograph courtesy of the Krannert Art Museum, University of Illinois"
+        ]
+      },
+      "height": 408,
+      "width": 526,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16084",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16083",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0424/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 408,
+                "width": 526,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0424",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Scene at second handle",
+          "Photograph courtesy of the Krannert Art Museum, University of Illinois"
+        ]
+      },
+      "height": 416,
+      "width": 529,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16086",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16085",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0425/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 416,
+                "width": 529,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0425",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4904/p4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

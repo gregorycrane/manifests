@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5126/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Malibu 86.AE.257"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0282/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0282/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5126/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 3618,
+      "width": 2214,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18558",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18557",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0282/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3618,
+                "width": 2214,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0282",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5126/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5126/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle oblique left rear",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 3792,
+      "width": 2544,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18560",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18559",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0283/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3792,
+                "width": 2544,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0283",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5126/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5126/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle oblique right rear",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 3786,
+      "width": 2544,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18562",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18561",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0284/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3786,
+                "width": 2544,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0284",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5126/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

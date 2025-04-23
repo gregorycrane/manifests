@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2904/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1601"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0165/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0165/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2904/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left:; Top right: Votive relief to Aphrodite; Bottom row:",
+          "From Svoronos 1903-12, pl. 165"
+        ]
+      },
+      "height": 419,
+      "width": 569,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12266",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12265",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0165/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 569,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0165",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2904/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

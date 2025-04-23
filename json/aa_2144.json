@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2144/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London 1600"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0296/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0296/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2144/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Head of a young male athlete",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2648,
+      "width": 1934,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5516",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5515",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0296/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2648,
+                "width": 1934,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0296",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2144/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

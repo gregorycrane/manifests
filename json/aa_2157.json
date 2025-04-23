@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London 407"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0421/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0421/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "London Erechtheum Caryatid, detail of mid-section of drapery",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2500,
+      "width": 2160,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5666",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5665",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0421/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2500,
+                "width": 2160,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0421",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "London Erechtheum Caryatid, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3684,
+      "width": 2290,
+      "items": [
+        {
+          "id": "http://example.org/iiif/5668",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5667",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0422/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3684,
+                "width": 2290,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0422",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2157/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

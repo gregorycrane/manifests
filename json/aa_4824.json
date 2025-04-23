@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4824/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London B 502"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0147/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0147/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4824/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: scene at center",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3210,
+      "width": 1864,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15584",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15583",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0147/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3210,
+                "width": 1864,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0147",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4824/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4824/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: oblique from left",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3282,
+      "width": 1744,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15586",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15585",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0148/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3282,
+                "width": 1744,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0148",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4824/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

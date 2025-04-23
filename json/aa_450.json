@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_450/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 122"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0667/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0667/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_450/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Within a guilloche border, a male figure (Phalanthus or Taras) riding a dolphin to the right, and a scallop shell below him",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 400,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47788",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47787",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0667/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0667",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_450/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_450/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Same ethnic and type incuse (Dolphin rider (Phalanthus or Taras) riding to the right; below, a scallop shell; a guilloche border); below, scallop shell; border of radiating lines",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 403,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47790",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47789",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0668/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 403,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0668",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_450/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

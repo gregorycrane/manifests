@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5396/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 95.57"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0049/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0049/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5396/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fragment: signature of Brygos",
+          "From Caskey & Beazley, plate IX. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 321,
+      "width": 138,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24592",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24591",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0049/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 321,
+                "width": 138,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0049",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5396/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

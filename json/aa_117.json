@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_117/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delos, Oikos of the Naxians"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5213/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5213/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_117/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overall view of building, Delos, Oikos of the Naxians",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
+      "height": 2048,
+      "width": 3642,
+      "items": [
+        {
+          "id": "http://example.org/iiif/37940",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/37939",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5213/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2048,
+                "width": 3642,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5213",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_117/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_117/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Axial colonnade, Delos, Oikos of the Naxians",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
+      "height": 2279,
+      "width": 3620,
+      "items": [
+        {
+          "id": "http://example.org/iiif/37942",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/37941",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5216/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2279,
+                "width": 3620,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.5216",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_117/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_117/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delos, Oikos of the Naxians",
+          "copyright C. H. Smith1989, based on Coulton (artist), based on P. Bruneau and J. Ducat, Guide de Délos, École franᷗaise d' Athènes, Paris 1965, in J.J. Coulton 1976 230-234 fig. 60, and also based on Buglass (artist), after Exploration archéologique de Délos, in R.A. Tomlinson 1976 overleaf fig. 12"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/37944",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/37943",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0136a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0136a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_117/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

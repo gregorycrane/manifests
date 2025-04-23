@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5651/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Naples 2200"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0676/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0676/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5651/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Oinomaos Painter: Drawing of side A, showing Pelops and Oinomaos",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 146"
+        ]
+      },
+      "height": 384,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27726",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27725",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0676/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 384,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0676",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5651/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5651/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Oinomaos Painter: Drawing of side A (left), showing Myrtilos with the chariot, Poseidon, and Athena, and (below) three youths, a sacrificial ram, and Oinomaos at an atar",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 146"
+        ]
+      },
+      "height": 387,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27728",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27727",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0677/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 387,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0677",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5651/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5651/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Name vase of the Oinomaos Painter: Drawing of side A (right), showing Oinomaos at an altar and Pelops in the chariot with Hippodameia",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 141-150. München: Bruckmann, 1921. pl. 146"
+        ]
+      },
+      "height": 385,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27730",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27729",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0678/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 385,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0678",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5651/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

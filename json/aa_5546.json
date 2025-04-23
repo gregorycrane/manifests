@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5546/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 00.359"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0123/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0123/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5546/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: youth",
+          "From Caskey & Beazley, plate XXVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 419,
+      "width": 254,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25388",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25387",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0123/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 254,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0123",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5546/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5546/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: woman",
+          "From Caskey & Beazley, plate XXVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 419,
+      "width": 259,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25390",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25389",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0124/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 259,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0124",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5546/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5566/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Birmingham 57.263"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0046/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0046/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5566/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side A",
+          "Collection of the Birmingham Museum of Art, Gift of Mrs. Herbert Rydings, Jr. and Hirschl and Adler Gallery, New York"
+        ]
+      },
+      "height": 363,
+      "width": 229,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25530",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25529",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0046/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 363,
+                "width": 229,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0046",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5566/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5566/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side B",
+          "Collection of the Birmingham Museum of Art, Gift of Mrs. Herbert Rydings, Jr. and Hirschl and Adler Gallery, New York"
+        ]
+      },
+      "height": 348,
+      "width": 226,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25532",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25531",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0047/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 348,
+                "width": 226,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0047",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5566/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

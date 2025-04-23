@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5658/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Munich 2309"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0228/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0228/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5658/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Euthymides' amphora: drawing of side A, showing a man and two dancing women",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 31-40. München: Bruckmann, 1902. pl. 33"
+        ]
+      },
+      "height": 360,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27830",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27829",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0228/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 360,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0228",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5658/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5658/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Euthymides' amphora: drawing of side A, showing Theseus abducting Korone",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 31-40. München: Bruckmann, 1902. pl. 33"
+        ]
+      },
+      "height": 420,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27832",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27831",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0229/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0229",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5658/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

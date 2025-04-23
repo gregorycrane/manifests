@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2434/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Parthenon SM.6"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0530/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0530/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2434/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "South Metope 6: Lapith and Centaur",
+          "Photograph by Maria Daniels, courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2332,
+      "width": 2358,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10664",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10663",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0530/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2332,
+                "width": 2358,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0530",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2434/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

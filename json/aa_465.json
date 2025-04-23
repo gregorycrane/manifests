@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_465/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 1275"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0839/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0839/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_465/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Anchor and, in left field, a crayfish",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 405,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47848",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47847",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0839/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 405,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0839",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_465/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_465/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Gorgoneion",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 405,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/47850",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/47849",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0840/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 405,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0840",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_465/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

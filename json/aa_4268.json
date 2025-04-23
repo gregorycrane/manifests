@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4268/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, Agora P27629"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0223/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0223/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4268/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan and section of Grave 16:6, Athens, Agora P27629",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 3317,
+      "width": 2484,
+      "items": [
+        {
+          "id": "http://example.org/iiif/53706",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/53705",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0223/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3317,
+                "width": 2484,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0223",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4268/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4268/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Metope with circles and meanders, Athens, Agora P27629\n      ",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 2504,
+      "width": 3697,
+      "items": [
+        {
+          "id": "http://example.org/iiif/53708",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/53707",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0243/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2504,
+                "width": 3697,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0243",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4268/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4268/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Amphora, Athens, Agora P27629",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 3205,
+      "width": 2068,
+      "items": [
+        {
+          "id": "http://example.org/iiif/53710",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/53709",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0296/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3205,
+                "width": 2068,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0296",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4268/p4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4367/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 98.916"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0348/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0348/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4367/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Herakles, Amazons; sphinx, sirens; animal frieze",
+          "Courtesy, Museum of Fine Arts, Boston. H. L. Pierce Fund"
+        ]
+      },
+      "height": 350,
+      "width": 209,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2616",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2615",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0348/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 350,
+                "width": 209,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0348",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4367/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4367/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A, upper register: Herakles and Andromache",
+          "Courtesy, Museum of Fine Arts, Boston. H. L. Pierce Fund"
+        ]
+      },
+      "height": 351,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2618",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2617",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0349/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0349",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4367/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4367/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: komos, swans; deer, panthers; swan, panthers",
+          "Courtesy, Museum of Fine Arts, Boston. H. L. Pierce Fund"
+        ]
+      },
+      "height": 356,
+      "width": 217,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2620",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2619",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0350/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 356,
+                "width": 217,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0350",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4367/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_737/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 2442"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0580/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0580/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_737/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Boar profile to the right",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 417,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/48986",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/48985",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0580/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 417,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0580",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_737/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_737/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: Tortoise in incuse square",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 436,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/48988",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/48987",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0581/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 436,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0581",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_737/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

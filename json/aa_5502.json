@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 03.819"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0408/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0408/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior overview: handles at sides",
+          "From Caskey & Beazley, plate CVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 172,
+      "width": 471,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25134",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25133",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0408/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 172,
+                "width": 471,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0408",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: Eros on horseback",
+          "From Caskey & Beazley, plate CVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 376,
+      "width": 497,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25136",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25135",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0409/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 376,
+                "width": 497,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0409",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5502/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

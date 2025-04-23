@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4327/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London D 48"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0158/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0158/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4327/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: woman and servant, inscription: \"Hygiainon is beautiful\"",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3684,
+      "width": 2404,
+      "items": [
+        {
+          "id": "http://example.org/iiif/170",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/169",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0158/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3684,
+                "width": 2404,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0158",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4327/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4327/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: woman handing clothes to a maidservant",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3690,
+      "width": 1960,
+      "items": [
+        {
+          "id": "http://example.org/iiif/172",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/171",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0159/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3690,
+                "width": 1960,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0159",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4327/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

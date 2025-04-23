@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_755/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Dewing 2505"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0612/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0612/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_755/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Obverse: Within a circle with projections resembling battlements, Baaltars seated in 3/4-view to the right, holding an eagle-headed scepter, a bunch of grapes, and an ear of grain; in left field, a dolphin; in right field, a thymiaterion",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 420,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49058",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49057",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0612/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0612",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_755/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_755/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Reverse: God Ana at left, facing Datames; between them, a thymiaterion (incense burner); all within a linear square with a dotted line inside the top and sides; above, three antelopes",
+          "Photograph by Maria Daniels, courtesy of the Dewing Greek Numismatic Foundation"
+        ]
+      },
+      "height": 434,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49060",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49059",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0613/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 434,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.26.0613",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_755/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

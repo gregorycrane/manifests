@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Austin 1980.63"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0018/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0018/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Full view",
+          "Photograph courtesy of the Archer M. Huntington Art Gallery, The University of Texas at Austin, Archer M. Huntington Museum Fund and The James R. Dougherty, Jr. Foundation, 1980.  Photo credit:  George Holmes."
+        ]
+      },
+      "height": 396,
+      "width": 157,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27382",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27381",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0018/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 396,
+                "width": 157,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0018",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Scene",
+          "Photograph courtesy of the Archer M. Huntington Art Gallery, The University of Texas at Austin, Archer M. Huntington Museum Fund and The James R. Dougherty, Jr. Foundation, 1980.  Photo credit:  George Holmes."
+        ]
+      },
+      "height": 343,
+      "width": 228,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27384",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27383",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0019/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 343,
+                "width": 228,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0019",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5615/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

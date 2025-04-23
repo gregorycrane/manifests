@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4652/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Philadelphia MS4082"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0975/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0975/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4652/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle in rear",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
+      "height": 400,
+      "width": 172,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11932",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11931",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0975/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 172,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0975",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4652/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4652/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle to left",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
+      "height": 400,
+      "width": 172,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11934",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11933",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0976/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 172,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0976",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4652/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4652/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: girl with wool basket",
+          "Photograph by Maria Daniels, courtesy of The University Museum, University of Pennsylvania"
+        ]
+      },
+      "height": 420,
+      "width": 272,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11936",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11935",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0977/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 272,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.07.0977",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4652/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

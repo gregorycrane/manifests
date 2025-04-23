@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Malibu 86.AE.154"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0433/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0433/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: battle of Lapiths and centaurs",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 1518,
+      "width": 3426,
+      "items": [
+        {
+          "id": "http://example.org/iiif/82",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/81",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0433/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1518,
+                "width": 3426,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0433",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: Horse and rider",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 2556,
+      "width": 2706,
+      "items": [
+        {
+          "id": "http://example.org/iiif/84",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/83",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0434/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2556,
+                "width": 2706,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0434",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Calydonian boar hunt",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 2184,
+      "width": 3798,
+      "items": [
+        {
+          "id": "http://example.org/iiif/86",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/85",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0435/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2184,
+                "width": 3798,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0435",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4321/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

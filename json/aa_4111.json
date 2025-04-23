@@ -1,0 +1,192 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4111/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre L 27"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0156/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0156/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side A: a wind god (Boreas?)",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 393,
+      "width": 212,
+      "items": [
+        {
+          "id": "http://example.org/iiif/51680",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/51679",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0156/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 393,
+                "width": 212,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0156",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the left side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 398,
+      "width": 220,
+      "items": [
+        {
+          "id": "http://example.org/iiif/51682",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/51681",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0157/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 398,
+                "width": 220,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0157",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of side B (back): a swan",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 387,
+      "width": 206,
+      "items": [
+        {
+          "id": "http://example.org/iiif/51684",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/51683",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0158/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 387,
+                "width": 206,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0158",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of the right side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 392,
+      "width": 214,
+      "items": [
+        {
+          "id": "http://example.org/iiif/51686",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/51685",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0159/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 392,
+                "width": 214,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.0159",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4111/p4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

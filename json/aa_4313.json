@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4313/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Malibu 86.AE.279"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0291/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0291/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4313/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: reveler with barbiton",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 2562,
+      "width": 3834,
+      "items": [
+        {
+          "id": "http://example.org/iiif/56",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/55",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0291/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2562,
+                "width": 3834,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0291",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4313/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

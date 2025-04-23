@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5521/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 01.8077"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0099/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0099/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5521/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: Zeus pursuing Aegina",
+          "From Caskey & Beazley, plate XXII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 416,
+      "width": 502,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25232",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25231",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0099/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 416,
+                "width": 502,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0099",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5521/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5521/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "From Caskey & Beazley, plate XXVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 411,
+      "width": 141,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25234",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25233",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0100/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 411,
+                "width": 141,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0100",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5521/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

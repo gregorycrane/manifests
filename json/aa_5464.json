@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5464/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 13.100"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0390/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0390/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5464/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: man setting up a herm",
+          "From Caskey & Beazley, plate XCVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 420,
+      "width": 383,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24954",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24953",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0390/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 383,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0390",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5464/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5464/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: boy",
+          "From Caskey & Beazley, plate XCVI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 420,
+      "width": 347,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24956",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24955",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0391/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 347,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0391",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5464/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

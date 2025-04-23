@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5634/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "St. Petersburg St. 1792"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0389/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0389/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5634/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Kerch pelike: Drawing of side B, showing Hermes receiving a divine child from goddess; Athena and others surround them",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 70"
+        ]
+      },
+      "height": 386,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27550",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27549",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0389/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 386,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0389",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5634/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5634/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Kerch pelike: Drawing of side A , showing Demeter and Persephone, Triptolemos, other Eleusinian deities, and Herakles as an initiate in the mysteries",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 70"
+        ]
+      },
+      "height": 391,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27552",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27551",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0390/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 391,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0390",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5634/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5634/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Kerch pelike: Overview drawing of the vase, side A , showing Demeter and Persephone, Triptolemos, other Eleusinian deities, and Herakles as an initiate in the mysteries",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 61-70. München: Bruckmann, 1905. pl. 70"
+        ]
+      },
+      "height": 860,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27554",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27553",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0391/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 860,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0391",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5634/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

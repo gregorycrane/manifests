@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Aegina, Sanctuary Walls"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0001/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0001/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view of sanctuary of Aphaia, Aegina, Altar of Aphaia, Amphipoleion, Sanctuary Walls, Temple",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
+      "height": 352,
+      "width": 532,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42348",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42347",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0001/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 352,
+                "width": 532,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0001",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

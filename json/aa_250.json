@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_250/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Metapontum, Temple C"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0214/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0214/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_250/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of temple from plateia A-A, looking E, Metapontum, Temple C",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 310,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/39664",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/39663",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0214/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 310,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0214",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_250/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_250/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of temple, looking W, Metapontum, Temple C",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 344,
+      "width": 531,
+      "items": [
+        {
+          "id": "http://example.org/iiif/39666",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/39665",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0215/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 531,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0215",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_250/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_250/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Altar of Temple C, looking N; temple B & A (Apollo) in background, Metapontum",
+          "Photograph by Nick Cahill"
+        ]
+      },
+      "height": 338,
+      "width": 532,
+      "items": [
+        {
+          "id": "http://example.org/iiif/39668",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/39667",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0228/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 338,
+                "width": 532,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.02.0228",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_250/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

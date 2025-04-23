@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3480/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre CA 173-not"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1577/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1577/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3480/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a saleswoman, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 419,
+      "width": 323,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17920",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17919",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1577/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 323,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1577",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3480/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3480/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a saleswoman, oblique top view, from the front",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 425,
+      "width": 318,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17922",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17921",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1578/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 425,
+                "width": 318,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1578",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3480/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3480/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a saleswoman, right side view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 403,
+      "width": 336,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17924",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17923",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1579/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 403,
+                "width": 336,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1579",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3480/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

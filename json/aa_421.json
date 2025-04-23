@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Theater, Luna"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0575/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0575/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of the exterior of the seating area, from the West, Theater, Luna.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42620",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42619",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0575/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0575",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_421/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of remains of the theater, from the Southwest, Luna.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42622",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42621",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0576/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0576",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_421/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_421/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview of remains of the theater, from the Southwest, Luna.",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 401,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/42624",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/42623",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0577/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 401,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/2000.11.0577",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_421/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

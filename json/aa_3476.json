@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Louvre CA 2141"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1567/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1567/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a baker, frontal view",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 490,
+      "width": 266,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17900",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17899",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1567/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 490,
+                "width": 266,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1567",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a baker, view from the left side",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 448,
+      "width": 299,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17902",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17901",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1568/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 448,
+                "width": 299,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1568",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Statuette of a baker, oblique view from above",
+          "Photograph by Maria Daniels, courtesy of the Musée du Louvre"
+        ]
+      },
+      "height": 406,
+      "width": 211,
+      "items": [
+        {
+          "id": "http://example.org/iiif/17904",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17903",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1569/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 406,
+                "width": 211,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.06.1569",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3476/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

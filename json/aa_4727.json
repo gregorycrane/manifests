@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Munich 2088"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0029/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0029/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: side A",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 293,
+      "width": 510,
+      "items": [
+        {
+          "id": "http://example.org/iiif/14150",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/14149",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0029/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 293,
+                "width": 510,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0029",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: satyr playing flute",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 388,
+      "width": 280,
+      "items": [
+        {
+          "id": "http://example.org/iiif/14152",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/14151",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0030/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 388,
+                "width": 280,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0030",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: gorgoneion",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 368,
+      "width": 548,
+      "items": [
+        {
+          "id": "http://example.org/iiif/14154",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/14153",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0031/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 368,
+                "width": 548,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0031",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4727/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

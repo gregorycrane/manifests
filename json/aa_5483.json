@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5483/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 10.195"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0055/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0055/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5483/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Tondo: warrior arming",
+          "From Caskey & Beazley, plate XI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 416,
+      "width": 416,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25024",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25023",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0055/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 416,
+                "width": 416,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0055",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5483/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5483/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: four warriors arming",
+          "From Caskey & Beazley, plate XI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 250,
+      "width": 420,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25026",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25025",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0056/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 250,
+                "width": 420,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0056",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5483/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5483/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: four youths arming",
+          "From Caskey & Beazley, plate XI. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 278,
+      "width": 413,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25028",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25027",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0057/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 278,
+                "width": 413,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0057",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5483/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

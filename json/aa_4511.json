@@ -1,0 +1,192 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4511/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Tampa 1986.62"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0579/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0579/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View from above",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
+      "height": 353,
+      "width": 369,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7124",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7123",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0579/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 353,
+                "width": 369,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0579",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: octopus",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
+      "height": 348,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7126",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7125",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0580/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 348,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0580",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: ship",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
+      "height": 330,
+      "width": 533,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7128",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7127",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0581/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 330,
+                "width": 533,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0581",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "View of underside",
+          "Photograph by Maria Daniels, courtesy of the Tampa Museum of Art"
+        ]
+      },
+      "height": 355,
+      "width": 415,
+      "items": [
+        {
+          "id": "http://example.org/iiif/7130",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7129",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0582/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 355,
+                "width": 415,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.08.0582",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4511/p4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 00.356"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0069/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0069/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: woman",
+          "From Caskey & Beazley, plate XV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 334,
+      "width": 571,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25392",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25391",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0069/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 334,
+                "width": 571,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0069",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: woman",
+          "From Caskey & Beazley, plate XV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 309,
+      "width": 540,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25394",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25393",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0070/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 309,
+                "width": 540,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0070",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interior: Apollo and a Muse",
+          "From Caskey & Beazley, plate XV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 411,
+      "width": 556,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25396",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25395",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0071/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 411,
+                "width": 556,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0071",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5547/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

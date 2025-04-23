@@ -1,0 +1,392 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Munich 2689"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0524.lg/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0524.lg/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo, unrestored (large)",
+          "Copyright C. H. Smith 1988, based on Reichhold (artist) in FR plate 55"
+        ]
+      },
+      "height": 1098,
+      "width": 972,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16564",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16563",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0524.lg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1098,
+                "width": 972,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0524.lg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo, unrestored (small)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) in FR plate 55"
+        ]
+      },
+      "height": 400,
+      "width": 354,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16566",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16565",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0524.sm/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 354,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0524.sm",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo, restored (large)",
+          "Copyright C. H. Smith 1988, based on Reichhold (artist) in FR plate 55"
+        ]
+      },
+      "height": 1098,
+      "width": 972,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16568",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16567",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0525.lg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1098,
+                "width": 972,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0525.lg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Drawing of tondo, restored (small)",
+          "copyright C. H. Smith 1988, based on Reichhold (artist) in FR plate 55"
+        ]
+      },
+      "height": 400,
+      "width": 354,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16570",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16569",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0525.sm/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 400,
+                "width": 354,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0525.sm",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: exterior",
+          "Photograph copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 354,
+      "width": 272,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16572",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16571",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0495/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 354,
+                "width": 272,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.34.0495",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2689, tondo.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 55"
+        ]
+      },
+      "height": 832,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16574",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16573",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0324/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 832,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0324",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2689, detail on left.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 55"
+        ]
+      },
+      "height": 900,
+      "width": 590,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16576",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16575",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0325/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 590,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0325",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2689, detail on right.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 55"
+        ]
+      },
+      "height": 900,
+      "width": 590,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16578",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16577",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0326/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 900,
+                "width": 590,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0326",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Illustration of Munich 2689, detail bottom.",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 51-60. München: Bruckmann, 1904. pl. 55"
+        ]
+      },
+      "height": 393,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16580",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16579",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0327/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 393,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0327",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5041/p12"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

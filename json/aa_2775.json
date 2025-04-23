@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2775/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1493"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0079/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0079/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2775/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Double relief with a rider and a soldier (side A, above); a banquet scene (side B, below)",
+          "From Svoronos 1903-12, pl. 79"
+        ]
+      },
+      "height": 576,
+      "width": 424,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11456",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11455",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0079/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 576,
+                "width": 424,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0079",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2775/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

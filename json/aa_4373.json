@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4373/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 13.189"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0459/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0459/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4373/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: handle rear",
+          "Courtesy, Museum of Fine Arts, Boston. Francis Bartlett Fund"
+        ]
+      },
+      "height": 414,
+      "width": 153,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2722",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2721",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0459/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 414,
+                "width": 153,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0459",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4373/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4373/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: seated woman with wool-basket, from the knees up.",
+          "Courtesy, Museum of Fine Arts, Boston. Francis Bartlett Fund"
+        ]
+      },
+      "height": 420,
+      "width": 282,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2724",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2723",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0460/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 420,
+                "width": 282,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.24.0460",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4373/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4373/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: seated woman with wool-basket",
+          "From Caskey & Beazley, plate X. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 418,
+      "width": 279,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2726",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2725",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0053/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 418,
+                "width": 279,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0053",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4373/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

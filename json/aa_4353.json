@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Harvard 1960.307"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2069/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2069/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Lydion, overview",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
+      "height": 3050,
+      "width": 2045,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1202",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1201",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2069/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3050,
+                "width": 2045,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2069",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Close-up of body",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
+      "height": 3044,
+      "width": 1997,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1204",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1203",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2070/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3044,
+                "width": 1997,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2070",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "From above",
+          "Photograph by Maria Daniels, courtesy of Harvard University Art Museums"
+        ]
+      },
+      "height": 3044,
+      "width": 2009,
+      "items": [
+        {
+          "id": "http://example.org/iiif/1206",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1205",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2071/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3044,
+                "width": 2009,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.01.2071",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4353/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

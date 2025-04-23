@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_886/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "BCMA 1919.58.104"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0039/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0039/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_886/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "obverse",
+          "Photograph by Mark Wise, courtesy of the Bowdoin College Museum of Art"
+        ]
+      },
+      "height": 2219,
+      "width": 2648,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49598",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49597",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0039/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2219,
+                "width": 2648,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0039",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_886/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_886/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "reverse",
+          "Photograph by Mark Wise, courtesy of the Bowdoin College Museum of Art"
+        ]
+      },
+      "height": 2039,
+      "width": 2564,
+      "items": [
+        {
+          "id": "http://example.org/iiif/49600",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49599",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0040/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2039,
+                "width": 2564,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.00.0040",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_886/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

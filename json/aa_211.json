@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_211/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Epidauros, Northeast Stoa"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0029/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0029/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_211/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Aerial view of site, from N, Epidauros, Abaton (Dormitory), Anakeion, Fountainhouse, Gymnasium, Katagogeion, Northeast Stoa, Propylon, Temple of Aphrodite (Temple L), Temple of Apollo, Temple of Artemis, Theater, Tholos",
+          "Photograph by Raymond V. Schoder, S.J., courtesy of Bolchazy-Carducci Publishers"
+        ]
+      },
+      "height": 351,
+      "width": 530,
+      "items": [
+        {
+          "id": "http://example.org/iiif/39314",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/39313",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0029/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 351,
+                "width": 530,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.30.0029",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_211/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

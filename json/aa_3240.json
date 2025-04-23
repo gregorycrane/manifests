@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3240/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 2784"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0115/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0115/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3240/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top: Nemean relief depicting comic actors (?); Middle: Relief with musicians (?); Bottom: Base for victory (?) relief depicting four-horse chariot with charioteer (perhaps Nike?) and tripod at left.",
+          "From Svoronos 1903-12, pl. 115"
+        ]
+      },
+      "height": 549,
+      "width": 417,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12450",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12449",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0115/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 549,
+                "width": 417,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0115",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3240/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3240/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Upper right: Relief from a decree of unidentifiable nature",
+          "From Svoronos 1903-12, pl. 228"
+        ]
+      },
+      "height": 446,
+      "width": 568,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12452",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12451",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0228/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 446,
+                "width": 568,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0228",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3240/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

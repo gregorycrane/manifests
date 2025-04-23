@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5504/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 03.816"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0191/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0191/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5504/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Eos and Tithonos",
+          "From Caskey & Beazley, plate XLIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 413,
+      "width": 434,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25142",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25141",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0191/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 413,
+                "width": 434,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0191",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5504/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5504/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Tithonos",
+          "From Caskey & Beazley, plate XLIV. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 415,
+      "width": 334,
+      "items": [
+        {
+          "id": "http://example.org/iiif/25144",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25143",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0192/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 415,
+                "width": 334,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0192",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5504/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4711/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Omaha 1953.255"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0406/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0406/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4711/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: main panel",
+          "Photograph courtesy of the Joslyn Art Museum, Omaha, Nebraska. Membership Purchase Fund."
+        ]
+      },
+      "height": 419,
+      "width": 347,
+      "items": [
+        {
+          "id": "http://example.org/iiif/13896",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13895",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0406/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 347,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0406",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4711/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4711/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: shoulder",
+          "Photograph courtesy of the Joslyn Art Museum, Omaha, Nebraska. Membership Purchase Fund."
+        ]
+      },
+      "height": 343,
+      "width": 534,
+      "items": [
+        {
+          "id": "http://example.org/iiif/13898",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13897",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0407/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 343,
+                "width": 534,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0407",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4711/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4050/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, Agora P15234"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0024/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0024/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4050/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Model of Tomb 1 with jar on bench, Athens, Agora P15234",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 1936,
+      "width": 3705,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50520",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50519",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0024/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1936,
+                "width": 3705,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0024",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4050/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4050/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Piriform jar with argonauts, Athens, Agora P15234",
+          "Photograph courtesy of the American School of Classical Studies, Athens"
+        ]
+      },
+      "height": 2473,
+      "width": 2052,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50522",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50521",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0299/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2473,
+                "width": 2052,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1989.04.0299",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4050/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

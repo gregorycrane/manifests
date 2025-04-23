@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3254/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1517"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0045/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0045/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3254/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Horse and jockey from the Artemision wreck, left profile",
+          "Photograph courtesy of the Greek Ministry of Culture"
+        ]
+      },
+      "height": 2396,
+      "width": 3511,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12492",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12491",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0045/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2396,
+                "width": 3511,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.01.0045",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3254/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3254/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Upper left: Votive relief; Top, middle: Votive relief; Upper right: Banquet relief; Lower left: Votive relief; Bottom, center: Votive relief; Lower right: Votive relief",
+          "From Svoronos 1903-12, pl. 127"
+        ]
+      },
+      "height": 416,
+      "width": 569,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12494",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12493",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0127/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 416,
+                "width": 569,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0127",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3254/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

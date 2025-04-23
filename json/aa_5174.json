@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5174/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Malibu 77.AE.13"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0537/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0537/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5174/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: scene at center",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 2232,
+      "width": 2556,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18858",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18857",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0537/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2232,
+                "width": 2556,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0537",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5174/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5174/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Orpheus",
+          "Collection of The J. Paul Getty Museum, Malibu, California"
+        ]
+      },
+      "height": 3792,
+      "width": 2574,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18860",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/18859",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0538/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3792,
+                "width": 2574,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.05.0538",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5174/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

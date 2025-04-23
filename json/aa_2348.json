@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2348/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Olympia Perirrhanterion"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0030/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0030/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2348/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Perirrhanterion from Olympia, complete figure, frontal view",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
+      "height": 415,
+      "width": 124,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8886",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8885",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0030/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 415,
+                "width": 124,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0030",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2348/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2348/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Perirrhanterion from Olympia, complete figure, left profile",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
+      "height": 389,
+      "width": 116,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8888",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8887",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0031/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 389,
+                "width": 116,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0031",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2348/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2348/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Perirrhanterion from Olympia, complete figure, back view",
+          "Photograph courtesy of the German Archaeological Institute, Athens"
+        ]
+      },
+      "height": 406,
+      "width": 130,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8890",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/8889",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0032/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 406,
+                "width": 130,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.36.0032",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2348/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

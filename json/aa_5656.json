@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5656/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Munich 2428"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0400/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0400/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5656/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Hydria attributed to the Troilos Painter: Overview drawing of the vase (left), showing Herakles and Busiris ",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 73"
+        ]
+      },
+      "height": 635,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27802",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27801",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0400/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 635,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0400",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5656/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5656/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Hydria attributed to the Troilos Painter: Drawing of the shoulder scene, showing Herakles attacking Busiris",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 71-80. München: Bruckmann, 1906. pl. 73"
+        ]
+      },
+      "height": 353,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/27804",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/27803",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0401/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 353,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0401",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5656/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

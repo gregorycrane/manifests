@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Sarasota 1600.G4"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0054/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0054/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: goddess and warrior in a wheeling chariot",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
+      "height": 372,
+      "width": 238,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16518",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16517",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0054/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 372,
+                "width": 238,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0054",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: two warriors leaving home",
+          "Photograph courtesy of The John and Mable Ringling Museum of Art, Sarasota, Florida"
+        ]
+      },
+      "height": 364,
+      "width": 234,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16520",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16519",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0055/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 364,
+                "width": 234,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.17.0055",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5019/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4899/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Champaign 72.13.3"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0426/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0426/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4899/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: view of tree",
+          "Photograph courtesy of the Krannert Art Museum, University of Illinois"
+        ]
+      },
+      "height": 419,
+      "width": 203,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16068",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16067",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0426/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 203,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0426",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4899/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4899/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Overview: view of warrior",
+          "Photograph courtesy of the Krannert Art Museum, University of Illinois"
+        ]
+      },
+      "height": 417,
+      "width": 187,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16070",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16069",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0427/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 417,
+                "width": 187,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.18.0427",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4899/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

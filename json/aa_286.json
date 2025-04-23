@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_286/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Olympia, Pelopeion"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0251a/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0251a/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_286/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Pelopeion",
+          "copyright C. H. Smith 1988 based on W. Dörpfeld, Alt-Olympia, Vol. 2, Berlin 1935 fig. 21, in A. Mallwitz 1972 135 figs. 103,104"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/40044",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/40043",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0251a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0251a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_286/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

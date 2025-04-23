@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5460/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Boston 13.191"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0088/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0088/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5460/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Main panel: two youths and dog",
+          "From Caskey & Beazley, plate XVIII. With permission of the Museum of Fine Arts, Boston."
+        ]
+      },
+      "height": 419,
+      "width": 263,
+      "items": [
+        {
+          "id": "http://example.org/iiif/24940",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/24939",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0088/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 263,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1992.11.0088",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5460/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2956/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, Acropolis 619"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0084/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0084/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2956/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Samian Kore",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 445,
+      "width": 246,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12340",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12339",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0084/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 445,
+                "width": 246,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0084",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2956/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

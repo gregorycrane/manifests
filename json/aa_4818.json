@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4818/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "London B 610"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0141/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0141/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4818/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side B: pankration",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 2470,
+      "width": 2742,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15554",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15553",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0141/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2470,
+                "width": 2742,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0141",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4818/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4818/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Side A: Athena between two Doric columns",
+          "Photograph courtesy of the Trustees of the British Museum, London"
+        ]
+      },
+      "height": 3402,
+      "width": 1888,
+      "items": [
+        {
+          "id": "http://example.org/iiif/15556",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15555",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0142/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3402,
+                "width": 1888,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.14.0142",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4818/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5691/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "St. Petersburg St. 1779"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0535/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0535/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5691/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Apulian bell krater: Overview drawing of side B, showing two draped youths",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 110"
+        ]
+      },
+      "height": 409,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28144",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28143",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0535/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 409,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0535",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5691/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5691/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Apulian bell krater: Drawing of side A, showing three Phlyax actors on stage, performing the \"reckoning\"",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 101-110. München: Bruckmann, 1902. pl. 110"
+        ]
+      },
+      "height": 344,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28146",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28145",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0537/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0537",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5691/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

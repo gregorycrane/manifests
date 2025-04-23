@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Berlin F 2538"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0662/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0662/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Codrus Painter: Drawing of side A, showing the Calydonian boar hunt",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 140"
+        ]
+      },
+      "height": 349,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28104",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28103",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0662/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 349,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0662",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Codrus Painter: Drawing of side B, showing Peleus hunting the stag",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 140"
+        ]
+      },
+      "height": 376,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28106",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28105",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0663/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 376,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0663",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cup attributed to the Codrus Painter: Drawing of the tondo, showing Themis (on the Delphic tripod) and Aigeus",
+          "From Furtwängler-Reichhold, Griechische Vasenmalerei: Auswahl hervorragender Vasenbilder, Tafeln 131-140. München: Bruckmann, 1912. pl. 140"
+        ]
+      },
+      "height": 427,
+      "width": 600,
+      "items": [
+        {
+          "id": "http://example.org/iiif/28108",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28107",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0664/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 427,
+                "width": 600,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1993.01.0664",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_5683/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

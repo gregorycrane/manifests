@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_384/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Thermon, Fountainhouse"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1987.08.4214/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.4214/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_384/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Functioning ancient fountain with spouts, Thermon, Fountainhouse",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
+      "height": 2460,
+      "width": 3655,
+      "items": [
+        {
+          "id": "http://example.org/iiif/41780",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/41779",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.4214/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2460,
+                "width": 3655,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.4214",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_384/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_384/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Zig-zag water channel behind fountain, Thermon, Fountainhouse",
+          "Photograph courtesy of Thomas Martin and Ivy S. Sun"
+        ]
+      },
+      "height": 2424,
+      "width": 3637,
+      "items": [
+        {
+          "id": "http://example.org/iiif/41782",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/41781",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.4215/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2424,
+                "width": 3637,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1987.08.4215",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_384/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_384/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Thermon, Fountainhouse",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler and C. H. Smith based on Coulton (artist) based on Greek Land Expropriation Survey, in J.J. Coulton 1976 293 fig. 119 Temple of Apollo area, based on Dinsmoor 1975 42 fig. 14 Temple of Apollo, based on W.B. Dinsmoor, The Architecture of Ancient Greece, London and New York, 1950, in A.W. Lawrence 1983 124 fig. 86"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/41784",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/41783",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0367b/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0367b",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_384/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

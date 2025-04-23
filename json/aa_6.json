@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_6/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Aigosthena, North Wall Tower and Gate"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_6/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Aigosthena, North Wall Tower and Gate",
+          "copyright D. Neel Smith 1989, drawn by M. W. Cutler based on E.F. Benson 1895 322 plan 3"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/43270",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/43269",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0013a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_6/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_6/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Exterior of north wall tower and gate, looking SE, Aigosthena",
+          "Photograph by Maria Daniels"
+        ]
+      },
+      "height": 344,
+      "width": 524,
+      "items": [
+        {
+          "id": "http://example.org/iiif/43272",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/43271",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1994.01.0097/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 344,
+                "width": 524,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1994.01.0097",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_6/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

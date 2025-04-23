@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_146/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delphi, Gymnasium"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0154b/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0154b/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_146/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Gymnasium",
+          "copyright C. H. Smith 1989, based on Jannoray 1953, redrawn in Papachadzi 1981"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/38114",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/38113",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0154b/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0154b",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_146/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_146/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Palaestra and pool from N, Delphi, Gymnasium",
+          "Photograph by Michael Bennett"
+        ]
+      },
+      "height": 274,
+      "width": 428,
+      "items": [
+        {
+          "id": "http://example.org/iiif/38116",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/38115",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0081/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 274,
+                "width": 428,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0081",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_146/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_146/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Palaestra and pool from N, Delphi, Gymnasium",
+          "Photograph by Michael Bennett"
+        ]
+      },
+      "height": 274,
+      "width": 429,
+      "items": [
+        {
+          "id": "http://example.org/iiif/38118",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/38117",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0082/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 274,
+                "width": 429,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0082",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_146/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

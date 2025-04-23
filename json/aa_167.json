@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_167/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Delphi, Treasury of the Corinthians (XXIV)"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152k/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152k/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_167/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Delphi, Treasury of the Corinthians (XXIV)",
+          "copyright D. Neel Smith 1988 drawn by M. W. Cutler and C. H. Smith based on  P. de la Coste Messelière, Au Musée de Delphes, Editions E. de Boccard 1970 plate L, in Coulton 1977 69 fig. 22 and also based on A. Tournaire, Bulletin de correspondance hellénique 1897 plate 14,  in N.D. Papachadzi 1981 287 fig.327 Temple of Apollo plan based on F. Courby, Relevés et restaurations, Fouilles de Delphes 1927, in N.D. Papachadzi 1981 366-367 fig. 405"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/38654",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/38653",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152k/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0152k",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_167/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

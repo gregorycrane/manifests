@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Aegina, Propylon"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.13.1024/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.1024/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Model of sanctuary showing propylon, from S",
+          "Photograph by Maria Daniels, copyright Staatl. Antikensammlungen und Glyptothek, München"
+        ]
+      },
+      "height": 347,
+      "width": 282,
+      "items": [
+        {
+          "id": "http://example.org/iiif/40238",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/40237",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.1024/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 347,
+                "width": 282,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.13.1024",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Aegina, Propylon",
+          "copyright C. H. Smith 1989, based on Weber (artist), in D. Ohly 1978 29 fig. 15"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/40240",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/40239",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0008a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0008a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

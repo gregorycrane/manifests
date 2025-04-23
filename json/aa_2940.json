@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2940/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Ex Athens, NM 211"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0041/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0041/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2940/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: Top of a woman's head (perhaps that of Leda); Top middle: Head of a young woman (perhaps Helen); Top right: Head of a woman wearing a veil (Nemesis?); Top, right: Torso of a man wearing a himation (Tyndareos?); Second row, left: Upper torso of a female figure (perhaps Leda); Center, left: unidentified fragment of drapery; Center, right: Lower torso of a woman dressed in a chiton (Nemesis?); Third row, left: Lower torso (drapery) of Leda?; Bottom, left: Lower hem of standing woman (perhaps Helen); Bottom, right: unidentified fragment of drapery",
+          "From Svoronos 1903-12, pl. 41"
+        ]
+      },
+      "height": 419,
+      "width": 564,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12328",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12327",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0041/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 419,
+                "width": 564,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0041",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2940/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

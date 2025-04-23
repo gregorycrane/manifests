@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_4040/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Baltimore, Hopkins K36"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0008/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0008/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4040/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Bronze horse on wheels; right side",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
+      "height": 3600,
+      "width": 1647,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50490",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50489",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0008/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3600,
+                "width": 1647,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0008",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4040/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_4040/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Bronze horse on wheels; left side",
+          "Photograph by Aaron Levin, courtesy of the Johns Hopkins University Archaeological Collection"
+        ]
+      },
+      "height": 3520,
+      "width": 1686,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50492",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/50491",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0009/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3520,
+                "width": 1686,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.06.0009",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_4040/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

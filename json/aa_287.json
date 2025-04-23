@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_287/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Olympia, Philippeion"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0253a/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0253a/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_287/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Plan, Olympia, Philippeion",
+          "copyright C. H. Smith 1988 based on H. Schleif, Neue Ausgrabungen in Olympia und ihre bisherigen Ergebnisse für die antike Bauforschung, Europäische  Studienmappen, Berlin 1943 fig. 4, in A. Mallwitz 1972 129 fig. 96"
+        ]
+      },
+      "height": 312,
+      "width": 512,
+      "items": [
+        {
+          "id": "http://example.org/iiif/40046",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/40045",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0253a/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 312,
+                "width": 512,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1990.33.0253a",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_287/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_287/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Walls, from NW, Olympia, Philippeion",
+          "Photograph by Michael Bennett"
+        ]
+      },
+      "height": 280,
+      "width": 425,
+      "items": [
+        {
+          "id": "http://example.org/iiif/40048",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/40047",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0025/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 280,
+                "width": 425,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1991.04.0025",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_287/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

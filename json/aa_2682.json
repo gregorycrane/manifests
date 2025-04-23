@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_2682/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Athens, NM 1371"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0047/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0047/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_2682/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Top left: votive relief with Asklepios' sons, a servant, and a worshipper; Top right: statue base with surgical objects in relief; Bottom left: votive relief showing Asklepios and his daughters; Lower right: Relief of goddess on kline, with worshippers",
+          "From Svoronos 1903-12, pl. 47"
+        ]
+      },
+      "height": 458,
+      "width": 617,
+      "items": [
+        {
+          "id": "http://example.org/iiif/11268",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11267",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0047/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 458,
+                "width": 617,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1998.01.0047",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_2682/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

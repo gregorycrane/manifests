@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-metadata.perseus.tufts.edu/aa_3313/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Vatican 2272"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "thumbnail"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0061/full/pct:20/0/default.png"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0061/full/pct:20/0/default.png",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif-metadata.perseus.tufts.edu/aa_3313/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Wounded Amazon from the Verospi Palace: view slightly from left",
+          "Photograph by Amy C. Smith"
+        ]
+      },
+      "height": 450,
+      "width": 236,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12632",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/12631",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0061/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 450,
+                "width": 236,
+                "service": [
+                  {
+                    "id": "https://iiif.perseus.tufts.edu/iiif/3/1997.99.0061",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif-metadata.perseus.tufts.edu/aa_3313/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
